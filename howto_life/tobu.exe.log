@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "tobu.pyw", line 2309, in <module>
+  File "wx\_core.pyc", line 8035, in __init__
+  File "wx\_core.pyc", line 7935, in __init__
+  File "wx\_core.pyc", line 7509, in _BootstrapApp
+  File "tobu.pyw", line 2287, in OnInit
+  File "tobu.pyw", line 231, in __init__
+  File "tobu_modules\db.pyc", line 54, in __init__
+pysqlite2.dbapi2.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "tobu.pyw", line 1863, in TimeToQuit
+  File "tobu.pyw", line 1797, in Save
+  File "tobu_modules\db.pyc", line 395, in Set
+pysqlite2.dbapi2.OperationalError: database is locked
+Traceback (most recent call last):
+  File "tobu.pyw", line 1863, in TimeToQuit
+  File "tobu.pyw", line 1806, in Save
+  File "tobu.pyw", line 884, in RefreshList
+  File "tobu.pyw", line 1959, in List
+  File "shelve.pyc", line 112, in __getitem__
+TypeError: 'int' object is unsubscriptable
+Traceback (most recent call last):
+  File "tobu.pyw", line 1800, in Save
+  File "tobu_modules\db.pyc", line 163, in Insert
+pysqlite2.dbapi2.OperationalError: database is locked

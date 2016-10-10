@@ -1,0 +1,87 @@
+<pre>
+encrypt firefox data profile directory
+
+
+-download firefox portable from <a href="http://portableapps.com/apps/internet/firefox_portable">http://portableapps.com/apps/internet/firefox_portable</a>.
+ (tested with 3.0.10)
+-install it to say, d:\apps\firefoxportable.
+-download zip.exe and unzip.exe from <a href="http://stahlworks.com/dev/index.php?tool=zipunzip">http://stahlworks.com/dev/index.php?tool=zipunzip</a>.
+-put them in d:\apps\firefoxportable dir.
+-copy 2 vbs files to d:\apps\firefoxportable dir (see end of this text).
+-Optional: make copy of your d:\apps\firefoxportable\data\profile dir, or rename it to d:\apps\firefoxportable\data\profile2
+
+
+-start firefox portable
+-optional (warning this will delete your profile settings!!!):
+"tools"\"clear private data", select all, clear private data now.
+-restart firefox
+
+
+-login to your e-mail site. select "keep me signed in".
+-click on "never for this site" in mozilla.
+-close firefox.
+
+start "1_create_zip_backup.vbs"
+enter password
+there should be backup.zip file in d:\apps\firefoxportable.
+Rename or delete Data\profile dir after you are done.
+
+-to start firefox start "2_start___warning___will___delete___profile.vbs"
+-you will be asked for password.
+-after you close firefox, Data\profile dir will be deleted.
+
+to keep changes in firefox unrem two lines in "2_start___warning___will___delete___profile.vbs"
+
+q: how to have vbs script not delete profile upon exit?
+a: terminate wscript process from task manager.
+
+q: backup.zip is not created in d:\apps\firefoxportable?
+a: do you have d:\apps\firefoxportable\data\profile? If not start firefoxportable.exe
+a: did you type the same password twice?
+
+
+
+
+
+
+
+1_create_zip_backup.vbs
+
+---beginning of the file---
+
+Set WshShell = WScript.CreateObject("WScript.Shell")
+Return = WshShell.Run("cmd /K del /q backup.zip & exit", 1, true)
+Return = WshShell.Run("cmd /K zip -r -e backup.zip Data\profile & exit", 1, true)
+Set WshShell = Nothing
+
+
+Dim answer
+answer=MsgBox("You will have to delete directory Data\profile yourself.",0,"Info")
+
+---end of the file---
+
+
+
+
+2_start___warning___will___delete___profile.vbs
+
+---beginning of the file---
+
+Set WshShell = WScript.CreateObject("WScript.Shell")
+Return = WshShell.Run("cmd /K rd /s /q Data\profile & exit", 1, true)
+Return = WshShell.Run("cmd /K unzip backup.zip & exit", 1, true)
+Return = WshShell.Run("FirefoxPortable.exe ", 1, true)
+
+rem unrem two lines below to have profile saved/rezipped after surfing.
+rem Return = WshShell.Run("cmd /K del /q backup.zip & exit", 1, true)
+rem Return = WshShell.Run("cmd /K zip -r -e backup.zip Data\profile & exit", 1, true)
+
+Return = WshShell.Run("cmd /K rd /s /q Data\profile & exit", 1, true)
+Set WshShell = Nothing
+
+---end of the file---
+
+
+
+
+

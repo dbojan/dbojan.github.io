@@ -1,0 +1,394 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>TEOL</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="DESCRIPTION" content="Teol">
+	<meta name="KEYWORDS" content="">
+	
+	<base href="http://www.teol.net/">
+	
+	<script src="common/jslib.js" language="Javascript"></script>
+	<script language="JavaScript">
+	<!-- //
+		browserVer = parseInt(navigator.appVersion);
+		if (browserVer >= 3) {
+		browser = (navigator.appName.indexOf('Microsoft') > -1) ? 'ie' : 'ns';
+		if ((browserVer == '5')&(browser == 'ns')) { browser = 'ie'}
+		document.write('<LINK HREF="common/style' + '_' + browser + '.css"  REL="styleSheet" TYPE="text/css">');
+		document.write('<LINK HREF="common/waf' + '_' + browser + '.css"  REL="styleSheet" TYPE="text/css">');
+		}
+	// -->
+	</script>	
+	<script language="JavaScript">
+	<!--
+		browserName = navigator.appName;
+		browserVer = parseInt(navigator.appVersion);
+	
+		if (browserName == "Netscape" && browserVer >= 3) version = "n3";
+		else version = "n2";
+	
+		if (browserVer >= 4) version = "n3";
+		if (version == "n3") {
+		
+		home_on = new Image(); home_off = new Image();
+		news_on = new Image(); news_off = new Image();
+		supp_on = new Image(); supp_off = new Image();
+		abou_on = new Image(); abou_off = new Image();
+		cont_on = new Image(); cont_off = new Image();
+		serv_on = new Image(); serv_off = new Image();
+				
+		sitemap_on = new Image(); sitemap_off = new Image();
+		search_on = new Image(); search_off = new Image();
+		login_on = new Image(); login_off = new Image();
+		account_on = new Image(); account_off = new Image();
+		
+		lange_on = new Image(); lange_off = new Image();
+		langs_on = new Image(); langs_off = new Image();
+		langc_on = new Image(); langc_off = new Image();
+		
+		home_on.src = "gs/b-home-1.gif"; home_off.src = "gs/b-home-0.gif";
+		news_on.src = "gs/b-news-1.gif"; news_off.src = "gs/b-news-0.gif";
+		supp_on.src = "gs/b-support-1.gif"; supp_off.src = "gs/b-support-0.gif";
+		abou_on.src = "gs/b-aboutus-1.gif"; abou_off.src = "gs/b-aboutus-0.gif";
+		cont_on.src = "gs/b-contact-1.gif"; cont_off.src = "gs/b-contact-0.gif";
+		serv_on.src = "gs/b-services-1.gif"; serv_off.src = "gs/b-services-0.gif";
+		
+		serv_on = new Image(); serv_off = new Image();
+		serv_on.src = "gs/b-services-1.gif"; serv_off.src = "gs/b-services-0.gif";
+		
+		sitemap_on.src = "gs/b-sitemap-1.gif"; sitemap_off.src = "gs/b-sitemap-0.gif";
+		search_on.src = "gs/b-search-1.gif"; search_off.src = "gs/b-search-0.gif";
+		login_on.src = "gs/b-login-1.gif"; login_off.src = "gs/b-login-0.gif";
+		account_on.src = "gs/b-account-1.gif"; account_off.src = "gs/b-account-0.gif";
+		
+		lange_on.src = "gs/b-lang-eng-1.gif"; lange_off.src = "gs/b-lang-eng-0.gif";
+		langs_on.src = "gs/b-lang-srp-1.gif"; langs_off.src = "gs/b-lang-srp-0.gif";
+		langc_on.src = "gs/b-lang-cyr-1.gif"; langc_off.src = "gs/b-lang-cyr-0.gif";
+		
+		cplogin_on = new Image(); cplogin_off = new Image();
+		cplogin_on.src = "gs/b-loginok-1.gif"; cplogin_off.src = "gs/b-loginok-0.gif";
+
+		}
+		
+		function img_act(imgName) {
+			if (version == "n3") {
+			imgOn = eval(imgName + "_on.src");
+			document [imgName].src = imgOn;
+			}
+		}
+	
+		function img_inact(imgName) {
+			if (version == "n3") {
+			imgOff = eval(imgName + "_off.src");
+			document [imgName].src = imgOff;
+			}
+		}
+		
+	// --> 
+	</script>
+	
+	<script language="javascript">
+	<!--
+		function go(url) {
+			if (url.charAt(0) == '/') location.href = url;
+			else location.href = '/' + url;
+		}
+		
+		function jump(url) {
+			location.href = url;
+		}
+	
+		function del() {
+			if (confirm('Are you sure?')) {
+				go('cms/article_delete.php?articleid=4402');
+			}
+		}
+	// -->
+	</script>
+	
+</head>
+
+<body bgcolor="white" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0">
+
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td height="95%" valign="top">
+
+<!-- HEADER -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td><a href="cms/view.php/210.html"><img src="gs/its-logo.gif" width="291" height="67" alt="TEOL logo" border="0"></a></td>
+	<td align="right" valign="top">
+		<table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td colspan="5" class="normal">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="cms/articles_searchform_s.php" onMouseOver="img_act('search')" onMouseOut="img_inact('search')"><img src="gs/b-search-0.gif" width="78" height="15" alt="Pretraživanje prezentacije" border="0" name="search"></a></td>
+			<td class="normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<!-- <td><a href="cms/sitemap_s.php" onMouseOver="img_act('sitemap')" onMouseOut="img_inact('sitemap')"><img src="gs/b-sitemap-0.gif" width="78" height="15" alt="Sadržaj (mapa) celokupne prezentacije" border="0" name="sitemap"></a></td>
+			<td class="normal">&nbsp;</td> -->
+			<td><a href="cms/view.php/200.html" onMouseOver="img_act('lange')" onMouseOut="img_inact('lange')"><img src="gs/b-lang-eng-0.gif" width="78" height="15" alt="Click for version in English" border="0" name="lange"></a></td>
+			<td class="normal">&nbsp;</td>
+			<td><a href="cms/view.php/220.html" onMouseOver="img_act('langc')" onMouseOut="img_inact('langc')"><img src="gs/b-lang-cyr-0.gif" width="78" height="15" alt="Kliknite za verziju na Srpskom jeziku (cirilica)" border="0" name="langc"></a></td>
+			<td class="normal">&nbsp;</td>
+			<td class="normal">&nbsp;&nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" align="right" valign="bottom"><img style="margin-top:13px" src="gs/slogan.gif" alt="Na pravoj ste adresi" border="0"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!-- /HEADER -->
+
+
+<!-- 1st LEVEL NAVIGATION -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td background="gs/nav-back.gif"><img src="gs/1t.gif" width="12" height="1" alt=" " border="0"></td>
+	<td width="90%" background="gs/nav-back.gif">
+		<table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td><a href="cms/view.php/210.html" onMouseOver="img_act('home')" onMouseOut="img_inact('home')"><img src="gs/b-home-0.gif" width="73" height="27" alt="Naslovna strana" border="0" name="home"></a></td>
+			<td><a href="cms/view.php/310.html" onMouseOver="img_act('news')" onMouseOut="img_inact('news')"><img src="gs/b-news-0.gif" width="74" height="27" alt="Najnovije vijesti i izjave za štampu" border="0" name="news"></a></td>
+			<td><a href="cms/view.php/410.html" onMouseOver="img_act('serv')" onMouseOut="img_inact('serv')"><img src="gs/b-services-0.gif" width="73" height="27" alt="Nase usluge" border="0" name="serv"></a></td>
+			<td><a href="cms/view.php/510.html" onMouseOver="img_act('supp')" onMouseOut="img_inact('supp')"><img src="gs/b-support-0.gif" width="74" height="27" alt="Podrška" border="0" name="supp"></a></td>
+			<td><a href="cms/view.php/610.html" onMouseOver="img_act('abou')" onMouseOut="img_inact('abou')"><img src="gs/b-aboutus-0.gif" width="74" height="27" alt="Informacije o kompaniji" border="0" name="abou"></a></td>
+			<td><a href="cms/view.php/710.html" onMouseOver="img_act('cont')" onMouseOut="img_inact('cont')"><img src="gs/b-contact-0.gif" width="73" height="27" alt="Kako nas kontaktirati" border="0" name="cont"></a></td>
+			<td><img src="gs/nav-end.gif" width="1" height="27" alt=" " border="0"></td>
+		</tr>
+		</table>
+	</td>
+	<td width="10%" background="gs/nav-back.gif" align="right"><a href="http://my.teol.net" onMouseOver="img_act('login')" onMouseOut="img_inact('login')"><img src="gs/b-login-0.gif" width="71" height="27" alt="my.teol.net - Administracija naloga" border="0" name="login"></a></td>
+	
+</tr>
+<tr>
+	<td><img src="gs/1t.gif" width="1" height="1" alt=" " border="0"></td>
+</tr>
+</table>
+<!-- /1st LEVEL NAVIGATION -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top"><img src="gs/h-310.gif" hspace="11" vspace="4" width="250" height="31" alt="" border="0"></td>
+<td align="right" valign="top">
+
+<!-- NAVIGATION BAR -->
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td><img src="gs/bar-end3.gif" width="28" height="28" alt=" " border="0"></td>
+	<td bgcolor="#EEEEEE" valign="middle"><span class="navbar"><a class="navbar" href="cms/view.php/210.html">Naslovna</a>&nbsp;<img src="g/arrow-right.gif" hspace="2" width=4 height=7 border="0">&nbsp;<a class="navbar" href="cms/view.php/310.html">Vijesti</a>&nbsp;<img src="g/arrow-right.gif" hspace="2" width=4 height=7 border="0">&nbsp;<a class="navbar" href="cms/view.php/2017.html">Arhiva</a>&nbsp;<img src="g/arrow-right.gif" hspace="2" width=4 height=7 border="0">&nbsp;<a class="navbar" href="cms/view.php/4396.html">decembar 2005</a>&nbsp;<img src="g/arrow-right.gif" hspace="2" width=4 height=7 border="0">&nbsp;Novi pristupni b...</span></td>
+	<td><img src="gs/bar-middle3.gif" width="19" height="28" alt=" " border="0"></td>
+	<td background="gs/bar-back2.gif"><img src="gs/1t.gif" width="80" height="1" alt=" " border="0"></td>
+</tr>
+</table>
+</div>
+<!-- /NAVIGATION BAR -->
+
+</td></tr>
+</table>
+
+
+<!-- PAGE CONTENT -->
+<table width="760" cellpadding="0" cellspacing="10" border="0">
+<tr>
+	<td width="1%" valign="top"><img src="gs/1t.gif" width="200" height="1" alt="" border="0"><br>
+		<table width="194" cellpadding="0" cellspacing="4" border="0"><tr><td colspan="3"><img src="g/1t.gif" width="1" height="1" alt=" " border="0"></td></tr>
+<tr><td valign="top" width="6"><img src="g/arrow1.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td colspan="2" class="link0" width="188"><a class="link0" href="cms/view.php/2017.html"><b>Arhiva</b></a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4413.html">januar 2006.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4396.html">decembar 2005</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4386.html">novembar 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4331.html">oktobar 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4315.html">septembar 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4314.html">avgust 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4245.html">juli 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4244.html">juni 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4170.html">maj 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4131.html">april 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4092.html">mart 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4019.html">februar 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3924.html">januar 2005.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3862.html">decembar 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3769.html">novembar 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3727.html">oktobar 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3565.html">septembar 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3500.html">avgust 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3413.html">jul 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3357.html">jun 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3288.html">maj 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3193.html">april 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3155.html">mart 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3086.html">februar 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/3003.html">januar 2004.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2891.html">decembar 2003.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2729.html">novembar 2003.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2687.html">oktobar 2003</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2548.html">septembar 2003.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2410.html">avgust 2003.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2270.html">jul 2003. god.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2028.html">jun 2003. god.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2026.html">maj 2003. god.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2025.html">april 2003. god.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2024.html">mart 2003. god.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/2022.html">septembar 2002 - februar 2003. god.</a></td></tr>
+<tr><td></td><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td class="link0" width="188"><a class="link0" href="cms/view.php/4447.html">februar 2006.</a></td></tr>
+<tr><td colspan="3"><img src="g/1t.gif" width="1" height="1" alt=" " border="0"></td></tr>
+<tr><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td colspan="2" class="link0" width="188"><a class="link0" href="cms/view.php/2019.html"><b>Saopštenje za medije</b></a></td></tr>
+<tr><td colspan="3"><img src="g/1t.gif" width="1" height="1" alt=" " border="0"></td></tr>
+<tr><td valign="top" width="6"><img src="g/arrow.gif" vspace="4" width="6" height="6" alt="" border="0"></td><td colspan="2" class="link0" width="188"><a class="link0" href="cms/view.php/2020.html"><b>Upozorenjа korisnicima</b></a></td></tr>
+</table>		
+	</td>
+	<td width="98%" valign="top"><img src="gs/1t.gif" width="380" height="1" alt="" border="0"><br>
+	
+		<p class="h1">
+		Novi pristupni brojevi za TEOL-ove dial-up servise 
+			
+		</p>
+		
+		
+		
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;<em>Poštovani korisnici,<br><br></em>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Od <b>26.12.2005.</b> godine u primjeni će biti novi pristupni brojevi za TEOL-ove dial-up servise.<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Anonimni dial-up pristup:</b><br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Umjesto dosadašnjeg kratkog broja <b>1432</b> za anonimni dial-up pristup koristiće se isključivo negeografski broj <b>081-59-1432</b>.<br>
+I dalje je na snazi upotreba sljedećeg korisničkog imena i lozinke:<br><br>
+</p>
+<p class="normal">
+Korisničko ime (Username): <em>teol<br></em>
+Lozinka (Password): <em>net<br></em>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Anonimni dial-up pristup se tarifira 0.03 KM/min u periodu jakog saobraćaja (radnim danima od 7-19 časova), odnosno 0.02 KM/min u periodu slabog saobraćaja (radnim danima od 19-07, subotom, nedjeljom i u dane državnih praznika od 00-24 časa).<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Pomenute tarife važe u svim mrežnim grupama fiksne mreže Telekoma Srpske, tj. na čitavoj teritoriji Republike Srpske.<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;U ukupnu cijenu je uključeno vrijeme provedeno na Internetu i troškovi dial-up konekcije.<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Plaćanje se vrši putem redovnog mjesečnog telefonskog računa.<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Porez nije uračunat u cijenu.<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;<b>Standardni dial-up pristup:</b><br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Umjesto dosadašnjeg kratkog broja <b>1433</b> za standardni dial-up pristup koji se koristio za sve mrežne grupe fiksne mreže Telekoma Srpske, tj. na čitavoj teritoriji Republike Srpske, koristiće se isključivo sljedeći negeografski brojevi:<br><br>
+</p>
+<p class="normal">
+<ul>
+<li>za pozive unutar mrežne grupe <b>081-50-1433</b> (ovaj servis trenutno je omogućen samo za korisnike iz mrežnih grupa: Banja Luka-051, Bijeljina-055, Istočno Sarajevo-057, Brčko Distrikt -049 i Šamac- 054, Doboj - 053 i Trebinje- 059)<br>
+<li>za pozive u drugu mrežnu grupu <b>081-50-2433</b> (ovaj servis trenutno je omogućen za korisnike iz mrežnih grupa: Prijedor-052, Mrkonjić Grad-050, Foča-058 i Zvornik-056)<br><br>
+</ul>
+&nbsp;&nbsp;&nbsp;&nbsp;Korisnik će standardni dial-up pristup na pomenute brojeve ostvarivati unošenjem svog korisničkog imena i lozinke.<br><br>
+</p>
+<p class="normal">
+Korisničko ime (Username): <em>vaše korisničko ime<br></em>
+Lozinka (Password): <em>vaša šifra<br></em>
+<ul>
+&nbsp;&nbsp;&nbsp;&nbsp;<li>Za pozive unutar mrežne grupe standardni dial-up pristup se tarifira 0.015 KM/min u periodu jakog saobraćaja (radnim danima od 7-19 časova), odnosno 0.01 KM/min u periodu slabog saobraćaja (radnim danima od 19-07, subotom, nedjeljom i u dane državnih praznika od 00-24 časa).<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;<li>Za pozive u drugu mrežnu grupu (tj. pozive između mrežnih grupa) standardni dial-up pristup se tarifira 0.04 KM/min u periodu jakog saobraćaja (radnim danima od 7-19 časova), odnosno 0.03 KM/min u periodu slabog saobraćaja (radnim danima od 19-07, subotom, nedeljom i u dane državnih praznika od 00-24 časa).<br><br>
+</ul>
+&nbsp;&nbsp;&nbsp;&nbsp;U ukupnu cijenu je uključeno samo trajanje dial-up konekcije.<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Plaćanje se vrši putem redovnog mjesečnog telefonskog računa.<br><br>
+</p>
+<p class="normal">
+&nbsp;&nbsp;&nbsp;&nbsp;Porez nije uračunat u cijenu.<br>
+
+</p>
+		<p class="normal">&nbsp;</p>
+
+	</td>
+	<td><img src="gs/1t.gif" width="1" height="1" alt="" border="0"></td>
+	<td width="1%" valign="top">
+		<!-- NAVIGATION EXTRAS -->
+		<!-- SNIPPET 1 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 1 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 2 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 2 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 3 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 3 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 4 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 4 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 5 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 5 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 6 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 6 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 7 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 7 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 8 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 8 -- SLIKA SA LINKOM -->	
+		
+		<!-- SNIPPET 9 - SLIKA SA LINKOM -->
+			
+		<!-- KRAJ SNIPPET 9 -- SLIKA SA LINKOM -->	
+		<!-- NAVIGATION EXTRAS -->
+	</td>
+</tr>
+</table>
+<!-- PAGE CONTENT -->
+
+</td></tr><tr><td width="100%" height="5%" valign="bottom">
+
+<!-- FOOTER -->
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td class="footer">&nbsp;<br>&nbsp;<br>&nbsp;</td>
+</tr><tr>
+<td>
+	<table cellpadding="12" cellspacing="0" border="0">
+	<tr><td class="footer">Copyright © 2002-2004 TEOL Specijalizovana RJ Internet Srpske</td></tr>
+	</table>
+</td></tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td bgcolor="#F7F7F7">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td background="gs/bar-back.gif"><img src="gs/1t.gif" width="30" height="1" alt=" " border="0"></td>
+	<td><img src="gs/bar-middle.gif" width="19" height="28" alt=" " border="0"></td>
+	<td bgcolor="#EEEEEE"><img src="gs/1t.gif" width="336" height="1" alt=" " border="0"></td>
+	<td><img src="gs/bar-end.gif" width="28" height="28" alt=" " border="0"></td>
+</tr>
+</table>
+</td></tr>
+</table>
+<!-- /FOOTER -->
+
+</td></tr>
+</table>
+
+
+
+
+</body>
+</html>

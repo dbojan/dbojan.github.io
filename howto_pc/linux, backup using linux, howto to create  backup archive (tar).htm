@@ -1,0 +1,16 @@
+<pre>
+backup using linux, howto backup (windows) files using tar, on the same partition
+
+
+If there is only one partition in the computer:
+cd /mnt/sda1 (move to the partition with the windows data)
+tar cvf backup.tar --exclude=/mnt/sda1/backup.tar *  (create backup of all the files, except backup.tar)
+
+(you can see partion names with "mount" or "fdisk -l", or "sudo fdisk -l")
+
+
+
+
+If you have two partitions in the computer:
+cd /mnt/sda1 (move to the partition with the windows data)
+tar cvf /mnt/sda2/backup.tar * (create backup of all the files. Backup file will be on another partition)

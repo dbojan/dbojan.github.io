@@ -1,0 +1,65 @@
+mepis
+forum
+kde: 
+event = 0
+if win key is pressed
+ if "d" is pressed // (in this example it is "d")
+  show/hide desktop
+  event = 1
+ end
+end
+
+ if win key is depressed
+   if event = 1
+    do nothing
+   else
+    show k menu
+   end 
+ end
+
+
+
+dd if=/dev/urandom of=/dev/hdc bs=102400
+http://dban.sourceforge.net/
+http://www.vectorlinux.com/
+
+reapirng scaner blops
+getting up when hit.
+sounds in the wind
+dyuing and get up
+from door top.
+sounds of dogs barking in the distance
+
+2b || !2b =?
+
+http://www.lightandmatter.com/
+
+Vikram and the Vampire
+http://en.wikipedia.org/wiki/Internet_Public_Library
+
+take mac specs and create linux or freebsd
+
+honesty. truth
+
+http://opensuse.linux.co.nz/klik/10.0/firefox_1.6a1.cmg
+
+chin
+beard
+
+waste damage
+
+relation : two people (having fun/joy/playing) together (for some
+amount of time.)
+
+every kid in the universe knows right from wrong.
+
+Listen to your heart, it is the best moral compass you have.
+
+What motivates him, what does one want?
+
+What your bad sides. What are good ones.
+try fixing bad sides and remember good ones.
+
+ljudi treba da promijene svoj odnos prema drzavi.
+
+people expect life will be perfect.

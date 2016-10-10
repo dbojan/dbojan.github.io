@@ -1,0 +1,68 @@
+<pre>
+kako podesiti tl-543 wireless router za uslugu blic cable:
+
+podesite ip adresu racunara na recimo 192.168.1.11:
+-start/settings/control panel/network connections
+-desni klik misa na  "local area connection", odaberite "properties"
+-kliknite na uspravnu strelicu prema dole dok ne dodjete to "internet protocol (tcp/ip)"
+-kliknite na "internet protocol (tcp/ip)"
+-kliknite na  properties
+-"use the following ip address":
+"ip address" = "192.168.1.11"
+"subnet mask" = "255.255.255.0"
+"default gateway" = "192.168.1.1"
+(ostalo ne dirajte)
+-ok.
+-ok
+
+
+-povezite "lan kablom": "blic ruter" i "racunar"
+(blic modem- lan port, NE WAN) i (racunar - lan port)
+
+-Otvorite Internet explorer. ukucajte u "address" polje 192.168.1.1
+-korisnicko ime i sifra: "admin" i "admin"
+
+-sa lijeve strane kliknite na "quick setup".
+-"ap router"
+-"dynamic"
+-opcije za wireless:"enable", encryption="wep", Automatic, ASCII, 64bit
+-klik ispred "key 1"
+-unesite sifru koju ce korisnici morati ukucati ako zele da se prikljuce vasem wirelessu
+(ovo NIJE sifra koja ide uz blic nalog)
+-sifra treba da bude 5 dugacka cifara/slova.
+-klik na submit
+-"finish"
+
+
+Vratite ip adresu racunara na automatsko dodijeljivanje:
+-start/settings/control panel/network connections
+-desni klik misa na  "local area connection", odaberite "properties"
+-kliknite na uspravnu strelicu prema dole dok ne dodjete to "internet protocol (tcp/ip)"
+-kliknite na "internet protocol (tcp/ip)"
+-kliknite na  properties
+-"obtain an ip address automatically"
+-"obtain dns server address automatically"
+-ok.
+-ok
+
+
+Spajanje blic modema i vaseg rutera:
+Spojite lan kablom (blic modem) i (WAN port na tp-link ruteru).
+
+Provjera da li radi:
+Vas racunar mozete spojiti kablom (racunar - lan port) i (ruter LAN port, NE WAN),
+ili preko Wirelessa. Desni klik na ikonu wirelessa pored sata, "view available wireless networks"
+Provjerite da li vam radi internet.
+
+("Racunar" i "blic modem" se ne spajaju DIREKTNO kablom, osim ako NE ZELITE korisiti ruter)
+
+
+
+
+(Nemojte ukljucivati dhcp server na ruteru. Pri fabrickim podesavanjima je
+iskljucen.)
+
+
+(blic modem sadrzi i ruter u sebi, ali ovde je nazvan modem radi jednostavnosti.)
+
+

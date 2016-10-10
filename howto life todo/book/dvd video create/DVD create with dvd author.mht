@@ -1,0 +1,2015 @@
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<base href="http://www.linux.com/articles/53702"><div style="margin:-1px -1px 0;padding:0;border:1px solid #999;background:#fff"><div style="margin:12px;padding:8px;border:1px solid #999;background:#ddd;font:13px arial,sans-serif;color:#000;font-weight:normal;text-align:left">This is Google&#39;s cache of <a href="http://www.linux.com/articles/53702" style="text-decoration:underline;color:#00c">http://www.linux.com/articles/53702</a>. It is a snapshot of the page as it appeared on 18 Jan 2009 05:18:43 GMT. The <a href="http://www.linux.com/articles/53702" style="text-decoration:underline;color:#00c">current page</a> could have changed in the meantime. <a href="http://www.google.com/intl/en/help/features_list.html#cached" style="text-decoration:underline;color:#00c">Learn more</a><br><br><div style="float:right"><a href="http://209.85.129.132/search?q=cache:OMvxqJrCtmMJ:www.linux.com/articles/53702+how+to+make+dvd+linux&amp;hl=en&amp;client=opera&strip=1" style="text-decoration:underline;color:#00c">Text-only version</a></div>
+<div>These search terms are highlighted: <span style="background:#ffff66;color:black;font-weight:bold">make</span>&nbsp;<span style="background:#a0ffff;color:black;font-weight:bold">dvd</span>&nbsp;<span style="background:#99ff99;color:black;font-weight:bold">linux</span>&nbsp;&nbsp;</div></div></div><div style="position:relative">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+   <head>
+
+
+
+<title>Linux.com :: Convert any video file to DVD with open source tools</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Xaraya" />
+<meta name="Keywords" content="Linux, Distributions, Linux forums, Linux support, Linux software, Linux Videos, Linux news, Linux downloads" />
+<meta name="Description" content="You've just downloaded the new episode of your favorite video podcast, and you'd like to watch it on your big-screen TV. Unfortunately, the video is encoded in XviD or QuickTime format, which your DVD player doesn't support. Don't worry -- here's how you can convert any video file to DVD using dvdauthor and MPlayer." />
+<meta name="rating" content="General" />
+
+
+
+<!-- Linking for Mozilla and related browser site tab -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.linux.com/articles/?theme=rss" />
+
+
+    <link rel="alternate" type="text/html" title="Print" href="http://www.linux.com/articles/53702?theme=print" />
+
+
+
+<link rel="pingback" href="http://www.linux.com/ws.php" />
+<link rel="Top" type="text/html" href="http://www.linux.com/" />
+<link rel="Parent" type="text/html" href="http://www.linux.com/" />
+<link rel="author" href="Linux.com" />
+
+
+
+
+
+
+<link rel="contents" type="text/html" href="http://www.linux.com/articles/map/" />
+
+<link rel="search" type="text/html" href="http://www.linux.com/?module=search" />
+<script type="text/javascript" src="/themes/linux/scripts/jquery-1.2.3.pack.js"></script>
+<script type="text/javascript" src="/themes/linux/scripts/special.js"></script>
+<script type="text/javascript" src="/themes/linux/scripts/jquery.truncate.js"></script>
+<script type="text/javascript" src="/themes/linux/scripts/jquery.pngFix.js"></script><!-- <base href="&xar-baseurl;" /> -->
+<!--  the following styles were supplied from component theme  -->
+<!--  link style  -->
+<link rel="stylesheet" type="text/css" href="http://www.linux.com/themes/linux/style/style.css" media="screen" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://www.linux.com/themes/linux/style/ie_win_sad7.css" media="screen" /><![endif]-->
+<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="http://www.linux.com/themes/linux/style/ie_win.css" media="screen" /><![endif]-->
+<!--  the following styles were supplied from component module  -->
+<!--  link style  -->
+<link rel="stylesheet" type="text/css" href="http://www.linux.com/themes/linux/modules/comments/xarstyles/comments.css" media="screen" />
+<!--  the following styles were supplied from component common  -->
+<!--  link style  -->
+<link rel="stylesheet" type="text/css" href="http://www.linux.com/modules/base/xarstyles/xarcore-xhtml1-strict.css" media="screen" />
+
+<script type="text/javascript">
+//<![CDATA[
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var pageTracker = _gat._getTracker("UA-32013-3");
+pageTracker._setDomainName("linux.com");
+pageTracker._initData();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var thisuser = '0';
+var thispage = 'page';
+var thiscat = 'none';
+var thistpc = '';
+var thisurl = '';
+   $(document).ready(function(){
+       $('#articles').removeClass("xar-menu-item").addClass("xar-menu-item-current");
+       $("ul ul li.xar-menu-item-current > ul li:nth-child(1) a ").addClass("thiscurrent");
+       $('#articles ul.xar-menu-subitem').removeClass("hide").css("display","block");
+       $("ul li.xar-menu-item#articles").hover(
+           function(){ $(this).children('ul').removeClass("hide"); },
+           function(){ $(this).children('ul').removeClass("hide"); }
+       );
+   });
+//]]>
+</script>
+   </head>
+   <body>
+<script type="text/javascript" src="http://www.linux.com/modules/base/xartemplates/includes/xmlhttprequest.js"></script><div id="top">
+
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number --></div>
+     <div id="doc3" class="yui-t1">
+       <div id="hd">
+<div class="fix top"></div>                                                                                                                                                                                                                                                                                                                                                          
+<div id="frame1"></div>  
+   <h1>
+       <a href="http://www.linux.com/" title="Linux.com">
+            <span><b style="color:black;background-color:#99ff99">Linux</b>.com</span>
+       </a>
+   </h1>
+<div class="xar-block-body-topnav" id="search">
+
+<form action="/" method="get" id="searchin">
+ <fieldset>
+   <legend>Search</legend>
+   <label for="q8">Search</label>
+      <input type="hidden" name="sort" value="date"/>
+      <input type="hidden" name="header[title]" value="1"/>
+      <input type="hidden" name="header[text]" value="1"/>
+      <input type="hidden" name="module" id="module" value="search" />
+     <input type="text" value="" name="q" id="q8" size="15" />
+    <input style="margin-top: 5px" type="button" onclick="this.form.submit();" value="Search" />
+</fieldset>
+</form>
+</div>
+<div class="xar-block-body-topnav" id="login">
+<div id="user">
+    <div class="cover">
+    <a href="http://www.linux.com/authsystem/login">Log in</a>&nbsp;&nbsp;|&nbsp;  <a href="http://www.linux.com/registration/register">Create Account</a>&nbsp;&nbsp;|&nbsp; <a href="/submit">Submit Story</a>
+   </div>
+</div>
+
+</div>
+</div>
+       <div id="frame2">
+         <div id="frame3"></div>
+         <div class="fix"></div>
+         <div id="bd">
+	<div class="yui-b first">
+	<div class="block" id="mainmenu2">
+<ul class="xar-menu-section" id="mainmenu">
+	<li class="xar-menu-section">
+		<ul class="xar-menu-item">
+			<li class="xar-menu-item" id="articles">
+				<a href="/articles/feature/" title="Linux features, reviews, commentary, and news">
+					Articles 
+				</a>
+				<ul class="hide xar-menu-subitem">
+					<li class="xar-menu-subitem" id="casestudy">
+						<a href="/feature/c4206" title="Case Studies">
+							Case studies
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="feature">
+						<a href="/feature/" title="Features">
+							Features
+						</a>
+					</li>
+				        <li class="xar-menu-subitem" id="news">
+						<a href="/feature/c4201" title="Original News Features">
+							News
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="newsvac">
+						<a href="/feed/" title="Open Source around the Web">
+							NewsVac
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="reviews">
+						<a href="/feature/c4203" title="Reviews">
+							Reviews
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="xar-menu-item" id="documentation">
+				<a href="/base/ldp/howto/" title="Linux HOWTOs">
+					Documentation 
+				</a>
+				<ul class="hide xar-menu-subitem">
+					<li class="xar-menu-subitem" id="howto1">
+						<a href="/base/ldp/howto/HOWTO-INDEX/intro.html" title=" ">
+What Are <b style="color:black;background-color:#99ff99">Linux</b> HOWTOs?
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto2">
+						<a href="/base/ldp/howto/HOWTO-INDEX/location.html" title=" ">
+Where Can I Get <b style="color:black;background-color:#99ff99">Linux</b> HOWTOs?
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto3">
+						<a href="/base/ldp/howto/HOWTO-INDEX/translations.html" title=" ">
+HOWTO Translations
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto4">
+						<a href="/base/ldp/howto/HOWTO-INDEX/categories.html" title=" ">
+Categorized List of HOWTOs 
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto5">
+						<a href="/base/ldp/howto/HOWTO-INDEX/howtos.html" title=" ">
+Single list of HOWTOs
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto6">
+						<a href="/base/ldp/howto/HOWTO-INDEX/mini.html" title=" ">
+Single list of mini-HOWTOs
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto7">
+						<a href="/base/ldp/howto/HOWTO-INDEX/unmaintained.html" title=" ">
+Unmaintained HOWTOs
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto8">
+						<a href="/base/ldp/howto/HOWTO-INDEX/writing.html" title=" ">
+Writing and Submitting a HOWTO
+						</a>
+					</li>
+					<li class="xar-menu-subitem" id="howto9">
+						<a href="/base/ldp/howto/HOWTO-INDEX/copyright.html" title=" ">
+Copyright Information 
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="xar-menu-item" id="distributions">
+				<a href="/distributions/" title="Variety of different Linux OSes">
+					Distributions 
+				</a>
+			</li>
+			<li class="xar-menu-item" id="forums">
+				<a href="/forums/" title="Linux forums">
+					Forums 
+				</a>
+			</li>
+			<li class="xar-menu-item" id="sponsorsolutions">
+				<a href="http://ad.doubleclick.net/clk;172278086;13503038;d?http://www.linux.com/sponsor_solutions/" title="Solutions from our sponsors">
+					Sponsor Solutions 
+				</a>
+				<ul class="hide xar-menu-subitem">
+					<li class="xar-menu-subitem" id="hpos">
+						<a href="http://ad.doubleclick.net/clk;173676953;13503038;j?http://www.linux.com/sponsor_solutions/hpos" title=" Open source and Linux from HP">
+							 Open Source and <b style="color:black;background-color:#99ff99">Linux</b> from HP
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="xar-menu-item" id="about">
+				<a href="/about/" title="About Linux.com">
+					About Us 
+				</a>
+			</li>
+		</ul>
+	</li>
+</ul></div>
+<div class="block" id="whatislinux">
+<h4>What is <b style="color:black;background-color:#99ff99">Linux</b>?</h4>
+<p class="linux1"><a href="/whatislinux/119700"><img src="http://c.fsdn.com/lc/themes/linux/images/tango-icon-theme/22x22/status/dialog-information.png" alt=""  style="margin-top: 4px;" />Learn about <b style="color:black;background-color:#99ff99">Linux</b></a></p>
+<p><a href="/download_linux/"><img src="http://c.fsdn.com/lc/themes/linux/images/tango-icon-theme/22x22/actions/go-down.png" alt="" />Download <b style="color:black;background-color:#99ff99">Linux</b></a></p>
+<p><a href="http://www.linux.com/forums/"><img src="http://c.fsdn.com/lc/themes/linux/images/tango-icon-theme/22x22/apps/help-browser.png" alt="" style="margin-top: -4px;" />Get <b style="color:black;background-color:#99ff99">Linux</b> help</a></p>
+</div>
+<div class="block" id="feeds">
+<h4>Feeds</h4>
+<ul style="margin: 1em">
+<li><a href="/feature?theme=rss">Features</a></li>
+<li><a href="/feed?theme=rss">NewsVac</a></li>
+<li><a href="/xarbb?theme=rss">Forums</a></li>
+<li><a href="/feature/c4201?theme=rss">News</a></li>
+<li><a href="http://linuxcom.blip.tv/rss">Video</a></li>
+<li><a href="/?module=comments&amp;func=rss&amp;theme=rss">Comments</a></li>
+</ul></div>
+<div class="block" id="ad_pos_special">
+<h4>Special Offers</h4>
+<form method="post" action="http://newsletters.osdn.com/signup.pl">
+<fieldset>
+  <input type="hidden" name="source" value="lc" />
+  <input type="hidden" name="tmpchk" value="1" />
+<p>
+			<b>Get special offers on:</b></p><p>
+    			<input type="checkbox"  name="listname" value="OSDN/linux.list" /> <b style="color:black;background-color:#99ff99">Linux</b> <br />
+    			<input type="checkbox"  name="listname" value="OSDN/application_development.list" /> Application Dev<br />
+    			<input type="checkbox"  name="listname" value="OSDN/computer_programming.list" /> Programming<br />
+    			<input type="checkbox"  name="listname" value="OSDN/software.list" /> Software
+</p>
+	<p>
+		Email: 
+		<br />
+		<input type="text" name="email_address" size="10" value="" style="width: 80px" />
+		<br />
+		<input type="hidden" name="source" value="standalone" />
+		<input type="hidden" name="tmpchk" value="standalone" />
+		<input type="submit" name="Submit" value="Submit" />
+	</p>
+</fieldset>
+</form>
+</div>
+</div>
+<div id="yui-main">
+	<div class="yui-b">
+		<div class="3col">
+			<div class="l0">
+				<div class="l1">
+					<div class="l2">
+						<div class="l3">
+							<div class="l4">
+								<div class="l5">
+																		
+
+<script type="text/javascript">
+//<![CDATA[
+var thisnewtpc = 'tpc=feature;';
+var thistpc = thisnewtpc.replace(/\s+/g,'').replace(/&amp;/g,';tpc=').toLowerCase();
+var thiscat = 'feature';
+var thispage = 'article';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var thisiscat='feature';
+document.write('<script type="text/javascript">$(document).ready(function(){$("\#'+thisiscat+'").removeClass("xar-menu-subitem").addClass("xar-menu-subitem-current");});<\/script>');
+//]]>
+</script>
+<div id="center">
+ <div id="articlepage">
+<div class="rightblock" id="ad_pos_20a">
+<div id="fad20" class="pb_art"><div><!-- DoubleClick Ad Tag -->
+<script type="text/javascript">
+//<![CDATA[
+    document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.linux/'+thiscat+'_p20_powerbar;pg='+thispage+';logged_in='+thisuser+';tile='+dfp_tile+';'+thistpc+'sz=1x1;ord='+dfp_ord+'?"><\/script>');
+    dfp_tile++;
+//]]>
+</script>
+<!-- End DoubleClick Ad Tag -->
+</div></div></div>
+<div class="rightblock" id="ad_pos_6">
+<div id="fad6"><!-- DoubleClick Ad Tag -->
+<script type="text/javascript">
+//<![CDATA[
+    document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.linux/'+thiscat+'_p6_imu;pg='+thispage+';logged_in='+thisuser+';tile='+dfp_tile+';'+thistpc+'sz=300x250,336x280;ptile=2;ord='+dfp_ord+'?"><\/script>');
+    dfp_tile++;
+//]]>
+</script>
+<!-- End DoubleClick Ad Tag -->
+</div></div>
+<div class="article_wrap feature">
+   <div class="adframe">
+<div class="module-title"><h2>Feature</h2></div>
+        <div class="xar-left">
+          <div class="xar-standard-box-padding">
+                  <h3>Convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> with open source tools</h3>
+                 <div class="xar-article-details">
+                            By <a href="mailto:manolis AT tzanidakis DOT gr">Manolis Tzanidakis</a>
+on
+April 27, 2006 (8:00:00 AM)</div>
+        <p style="text-align: right">
+<!-- ADDTHIS BUTTON BEGIN -->
+<script type="text/javascript">
+addthis_pub = 'linuxcom'; 
+addthis_logo = 'http://c.fsdn.com/lc/images/lc_logo.png';
+addthis_brand = 'Linux.com';
+addthis_options = 'email, slashdot, digg, delicious, more';
+</script>
+<a href="http://www.addthis.com/bookmark.php" onMouseOver="return addthis_open(this, '', '[URL]', '[TITLE]')" onMouseOut="addthis_close()" onClick="return addthis_sendto()" title="Share this " style="text-decoration: none"><img src="http://c.fsdn.com/lc/images/tango-icon-theme/16x16/status/mail-attachment.png" style="vertical-align: middle;" alt="" /> <b style="text-decoration: underline; font-size: 85%">Share</b></a>  &nbsp;&nbsp;
+<script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+<!-- ADDTHIS BUTTON END -->
+          <a href="http://www.linux.com/articles/53702?theme=print" title="Printer friendly page" style="text-decoration: none"><img src="/themes/linux/images/tango-icon-theme/16x16/devices/printer.png" alt="" style="vertical-align: middle;" /> <b style="text-decoration: underline; font-size: 85%">Print</b></a> &nbsp;&nbsp;
+                <a href="http://www.linux.com/articles/53702#commentthis" title="Comment on this article" style="text-decoration: none"><img src="/themes/linux/images/comments.png" alt="" style="vertical-align: middle;" /> <b style="text-decoration: underline; font-size: 85%">Comments</b></a> &nbsp;&nbsp;
+        </p>
+                  <div class="xar-clearleft">
+                      You've just downloaded the new episode of your favorite video podcast, and you'd like to watch it on your big-screen TV. Unfortunately, the video is encoded in XviD or QuickTime format, which your <b style="color:black;background-color:#a0ffff">DVD</b> player doesn't support. Don't worry -- here's how you can convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> using <a href="http://dvdauthor.sourceforge.net/">dvdauthor</a> and <a href="http://www.mplayerhq.hu/design7/news.html">MPlayer</a>.                  </div>
+            <div id="featurecontent" class="xar-align-left">
+                      <p>Packages for both programs are available for most <b style="color:black;background-color:#99ff99">Linux</b> distributions and BSDs, so you can install them on your favorite OS easily. Compiling the programs from source isn't difficult, as long as you get their dependencies right. Both programs provide adequate documentation about the installation. You can burn the final files to a <b style="color:black;background-color:#a0ffff">DVD</b> disc with the help of the growisofs utility from the <a href="http://fy.chalmers.se/~appro/linux/DVD+RW/"><b style="color:black;background-color:#a0ffff">dvd</b>+rw-tools</a> suite. </p>
+
+<p> <strong>Converting the files to MPEG-2</strong> </p>
+
+<p>First, you must convert your file to MPEG-2 for the video and to AC3 for the audio, in order to be compliant with the <b style="color:black;background-color:#a0ffff">DVD</b> video specifications. If the audio on your file is already encoded in AC3 format, you can use it as is without re-encoding it. Run this command to check the audio format of the file: </p>
+
+<p> <code>mplayer -vo dummy -ao dummy -identify your_video.avi 2&gt;&amp;1 | grep AUDIO_FORMAT | cut -d '=' -f 2</code> </p>
+
+<p>If it returns <code>hwac3</code>, the audio part of your file is encoded in AC3, and you can convert the file to MPEG-2 with the following command: </p>
+
+<pre>
+mencoder -oac copy -ovc lavc -of mpeg -mpegopts format=<b style="color:black;background-color:#a0ffff">dvd</b> -vf scale=720:576,harddup \
+-lavcopts vcodec=mpeg2video:vrc_buf_size=1835:vrc_maxrate=9800:vbitrate=5000:keyint=15:aspect=16/9 \
+-ofps 25 -o your_video.mpg your_video.avi
+</pre>
+
+<p>If it isn't encoded in AC3, run this command: </p>
+
+<pre>
+mencoder -oac lavc -ovc lavc -of mpeg -mpegopts format=<b style="color:black;background-color:#a0ffff">dvd</b> -vf scale=720:576,harddup \
+-srate 48000 -af lavcresample=48000 \
+-lavcopts vcodec=mpeg2video:vrc_buf_size=1835:vrc_maxrate=9800:vbitrate=5000:keyint=15:aspect=16/9:\
+acodec=ac3:abitrate=192 -ofps 25 -o your_video.mpg your_video.avi
+</pre>
+
+<p>The previous commands create an MPEG-2 file in phase-alternating line (PAL) format with an aspect ratio of 16:9. PAL is used in most of Europe (except France). If you want to create a National Television System Committee (NTSC) <b style="color:black;background-color:#a0ffff">DVD</b>, which is the North American video standard, replace <code>scale=720:576</code> with <code>scale=720:480</code>, <code>keyint=15</code> with <code>keyint=18</code>, and <code>-ofps 25</code> with <code>-ofps 30000/1001</code>. If you don't have a wide-screen TV, you should encode your file with an aspect ratio of 4:3 by replacing <code>aspect=16/9</code> with <code>aspect=4/3</code>.</p>
+
+<p>For more information, check the <a href="http://www.mplayerhq.hu/DOCS/man/en/mplayer.1.html">MPlayer's man page</a>, which provides detailed explanations about each option used in these commands. </p>
+
+<p>This process should take some time to finish. My 1.5GHz Centrino laptop took about 25 minutes to convert a file with a one-hour runtime that was encoded in XviD. </p>
+
+<p> <b>Creating the <b style="color:black;background-color:#a0ffff">DVD</b> structure</b> </p>
+
+<p>Now you can use dvdauthor to create the layout of the <b style="color:black;background-color:#a0ffff">DVD</b> from the MPEG-2 file of your video. Although you can pass any options to dvdauthor directly from the command line, it's easier and more flexible to create an XML file with the appropriate options instead. Open your favorite editor and create a file called <b style="color:black;background-color:#a0ffff">dvd</b>.xml with the following contents: </p>
+
+<pre>
+&lt;dvdauthor&gt;
+  &lt;vmgm /&gt;
+    &lt;titleset&gt;
+      &lt;titles&gt;
+        &lt;pgc&gt;
+          &lt;vob file=&quot;your_video.mpg&quot; chapters=&quot;0,0:10,0:20,0:30,0:40,0:50&quot; /&gt;
+        &lt;/pgc&gt;
+      &lt;/titles&gt;
+    &lt;/titleset&gt;
+&lt;/dvdauthor&gt;
+</pre>
+<p>I split my hour-long video into six 10-minute chapters. Adjust the <code>chapters=</code> option for your video, or remove the option from your XML file if you don't want chapters. </p>
+
+<p>Type <code>dvdauthor -o <b style="color:black;background-color:#a0ffff">dvd</b> -x <b style="color:black;background-color:#a0ffff">dvd</b>.xml</code> to create the layout of the <b style="color:black;background-color:#a0ffff">DVD</b>; the <code>-o</code> switch defines the output directory, and <code>-x</code> is used for the XML file. This command takes five to 10 minutes, depending on your video size and your CPU speed. Once it completes, you'll have a directory named <b style="color:black;background-color:#a0ffff">dvd</b> with two subdirectories: AUDIO_TS and VIDEO_TS. Before burning the video to a disc, you can check it by running <code>mplayer <b style="color:black;background-color:#a0ffff">dvd</b>:// -<b style="color:black;background-color:#a0ffff">dvd</b>-device ./<b style="color:black;background-color:#a0ffff">dvd</b></code>.</p>
+
+<p>If the video plays correctly, you can burn it onto a <b style="color:black;background-color:#a0ffff">DVD</b> disc with growisofs by running <code>growisofs -<b style="color:black;background-color:#a0ffff">dvd</b>-compat -Z /dev/dvdrw -<b style="color:black;background-color:#a0ffff">dvd</b>-video ./<b style="color:black;background-color:#a0ffff">dvd</b>/</code>. <b style="color:black;background-color:#ffff66">Make</b> sure to replace <code>/dev/dvdrw</code> with the device name of your <b style="color:black;background-color:#a0ffff">DVD</b> recorder. </p>
+
+<p>The only thing left is to <b style="color:black;background-color:#ffff66">make</b> some popcorn, get your favorite beverage, and enjoy the show. </p></div>
+<div class="xar-align-left" style="padding-top:20px;">
+        <p>
+<!-- ADDTHIS BUTTON BEGIN -->
+<script type="text/javascript">
+addthis_pub = 'linuxcom';
+addthis_logo = 'http://c.fsdn.com/lc/images/lc_logo.png';
+addthis_brand = 'Linux.com';
+addthis_options = 'email, slashdot, digg, delicious, more';
+</script>
+<a href="http://www.addthis.com/bookmark.php" onMouseOver="return addthis_open(this, '', '[URL]', '[TITLE]')" onMouseOut="addthis_close()" onClick="return addthis_sendto()" title="Share this " style="text-decoration: none"><img src="http://c.fsdn.com/lc/images/tango-icon-theme/16x16/status/mail-attachment.png" style="vertical-align: middle;" alt="" /> <b style="text-decoration: underline; font-size: 85%">Share</b>
+</a>  &nbsp;&nbsp;
+<script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+<!-- ADDTHIS BUTTON END -->
+                <a href="http://www.linux.com/articles/53702?theme=print" title="Printer friendly page" style="text-decoration: none"><img src="/themes/linux/images/tango-icon-theme/16x16/devices/printer.png" alt="" style="vertical-align: middle;" /> <b style="text-decoration: underline; font-size: 85%">Print</b></a> &nbsp;&nbsp;
+                        <a href="http://www.linux.com/articles/53702#commentthis" title="Comment on this article" style="text-decoration: none"><img src="/themes/linux/images/comments.png" alt="" style="vertical-align: middle;" /> <b style="text-decoration: underline; font-size: 85%">Comments</b></a> &nbsp;&nbsp;
+</p>
+                 </div>
+
+       <div class="xar-normal related_links">
+           <h4>Related Links</h4>
+
+
+
+
+<p><strong>Last 5 articles by this author:</strong></p>
+	<div class="xar-align-left;">
+       <ul style="list-style-type: square;margin-left:20px;">
+                       <li> <a href="http://www.linux.com/feature/114220">
+Improved ways to suspend and hibernate a laptop under <b style="color:black;background-color:#99ff99">Linux</b></a>
+                            &nbsp; Feb 16, 2007</li>
+                       <li> <a href="http://www.linux.com/feature/59380">
+Review: Exaile Media Player</a>
+                            &nbsp; Jan 08, 2007</li>
+                       <li> <a href="http://www.linux.com/feature/59138">
+How to configure a scanner's buttons on <b style="color:black;background-color:#99ff99">Linux</b></a>
+                            &nbsp; Jan 02, 2007</li>
+                       <li> <a href="http://www.linux.com/feature/58689">
+CLI Magic: Convert file names to a different encoding with convmv</a>
+                            &nbsp; Dec 11, 2006</li>
+                       <li> <a href="http://www.linux.com/feature/58336">
+How to bridge networks with OpenVPN</a>
+                            &nbsp; Nov 21, 2006</li>
+</ul>
+   </div>
+<p><strong>Sponsored links:</strong></p>
+<ul style="list-style-type: square; margin-left:20px;">
+<script type="text/javascript">
+document.write('<li><a href="http://ostg.pricegrabber.com/search.php?form_keyword=technology">Best deals: Technology</a></li>');
+</script>
+               </ul>
+
+
+       </div>
+       <a name="commentthis"></a>
+<div class="xar-normal xar-clear-both" id="comments">
+               <h4>Comments</h4>
+
+ on <strong><a href="http://www.linux.com/articles/53702">Convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> with open source tools</a></strong>
+               <div class="title_divide"></div>
+                    
+
+
+
+
+
+
+
+<div>
+   <p class="xar-cm-note xar-sub">
+ Note: Comments are owned by the poster. We are not responsible for their content. </p>
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151982"></a>
+
+
+
+<h4>
+        Wicked Cool, But...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 27, 2006 10:28 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              if, for some strange reason, you wanted to use <b style="color:black;background-color:#99ff99">Linux</b>/OSS tools to edit your video file before creating your opus of a <b style="color:black;background-color:#a0ffff">DVD</b>, then you would use...<br><br>Queue the crickets.<br><br>P.S. Kino show promise but, it's alpha at best. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151982" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151983"></a>
+
+
+
+<h4>
+        Re:Wicked Cool, But...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 27, 2006 10:59 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              &lt;a href=&quot;http://heroinewarrior.com/cinelerra.php3&quot; title=&quot;heroinewarrior.com&quot;&gt;Cinelerra&lt;/a heroinewarrior.com&gt; or &lt;a href=&quot;http://lives.sourceforge.net/&quot; title=&quot;sourceforge.net&quot;&gt;lives&lt;/a sourceforge.net&gt;   might be what you'd need as well. IIRC there's some gnome/mono-based app on the way as well. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151983" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151985"></a>
+
+
+
+<h4>
+        Re:Wicked Cool, But...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 27, 2006 11:29 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              &lt;a href=&quot;http://fixounet.free.fr/avidemux/&quot; title=&quot;fixounet.free.fr&quot;&gt;Avidemux2&lt;/a fixounet.free.fr&gt;, but it isn't that complex. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151985" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151986"></a>
+
+
+
+<h4>
+        Re:Wicked Cool, But...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 27, 2006 11:37 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              VirtualDub[Mod] via WINE?  It's open source, too, so it's only a matter of time before a replaceable mplayer-based library is made for it. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151986" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152001"></a>
+
+
+
+<h4>
+        Re:Wicked Cool, But...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 30, 2006 06:59 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Jahshaka, Cinelerra, MainActor, etc.<br><br>Reference: &quot;Software for 3D/2D Artists, Designers, etc.&quot; here &lt;a href=&quot;http://www.linuxforum.com/forums/index.php?showtopic=53452&quot; title=&quot;linuxforum.com&quot;&gt;http://www.linuxforum.com/forums/index.php?showto&lt;nobr&gt;p&lt;wbr&gt;&lt;/nobr&gt; ic=53452&lt;/a linuxforum.com&gt; 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152001" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152014"></a>
+
+
+
+<h4>
+        Re:Wicked Cool, But...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 January 10, 2007 05:23 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              or you can visit and try &lt;a href=&quot;http://www.vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.com/vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.html&quot; title=&quot;vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.com&quot;&gt;VHS to <b style="color:black;background-color:#a0ffff">DVD</b>&lt;/a vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.com&gt; and transfer your home video tapes to <b style="color:black;background-color:#a0ffff">dvd</b>. You can get a pretty good conversion at a reasonable price from a lot of places. But what are most of these companies lacking? Care and attention to detail! Other ways you get totally amateurish product done with domestic equipment.<br>link:  &lt;a href=&quot;http://www.vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.com/&quot; title=&quot;vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.com&quot;&gt;http://www.vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.com/&lt;/a vhs-to-<b style="color:black;background-color:#a0ffff">dvd</b>.com&gt; 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152014" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152015"></a>
+
+
+
+<h4>
+        Re:Wicked Cool, But...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Administrator
+ on                 April 28, 2006 01:30 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              There's a project being programmed in Mono called &lt;a href=&quot;http://www.diva-project.org/&quot; title=&quot;diva-project.org&quot;&gt;Diva&lt;/a diva-project.org&gt;. From the sample videos it looks very promising. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152015" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151984"></a>
+
+
+
+<h4>
+        Small correction.<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 27, 2006 11:23 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              If grepping for AUDIO_FORMAT gives a mysterious number instead of the codec, grep for AUDIO_CODEC instead. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151984" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151987"></a>
+
+
+
+<h4>
+        dvdauthor xml file<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 12:22 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              &quot;Open your favorite editor and create a file called <b style="color:black;background-color:#a0ffff">dvd</b>.xml with the following contents:&quot;<br><br>I don't see any contents below this statement.  Is it just me?  I am at work and using IE6. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151987" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151988"></a>
+
+
+
+<h4>
+        Re:dvdauthor xml file<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 12:45 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Better to use qdvdauthor to master <b style="color:black;background-color:#a0ffff">DVD</b>.<br>&lt;a href=&quot;http://qdvdauthor.sourceforge.net/&quot; title=&quot;sourceforge.net&quot;&gt;http://qdvdauthor.sourceforge.net/&lt;/a sourceforge.net&gt;<br><br>Works really well 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151988" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151992"></a>
+
+
+
+<h4>
+        Re:dvdauthor xml file<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 07:32 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              It's not just you.  I'm reading it at home in Mozilla, and also was weirded out by the fact that no content follows that statement.<br><br>Can the author please fix the article? 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151992" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151994"></a>
+
+
+
+<h4>
+        Re:dvdauthor xml file<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 03:21 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Yep Firefox 1.5 here and I can't see anything either. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151994" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152016"></a>
+
+
+
+<h4>
+        Re:dvdauthor xml file<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Administrator
+ on                 April 28, 2006 09:23 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Same here with Firefox 1.5 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152016" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151989"></a>
+
+
+
+<h4>
+        Or you could do it the lazy way...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 02:46 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              ...you could transcode with AVIDemux2, and author/burn the <b style="color:black;background-color:#a0ffff">DVD</b> with <b style="color:black;background-color:#a0ffff">DVD</b> Styler.  If you must burn using a separate program, you can be lazy and use k3b.  Dead simple.  Not l33t, but then again, this article isn't exactly an 'enterprise <b style="color:black;background-color:#99ff99">Linux</b> resource' either.&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;;-D<br><br>And yes, you can edit those viral Intarweb videos with AVIDemux2.<br><br>If you're making home movies and you're doing NTSC DVDs, I suggest using Kino, which makes it nearly as dead-simple.  You can burn with k3b or use growisofs directly.<br><br>I keep intending to write up how I pull my home videos down to 480x480 23.976fps with noise filtering using transcode, but I'm far too lazy to do that. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151989" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151990"></a>
+
+
+
+<h4>
+        Check out this link..<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 03:16 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              &lt;a href=&quot;http://forums.gentoo.org/viewtopic.php?t=117709&quot; title=&quot;gentoo.org&quot;&gt;http://forums.gentoo.org/viewtopic.php?t=117709&lt;/a gentoo.org&gt;<br><br>An awesome work from Gentoo Forums guys, excellent, too.<br><br>Best<br><br>Juan 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151990" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151991"></a>
+
+
+
+<h4>
+        Doing it the hard way, it can be easier...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 04:00 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Get ToVid &lt;a href=&quot;http://tovid.org/&quot; title=&quot;tovid.org&quot;&gt;http://tovid.org/&lt;/a tovid.org&gt; and conversion is as simple as:<br><br>Assuming your video is named myvideo.avi and is wide-screen...<br><br>tovid -<b style="color:black;background-color:#a0ffff">dvd</b> -pal -wide -in myvideo.avi -out mydvd<br><br>will get you a 16:9 PAL <b style="color:black;background-color:#a0ffff">DVD</b>-compatible file named mydvd.mpg.<br><br>You can then get DVDStyler &lt;a href=&quot;http://dvdstyler.sourceforge.net/&quot; title=&quot;sourceforge.net&quot;&gt;http://dvdstyler.sourceforge.net/&lt;/a sourceforge.net&gt; and craft menus and branching logic if you are up to something complicated.  The result can be a <b style="color:black;background-color:#a0ffff">DVD</b> structured directory, an ISO or a direct burn to disc. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151991" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151995"></a>
+
+
+
+<h4>
+        Re:Doing it the hard way, it can be easier...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 04:59 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Or just use tovidgui (from the same site)<br><br>Creating a multi-chapter, multi-file from mpg, avi, wmv with a nice front-end menu is just a drag and drop operation.<br><br>I've used it several times and always got good results. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151995" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152002"></a>
+
+
+
+<h4>
+        Re:Doing it the hard way, it can be easier...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 30, 2006 07:08 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Agree. After all while it can prove useful to use a command script from a Terminal in certain situations it's not ideal for everyone. Especially since the <b style="color:black;background-color:#99ff99">Linux</b> community is trying to get Windows users to accept &quot;migration&quot; from Windows to <b style="color:black;background-color:#99ff99">Linux</b> as a possibility. It would be easier to accomplish the task of video file conversion and transfer with tools such as those found in the multimedia section here &lt;a href=&quot;http://kde-apps.org/&quot; title=&quot;kde-apps.org&quot;&gt;http://kde-apps.org/&lt;/a kde-apps.org&gt; 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152002" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151993"></a>
+
+
+
+<h4>
+        What about a similar yet different situation...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 01:33 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              What it you had more than one video that you would like to <b style="color:black;background-color:#ffff66">make</b> into one <b style="color:black;background-color:#a0ffff">dvd</b> disc with each video being another chapter? Assuming it can be done with multiple files how would you go about it?<br><br>Cheers. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151993" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152000"></a>
+
+
+
+<h4>
+        Re:What about a similar yet different situation...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 30, 2006 05:38 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              non-gui tools = disaster in a newbie's hands...&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;.....<br><br>LOL, I have a 13 year old daughter that just copied and pasted the command in, making the appropriate changes and came to show the finished product off to me.<br><br>LOL.  Email me and I will have her help you if you like.<br><br>&quot;<b style="color:black;background-color:#99ff99">Linux</b>...so easy even Windows Users can eventually figure it out.&quot;<br><br> 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152000" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152006"></a>
+
+
+
+<h4>
+        Re:What about a similar yet different situation...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 May 03, 2006 01:31 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              I don't think the &quot;newbie&quot; was the target audience for this article.  When I read it I thought of it as a &quot;quick recipie&quot; for those who already have a bit of experience with the underlying technologies.<br> 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152006" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152009"></a>
+
+
+
+<h4>
+        Re:What about a similar yet different situation...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 August 10, 2006 09:10 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              &lt;a href=&quot;http://dvdstyler.sourceforge.net/&quot; title=&quot;sourceforge.net&quot;&gt;http://dvdstyler.sourceforge.net/&lt;/a sourceforge.net&gt;<br><br>nuf said. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152009" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152010"></a>
+
+
+
+<h4>
+        Re:What about a similar yet different situation...<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 September 07, 2006 12:40 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              use the qdvdauthor to generate the dvdauthor.xml file, then fine tune it.  Note you need to remove the aspect option that it puts in there (something like 2.1:2 or something) 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152010" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151996"></a>
+
+
+
+<h4>
+        Did ya ever wonder.....<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 10:50 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Oh wow, talk about a high ceiling.<br>What easy commands. I'm sure I'll remember those when I need them.<br><br>Please. This is just another reason why many people will never convert to <b style="color:black;background-color:#99ff99">linux</b>, the command structure. While it may be simple for some folks, are you seriously going to remember a 4 line 20 different option command line exactally as the program wants it?<br><br>non-gui tools = disaster in a newbie's hands. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151996" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151998"></a>
+
+
+
+<h4>
+        Re:Did ya ever wonder.....<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 29, 2006 04:16 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              tovid is much slicker than this. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151998" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151999"></a>
+
+
+
+<h4>
+        Re:Did ya ever wonder.....<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 29, 2006 03:56 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Exactly - unless he can dumb things down to the point where all us 'point and click' end users can do it, he should just shut up and blow away.<br><br>After all, it's not like there are 'power users' any more who are actually comfortable with the technology stuff who get any benefit from this kind of material.<br><br>The Internet is the realm of the stupid and ignorant - technically competent people should just get away - it's not like they contributed anything to the world we live in. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151999" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152012"></a>
+
+
+
+<h4>
+        Re:Did ya ever wonder.....<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 December 17, 2006 07:30 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              how about book marking pages, copy and pasting and then having the flexibility to understand the command-line &amp; modify it to suit needs, the world is not one-size fits all. But this document is a keeper  in the bookmarks - great resource<br><br>tuxp3 at leetworks dot com 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152012" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152011"></a>
+
+
+
+<h4>
+        Re:Did ya ever wonder.....<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 September 07, 2006 07:36 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              If you prefer, you can use encode2mpeg.<br><br>And yes, you probably should read some information in the man pages or in the documentation to build a very long command-line...<br><br>But I promise :<br>1) you can create a configuration file, so you only need to reed the documentation once ( or if you got some problem... )<br>2) You can directly burn the <b style="color:black;background-color:#a0ffff">dvd</b>, without using any authoring tool. Just get the source video or videos, some background image for the menu, and that's all you need. You can choose,<br>use some converting tool ( as tmpgenc ) that is very powerfull, but is not easy at all....,<br>work with an &quot;friendly graphic interface&quot; for build the <b style="color:black;background-color:#a0ffff">DVD</b> , and the <b style="color:black;background-color:#a0ffff">DVD</b> after about One hour of manual work.... or learn how to write the command line for encode2mpeg...<br><br>3) is OpenSource<br><br>I hope I have helped to you.<br>Best Regards<br>Luis 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152011" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1181691"></a>
+
+
+
+<h4>
+        Re: Did ya ever wonder.....<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous
+                   [ip: 151.199.60.78]
+ on                 February 02, 2008 01:38 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Ever hear of a shell script moron? 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1181691" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1151997"></a>
+
+
+
+<h4>
+        lip sync<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 April 28, 2006 11:18 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              I'm getting lip sync errors using the above conversion commands, any ideas? 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1151997" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152004"></a>
+
+
+
+<h4>
+        Re:lip sync<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 May 02, 2006 05:35 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              My guess is that there's a mismatch in the audio sample rates somewhere along the line. If you create a video that says it has audio sampled at 44 KHz but it's actually sampled at 48 KHz, then the audio would gradually go out of sync, as it would essentially be playing back at the wrong speed. This is the main cause of these types of problems that I've seen in my (admittedly limited) experience with video. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152004" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152005"></a>
+
+
+
+<h4>
+        Re:lip sync<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 May 02, 2006 08:23 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Thanks, its a pity since it much faster than the TMPGEnc method I've been using to do it. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152005" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152007"></a>
+
+
+
+<h4>
+        Re:lip sync<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 May 09, 2006 05:22 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              I have one video file with this problem. How can I correct the sampling of the audio in this file? I am still not familiar with all the options... 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152007" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152008"></a>
+
+
+
+<h4>
+        lower back pain<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 May 28, 2006 06:30 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              &lt;tt&gt;[URL=http://painrelief.fanspace.com/index.htm] Pain relief [/URL]<br> [URL=http://lowerbackpain.0pi.com/backpain.htm] Back Pain [/URL]<br> [URL=http://painreliefproduct.guildspace.com] Pain relief [/URL]<br>[URL=http://painreliefmedic.friendpages.c&lt;nobr&gt;o&lt;wbr&gt;&lt;/nobr&gt; m] Pain relief [/URL]<br>[URL=http://nervepainrelief.jeeran.com/pa&lt;nobr&gt;i&lt;wbr&gt;&lt;/nobr&gt; nrelief.htm] Nerve pain relief [/URL]&lt;/tt&gt; 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152008" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152003"></a>
+
+
+
+<h4>
+        Excellent tutorial, thank you<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 May 01, 2006 10:19 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Awesome tutorial, I've used mplayer/mencoder as a &quot;power user&quot; for nearly 3 years now, and I still hadn't found a way to encode to MPEG-2, instead having to rely on mjpegtools to do the job. Thank you very much!&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;:) 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152003" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152019"></a>
+
+
+
+<h4>
+        Re:Excellent tutorial, thank you<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Administrator
+ on                 February 20, 2007 09:10 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Same here. I was looking for a way to do this and your tutorial solved my problem. Thank you very much for posting this. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152019" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152013"></a>
+
+
+
+<h4>
+        Multiple files<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous Coward
+ on                 December 22, 2006 02:19 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              If you want multiple files, just add more vob tags, like so:<br><br><blockquote><div>&lt;tt&gt; &lt;tt&gt;&lt;dvdauthor&gt;<br>&nbsp; &lt;vmgm&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;/&gt;<br>&nbsp; &nbsp; &lt;titleset&gt;<br>&nbsp; &nbsp; &nbsp; &lt;titles&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;pgc&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;vob file=&quot;vid1.mpg&quot; chapters=&quot;0&quot; pause=&quot;2&quot;&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;/&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;vob file=&quot;vid2.mpg&quot; chapters=&quot;0&quot; pause=&quot;2&quot;&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;/&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;vob file=&quot;vid3.mpg&quot; chapters=&quot;0&quot; pause=&quot;2&quot;&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;/&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/pgc&gt;<br>&nbsp; &nbsp; &nbsp; &lt;/titles&gt;<br>&nbsp; &nbsp; &lt;/titleset&gt;<br>&lt;/dvdauthor&gt;&lt;/tt&gt;&lt;/tt&gt;</div> </blockquote> <br><br>This will create a disc with three videos, with chapters at the beginning of each, and two seconds delay between each. No menus, though. If you want to split the videos into smaller chapters, you can add more entries in the chapter attribute. <b style="color:black;background-color:#ffff66">Make</b> sure you get the minutes/seconds/hours right! A comment above mentioned that the guide might be wrong about the chapter division.<br><br>Oh, and <b style="color:black;background-color:#ffff66">make</b> sure the total size of the videos is less than 4 700 000 bytes. Your file sizes probably show in Gibibytes (1 GiB = 1024&#179; bytes), DVD's are 4.7 Gigabytes (1 GB = 1000&#179; bytes).<br><br>Wonderful guide! This was much easier and haxx0r-ish than using tovid, which was giving me headache instead of a <b style="color:black;background-color:#a0ffff">DVD</b>.&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;:) 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152013" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152017"></a>
+
+
+
+<h4>
+        Another Correction<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Administrator
+ on                 May 02, 2006 10:16 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              The line<blockquote> <div>&lt;tt&gt;&lt;vob file=&quot;your_video.mpg&quot; chapters=&quot;0,0:10,0:20,0:30,0:40,0:50&quot;&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;/&gt;&lt;/tt&gt;</div> </blockquote>does not create six 10-minute-chapters but five chapters 10 seconds each and one chapter which is 59:10 minutes!<br>The correct line would be<blockquote> <div>&lt;tt&gt;&lt;vob file=&quot;your_video.mpg&quot; chapters=&quot;0,10:00,20:00,30:00,40:00,50:00&quot;&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;/&gt;&lt;/tt&gt;</div> </blockquote>Note: If the first line was right, chapters could only contain full minutes...<br><br>Mathis Dirksen-Thedens 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152017" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1152018"></a>
+
+
+
+<h4>
+        More tips, including HDTV to <b style="color:black;background-color:#a0ffff">DVD</b><!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Administrator
+ on                 May 04, 2006 03:29 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              This article was very helpful and launched me into a related and much needed project: HDTV to <b style="color:black;background-color:#a0ffff">DVD</b>.<br />
+<p><br />
+All of what I learned is documented as a HOWTO in my blog. Partly so I wouldn't forget how I got everything working, haha. Maybe this will be helpful to others.<br />
+</p><p><br />
+I used the info here and many hours of research and testing to come up with a satisfactory recipe for archiving HDTV.<br />
+</p><p><br />
+The biggest problem I had was audio/lip sync. This is fixed with an excellent tool: ProjectX.  ProjectX took me a while to get installed &amp; running and I documented it on my blog. I have spent hours (days?) trying various tools to 'fix' the hdtv mpeg files, and so far only projectx does the corrections automagically.  Awesome tool.<br />
+</p><p><br />
+PX demuxes &amp; creates two files (from the hdtv/atsc hidef files created by MythTV): One for video, one for audio.  This presented a new problem, what tool(s) to use to convert the video file to the <b style="color:black;background-color:#a0ffff">DVD</b> standard. After much reading, I settled on avidemux2.  The next problem was that I needed to run avidemux2 on my fast P4 server (because encoding takes a lot of cpu), but my fast server is my myth frontend and that has a plasma monitor. The plasma monitor does not support the high resolutions that PC monitors have, and this is important because when you load a HD file in avidemux the window is sometimes so large that you can't see all of the controls/buttons! So, I ran avidemux remotely via X11 over ssh. To get around a weird error with GTK (used by avidemux), I hunted and learned that I needed to run ssh with the &quot;-Y&quot; switch.<br />
+</p><p><br />
+Back to video: Following one of the many guides on avidemux, I converted the hdtv mpg video to <b style="color:black;background-color:#a0ffff">dvd</b> format. Then I used mplex to mux the <b style="color:black;background-color:#a0ffff">dvd</b> format video with the ac3 audio file created by projectx.  This&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;.mpg file is just like the one described by the article here (&quot;your_video.mpg&quot;). Then I just followed the rest of this article.<br />
+</p><p><br />
+I really wanted to use the simpler steps in this article, but was forced to use projectx due to the typical glitches that will be in most atsc/hdtv recordings.<br />
+</p><p><br />
+I'm now able to free up disk space on my mythtv backend by archiving (compressing) to <b style="color:black;background-color:#a0ffff">DVD</b>. Thanks to this article, I would not have been inspired to climb this mountain. Nice article!<br />
+</p><p><br />
+Donn Lee</p> 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1152018" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1168717"></a>
+
+
+
+<h4>
+        Convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> with open source tools<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous
+                   [ip: 129.137.166.223]
+ on                 October 26, 2007 05:54 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              The mplayer distribution also includes a script wrapper to the -identify option called midentify.  This is a much simpler way to get information than directly calling mplayer -identify. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1168717" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1172229"></a>
+
+
+
+<h4>
+        Convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> with open source tools<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous
+                   [ip: 85.73.122.72]
+ on                 December 05, 2007 11:02 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Excellent ..<br />
+.. or you can just use DeVeDe and get it over with 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1172229" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1180452"></a>
+
+
+
+<h4>
+        Convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> with open source tools<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous
+                   [ip: 212.100.208.147]
+ on                 January 19, 2008 11:58 AM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              Can any help on converting wmv to avi or <b style="color:black;background-color:#a0ffff">DVD</b> 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1180452" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1180454"></a>
+
+
+
+<h4>
+        Convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> with open source tools<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     Anonymous
+                   [ip: 124.168.173.211]
+ on                 January 19, 2008 12:31 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              This was a fantastic guide, thankyou very much for this! Everything went smoothly thankfully. 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1180454" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+    <div class="xar-accent-outline xar-cm-comment">
+    <div>
+         <a name="1183703"></a>
+
+
+
+<h4>
+        Convert any video file to <b style="color:black;background-color:#a0ffff">DVD</b> with open source tools<!-- #$loop:item['xar_title']# -->
+               </h4>
+<!-- show changelog -->
+<!-- end changelog -->
+           <span class="xar-sub">
+Posted by:                     intel17
+ on                 February 28, 2008 04:41 PM</span>
+       </div>
+       <div class="xar-accent xar-cm-comment">
+
+                 
+            
+              One of the best articles I have ever read!<br />
+Thank you all worked amazingly ^_^ <br />
+<br />
+Cowboy Bebop Time :D<br />
+[Modified by: intel17 on February 28, 2008 04:42 PM]<br />
+ 
+
+                <p>
+                    <a href="http://www.linux.com/?module=comments&amp;func=display&amp;cid=1183703" title="Permalink" rel="bookmark">
+                       #
+                   </a>
+               </p>
+
+       </div>
+
+</div>
+
+<h4>This story has been archived. Comments can no longer be posted.</h4>
+</div>
+                        			</div>
+		</div>
+		<br style="clear: both" />
+		<div style="position: relative;">
+			<div class="col2">
+							<div class="block" id="ad_pos_10">
+<div id="fad10"><!-- DoubleClick Ad Tag -->
+<script type="text/javascript">
+//<![CDATA[
+    document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.linux/'+thiscat+'_p10_bottom_2nd;pg='+thispage+';logged_in='+thisuser+';tile='+dfp_tile+';'+thistpc+'sz=300x250,336x280;ord='+dfp_ord+'?"><\/script>');
+    dfp_tile++;
+//]]>
+</script>
+<!-- End DoubleClick Ad Tag -->
+</div></div>
+						</div>
+			<div class="col2">
+							<div class="block" id="ad_pos_7">
+<div id="fad7"><div><div>
+<!-- DoubleClick Ad Tag -->
+<script type="text/javascript">
+//<![CDATA[
+    document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.linux/'+thiscat+'_p7_bottom_1st;pg='+thispage+';logged_in='+thisuser+';tile='+dfp_tile+';'+thistpc+'sz=728x350;ord='+dfp_ord+'?"><\/script>');
+    dfp_tile++;
+//]]>
+</script>
+<!-- End DoubleClick Ad Tag -->
+</div></div></div></div>
+						</div>
+		</div>
+		<br style="clear: left" />&nbsp;
+</div>
+</div>
+</div>
+</div> 
+</div> 
+</div> 
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+    </div>
+</div>
+<div class="block" id="ad_pos_1">
+<div id="fad1"><div><div>
+<!-- DoubleClick Ad Tag -->
+<script type="text/javascript">
+ //<![CDATA[
+    document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.linux/'+thiscat+'_p1_leader;pg='+thispage+';logged_in='+thisuser+';tile='+dfp_tile+';'+thistpc+'sz=728x90,468x60;ptile=3;ord='+dfp_ord+'?"><\/script>');
+    dfp_tile++;
+//]]>
+</script>
+<!-- End DoubleClick Ad Tag -->
+</div></div></div></div>
+<div class="block" id="ad_pos_5">
+<div id="fad5"><div><div>
+<!-- DoubleClick Ad Tag -->
+<script type="text/javascript">
+//<![CDATA[
+    document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.linux/'+thiscat+'_p5_bottom_leader;pg='+thispage+';logged_in=+thisuser+;tile='+dfp_tile+';'+thistpc+'sz=728x90,468x60;ord='+dfp_ord+'?"><\/script>');
+    dfp_tile++;
+//]]>
+</script>
+<!-- End DoubleClick Ad Tag -->
+</div></div></div></div>
+<div id="ft">
+<div class="block" id="footer">
+<p style="margin-bottom: .5em">
+<small>
+&copy; Copyright 1999-2008 - 
+<a href="http://web.sourceforge.com" title="Network which provides and promotes Open Source software downloads, development, discussion and news.">SourceForge</a>, Inc., All Rights Reserved
+<br />
+About 
+<a href="/about/" title="Learn more about Linux.com"><b style="color:black;background-color:#99ff99">Linux</b>.com</a>
+&nbsp;-&nbsp; 
+<a href="http://web.sourceforge.com/privacy.php" title="Privacy" >Privacy Statement</a>
+&nbsp;-&nbsp; 
+<a href="http://web.sourceforge.com/terms.php" title="Terms" >Terms of Use</a>
+&nbsp;-&nbsp; 
+<a href="http://web.sourceforge.com/media_kit.php" title="Advertise on our network">Advertise</a>
+&nbsp;-&nbsp; 
+<a href="http://web.sourceforge.com/trademark.php" title="Legal Trademark information">Trademark</a>
+&nbsp;-&nbsp; 
+<a href="/forums" title="Ask Linux Questions">Ask <b style="color:black;background-color:#99ff99">Linux</b> Questions</a>
+&nbsp;-&nbsp; 
+<a href="/writeforus/" title="Write for us">Write for Us</a>
+&nbsp;-&nbsp;
+<a href="/feature?theme=rss" title="Add our feed to your site">RSS Feed</a>
+<br />
+<a href="http://www.thinkgeek.com/?cpg=tb" title="Stuff for Smart Masses">ThinkGeek</a>
+&nbsp;-&nbsp; 
+<a href="http://slashdot.org" title="News for Nerds">Slashdot</a>
+&nbsp;-&nbsp; 
+<a href="http://sourceforge.net" title="The world&#39;s largest development and download repository of Open Source code and applications">SourceForge.net</a>
+&nbsp;-&nbsp; 
+<a href="http://freshmeat.net" title="Web&#39;s largest index of Unix and cross-platform software and themes">freshmeat</a>
+&nbsp;-&nbsp; 
+<a href="http://www.techsay.com/default.php?page=join.php&amp;p=ostg&amp;CID=LINUXCOM" title="Help us make our network better">Surveys</a>
+&nbsp;-&nbsp; 
+<a href="http://jobs.linux.com/" title="Jobs">Jobs</a>
+</small>
+</p>
+<!-- <script type="text/javascript" src="http://cetrk.com/pages/scripts/0006/7810.js"> </script> -->
+
+</div>
+    <div class="badges">
+        <a class="xc-badge-tableless" href="http://www.webreference.com/authoring/style/sheets/layout/" title="Tableless layout"> <img src="http://c.fsdn.com/lc/images/csstableless.gif" alt="Tableless layout" /> </a> <a class="xc-badge-xhtmlvalidate" href="http://validator.w3.org/check?uri=referer" title="Validate XHTML 1.0 Strict"> <img src="http://c.fsdn.com/lc/images/xhtml10.gif" alt="Validate XHTML 1.0 Strict" /> </a> <a class="xc-badge-cssvalidate" href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.linux.com/index.php" title="Validate CSS"> <img src="http://c.fsdn.com/lc/images/css.gif" alt="Validate CSS" /> </a> <a class="xc-badge-tableless" href="http://www.xaraya.com/" title="Powered by Xaraya"> <img src="http://c.fsdn.com/lc/images/microbadge.gif" alt="Powered by Xaraya" /> </a>
+   </div>
+   <p id="footermsg">
+</p>
+</div>
+
+   <script type="text/javascript">
+   pageTracker._trackPageview();
+   </script>
+     
+   </body>
+ </html>
+

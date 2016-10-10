@@ -1,0 +1,203 @@
+<pre>
+How to add chapter marks to audio books, using opus codec
+
+The kind of chapter information we want to add to .ogg and .opus files is called 'ogg chapter extension'
+More info on the format itself is here: https://wiki.xiph.org/Chapter_Extension
+
+Source of the m4b audio book file, and picture downloaded from: 
+http://wiki.librivox.org/index.php/M4B_Catalog
+https://librivox.org/the-recluse-by-william-wordsworth/
+
+
+Note: This tutorial audio part of files using opus codec. 
+If you wish to use different codec, instead of "-c:a opus -b:a 16k", use "-c:a copy" to copy audio, or "-c:a libmp3lame -b:a 64k" to encode using a different codec. 
+
+(Changing output extension to .mp3 also helps. Haven't tried that one when adding chapter marks. It may not leave chapter marks in the file.)
+
+
+
+Using FFMPEG to create...:
+
+MKA container (easiest one to create):
+
+
+-First, extract cover image from m4b audio book to file d:\book.jpg (if there is one inside the m4b file.) Or download it from the web if available.
+ffmpeg.exe -i D:\book.m4b  -c copy d:\book.jpg
+
+"-c copy" says to copy stream without reencoding. If file is not in jpg, dont use "-c copy". 
+You may open file in mpc-hc, or in vlc, or running ffmprobe -i d:\book.m4b, to see what format cover image is in.
+
+
+-Next, to create .mka file with chapters using FFMPEG, following command is used:
+ffmpeg.exe -i D:\book.m4b   -attach d:\book.jpg -metadata:s mimetype="image/jpeg"  -metadata:s filename="book-cover.jpg"  -c:a opus -b:a 16k  "D:\book_with_chapters.mka"
+
+"-i D:\book.m4b" means source of audio is "D:\book.m4b"
+"-attach d:\book.jpg -metadata:s mimetype="image/jpeg"" means attach image  (optional)
+"-metadata:s filename="book-cover.jpg"" is the name under which it will be added to the output file. (optional)
+"-c:a opus -b:a 16k" is audio codec and type. Audio is encoded using opus codec, if you do not wish to change audio codec, use "-c:a copy" instead of "-c:a opus -b:a 16k")
+
+You can put "book.jpg"  or "anything.jpg" instead of "book-cover.jpg". Here is changed to "book-cover.jpg" for clarity. 
+It signifies the filename that will be displayed in file properties, when playing the file with mpc-hc, or vlc.
+Part "-attach ... book-cover.jpg" is optional. You can create audio book without cover, if you wish.
+
+In this example, metadata, which includes title, artist, chapter info, and such, is copied directly from book.m4b. 
+Cover image is added using the command before that. 
+
+This copying of textual meta information, from m4b file,  only works for mka file as output, not for ogg or opus.
+
+
+NOTE:
+Say you have m4b file with cover image, and you wish to convert it to mkv format. Now, mkv container can contain video too, unlike mka container.
+If you use the command:
+ffmpeg.exe -i D:\book.m4b   -attach d:\book.jpg -metadata:s mimetype="image/jpeg"  -metadata:s filename="book-cover.jpg"  -c:a opus -b:a 16k  "D:\book_with_chapters.mka"
+it will encode cover image as video in the output file, which is not good.
+Add "-map 0:a" to the command line, which says: from the first file (0), take audio stream only (a). Example:
+ffmpeg.exe -i D:\book.m4b   -attach d:\book.jpg -metadata:s mimetype="image/jpeg"  -metadata:s filename="book-cover.jpg"  -map 0:a -c:a opus -b:a 16k  "D:\book_with_chapters.mkv"
+Which will copy audio only from the first file.
+You can also add "-map 0:s" which will copy subtitle too. Example with both:
+ffmpeg.exe -i D:\book.m4b   -attach d:\book.jpg -metadata:s mimetype="image/jpeg"  -metadata:s filename="book-cover.jpg"  -map 0:a -map 0:s -c:a opus -b:a 16k  "D:\book_with_chapters.mkv"
+I believe cover image has to be added as attachment, and cannot be encoded from original file directly. This might be incorrect.
+
+
+
+
+
+
+
+
+OPUS container:
+-To create .opus file with chapters, following command is used
+(opus codec is inside, naturally):
+fmpeg.exe -i D:\book.m4b -i D:\metadata.txt -map_metadata 1 -c:a opus -b:a 16k "D:\book_with_chapters.opus"
+
+
+OGA (ogg audio) container with Opus codec inside:
+
+-To create .oga file with chapters, replace extension of the output file with ".oga". Otherwise command is the same as the one for opus file, ffmpeg does the rest:
+fmpeg.exe -i D:\book.m4b -i D:\metadata.txt -map_metadata 1 -c:a opus -b:a 16k "D:\book_with_chapters.oga" 
+
+"-i D:\book.m4b" means source of audio is "D:\book.m4b"
+"-map_metadata 1" says use metadata from the second file (D:\metadata.txt)
+"-c:a opus -b:a 16k" is audio codec and type. Audio is encoded using opus codec.
+
+Format of metadata.txt is:
+-Header is a ';FFMETADATA' string, followed by a version number (now 1).
+(from https://www.ffmpeg.org/ffmpeg-all.html#Metadata-1)
+-Then comes metadata of the form 'key=value' 
+Don't add 'encoder' tag in the txt file, as it tends to confuse ffmpeg, and move last key up.
+
+--file begins here--
+;FFMETADATA1
+title=The Recluse
+artist=William Wordsworth
+album=The Recluse
+comment=http://archive.org/details/recluse_1404_librivox
+CHAPTER01=00:00:00.000
+CHAPTER01NAME=01 - The Recluse (pages 1-18)
+CHAPTER02=00:15:32.010
+CHAPTER02NAME=02 - The Recluse (pages 19-36)
+CHAPTER03=00:30:33.012
+CHAPTER03NAME=03 - The Recluse (pages 37-54)
+--file ends here--
+
+Save it as ANSI/ASCII text file. You can do this using notepad.
+(Don't include -- lines. Comment is optional.)
+
+
+If you already have audio prepared as opus codec, use it as a source of audio. also, audio codec is "-c:a copy", since we do not need to reencode it again.
+fmpeg.exe -i D:\book.opus -i D:\metadata.txt -map_metadata 1 -c:a copy "D:\book_with_chapters.opus"  
+
+(I do not know how to use command line, to add cover image to opus/oga/ogg file.
+Mp3tag, from mp3tag.de can add cover image to opus files. 
+It can also edit ogg/oga files but only with VORBIS codec inside, not with OPUS codec inside. (Vorbis codec makes bigger files)
+To do so, drop file into mp3tag program windows. Right click on file, select extended tags, and edit.)
+
+
+NOTE:
+Say you have m4b file with cover image, and you wish to convert it to ogg format. Now, ogg container can contain video too, unlike oga container.
+If you use the command:
+fmpeg.exe -i D:\book.m4b -i D:\metadata.txt -map_metadata 1:s -c:a opus -b:a 16k "D:\book_with_chapters.ogg" 
+it will encode cover image as video in the output file, which is not good.
+Add "-map 0:a" to the command line, which says: from the first file (0), take audio stream only (a). Example:
+fmpeg.exe -i D:\book.m4b -i D:\metadata.txt -map 0:a -map_metadata 1 -c:a opus -b:a 16k "D:\book_with_chapters.ogg" 
+Which will copy audio only from the first file.
+
+
+
+
+
+
+
+Using MMG to create audio books in mka container:
+Program mmg.exe from mkvtoolnix package can be used to put already compressed audio to .mka  container file. It is a program with graphical interface.
+Image can be added too, as an attachment. https://www.bunkus.org/videotools/mkvtoolnix/
+
+MMG needs in 'ogg chapter' format. Make a file chapters.txt, and add it in the mmg program (globa/chapters/browse):
+--
+CHAPTER01=00:00:00.000
+CHAPTER01NAME=01 - The Recluse (pages 1-18)
+CHAPTER02=00:15:32.010
+CHAPTER02NAME=02 - The Recluse (pages 19-36)
+CHAPTER03=00:30:33.012
+CHAPTER03NAME=03 - The Recluse (pages 37-54)
+--
+
+
+OTHER PROGRAMS:
+Mp3tag from mp3tag.de can add cover image to the audio file.
+Kid3 from kid3.sf.net can add it using command line, or gui.
+There is also vorbiscomment.exe for ogg files.
+There is also easytag.
+
+Mp4box can only work with ogg containers with vorbis codec inside.
+
+
+
+OTHER FFMPEG COMMANDS
+
+-extract book cover as an image:
+ffmpeg.exe -i D:\book.m4b d:\book-cover.jpg
+(You can get this information using ffmpeg -i inputfile )
+
+
+-display file info
+ffmpeg -i D:\book.m4b
+
+-extract metadata to ffmetadata text file. You can open it with wordpad, or notepad+ :
+
+ffmpeg.exe -i D:\book.m4b -f ffmetadata D:\ffmetadata.txt
+(Ffmetadata.txt is in different format than metadata.txt, although first line inside is the same.
+Ffmetadata format is used with mka files. Oga/opus files use different format, that is chapters are written differently. And it is ansi/ascii encoding.)
+
+
+-you can also extract chapter info to a simple csv file
+(This is not used directly in the process of adding chaper marks.)
+
+ffprobe.exe -i D:\book.m4b -print_format compact -sexagesimal -show_chapters > D:\metadata-compact.txt
+or in slightly different way to separate columns:
+ffprobe.exe -i D:\book.m4b -print_format csv -sexagesimal -show_chapters > D:\metadata-csv.txt
+
+
+
+The following only works for mka, not oga/opus files. (You can add cover using attach command mentioned above):
+-create mka, using ffmpeg, BUT copy information from external M4B file:
+(if the audio is not already encoded)
+ffmpeg.exe -i d:\book.mp3 -i D:\book-with-info.m4b -map_metadata 1 -c:a opus -b:a 16k "D:\book_with_chapters.mka" 
+
+(if the audio is already encoded)
+ffmpeg.exe -i d:\book.opus -i D:\book-with-info.m4b -map_metadata 1 -c:a copy "D:\book_with_chapters.mka" 
+
+-create mka, using ffmpeg, BUT copy information from external FFMETADATA.TXT file
+To get ffmetadata: ffmpeg.exe -i D:\book.m4b -f ffmetadata D:\ffmetadata.txt
+Note: Here we use unmodified ffmetadata file, which is different from oga/opus/mmg chapters format. 
+ffmpeg.exe -i d:\book.mp3 -i d:\ffmetadata.txt -map_metadata 1 -c:a opus -b:a 16k "D:\book_with_chapters.mka" 
+
+
+
+
+-More examples of mp3, mp4, ogg and opus files with chapters info:
+https://auphonic.com/blog/2013/07/03/chapter-marks-and-enhanced-podcasts/
+
+-Free books in m4b format, with chapter marks:
+http://wiki.librivox.org/index.php/M4B_Catalog
+http://www.naxosaudiobooks.com/m4b.htm )

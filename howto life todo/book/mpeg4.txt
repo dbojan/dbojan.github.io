@@ -1,0 +1,6 @@
+ DEVSDT mpeg4
+ D A    mpeg4aac
+ D VSDT mpegvideo
+ DEVSD  msmpeg4
+ DEVSD  msmpeg4v1
+ DEVSD  msmpeg4v2

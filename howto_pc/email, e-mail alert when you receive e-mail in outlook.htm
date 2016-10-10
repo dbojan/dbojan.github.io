@@ -1,0 +1,156 @@
+<pre>
+
+e-mail, create new e-mail alert when you receive e-mail in outlook
+
+Note: This only works while outlook is running. You can lock your workstation with WIN + L keys.
+You can test this by sending you e-mail from yourself.
+
+This is useful if you can get sms notification when you receive mail on yournumber@YourMobileProvider.com.
+So you can set up outlook to send you e-mail, when you receive e-mail in outlook.
+Use this setup if you DO NOT WANT TO FORWARD THE WHOLE MESSAGE, for which are options already exist in outlook rules. (without the use of vbscript)
+
+Also you cannot use, 'reply using template', or 'have server reply' since it will send reply
+to the original sender. This is not what we want. 
+
+
+<b>1. Create self certificate</b> 
+using selfcert.exe, which is part of microsoft office.
+Without this, after you restart outlook, vb scripts wont run, due to security settings.
+
+-run 'C:\Program Files\Microsoft Office\Office16\selfcert.exe'
+Enter 'Your Name - Outlook'
+
+
+<b>2. Create VB script in outlook that does all the job</b>
+
+-open outlook 2016
+-press alt + F11 to get into vb script editor
+-right click on project1 and select 'insert module'
+-enter the following text in the editor screen, without --start--, and --end--:
+
+--start--
+Sub SendNew(Item As Outlook.MailItem)
+MsgBox "Mail message arrived"
+Dim objMsg As MailItem
+Set objMsg = Application.CreateItem(olMailItem)
+objMsg.To = "yournumber@YourMobileProvider.com, or whatever e-mail address you want notifications to arrive at"
+objMsg.CC = "you can enter yet another e-mail address to send notification to"
+objMsg.BCC = ""
+objMsg.Subject = Item.Subject & ", from: " & Item.SenderName
+objMsg.Send
+End Sub
+--end--
+
+notes:
+After everything is working, add ' in front MsgBox "Mail message arrived" so msgbox is not displayed anyomore. It will look like this:
+'MsgBox "Mail message arrived"
+or just delete that line.
+This will display message box info window, so you know your script is running.
+
+You can use Item.SenderEmailAddress instead of Item.SenderName if you want.
+CC, and BCC will be cleared. (On the e-mail you send).
+
+If you wish to add first 75 chars of the messsage body, to the new message subject line, use this:
+objMsg.Subject = Mid(Item.SenderName, 1, 10) & ", " & Item.Subject & ", " & Mid(Item.Body, 1, 75)
+It creates new subject with 10 chars of the sender name + item subject + 75 chars of the messsage body.
+
+<b>3. Sign your project in vb script editor</b>
+
+-start outlook, press alt + F11, 
+-make sure project is selected in the left screen. if there is only one project then it is selected by default.
+-select from the menu 'tools'/'digital signature'
+-click on 'choose' to choose your newly created certificate.
+-select certificate, click on ok. 
+-in the small Digital signature window, it should say something like 'This vba project is currentlu signed as', your name here...
+-click on 'tools'/'digital signature' to check if it is signed.
+-your whole PROJECT will be signed, not just one module
+-close vb editor window.
+
+
+
+<b>4. Create new rule in outlook</b>
+
+-click on file, and select 'manage rules and alerts' on the right pane.
+-click on 'new rule'
+-click on the 'apply rules on messages I receive' at the mid-bottom part, next
+-next, outlook will inform you this rule will be applied to all the messages you recieve
+ (otherwise, you can enter here a mail sender by choosing 'from people or public group')
+-select 'run a script', click on 'a script' at the botom
+-select your script, 'Project.SendNew'
+-next, next, finish.
+
+
+
+<b>5. Allow your signed macro to r</b>un.
+
+-send yourself a message, and restart outlook.
+
+-note: make sure your macro security in 'the trust center' is set to:
+ 'warnings for signed macros, all unsigned macros are disabled'
+ 
+-when new message arrives, you should see window: 'microsoft office outlook security notice'
+
+-click on 'show signature details'
+if it is your signature, click on 'trust all documents from this publisher'
+
+-if you get error 'all macros are disabled', delete your rule and try again.
+or delete script and recrate it again. make sure script is signed, by going to
+'tools'/'digital signature' in vb editor.
+
+-if all goes well, add ' in front of MsgBox "Mail message arrived", in vb script editor, or delete that line.
+-save your project by clicking on blue floppy disk icon.
+
+-it is generally bad idea to disable security for all macros, in case you are thinking about that.
+
+
+
+
+
+
+<b>6. bonus/alternative ANOTHER option is to 'start an application' instead, using the rules</b> 
+(create bat file that uses sendmail.exe and gmail account to send you email.)
+no subject and sender information, though.
+
+something like this:
+save 'sendnewmail.bat' file in mailsend dir.
+change first 3 lines that start with 'set'
+
+--start--
+@echo off
+cd /d %~dp0
+
+set user="your newly created gmail account@gmail.com"
+set password="gmail pass"
+set to="enter destination mail"
+set from=%user%
+set subject="You've got mail"
+mailsend.exe -t %to% -f %from% -ssl -port 465 -auth -smtp smtp.gmail.com -sub %subject% -user %user% -pass %password% -M " "
+
+pause
+
+rem -M is for message, won't work without it, asks for message to type in.
+--end--
+
+
+You can create shortcut to bat file, and set it to run minimized. After that select shortcut to run from outlook rules screen.
+Make sure you select to display all files, not just .exe in the 'select an application to execute' window.
+
+if you wish to send attachment, you can use sendmail for that too: 
+mailsend -t %to% -f %from% -ssl -port 465 -auth -smtp smtp.gmail.com -sub %subject% -user %user% -pass %password% -attach "path to file","application/octet-stream",a
+to use multiple address separate 'to' field addresses with commas, but don't spam people!
+
+(vba project is saved in C:\Users\bojan\AppData\Roaming\Microsoft\Outlook\VbaProject.OTM
+if you delete it, you will delete your vb scripts in outlook.)
+
+-Also, remember to login to your mobile provider mail account and delete excess mail, so your inbox does not
+overflow.
+
+
+
+sources: 
+-http://jmerrell.com/2011/05/25/outlook-macro-stops-working-doesnt-work/
+-http://superuser.com/questions/54351/how-do-i-add-custom-scripts-to-outlook
+-http://www.slipstick.com/outlook/rules/send-a-new-message-when-a-message-arrives/
+-https://social.msdn.microsoft.com/Forums/en-US/eac40496-4ff3-40dc-a896-d01cbad52623/outlook-clientside-rule-send-a-new-message-when-a-message-arrives?forum=outlookdev
+-https://social.technet.microsoft.com/Forums/exchange/en-US/23799a91-15b5-46cd-8b15-4d584342d1df/run-a-script-to-autosend-email-in-outlook-failed-you-cant-send-a-message-on-behalf-of-this-user
+(comment out vbyesno line with ')

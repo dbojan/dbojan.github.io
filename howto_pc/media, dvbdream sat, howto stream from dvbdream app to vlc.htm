@@ -1,0 +1,20 @@
+<pre>
+dvbdream sat, howto stream from dvbdream app to vlc
+dvbdream:
+1. options/preferences/lan streaming/client
+client="localhost", or ip address of your pc,
+for unicast, set last number as 255, ie: 10.0.0.255
+(to find ip address double click on network icon is systray, then click on "support"
+or click on "start"/"run", type "cmd" and press enter. type ipconfig, press enter )
+
+
+2. options/preferences/lan streaming/integration
+click on "yellow folder icon" to set path to vlc.exe
+click on ok
+
+to start multicasting, click on tools/vlc
+
+to open another stream in vlc, go to media/open network stream/ in VLC
+protocol:udp
+address:127.0.0.1
+port:1234

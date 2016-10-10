@@ -1,0 +1,29 @@
+<pre>
+How to convert doc to docx
+
+1.way (Microsoft Office NOT required)
+
+download 
+-Microsoft Office Compatibility Pack - <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=941b3470-3ae9-4aee-8f43-c6bb74cd1466&displaylang=en">here</a>
+-Microsoft Office Migration Planning Manager - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=11454">here</a>, (older version <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=13580cd7-a8bc-40ef-8281-dd2c325a5a81&DisplayLang=en">here</a>)
+
+Install both programs.
+
+edit ofc.ini from the second program. It is in the folder where you installed it.
+
+set 
+FullUpgradeOnOpen=1
+fldr=d:\source_dir_with_doc_files
+DestinationPathTemplate=d:\destination_folder
+
+
+start ofc.exe
+
+source:
+http://blogs.msdn.com/b/ericwhite/archive/2008/09/19/bulk-convert-doc-to-docx.aspx
+
+or use some of these programs:
+-doc2x (command line tool) <a href="http://sourceforge.net/projects/b2xtranslator/">here</a>
+-libre office <a href="https://www.libreoffice.org/">here</a>
+-wps office <a href="http://www.kingsoftstore.com">here</a> (The one from wps.com has expire date for saving as doc/docx.)
+-abiword <a href="http://www.abiword.org/">here</a> (Can be used from command line) 

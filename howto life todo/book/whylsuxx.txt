@@ -1,0 +1,65 @@
+1.portablity
+Windows:
+Program will most likely work in win 95/98/me/w2000/xp
+there is no linux binary compatibility or gcc binary compatibilty
+
+2. easy download & install
+win:
+download, start setup exe. press next next next
+
+most people use source, not because they love it, but because
+it is the most reliable way the program will work.
+apt, Yum?. Only pcbsd seems to understand: one file download
+one program. no matter how big.
+
+
+3.easy install drivers
+win
+insert cd press next next next.
+linux:
+recompile kernel, try modprobe (requres knowledge of chip maker)
+
+4.
+Program usability: 
+kompare user interface in K-mail and Outlook express,
+or k-mail and THunderbird.
+Overcrowded.
+
+Or konqueror and windows explorer. Three configure items in
+settings menu? 9 Menus?
+Extra side icons? How do you expect people to figoure anything in
+this mess.
+
+
+
+
+Gnome: In dialog you can have what 3 recent dirs or something stupid
+like that. Inverse yes/no buttons. What are important changes in 
+every-week-new version. Although are there improvements in KDE?
+
+Gnome: icons take too much space. As a result desktop is unusable
+in 800x600 res. in which I can use win2000 just fine. This is less
+noticable in Kde. Only if you take big fonts.
+
+
+
+
+5. Why can't I use 8 pixels font in desktop In Linux. It suxx in 
+Linux, bit works fine in win.
+
+
+6. You cannot create shortcut by draging file in the same folder in
+konqueror. Beacuse you frag file with wrong mouse key.
+
+7. you cant get konq to open html always in new window.
+not in the same (file browser)
+That's why most people set html files to open with firefox or opera.
+
+
+
+
+No amount of pretty icons, win decorations or styles
+will change usability.
+
+look and fee. Icons=look. program installation, drivers, games, ein explorer = feel.
+no amount look can make up for feel.

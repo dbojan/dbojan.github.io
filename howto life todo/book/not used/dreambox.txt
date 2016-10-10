@@ -1,0 +1,113 @@
+
+
+-vcodec mpeg4 -qscale 3.3 -vtag DX50
+-vcodec mpeg4 -qscale 3.3 -vtag DX50 -qmin 3
+
+-i input.avi -vcodec libxvid -s 512x384 -acodec libmp3lame -ab 128kb output.avi
+
+-b 400kb
+
+-aspect 4:3 ar 22050
+
+
+D:\apps\gulmencoder>ffmpeg.exe -i "d:\20100123_1946 PG_Dup01.TS"  -qscale 5 1.avi
+
+
+
+
+http://www.youtube.com/watch?v=aQDNBp6w97w
+http://www.youtube.com/watch?v=dGUCUt4X_7c&feature=related
+
+http://cardsharing.us/forum/dm-500-images/
+http://world-sat.info/index.php
+
+
+http://www.dreamboxtool.com/Gemini/The-Gemini-Project-3-6-0-for-DM500.html
+dont us 4.2 gp on clone. it will kill it.
+danger
+
+setup 4:3 if you have 4:3 tv
+
+http://www.pli-images.org/modules/file_downloads/file_downloads.php
+forum: nightly open pli builds:
+
+system settings network:
+dhcp off
+enable network
+ip 10.0.0.25
+netmask 255.255.255.0
+
+
+turn off firewall on pc.
+set ip of dm: 10.0.0.25
+set ip of PC: 10.0.0.1
+
+mount setup:
+description:1
+file system: cifs
+auto mount: on
+ip address: 10.0.0.1
+mountpoint: media/server1
+server directory: movies
+username:jack
+password:
+
+try to mount first
+then save.
+
+(advanced: "mount -t cifs //10.0.0.1/movies -o username=jack,password= /mnt/cifs1" is the original line
+if you wish to use telnet. use mount to check if dir was mounted)
+
+straming pc->dm
+
+
+download something like: OpenPLi-unstable-dm500-20100116-66.zip
+from http://www.pli-images.org/forum/viewforum.php?forum_id=32&rowstart=60
+http://www.pli-images.org/modules/file_downloads/file_downloads.php?fd_id=1&dir=/dm500
+
+
+FLASHING WITH IMAGE
+unzip, rename to root.cramfs
+type: ftp://10.0.0.25 in internet explorer
+username: root
+pass: dreambox
+
+copy root.cramfs to /tmp
+blue button:
+in menu go to software update (NOT software menu update, which needs tar.gz file)
+select manual update, yes.
+wait for the device to restart.
+
+(info from http://www.pli-images.org/modules/wiki/index.php?wakka=E1MoviePlayer :)
+
+open C:\Program Files\VideoLAN\VLC\http\.hosts in notepad.
+add 10.0.0.25
+
+on pc, start vlc.exe, 
+VIEW/ADD INTERFACE/WEB INTERFACE.
+
+(tools/preferences/input and codecs/repair avi files=always fix.)
+
+open http://10.0.0.25
+in internet explorer. 
+go to streams/settings/edit
+ip: 10.0.0.1
+movies dir: d:\movies
+dvd e:
+
+you can edit video settings for avi if you want.
+dont forget to set correct aspect ratio of your tv, to 4:3 or 16:19, or you migh lose tv picture.
+
+on DM remote: press yellow button.
+find file. press ok.
+you can use red and blue button to ffw rewin, sort of.
+and the middle ones for play and pause. and numbers for ffwd
+
+
+it can take a  while to start streaming.
+rename wmv, mkv files to avi if you cannot see them.
+
+
+
+
+

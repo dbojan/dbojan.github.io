@@ -1,0 +1,76 @@
+<pre>
+creating windows 10 pe
+
+download windows 10 adk(4gb) from
+https://msdn.microsoft.com/en-us/windows/hardware/commercialize/manufacture/desktop/winpe-create-a-boot-cd-dvd-iso-or-vhd
+
+install, select only two items (3,4gb):
+deployment tools
+windows preinstallation environment (windows pe)
+
+--
+after install is done:
+-run cmd as admin:
+-to create x86 iso:
+
+copype x86 C:\WinPE_x86
+MakeWinPEMedia /ISO C:\WinPE_x86 c:\temp\winpex86.iso
+
+-to create 64bit iso (probably cannot run x86 progs.)
+copype amd64 C:\WinPE_amd64
+MakeWinPEMedia /ISO C:\winpe_amd64 c:\temp\winpeamd64.iso
+
+file is about 250mb
+
+
+--
+
+CREATE BOOTABLE USB:
+-1. use liliusb to create bootable usb. windows7 usb download tool probably works too.
+
+-2. as admin type this
+Bootsect.exe /nt60 X:
+
+"X:" is the drive letter of your USB stick.
+
+--
+you can add your own programs to usb.
+Create 'programs' dir on usb and copy programs dirs there:
+7zip portable
+a43 (from bart pe)
+doublecommander
+freecommanderxe-32
+hdtune with oledlg.dll
+pdfviewer_PDFXCview
+turbonavigator - works but shows error. also needs oledlg.dll
+
+everest halts the machine, dont copy it to pe!
+
+--
+When booting pc, select boot menu(usually press f12 while booting), and then select usb
+
+after machine is booted:
+cd to d:\
+cd programs
+cd a43
+a43.exe
+
+copy files or whatever.
+
+--
+ROBOCOPY TO copy files?
+
+robocopy "f:\source dir" "d:\destination\source dir" /E /ndl /nfl /mt /w:0 /r:0
+add /COPYALL if you wish to copy permissions too: robocopy "f:\source dir" "d:\destination\source dir" /E /ndl /nfl /mt /w:0 /r:0 /COPYALL
+/ndl /nfl - dont display copied files, dirs, for faster
+/mt - multitred useful with lots of small files
+/w:0 /r:0 wait 0, retries 0 for files in use.
+note will not recreate mydir if not told specifically
+copyall - copy file acccess lists, sec. rights.
+
+--
+
+source:
+https://msdn.microsoft.com/en-us/windows/hardware/commercialize/manufacture/desktop/winpe-create-a-boot-cd-dvd-iso-or-vhd
+https://www.linkedin.com/pulse/how-create-usb-bootable-win-pe-windows-10-jasmin-kahriman
+http://superuser.com/questions/529120/how-to-put-win-pe-on-a-usb-thumb-drive

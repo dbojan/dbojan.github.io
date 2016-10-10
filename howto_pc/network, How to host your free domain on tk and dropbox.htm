@@ -1,0 +1,62 @@
+<pre>
+How to host your free domain on tk and dropbox
+
+PUT YOUR FILES IN DROPBOX:
+-open dropbox account
+
+-create www folder in it
+-put index.html into it, (you can write just 'hello' inside, using notepad)
+-right click on index.html, select 'copy public link'.
+
+-it will be something like:
+https://dl.dropboxusercontent.com/u/931xxx/www/john/index.html
+
+-(dont use share link, it is for something else, use 'copy public link' on index.html)
+
+
+REGISTER FREE DOMAIN
+-go to www.tk
+-register new free domain, like dbojan.tk
+-right click on 'manage domain'
+
+-go to 'management tools/url forwarding'
+-in the 'url forwarding' enter:
+-https://dl.dropboxusercontent.com/u/931xxx/www/john/index.html
+-for 'forward mode' select 'redirect'
+-wait 30 min.
+
+(if you select 'frame cloaking', your addres in web browser will stay the same, but google won't index your site.
+Also you won't be able to send links of page on your site to your friends.)
+
+
+Note: 
+Links to local pages have to end with file (file.html, or file.zip or ...), like this:
+&lt;a href="test/index.html"&gt;my link&lt;/a&gt; 
+or with a './' in front (meaning current dir) &lt;a href="./test/index.html"&gt;my link&lt;/a&gt;
+
+This will not work, cause it cannot end with a dir only: 
+&lt;a href="./test/"&gt;my link&lt;/a&gt;, 
+&lt;a href="test/"&gt;my link&lt;/a&gt;.
+
+
+Note 2:
+You can host more domains by using this folder setup
+d:\dropbox\www\myserver1\index.html
+d:\dropbox\www\myserver2\index.html
+
+etc.
+
+Note 3:
+If you don't wish to add html specific code for formating, just create text file in the notepad, make sure it ends with .html
+and add &lt;pre&gt; at the top.
+
+<hr>
+
+if you have another host service like http://www.000webhost.com
+check here http://www.bubblews.com/news/1403942-how-to-create-a-free-website
+
+more info here:
+http://alexcican.com/post/guide-hosting-website-dropbox-github/
+http://www.maketecheasier.com/4-ways-to-host-your-website-on-dropbox/
+
+(you don't need to create public folder manually: https://www.dropbox.com/en/help/16 )

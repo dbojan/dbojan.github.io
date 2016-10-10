@@ -1,0 +1,33 @@
+<pre>
+
+How to stream dvb-t channels using vlc:
+Note: you can replace vlc with cvlc, if you do not want graphical user interface. Also no memory leak?
+This is in linux, started in terminal/command line.
+
+vlc "/home/user/viva.avi"   --sout '#transcode{vcodec=theo,vb=800,scale=0.5,acodec=vorb,ab=48,channels=1}:duplicate{dst=display,dst=std{access=http,mux=ogg,dst=192.168.1.11:8080}}'
+Would stream file viva.avi in local area network, using theora codec, bitrate 800kbit, scale video to half it's size, 
+audio codec vorbis, 48kbit, 1 channel. 
+Output would be visible on local display, and it would stream from streaming machine with address 192.168.1.11, on port 8080.
+(Address of the machine vlc is started)
+If you remove "dst=display," it would only stream on the LAN, it would not show on local display
+
+
+vlc dvb:// :dvb-adapter=0 :dvb-frequency=490000000 :dvb-srate=0 :program=1  --sout '#transcode{vcodec=theo,vb=800,scale=0.5,acodec=vorb,ab=48,channels=1}:duplicate{dst=display,dst=std{access=http,mux=ogg,dst=192.168.1.11:8080}}'
+stream dvb-t frequency 490000000 Khz, program 1, same codec as above.
+
+
+vlc dvb:// :dvb-adapter=0 :dvb-frequency=490000000 :dvb-srate=0 :program=1  --sout '#transcode{vcodec=mp2v,vb=800,scale=0.5,acodec=mpga,ab=48,channels=1}:duplicate{dst=std{access=http,mux=ts,dst=192.168.1.11:8080}}'
+stream dvb-t frequency 490000000 Khz, program 1, mpeg codec, ts stream. Lower quality, less processor %.
+
+If you want to stream multiple channels you have to put inside another card and put splitter on the antenna cable.
+Change dvb-adapter to 1, program to 2, port to 8081.
+
+Or, you can try program getstream, which I haven't been able to use successfully.
+
+
+To watch the stream, open VLC, Open network stream, select http:// and add 192.168.1.11:8080.
+this will work only in local area network, (192.168.1.xxxx)
+
+
+You can use wscan to scan for channels.Here is the line for mplayer:
+w_scan -ft -c AT -X -R N -O N >> ~/.mplayer/channels.conf

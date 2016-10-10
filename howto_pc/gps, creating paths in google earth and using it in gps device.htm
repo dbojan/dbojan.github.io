@@ -1,0 +1,48 @@
+<pre>
+CREATING PATHS IN GOOGLE EARTH AND USING IT IN GPS DEVICE
+(not really related to OpenStreetMap map making)
+ 
+-click on add path in GE
+-draw a path (left click to add node, right click to delete. or del key. move with arrows.)
+-when finished enter name, description, color.
+-right click on it in "places", "save place as", enter name, "save as type"=kml
+ 
+IGO8:
+-use gpsbabelgui to convert "Google Earth (Keyhole) Markup Language (.kml)" to igo8.trk.
+-copy it to \SDMMC\iGO8\save\TRACKS or just \SDMMC\
+-start igo
+-in igo: manage/track logs
+-click on your track. select color. 
+-go back to map
+-click on 2d view to view it (2d grid in upper right corner)
+ 
+ 
+GARMIN:
+-use gpsbabelgui to convert "Google Earth (Keyhole) Markup Language (.kml)" to GPX XML (.gpx)
+-use mapsource, file open gpx file, "send to device", to send it to garmin device. 
+ 
+ 
+You can create bat file for converting files. Save content between two --- lines
+as "nmea_kml-gpx.bat"
+Put it in gps babel dir. Drag and drop file on it.
+ 
+This one will convert 1 file in kml format to igo:
+ 
+---
+cd %~dp0
+gpsbabel.exe -p "" -w -i kml -f %1 -o igo8 -F %1.trk
+pause
+---
+ 
+This one will convert 1 file in kml format to gpx for garmin:
+ 
+---
+cd %~dp0
+gpsbabel.exe -p "" -w -i kml -f %1 -o gpx -F %1.gpx
+pause
+---
+ 
+ 
+ 
+You can use OpenStreetMapLayer.kmz from <a href="http://www.markus-bader.de/?p=14">http://www.markus-bader.de/?p=14</a> to view osm data in google earth.
+Double click on kmz file.

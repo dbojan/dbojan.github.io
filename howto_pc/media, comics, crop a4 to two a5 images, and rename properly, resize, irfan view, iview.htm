@@ -1,0 +1,76 @@
+<pre>
+
+media, comics, crop a4 to two a5 images, and rename properly, resize, irfan view, iview
+
+useful for comics.
+
+<a href="crop_images.zip">Here</a> is the bat file.
+Edit as needed.
+
+It uses <a href="http://www.irfanview.com/">http://www.irfanview.com/</a>.
+Edit bat file to set path to IrfanView.
+
+Half is a half of a horizontal size of scanned image.
+So if page is 2000 x 768, enter half as 1000.
+You can find image dimensions, when you open image in the IrfanView. 
+It is at the bottom of the window.
+Or press i.
+Images are also rotated left. delete /rotate_l option if you do not need rotation.
+
+Left images have a appended, right b. :)
+
+To crop images put bat file in directory with jpg files and start it.
+It will create test dir with cropped images.
+
+
+Note:
+If you want to resize image <b>before</b> rotation use: /resample=(500,0) /aspectratio   /rotate_l.
+If you want to resize image <b>after</b> rotation use:  /rotate_l  /resample=(500,0) /aspectratio.
+This will resize image to 500 x proportional.
+
+Delete /rotate_l option if you do not need rotation.
+
+
+Explanation of settings:
+set half=1000 : half of the horizontal size
+set outdir=test : name of the output dir in current dir
+set iview=D:\apps\iview397\i_view32.exe : path to IrfanView
+set extin=jpg : extension of input images
+set extout=jpg : extension of output images
+
+
+--start bat here:
+@echo off
+cd /d %~dp0
+
+REM SET "half" to the HALF OF THE IMAGE WIDTH. If width=2000, set half to 1000.
+REM YOU CAN SEE WIDTH IN IRFAN VIEW. OPEN IMAGE IN IT, PRESS "I".
+set half=1000
+set outdir=cropped_output
+REM EDIT PATH OF IRFAN VIEWER
+set iview=D:\apps\iview397\i_view32.exe
+set extin=jpg
+set extout=jpg
+
+echo Please wait, working...
+
+REM THE LEFT HALF
+REM THE VERSION WITH THE ROTATE: %iview% *.%extin% /crop=(0,0,%half%,) /rotate_l /convert=%outdir%\*.%extout%
+%iview% *.%extin% /crop=(0,0,%half%,) /convert=%outdir%\*.%extout%
+
+rename %outdir%\*.%extout% *.a
+
+REM THE RIGHT HALF
+REM THE VERSION WITH THE ROTATE: %iview% *.%extin% /crop=(%half%,0,,) /rotate_l /convert=%outdir%\*.%extout%
+%iview% *.%extin% /crop=(%half%,0,,) /convert=%outdir%\*.%extout%
+
+rename %outdir%\*.%extout% *.b
+
+rename %outdir%\*.a *a.%extout%
+rename %outdir%\*.b *b.%extout%
+
+echo Done... Files should be in "%~dp0%outdir%" directory.
+pause
+
+
+

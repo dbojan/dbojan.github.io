@@ -1,0 +1,42 @@
+<pre>
+
+Right click on "my network places" icon on desktop. Select "properties"
+(On Vista/7 it is "change adapter settings".)
+Rename "local area connection" to "int". Or use some other name.
+
+
+-Show info for interface named int:
+netsh interface ip show config name="int"
+
+-set static address:
+(explanation: 
+netsh interface ip set address "[name of the connection]" static [ipaddr] [subnetmask] [gateway] [metric])
+
+netsh interface ip set address "int" static 192.168.1.17 255.255.255.0 192.168.1.1 1
+
+(metric is always 1, when not using dhcp)
+
+
+
+-set static dns:
+netsh interface ip set dns "int" static 192.168.1.200
+
+
+
+
+
+-Obtain ip address automatically:
+netsh interface ip set address "int" source=dhcp
+
+-Obtain dns address automatically:
+netsh interface ip set dns "int" source=dhcp
+
+
+
+
+http://support.microsoft.com/kb/257748
+http://www.petri.co.il/configure_tcp_ip_from_cmd.htm
+
+To use "Run as Administrator" always (on Vista/7), create shortcut to the bat file.
+Go to shortcut properties, then click on "Advanced" on the first screen, and select "Run as Administrator"
+

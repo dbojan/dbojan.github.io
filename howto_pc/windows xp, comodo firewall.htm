@@ -1,0 +1,22 @@
+<pre>
+Comodo firewall how to setup:
+
+Install firewall only. No antivirus.
+
+-firewall security level=custom
+-defence=disabled
+
+-right click on systray icon/open/firewall/advanced/predefined firewall policies=remove all but blocked.
+-network security policy=remove all "allowed"
+-firewall behaviour setings/alert settings=uncheck all, if you do not want to be asked for new applications. You can do this later.
+
+-open/firewall/common tasks/my network zones/local area network/a range of ip addresses=192.168.1.1-192.168.1.255
+(if your ip address is something like 192.168.1.xxx)
+
+allowing apps:
+reset computer
+comodo firewall allert: allow "svchost" app
+select block or allow for app you want. Click "remember" to save setting.
+
+If you have problems with mmorpg games:
+-open/firewall/advanced/attack detection settings/misc/block fragmeneted ip diagrams=uncheck

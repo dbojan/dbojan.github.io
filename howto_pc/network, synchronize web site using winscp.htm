@@ -1,0 +1,37 @@
+<pre>
+windows xp, synchronize web site using winscp
+
+<a href="http://winscp.net/eng/index.php">http://winscp.net/eng/index.php</a>
+
+
+If you have:
+d:\localsite, with files index.htm, test.htm,
+and want to synchronize it with your web server,
+here is how to set up winscp:
+
+Create your ftp account on winscp. Login.
+Select "d:\localsite" on the left, and webserver "/myhost.com/~mysite" on the right pane.
+Click on left pane.
+click on menu: command/synchronize, or icon in toolbar (2 rotating blue arrows).
+
+Local directory: d:\localsite
+Remote directory: /myhost.com/~mysite
+Direction/target directory: Remote
+Mode: Synchronize
+Synchronize options: Preview changes
+Comparison criteria: File size
+Transfer settings: Binary
+you can check "Use same options next time" if you want.
+
+Click OK.
+
+Note: if you click on right pane, and then click on Synchronize,
+direction will be set to Local. Which means files on the server will be compared to local files,
+and if there is a difference, webserver files will be copied to d:\localsite.
+So, make sure you select "Remote" in the settings.
+
+You will see a synchronization checklist. Changed files will be blue, new files green, delete files red.
+Arrow will point from left to right. From "d:\localsite" to "/myhost.com/~mysite".
+
+Check files you want to delete, (usually all), or click on "Check all" on the right.
+Click on OK.

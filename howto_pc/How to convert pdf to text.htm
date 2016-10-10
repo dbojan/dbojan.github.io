@@ -1,0 +1,83 @@
+<pre>
+How to convert pdf to text
+
+NON OCR (Optical character recognition)
+Free solutions
+
+We assume the text can be selected in PDF Reader. (Use the select tool, right click in Adobe Reader, select thing that looks like T, 
+and try selecting text)
+
+In this case, text is saved as letters, not images inside pdf.
+Here are the possible ways to convert PDF to text. These are free, non paying solutions:
+
+-use smallpdf.com/pdf-to-word free service. convert up to 2 files per hour. Rating 5
+-use microsoft word online. Login to onedrive.live.com, upload pdf file, and then select Open in word online. 
+ Then select edit in word online again. Rating 4.5
+-use pdf2docx.com. Up to 20 files at once. Rating 4
+
+-If you don't care about text flow, and don't care about images, select text, and copy it to Text editor/Word.
+ In Adobe Reader you can click on 'file' in the menu, 'save as other...', 'text', or 'edit', 'copy file to clipboard',
+ and paste it to word (edit/paste)
+ 
+
+others:
+-bluefox pdf converter. possibly tries to install malware. say no. converts to big doc files.
+-unipdf-some errors.
+
+
+paying:
+-ABBYY FineReader 12 Professional - 129Euro. Best, very expensive. Can do Optical character recognition too. 
+ trial version can has limitations (100 pages total, only saves first 3 pages from pdf?).
+ 
+-ABBYY PDF Transformer+ - 69Euro. Cheaper version, still expensive. I think it supports OCR too.
+ trial version can has limitations (100 pages total, only saves first 3 pages from pdf?). There is also online version. Limit 15 pages.
+
+ 
+OCR
+-ABBYY products. paying. Limited trials.
+-Tesseract-free product, command line only, text only. Rating 3. No tables, no word spacing retained in monospaced font tables.
+-www.onlineocr.net - 25 pages after you register. Rating 5.
+-pdf-xchange-viewer. free. does ocr, and save it on top of pdf. can also export pdf pages to images. (Tiff, bmp, jpg..)
+ 
+ 
+ 
+ 
+ 
+ 
+How to use Tesseract to convert pdf to text (Advanced):
+(We assume text in pdf cannot be selected, and it needs to be OCR-ed first.)
+
+Install Ghostscript to d:\apps\ocr\gs, and Tesseract-ocr to d:\apps\ocr\Tesseract-ocr.
+
+You can use this script to convert pdf to txt:
+
+Create text file in notepad. Rename it ocr-pdf.bat.
+Put it in d:\apps\ocr directory.
+(Don't add ---file... part in it), 
+
+---file start:---
+cd /d %~dp0
+gs\bin\gswin32c.exe -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -sDEVICE=tiffgray -sCompression=pack -r300  -o  %1.tif  %1 
+Tesseract-ocr\tesseract.exe  %1.tif -l eng %1-ocr 
+del %1.tif
+pause
+
+---file end---
+
+Drag and drop pdf file on ocr-pdf.bat.
+
+
+
+More info:
+If you wish to select different pages from PDF to process, use "-dFirstPage=1 -dLastPage=1" after -r2400, as such:
+
+gs\bin\gswin32c.exe -dFirstPage=1 -dLastPage=5 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -sDEVICE=tiffgray -sCompression=pack -r300  -o  %1.tif  %1 
+
+Which would convert first 5 pages to tif, and then tesseractOCR would convert them to txt, instead of working on all pages in PDF.
+
+
+
+
+--
+http://tiny.cc/dbojan
+

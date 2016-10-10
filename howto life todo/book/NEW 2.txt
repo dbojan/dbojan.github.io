@@ -1,0 +1,50 @@
+http://pan-ex.net/vidi.php?artikl=12442
+http://pan-ex.net/vidi.php?artikl=12441
+http://pan-ex.net/vidi.php?artikl=12440
+
+http://pan-ex.net/vidi.php?artikl=11376
+
+
+
+http://angelslove.net/
+
+free textbooks
+http://news.slashdot.org/story/10/08/02/222200/Sun-Founders-Push-For-Open-Source-Education
+
+if you choose between money and something else, choose something else.
+same for material things vs people. people. always.
+
+http://www.300mbmovie.com/
+
+be aware
+life is recyclable.
+ligtness remove ilness.
+grab the life. but dont break laws. rememer karma.
+
+life without fear.
+look into her eyes instead. if you keep looking in her breasts you ll never notice how beautiful eyes she has.
+
+
+expendables
+
+"you think you know me, just because you know my face"
+admit your mistakes and move on.
+
+I've worked on loooads of transcripts. I did most of these:
+
+* http://wiki.fsfe.org/Transcripts [fsfe.org]
+
+The best technique I've found is to have mplayer play the audio at 60% normal speed and have a text editor (emacs is my preference) in another window, flick between them with alt-TAB and hit Space to start and pause mplayer.
+
+To play an audio file at 60% normal speed:
+
+mplayer -af scaletempo=scale=0.6 the_file.ogg
+
+And then to check the transcript, change the 0.6 to 1.5 (or 2.0 for someone like Richard Stallman who speaks slowly and clearly).
+
+I assigned F12 to skip back 5 seconds and F9 to pause/restart
+
+do not  be 'nice' to eachother in realtionship. show some passion, some fire
+negate
+
+we should not be said for the things we lost, but be happy for the times we had.

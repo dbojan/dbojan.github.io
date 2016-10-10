@@ -1,0 +1,26 @@
+copy
+files from simple unlock 200 to sd card.
+rename - Cobia_300_64_NA to Cobia_300_32
+
+optional: 
+
+
+in appsec.ini on flash disk \program files \miomap
+set maxrestarts to 1.
+WARNING: DO NOT EDIT ANYTHING ELSE IN APPSEC.INI OR RENAME APPSEC.EXE. DEVICE FlASH DISK (NOT USB) 
+WILL BE INACESSIBLE FROM WINDOWS, IF YOU MESS WITH THESE TWO FILES.
+
+to connect later, reconnect two times with usb cable.
+to 
+
+description on process:
+it will start miomap. click on "do not accept"
+it will exit miomap, and start program from Cobia_300_32 dir on sd card.
+
+
+
+
+(Mio Moov 200 Europe : Cobia_300_32
+- Mio Moov 370 Europe : Cobia_T420_64
+- Mio Moov 200 USA : Cobia_300_64_NA
+- Mio Moov 300 USA : Cobia_400_64_NA)

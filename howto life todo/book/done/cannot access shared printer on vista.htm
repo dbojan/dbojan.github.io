@@ -1,0 +1,41 @@
+<pre>
+cannot access shared printer on vista
+
+a: Try this one first:
+
+http://chicagotech.net/netforums/viewtopic.php?t=286
+System error 1385 has occurred - Logon failure: the user has not been granted the requested logon type at this computer
+Symptoms: When using net use \\remotecomouter\ahredname, you may receive above message.
+Resolution: 1. The users do not have permission to connect to the remote computer. To resolve this problem: on the remote
+computer, select Administrative Tools>Local Security Settings>Local Policies>User Rights Assignment, right-click on 
+Access this computer from the network>Properties>Add Users or Groups, add everyone or any users you want to be able 
+to access the computer from the network.
+A: Also check "Deny access to this computer from the network" and make sure no everyone or LAN users are denied 
+to access this computer. 
+
+
+http://www.tomshardware.co.uk/forum/237711-34-adding-network-printer-vista
+1) Share Permissions 
+1. On explorer, go to C:\windows\system32\spool\PRINTERS 
+2. Right click, Properties 
+3. Sharing tab 
+4. Advanced Sharing 
+5. Check "Share this folder" 
+6. Permissions 
+7. Grant everyone Full Control 
+
+2) NTFS Permissions 
+1. On explorer, go to C:\windows\system32\spool\printers 
+2. Right click, Properties 
+3. Security tab 
+4. Edit 
+5. Add 
+6. Advanced 
+7. Find Now 
+8. Choose "NETWORK" 
+9. OK 
+10. Grant NETWORK Full Control 
+
+
+http://techrepublic.com.com/5208-6230-0.html?forumID=101&threadID=229287&messageID=2428070&tag=content;leftCol
+add as local, then change port to \\servername\printername

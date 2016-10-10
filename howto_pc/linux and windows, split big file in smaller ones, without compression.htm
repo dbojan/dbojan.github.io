@@ -1,0 +1,12 @@
+<pre>
+linux and windows, split big file in smaller ones, without compression.htm
+
+-volume 2gb, without compression
+-cd to destination: cd c:\temp\dest_dir
+
+D:\apps\7-Zip-64bit\7z.exe a destination.7z d:\source\ -v2g -mx0 -r
+
+-v2g = create max volume size 2gb, then go to next volume
+-mx0 = do not compress
+-r = recursive, add to subfolders too.
+

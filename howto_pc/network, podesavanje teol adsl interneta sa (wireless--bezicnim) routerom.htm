@@ -1,0 +1,89 @@
+<pre>
+ovde je prikazano podesavanje huawei modema (ADSL TEOL) i TP-Link TL-WR543G wireless routera
+
+TEOL ADSL
+
+napomena: pronadjite ugovor u kojem pise vase korisnickoime@adsl i vasa sifra.
+
+napomena2: ako imate viseportni adsl modem, portovi 2 i 3 se trenutno ne koriste. Ako spojite nesto na ove portove 
+nece raditi veza ka internetu. Portovi 2 i 3 su predvidjeni za IPTV.
+
+
+povezite mreznim kablom pc i adsl teol modem.
+1. podesite teol modem da radi u bridge modu:
+otkucajte http://192.168.1.1 u internet exploreru ili mozili firefox
+klik na basic/wan, podesite mode=bridge. (prije je pisalo mode=routing.)
+
+iskljucite mrezni kabl sa racunara
+
+
+2. podesite router da radi u ppoe:
+povezite mreznim kablom racunar -> router. koristite jedan od 4 lan porta. (odvojene mrezne uticnice za zadnje strane.)
+NE KORISTITE WAN PORT.
+otkucajte http://192.168.1.1 u internet exploreru ili mozili firefox
+admin i admin
+
+-"quick setup"
+-"ap router", NE AP CLIENT ROUTER,
+-PPOE
+-unesite vasekorisnickoime@adsl i vasu sifru
+-opcije za wireless:"enable", encryption="wep", Automatic, ASCII, 64bit
+-klik ispred "key 1"
+-unesite sifru koju ce korisnici morati ukucati ako zele da se prikljuce vasem wirelessu
+(ovo NIJE sifra koja ide uz vasekorisnickoime@adsl)
+-sifra treba da bude 5  dugacka cifara/slova.
+-klik na submit
+
+-klik na network/lan
+-promijenite ip adresu sa 192.168.1.1 na 192.168.2.1. predzadnja cifra je 2.
+-ip adresa rutera ce se promijeniti na 192.168.2.1.
+-restartujte ruter ako je potrebno (reboot, ovo se obicno automatski odradi.)
+
+
+(ako zeliti promijeniti sifru za pristup podesavanja routera, klik na
+system/security. fabricka sifra je admin/admin. Ovo nije podesavanje sifre za  pristup internetu, nego podesavanja samog rutera.)
+
+
+
+povezite mreznim kablom adsl teol modem i WAN port rutera.
+povezite mreznim kablom LAN port rutera i pc, ako vec niste.
+
+provjerite da li vam radi internet na racunaru.
+
+
+---
+AP
+
+koristenje Access pointa: povezite mreznim kablom ADSL modem -> Access point. Drugim kablom
+povezite access point sa racunarom, ili korisitite bezicnu konekciju.
+(Windows xp: 
+-desni klik na na ikoni pored sata, u donjem desno uglu.
+-view available wireless connections, /refresh/connect)
+Za BLIC i ELTU se ne moze koristiti access point, samo ruter, 
+koji je obicno i jeftiniji od Access pointa).
+
+
+
+
+BLIC WADSl
+
+povezite mreznim kablom racunar -> router. koristite jedan od 4 lan porta.
+Podesite ruter da radi u PPOE modu.
+(quick setup/ap router/ppoe ...)
+
+nakon toga spojite blic mrezni kabl na wan port rutera
+
+
+
+ELTA:
+
+povezite mreznim kablom racunar -> router. koristite jedan od 4 lan porta.
+Podesite ruter da radi u PPOE modu.
+(quick setup/ap router/ppoe ...)
+
+nakon toga spojite elta mrezni kabl na wan port  rutera
+
+
+
+--
+http://dbojan.co.cc

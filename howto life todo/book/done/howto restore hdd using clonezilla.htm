@@ -1,0 +1,25 @@
+<pre>
+howto restore hdd using clonezilla
+
+-USB Stick 1
+-put clonezilla iso on usb using "unetbootin-windows"
+
+-USB Stick 2
+-format as fat32
+-Copy all files to device, minus Clonezilla.iso  to directory "restore"
+
+
+-start windows setup by booting from winxp cd. create single ntfs partition, quick format.
+-eject disk when copying files starts.
+-restart
+
+-boot from usb1 (press f12 to enter boot menu)
+-select "clonezilla live"
+-"device-image disk/parition to/from image"
+-"local_dev"
+-"sdc1 vfat" (select VFAT, any other than sda1, which is "usb stick" you booted from. Sdc1 is where your image is stored)
+-enter
+-"restoredisk"
+-uncheck "-g auto"
+-"sda"
+-ok

@@ -1,0 +1,40 @@
+<pre>
+Mark all duplicates in excel 2007, libre office, and wps spreadsheet.
+
+
+
+in 2007 excel to find duplicates:
+-select column with duplicates
+-Home > Conditional Formatting > Highlight Cell Rules > Duplicate Values
+(untested)
+
+
+
+libre office calc
+-select column with duplicates
+-Format /Conditional Formatting/cells
+-select "Cell Value is" in first combo box
+-in the second combo box, select "duplicate"
+-select some style, or click on "new style", and change cell background setting (in new window.)
+(-you can change range at the bottom of the window, if you wish)
+
+
+
+wps spreadsheet/
+-open new empty excel document
+-copy column with duplicates to new new excel document, in column "A"
+
+-select column with duplicates
+-Home / Format /Conditional Formatting
+-select "Formula is" in first combo box
+-in the next text box enter "=COUNTIF($A$1:$A$100,A1)>1" without quotes
+-replace 100 with the number of rows in your data.
+-click on format to change the way duplicates are marked.
+-you can chage font color to red, or change cell background to some color to see the difference.
+
+
+
+
+
+
+source: http://www.mrexcel.com/forum/excel-questions/501617-highlight-duplicates-whole-worksheet-excel-2003-a.html

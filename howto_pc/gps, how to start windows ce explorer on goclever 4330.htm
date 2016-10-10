@@ -1,0 +1,20 @@
+<pre>
+how to start windows ce explorer on goclever 4330:
+
+create GPSSHELL.INI with following text:
+
+[Navi0]
+start=\Windows\Explorer.exe
+handle=Explorer
+stop=
+nowait=1
+
+- put it on  sd card. Put sd card in device. wait for the sound signal. click on the first icon in the device.
+OR
+
+Create file AutoLaunchShell.exe in \SDMMC\UpdateApplicationsit will be started after restart of device.
+
+[mortscript.exe: if you copy example.exe and example.mscr, when you start example.exe
+which does nothing, it will start actions written in example.mscr, like Run("\windows\explorer.exe") ]
+OR
+Create directory \mobilenavigator with Mobilenaigator.exe on sd card. It will be started automatically.

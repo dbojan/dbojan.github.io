@@ -1,0 +1,86 @@
+<pre>
+
+Windows 7 libraries in Windows xp
+
+Download <a href="http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html">LinkShellExtension</a>
+
+Let's say you have h:\trailers folder, and want to add it to q:\collection folder, without moving files.
+
+right click on h:\trailers, "pick link source"
+right click on q:\collection, "drop as junction"
+You will have link to h:\trailers in q:\collection, created as a junction. Like a "live update" link to a folder.
+When you search files in q:\collection, it will show files from h:\trailers, too.
+You can rename "q:\collection\trailers" to "q:\collection\trailers on h", if you want.
+
+
+
+In linux/mac you could use: (untested)
+ln –s /source_dir /destination_dir. Example:
+ln –s /home/trailers /mnt/sdb1/collection
+would create link to trailers in collection dir.
+I have not tested this.
+
+More info <a href="http://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/">here</a>
+
+
+
+<b>Dropbox + LSE</b>
+You can use <a href="http://www.dropbox.com/">Dropbox</a> together with LSE.
+Dropbox monitors "my dropbox" dir, and synchronizes it with its own server.
+When you logon to another machine, changes/updates are downloaded to another machine.
+
+If you have c:\game\savedir\save.dat
+move savedir to "my dropbox" dir:
+-right click on "savedir", select move.
+-right click on "d:\apps\dropbox\my dropbox", select paste
+
+create junction (link):
+-right click on d:\apps\dropbox\my dropbox\savedir, select "pick link source"
+-right click on c:\game, and select "drop as junction"
+
+
+
+
+NOTE:
+8/25/2010 
+-This will not work if you move FILE save.dat to "my dropbox" and then create hardlink in c:\game\savedir,
+ instead of directory with files in it.
+ In time file will be replaced with it's copy, instead of hardlink. It will not be synchronized with other machines.
+ If you need to sync just one file in directory, either create new directory and move file in it, or sync the whole  directory.
+
+ If you edit it directly, like text.doc, move it to dropbox folder, and create regular shortcut to it.
+ (Move file to "my dropbox". Right click on file in "my dropbox","Send to/Desktop-create shortcut")
+
+
+-Keeping "savedir" in "c:\game", and creating junction in "my dropbox" dir instead, also reportedly has some problems.
+ 
+Moving original DIRECTORY "savedir" to "my dropbox" and creating JUNCTION in "c:\game" works for me so far.
+
+I
+
+
+Note 2:	To keep things organized, you can create subdir in "my dropbox", and name it game,
+	so you would have d:\apps\dropbox\my dropbox\game\savedir. Then right click on savedir, "pick link source" ...
+	Useful if you have several dirs with the same name. This is optional.
+
+
+
+This way you can keep directories synchronized over more desktops.
+Also you can synchronize directories which are required outside of the dropbox dir.
+
+
+More info <a href="http://maketecheasier.com/make-the-most-of-dropbox-part-i/2010/05/20">here</a>, part 5.
+
+
+
+<b>WARNING</b>
+If you delete file or folder in junction, or the junction itself, using windows explorer "Delete" menu entry,
+file will be deleted from the original location. Especially if it is too big for Recycle Bin.
+
+To delete Junction, right click on it, and select "Delete junction" from windows explorer.
+DO NOT use regular "Delete" menu entry, or it will delete files from original location.
+
+The author of this article takes no responsibility if you damage or delete your files.
+However, if that happens, try <a href="http://www.piriform.com/recuva">Recuva</a>.
+
+

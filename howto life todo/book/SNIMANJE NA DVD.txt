@@ -1,0 +1,29 @@
+
+
+http://www.plus.es/codigo/revista/?item=278171
+
+
+
+
+
+Subject:
+Re: SNIMANJE NA DVD
+From:
+"Cox" <nemam@mail.hr>
+Date:
+Thu, 16 Mar 2006 00:31:20 +0100
+Newsgroups:
+hr.rec.tv.satelitska.pcdvb
+
+tpvrconrelease(multiplex u dvd)
+x-muxer(razdvoji sliku i zvuk na slika(*.m2v)i zvuk(*.mpa))
+titlove sa txt2 sup prebaci u sup format(pazi na poruku na kraju konverzije)
+ifo edit - author new dvd , sve dodaj i za 30min je gotovo
+
+P.S mozes koristi i dvdpatcher  za promjenu
+bitrate-a, ali mi je shebo par filmova pa vidi sta ces(jako dobar program je
+i Video redo ako sluèajno mpeg ima kakvu gresku )
+............... i tako to je ukratko no ima tu bezbroj moguænosti
+
+
+

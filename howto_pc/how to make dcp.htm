@@ -1,0 +1,41 @@
+<pre>
+how to make dcp
+
+start dcp-o-matic
+edit/preferences/default tab
+default container=scope
+press ok
+
+
+file/new, enter film name, for example "myfilm-dpc", without quotes
+choose folder or create new
+press ok.
+
+click on add files button, in the main window
+select scale to=scope. Scope is aspect of 2.39:1, which is what people think when they say 2.35:1.
+(Apparently 2.35 is not used since the 70's?)
+
+If your input video is 1920x1080,
+enter top crop=111,bottom crop=111
+This will crop top and bottom a little, and the resulting video won't be as stretched
+There is possible a better solution, but this is what I did.
+
+In a destination folder, there will be folder named myilm-dpc_FTR-1-25_S_20_2K_20150830_SMPTE, or similar.
+Inside are usually six files, which comprise dcp package.
+Resulting video will be about 6x the original size
+you can try playing it with ffmplay on pc, but it will be slow.
+If the file is small, copy it to cd/dvd, or usb. If it is bigger copy it to external usb disk.
+(You may copy original 1920x1080 file to usb, cd/dvd, if you wish, but I believe this is optional, and more of 'just in case' thing.)
+
+If the biggest file is larger than the 4gb, file system on the external disk will have to be ntfs, or ext2/3 (linux format)
+WARNING formatting external disk in a new file system tipe, will mean you will lose all your data on that disk.
+Make sure you backup important files from external, to internal disk. You can copy them back later, after format.
+Be careful not to format your internal disk.
+
+from what I read:
+don't use black bars on the side, as the contrast will rarely work, and they will seem gray.
+
+
+more info
+Aspect ratio handling and manipulating: http://dcpomatic.com/forum/viewtopic.php?t=134
+untested: http://wicuslab.com/creating-dcp-from-hd/

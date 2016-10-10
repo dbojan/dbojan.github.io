@@ -1,0 +1,2553 @@
+Opera Hotlist version 2.0
+Options: encoding = utf8, version=3
+
+#FOLDER
+	ID=11
+	NAME=Trash
+	TRASH FOLDER=YES
+
+#URL
+	ID=12
+	NAME=XP Games
+	URL=http://mywebpages.comcast.net/SupportCD/XPGames.html
+	CREATED=1140449850
+	VISITED=1140509230
+	DESCRIPTION=XP Games - A Windows XP Free Game Guide
+	ICONFILE=mywebpages.comcast.net.ico
+
+#URL
+	ID=13
+	NAME=Amazon.com
+	URL=http://www.amazon.com/exec/obidos/redirect-home/opera-20
+
+#URL
+	ID=14
+	NAME=Cartman's Authoritah
+	URL=http://www.megaderek.com/southpark/index.html
+	CREATED=1139214136
+
+#URL
+	ID=15
+	NAME=CCSchmidt.de: Network Monitoring Software and Utilities
+	URL=http://software.ccschmidt.de/
+	CREATED=1138793262
+	VISITED=1138793329
+
+#URL
+	ID=16
+	NAME=CeBIT - Getting there by Car
+	URL=http://www.cebit.de/20792?x=1
+	CREATED=1138982142
+
+#URL
+	ID=17
+	NAME=Dealtime.com
+	URL=http://www.dealtime.com/BannerIn/1,2844,,00.html?linkin_id=3005960&path=/main&link=http://www.dealtime.com/
+
+#URL
+	ID=18
+	NAME=Desktop Team - by Desktop Team
+	URL=http://my.opera.com/desktopteam/
+	CREATED=1139930091
+
+#URL
+	ID=19
+	NAME=Download.com
+	URL=http://www.download.com/
+	VISITED=1175783257
+
+#URL
+	ID=20
+	NAME=downloads
+	URL=http://www.soltek.com.tw/soltek/download/download_all.php?isbn_st=SL-75FRN2-RL%2FSL-75FRN2-L
+	CREATED=1140510218
+	VISITED=1140510543
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=21
+	NAME=eBay
+	URL=http://www.ebay.com/
+
+#URL
+	ID=22
+	NAME=GIGABYTE
+	URL=http://ggts.gigabyte.com.tw/
+	CREATED=1140092051
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=23
+	NAME=Intel
+	URL=http://www.intel.com/
+	CREATED=1139396465
+	VISITED=1176287491
+	ICONFILE=www.intel.com.ico
+
+#URL
+	ID=24
+	NAME=Kingmax Semiconductor Inc.
+	URL=http://www.kingmax.com/contact/contact_dis.htm
+	CREATED=1139846637
+	VISITED=1139907815
+
+#URL
+	ID=25
+	NAME=Nexuiz
+	URL=http://www.nexuiz.com/index.php?module=downloads
+	CREATED=1140449883
+	VISITED=1140509307
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=26
+	NAME=R&OS: pdf class
+	URL=http://www.ros.co.nz/pdf/
+	CREATED=1134384771
+
+#URL
+	ID=27
+	NAME=SAMSUNG MINI PRINTERS
+	URL=http://www.samsungminiprinters.com/
+	CREATED=1138793935
+	VISITED=1139559658
+
+#URL
+	ID=28
+	NAME=Slaxmod12
+	URL=http://vuks.vdsworld.com/misc/slaxmod1/
+	CREATED=1138628111
+	VISITED=1141478721
+
+#URL
+	ID=29
+	NAME=soltek downloads
+	URL=http://www.soltek.com.tw/soltek/download/download_all.php?isbn_st=SL-75FRN2-RL%2FSL-75FRN2-L
+	CREATED=1140510326
+	VISITED=1140510543
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=30
+	NAME=StormRegion.com
+	URL=http://www.stormregion.com/index.php?sid=53bd8032b691207540a70001ee104caa&pageNumber=1
+	CREATED=1140430891
+	ICONFILE=www.stormregion.com.ico
+
+#URL
+	ID=31
+	NAME=Win 2K - UDP (4.27)
+	URL=http://www.nvidia.com/object/nforce_udp_win2k_4.27.html
+	CREATED=1140510662
+	VISITED=1140510766
+	ICONFILE=www.nvidia.com.ico
+
+#URL
+	ID=32
+	NAME=DivX.com
+	URL=http://www.divx.com/divx/play/download/index.php
+	CREATED=1141204599
+	DESCRIPTION=DivX Networks
+	ICONFILE=www.divx.com.ico
+
+#URL
+	ID=33
+	NAME=ECS Web Site
+	URL=http://www.ecs.com.tw/ECSWeb/Downloads/ProductsDetail_Download.aspx?CategoryID=1&Typeid=4&detailid=419&DetailName=Driver&DetailDesc=L7VMM2(2.0)&MenuID=35&LanID=0
+	CREATED=1141224146
+	VISITED=1141225982
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=34
+	NAME=Feature Requests - Miranda IM Forums
+	URL=http://forums.miranda-im.org/forumdisplay.php?f=24
+	CREATED=1141125023
+	VISITED=1141133362
+	DESCRIPTION=Got a feature request?
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=35
+	NAME=File Listing - Miranda
+	URL=http://addons.miranda-im.org/details.php?action=viewfile&id=1702
+	CREATED=1141131086
+	VISITED=1141140669
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=36
+	NAME=Flash Asteroids
+	URL=http://www.thepcmanwebsite.com/media/flash_asteroids/
+	CREATED=1141381551
+	ICONFILE=www.thepcmanwebsite.com.ico
+
+#URL
+	ID=37
+	NAME=http://www.microsoft.com/bih/partner/default.aspx
+	URL=http://www.microsoft.com/bih/partner/default.aspx
+	CREATED=1135596768
+	VISITED=1142409881
+
+#URL
+	ID=38
+	NAME=Torus Trooper
+	URL=http://www.asahi-net.or.jp/~cs8k-cyu/windows/tt_e.html
+	CREATED=1139215427
+	VISITED=1140427305
+
+#URL
+	ID=39
+	NAME=DOFUS :: english community website
+	URL=http://community.dofus.com/index.php
+	CREATED=1141744244
+	VISITED=1142264192
+	DESCRIPTION=You want to know everything about DOFUS? exchange ideas and tips with other players, take part in the evolution of the game? communicate with Ankama Studio's developpers?
+	ICONFILE=community.dofus.com.ico
+
+#URL
+	ID=40
+	NAME=Download
+	URL=http://messenger.msn.com/download/
+	CREATED=1141718719
+	ICONFILE=messenger.msn.com.ico
+
+#URL
+	ID=41
+	NAME=Download Software, Drivers and Utilities Filters
+	URL=http://downloadfinder.intel.com/scripts-df-external/Product_Filter.aspx?ProductID=1049&lang=eng
+	CREATED=1142261687
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=42
+	NAME=Firmware DOWNLOAD : PIONEER CORPORATION
+	URL=http://wwwbsc.pioneer.co.jp/product-e/ibs/device_e/dev00003r_e.html
+	CREATED=1139489147
+
+#URL
+	ID=43
+	NAME=FREE Flash Slot Machine - The PCman Website
+	URL=http://www.thepcmanwebsite.com/media/flash_slots/flash_slots.shtml
+	CREATED=1143719486
+	VISITED=1143792329
+	DESCRIPTION=FREE Flash Slot Machine place your bet and try your luck, see if you hit the jackpot. Game play is realistic with good graphics and sound. Click on the spin button to pull the arm, the payout table is on the slot machine.
+	ICONFILE=www.thepcmanwebsite.com.ico
+
+#URL
+	ID=44
+	NAME=FREEWARE
+	URL=http://www.free2u.org/
+	CREATED=1143464892
+	DESCRIPTION=Freeware Home - The most complete Collection of free software and Internet services.
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=45
+	NAME=Mediji @ Bug On Line
+	URL=http://www.bug.hr/mediji/cd.asp?id=269
+	CREATED=1141902389
+	VISITED=1144837415
+	DESCRIPTION=Bug On Line (www.bug.hr) - Online izdanje najtiražnijeg hrvatskog informatičkog časopisa; Stranice časopisa Bug, Mreža i Enter
+	ICONFILE=www.bug.hr.ico
+
+#URL
+	ID=46
+	NAME=STARTREK.COM : Episodes
+	URL=http://www.startrek.com/startrek/view/series/ENT/episodes/index.html?season=3
+	CREATED=1140097583
+	VISITED=1148646303
+	ICONFILE=www.startrek.com.ico
+
+#URL
+	ID=47
+	NAME=Teach Yourself Programming in Ten Years
+	URL=http://www.norvig.com/21-days.html
+	CREATED=1140781428
+	ICONFILE=www.norvig.com.ico
+
+#URL
+	ID=48
+	NAME=Team Taylor Made
+	URL=http://www.teamtaylormade.com/Screensavers/Waterfall.shtml
+	CREATED=1139821638
+
+#URL
+	ID=49
+	NAME=The Official OziExplorer Web Site - GPS Mapping Software for Magellan, Garmin, Lowrance, Eagle, MLR Receivers
+	URL=http://www.oziexplorer.com/
+	CREATED=1142252212
+	VISITED=1142343603
+	DESCRIPTION=The Official OziExplorer Web Site - GPS Mapping Software for Magellan, Garmin, Lowrance, Eagle, MLR Receivers
+	ICONFILE=www.oziexplorer.com.ico
+
+#URL
+	ID=50
+	NAME=Visual Studio Express
+	URL=http://msdn.microsoft.com/vstudio/express/
+	CREATED=1139299951
+	VISITED=1144141689
+	ICONFILE=msdn.microsoft.com.ico
+
+#URL
+	ID=51
+	NAME=Waterfall Screensaver , Over 100 Free Waterfall Screensavers
+	URL=http://www.appleblossomart.com/waterfall.htm
+	CREATED=1139821314
+	VISITED=1139821643
+
+#FOLDER
+	ID=52
+	NAME=hd
+	CREATED=1141053700
+
+#URL
+	ID=53
+	NAME=WMV HD Content Showcase
+	URL=http://www.microsoft.com/windows/windowsmedia/content_provider/film/ContentShowcase.aspx
+	CREATED=1141053694
+	VISITED=1141053890
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=54
+	NAME=Download details: Xbox High-Definition Videos
+	URL=http://www.microsoft.com/downloads/details.aspx?FamilyID=abde1e02-b529-469e-ae6a-7417fcde9e12&DisplayLang=en
+	CREATED=1141053706
+	DESCRIPTION=View  Xbox 360 game trailers in high definition.
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=55
+	NAME=mac
+	CREATED=1144666510
+
+#URL
+	ID=56
+	NAME=AboutAdium - Adium X - Trac
+	URL=http://trac.adiumx.com/wiki/AboutAdium
+	CREATED=1144666656
+	VISITED=1144669098
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=57
+	NAME=miranda
+	CREATED=1141140949
+
+#URL
+	ID=58
+	NAME=File Listing - Miranda
+	URL=http://addons.miranda-im.org/details.php?action=viewfile&id=680
+	CREATED=1141140941
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=59
+	NAME=File Listing - Miranda
+	URL=http://addons.miranda-im.org/details.php?action=viewfile&id=1691
+	CREATED=1141140959
+	VISITED=1141201701
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=60
+	NAME=Netscape bookmarks
+	EXPANDED=YES
+
+#FOLDER
+	ID=61
+	NAME=Bookmarks Toolbar Folder
+	CREATED=1128423394
+
+-
+
+-
+
+#FOLDER
+	ID=62
+	NAME=Opera
+
+#URL
+	ID=63
+	NAME=Download Opera
+	URL=http://www.opera.com/download/
+	VISITED=1192384943
+
+#URL
+	ID=64
+	NAME=Opera Community
+	URL=http://my.opera.com/
+	ICONFILE=my.opera.com.ico
+
+#URL
+	ID=65
+	NAME=Opera Web Mail
+	URL=http://www.operamail.com/
+
+#URL
+	ID=66
+	NAME=Support Desk
+	URL=http://www.opera.com/support/
+	VISITED=1162482436
+
+-
+
+#FOLDER
+	ID=67
+	NAME=quest
+	CREATED=1140872662
+
+#URL
+	ID=68
+	NAME=Dungeons Deep - Freeware Fantasy Dungeon Game Classics
+	URL=http://www.digital-eel.com/deep.htm
+	CREATED=1140872471
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=69
+	NAME=GB Homepage
+	URL=http://home.quicknet.nl/qn/prive/lm.broers/
+	CREATED=1140872539
+	VISITED=1140875005
+	DESCRIPTION=Games, pics, tekeningen, onzin, westwoud.. Also Military pics section in English
+	ICONFILE=home.quicknet.nl.ico
+
+#URL
+	ID=70
+	NAME=HeroQuest and Hero Quest - The FAQ
+	URL=http://www.aginsinn.com/FAQ.html
+	CREATED=1140872735
+	DESCRIPTION=A page dedicated to the Milton Bradley Boardgame HeroQuest
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=71
+	NAME=HeroQuest and Hero Quest
+	URL=http://www.aginsinn.com/index.html
+	CREATED=1140872747
+	DESCRIPTION=A page dedicated to the Milton Bradley Boardgame HeroQuest
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=72
+	NAME=Valsgelddetector, geldtelmachine, vals geld
+	URL=http://www.veka-systems.nl/
+	CREATED=1140440450
+	DESCRIPTION=vals geld controle, valsgeld detector, vals geld tester, Geldtelmachine, geldsorteermachine, biljetteller,  geldwisselaar, geldteller, eurotesters, muntenteller en muntsorteerder.<br><br>
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#URL
+	ID=73
+	NAME=ASUSTeK Computer Inc.-Support-
+	URL=http://support.asus.com/download/download.aspx?SLanguage=en-us&model=P4PE-X
+	CREATED=1145967557
+	ICONFILE=support.asus.com.ico
+
+#URL
+	ID=74
+	NAME=Downloads - Support - Lavasoft
+	URL=http://lavasoft.element5.com/support/download/
+	CREATED=1146737437
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=75
+	NAME=EasyTutu
+	URL=http://usoutpost31.com/easytutu/
+	CREATED=1144681173
+	VISITED=1144740205
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=76
+	NAME=Freeware Download: Cddvd
+	URL=http://www.dirfile.com/freeware/cddvd.htm
+	CREATED=1143535289
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=77
+	NAME=HP VP-6321 Projector
+	URL=http://www.videocentric.co.uk/projectors/hp-projectors/hp-vp-6321.shtml
+	CREATED=1146299131
+	VISITED=1146299159
+	DESCRIPTION=HP Projectors uk, HP VP6321 Projector, HP VP-6321 Projector uk, HP Projectors, HP VP 6321, HP-VP-6321, Vp6321, VP-6321, VP 6321, HP VP6321
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=78
+	NAME=Kevin Worthington
+	URL=http://www.kevinworthington.com:8181/
+	CREATED=1143710215
+	VISITED=1144059539
+	DESCRIPTION=This is the Official personal website Kevin Worthington. 
+	ICONFILE=www.kevinworthington.com.ico
+
+#URL
+	ID=79
+	NAME=Old Grandma Hardcore
+	URL=http://oghc.blogspot.com/
+	CREATED=1144681333
+	VISITED=1144679364
+	ICONFILE=oghc.blogspot.com.ico
+
+#URL
+	ID=80
+	NAME=Panasonic AVC Networks Company - Products Support Information
+	URL=http://panasonic.co.jp/pavc/global/cs/d_snap/faq/sd_e-cam.html
+	CREATED=1145364778
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=81
+	NAME=Paul Thurrott's SuperSite for Windows: Windows XP Media Center Edition 2004 Review
+	URL=http://66.249.93.104/search?q=cache:nJhpD6B2jpoJ:www.winsupersite.com/reviews/windowsxp_mce2004.asp+windows+xp+to+mce&hl=en&ct=clnk&cd=3&client=opera
+	CREATED=1144912700
+	ICONFILE=66.249.93.104.ico
+
+#URL
+	ID=82
+	NAME=plus.es - rejilla
+	URL=http://www.plus.es/codigo/television/guiatv/progimp.asp
+	CREATED=1143894957
+	VISITED=1149164155
+	ICONFILE=www.plus.es.png
+
+#URL
+	ID=83
+	NAME=Software and Drivers - HP ProLiant ML150 G1, Microsoft Windows Server 2003
+	URL=http://h18004.www1.hp.com/support/files/server/us/locate/69_5768.html
+	CREATED=1145964475
+	VISITED=1146051377
+	DESCRIPTION=This page lists the current Software and Driver downloads available for a specific combination of hardware family, model, and operating system
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=84
+	NAME=STARTREK.COM : Episodes
+	URL=http://www.startrek.com/startrek/view/series/ENT/episodes/index.html?season=3
+	CREATED=1146567404
+	VISITED=1148646303
+	ICONFILE=www.startrek.com.ico
+
+#URL
+	ID=85
+	NAME=WD Raptor 36 GB Hard Drives ( WD360GD )
+	URL=http://www.wdc.com/en/products/products.asp?DriveID=40#jump44
+	CREATED=1145536363
+	DESCRIPTION=WD Raptor 36 GB Hard Drives
+	ICONFILE=www.wdc.com.ico
+
+#FOLDER
+	ID=86
+	NAME=mcse
+	CREATED=1148909250
+
+#URL
+	ID=87
+	NAME=Sadikhov forums -> STUDY GUIDES REQUESTS, SHARES AND EXCHANGE
+	URL=http://www.sadikhov.com/forum/index.php?showforum=43
+	CREATED=1148909245
+	VISITED=1148909304
+	DESCRIPTION= Sadikhov forums -> STUDY GUIDES REQUESTS, SHARES AND EXCHANGE
+	ICONFILE=www.sadikhov.com.ico
+
+-
+
+#URL
+	ID=88
+	NAME=Sadikhov forums -> STUDY GUIDES REQUESTS, SHARES AND EXCHANGE
+	URL=http://www.sadikhov.com/forum/index.php?showforum=43
+	CREATED=1148909266
+	VISITED=1148909304
+	DESCRIPTION= Sadikhov forums -> STUDY GUIDES REQUESTS, SHARES AND EXCHANGE
+	ICONFILE=www.sadikhov.com.ico
+
+#URL
+	ID=89
+	NAME=Downloads - Support - Lavasoft
+	URL=http://www.lavasoft.de/support/download/
+	CREATED=1152702763
+	VISITED=1152702760
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=90
+	NAME=Futuremark - Download
+	URL=http://www.futuremark.com/download/?3dmark06.shtml
+	CREATED=1138703186
+
+#URL
+	ID=91
+	NAME=Google Groups : comp.sys.atari.st
+	URL=http://groups.google.com/group/comp.sys.atari.st?
+	CREATED=1141382568
+	VISITED=1144049431
+	ICONFILE=groups.google.com.ico
+
+#URL
+	ID=92
+	NAME=Language Tools
+	URL=http://www.google.com/language_tools
+	CREATED=1140102874
+	VISITED=1141122099
+	ICONFILE=www.google.com.ico
+
+#URL
+	ID=93
+	NAME=QEMU on Windows
+	URL=http://www.h7.dion.ne.jp/~qemu-win/
+	CREATED=1141466253
+	VISITED=1157110664
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=94
+	NAME=ReviewLinux.Com- Linux OS Review & News Site : :: Reviews : Ubuntu : Ubuntu 6.06 Review
+	URL=http://www.reviewlinux.com/?m=show&id=2207
+	CREATED=1149327945
+	DESCRIPTION=ReviewLinux.Com - Users Reviewing The Linux OSIntroductionThis year has been a huge step forward for Desktop Linux users.First, Fedora Core 
+	ICONFILE=www.reviewlinux.com.png
+
+#URL
+	ID=95
+	NAME=servo
+	URL=http://en.wikipedia.org/wiki/Power_steering
+	CREATED=1154094832
+	VISITED=1154094874
+	ICONFILE=en.wikipedia.org.ico
+
+#URL
+	ID=96
+	NAME=Slaxmod1
+	URL=http://members.lycos.co.uk/dbojan/
+	CREATED=1138624836
+	VISITED=1182576437
+	ICONFILE=members.lycos.co.uk.png
+
+#URL
+	ID=97
+	NAME=:: PC Ekspert - Hardware EZine ::
+	URL=http://www.pcekspert.com/
+	CREATED=1159175355
+	ICONFILE=www.pcekspert.com.gif
+
+#URL
+	ID=98
+	NAME=3D Gamers :: Game Listing :: Titan Quest Downloads
+	URL=http://www.3dgamers.com/games/titanquest/downloads/
+	CREATED=1159175462
+	DESCRIPTION=3D Gamers is committed to delivering you <b>Titan Quest downloads</b> at incredibly fast speeds. Our supercharged network of servers are here to fill your every gaming file need.  Launched in 1996, 3D Gamers is one of the oldest independent news portals covering the gaming industry.  Providing the highest quality reporting and delivery services to our audience has been and continues to be one of 3D Gamers. fundamental principles.  Whether you are looking for the Titan Quest demo, screenshots, or any other downloads, we deliver them to you at blazing fast speeds.We scour the net to bring you the widest and deepest array of files.   Check out the latest Titan Quest screenshots (links to screenshots page)> and then view all of our other downloads.  3D Gamers offers officially released materials and selected third-party files via one of the most timely and comprehensive download services available.  3D Gamers provides the <i>widest selection of Titan Quest mods, maps, movies, screenshots, demos and patches</i>.Our goal is to provide you with the best in content, information and distribution services.  We continue to provide free access to the web.s best site for 3D game information.  If the gamer in you craves more you can take the next step and become a 3D Gamer subscriber.  Don't like waiting in line for the Titan Quest patch?  Sign up today and get great benefits like no waiting in queues, no advertisements, free games and exclusive game betas.  Become a 3D Gamer's subscriber today! (Entire last sentence links to the subscription sign up page).
+	ICONFILE=www.3dgamers.com.ico
+
+#URL
+	ID=99
+	NAME=Amazon.com: Indiana Jones And The Last Crusade: Original Motion Picture Soundtrack: Music: John Williams
+	URL=http://www.amazon.com/Indiana-Jones-Last-Crusade-Soundtrack/dp/B000002LHC/sr=1-2/qid=1162481334/ref=pd_bbs_sr_2/002-7488913-4704822?ie=UTF8&s=music
+	CREATED=1162482728
+	VISITED=1162482872
+	DESCRIPTION=Amazon.com: Indiana Jones And The Last Crusade: Original Motion Picture Soundtrack: Music: John Williams by John Williams
+	ICONFILE=www.amazon.com.ico
+
+#URL
+	ID=100
+	NAME=Antivirus programs and protection guide, virus info, antivirus tests, Free Antivirus Tools!
+	URL=http://www.virus.gr/english/fullxml/default.asp?id=82&mnu=82
+	CREATED=1161182397
+	DESCRIPTION=Antivirus programs, protection guide, virus info and removals, free support!
+	ICONFILE=www.virus.gr.ico
+
+#URL
+	ID=101
+	NAME=Bug 95365 - konqueror does not refresh when browsing through / shortcut
+	URL=http://bugs.kde.org/show_bug.cgi?id=95365
+	CREATED=1157109668
+	ICONFILE=bugs.kde.org.ico
+
+#URL
+	ID=102
+	NAME=Falling You: Human
+	URL=http://magnatune.com/artists/albums/fallingyou-human/
+	CREATED=1157109321
+	ICONFILE=magnatune.com.ico
+
+#URL
+	ID=103
+	NAME=FileFront - The Most Gaming Files on the Web
+	URL=http://cgw2.filefront.com/
+	CREATED=1161785814
+	VISITED=1161785798
+	DESCRIPTION=The most gaming and game related downloads on the internet!
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=104
+	NAME=Inside Outlook Express - Errors, Bugs and Problems
+	URL=http://insideoe.tomsterdam.com/problems/
+	CREATED=1162472401
+	ICONFILE=insideoe.tomsterdam.com.ico
+
+#URL
+	ID=105
+	NAME=PoxNora - Faqs
+	URL=http://www.poxnora.com/info/listfaqs.do;jsessionid=B3DBB2C4BAEBCD44526D69E0154C8855
+	CREATED=1160819876
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=106
+	NAME=Quark :: View Forum - QuarkXPress: General
+	URL=http://www.quark.com/service/forums/viewforum.php?f=12
+	CREATED=1157014055
+	VISITED=1163242518
+	DESCRIPTION=Communicate with other QuarkXPress users &#8212; novices and experienced professionals alike &#8212; to learn and share valuable information, suggestions, and solutions in Quark Forums. Have a question? Ask it! Have a solution? Share it!
+	ICONFILE=www.quark.com.ico
+
+#URL
+	ID=107
+	NAME=Rockwaldo's burning service
+	URL=http://www.tombstoned.co.uk/burning.html
+	CREATED=1160724627
+	VISITED=1163580530
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=108
+	NAME=Windows Media Encoder
+	URL=http://www.microsoft.com/windows/windowsmedia/forpros/encoder/default.mspx
+	CREATED=1158058437
+	VISITED=1158137685
+	DESCRIPTION=Windows Media Encoder 9 Series is a powerful tool for content producers who want to take advantage of the many innovations in Windows Media 9 Series, inlcuding new updates in Windows Media Video 9 Advanced Profile Update.
+	ICONFILE=www.microsoft.com.ico
+
+#URL
+	ID=109
+	NAME=Windows Media Video 9 Series Codecs
+	URL=http://www.microsoft.com/windows/windowsmedia/forpros/codecs/video.aspx
+	CREATED=1158058425
+	DESCRIPTION=Get information about Windows Media Video 9 Series codecs, including support for the VC-1 standard.
+	ICONFILE=www.microsoft.com.ico
+
+-
+
+#URL
+	ID=110
+	NAME=Hotel Hubertushof Kaprun
+	URL=http://www.grossglockner.co.at/hubertushof/index.htm
+	CREATED=1133787770
+	VISITED=1133787774
+
+#URL
+	ID=111
+	NAME=XP Games
+	URL=http://mywebpages.comcast.net/SupportCD/XPGames.html
+	CREATED=1139215431
+	VISITED=1140509230
+	ICONFILE=mywebpages.comcast.net.ico
+
+#URL
+	ID=112
+	NAME=Americomp Computers
+	URL=http://www.acompinc.com/
+	CREATED=1140165567
+	VISITED=1143210753
+	DESCRIPTION=acompinc.com - online computer store. Find the best deals on barebone computer,motherboard combos, personal computers,software, digital cameras, hard drives, video cards, notebooks,desknotes.Customized your own Personal Computer.
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=113
+	NAME=WindowsXP VPN Server
+	URL=http://www.onecomputerguy.com/networking/xp_vpn_server.htm
+	CREATED=1140622748
+	VISITED=1140682841
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=114
+	NAME=http://www.ibiblio.org/pub/Linux/docs/HOWTO/VPN-HOWTO
+	URL=http://www.ibiblio.org/pub/Linux/docs/HOWTO/VPN-HOWTO
+	CREATED=1140622758
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=115
+	NAME=Oddcast TTS Demo
+	URL=http://vhost.oddcast.com/vhost_minisite/demos/tts/tts_example.html
+	CREATED=1141049746
+	VISITED=1141114219
+	ICONFILE=vhost.oddcast.com.ico
+
+#URL
+	ID=116
+	NAME=TTS Interactive Demo
+	URL=http://www.research.att.com/projects/tts/demo.html
+	CREATED=1141114011
+	VISITED=1141129724
+	DESCRIPTION=High intelligibility, high naturalness Text-to-Speech Synthesis
+	ICONFILE=www.research.att.com.ico
+
+#URL
+	ID=117
+	NAME=Offline NT Password & Registry Editor
+	URL=http://home.eunet.no/~pnordahl/ntpasswd/
+	CREATED=1141128134
+	VISITED=1141130377
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=118
+	NAME=WhatIsMyIP.com - 81.93.91.135
+	URL=http://www.whatismyip.com/
+	CREATED=1141640209
+	VISITED=1158057902
+	DESCRIPTION=WhatIsMyIP.com is the easiest way to determine your IP address.
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=119
+	NAME=GreyLib | Литература на английском языке | Sci-Fi & Fantasy
+	URL=http://greylib.align.ru/libfan.htm
+	CREATED=1141737336
+	VISITED=1174044912
+	ICONFILE=greylib.align.ru.ico
+
+#FOLDER
+	ID=120
+	NAME=mmorpg
+	CREATED=1141744171
+	EXPANDED=YES
+
+#URL
+	ID=121
+	NAME=Silkroad Online
+	URL=http://www.silkroadonline.net/member/member_join.asp
+	CREATED=1141055626
+	VISITED=1145087033
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=122
+	NAME=DOFUS :: english community website
+	URL=http://community.dofus.com/index.php
+	CREATED=1141744257
+	VISITED=1142264192
+	DESCRIPTION=You want to know everything about DOFUS? exchange ideas and tips with other players, take part in the evolution of the game? communicate with Ankama Studio's developpers?
+	ICONFILE=community.dofus.com.ico
+
+#URL
+	ID=123
+	NAME=Conquer Online
+	URL=http://www.conqueronline.com/gallery/screenshots.htm
+	CREATED=1141744556
+	VISITED=1144681253
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=124
+	NAME=Dogs of the Seas - a Pirate MMORPG Browsergame
+	URL=http://www.dogsoftheseas.com/index2.php?page=sysreq
+	CREATED=1141744760
+	VISITED=1141826113
+	DESCRIPTION=DotS is a new next generation web-browser based MMORPG (Massive Multiplayer Online Role Playing Game)  where you take the role of a powerful pirate, commanding a large fleet of ships in the Caribbean.
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=125
+	NAME=Project Entropia
+	URL=http://www.project-entropia.com/about/Index.ajp
+	CREATED=1141745103
+	VISITED=1144672677
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=126
+	NAME=Survival Project
+	URL=http://english.spgame.com/
+	CREATED=1141745583
+	VISITED=1144672737
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=127
+	NAME=Dofus-Arena: Multiplayer Online & Board Game
+	URL=http://www.dofus-arena.com/
+	CREATED=1141918270
+	VISITED=1144750699
+	ICONFILE=www.dofus-arena.com.ico
+
+#URL
+	ID=128
+	NAME=The Biggest And Best Games List > Free MMORPG > onRPG Forums
+	URL=http://www.onrpg.com/ftopic53062.html
+	CREATED=1141919664
+	VISITED=1142343599
+	DESCRIPTION=onRPG has free online games, free mmorpg in open beta, fully free, free trial, browser, text based, korean games and other free massively multiplayer games.
+	ICONFILE=www.onrpg.com.ico
+
+#FOLDER
+	ID=129
+	NAME=tobecome free
+	CREATED=1142670219
+
+#URL
+	ID=130
+	NAME=Blue's News: News Comments
+	URL=http://www.bluesnews.com/cgi-bin/board.pl?action=viewthread&threadid=65498
+	CREATED=1142670038
+	VISITED=1142677683
+	DESCRIPTION=Up to the minute game news, hot tips, and the latest updates and patches.
+	ICONFILE=www.bluesnews.com.ico
+
+#URL
+	ID=131
+	NAME=Shadowbane - Throne of Oblivion
+	URL=http://www.shadowbane.com/us/
+	CREATED=1142670207
+	VISITED=1148461509
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=132
+	NAME=Shanda Entertainment
+	URL=http://www.snda.com/en/products/mmorpgs.htm#2
+	CREATED=1142669971
+	VISITED=1180464689
+	DESCRIPTION=[Powered by PMPark Consulting | http://www.pmpark.com]
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=133
+	NAME=Gamasutra - Sony Online To Release Free-to-Play MMO
+	URL=http://www.gamasutra.com/php-bin/news_index.php?story=7002
+	CREATED=1142671124
+	VISITED=1142671175
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=134
+	NAME=Gamasutra - Chinese Shanda MMORPGs Opt For Free Play
+	URL=http://www.gamasutra.com/php-bin/news_index.php?story=7357
+	CREATED=1142671159
+	VISITED=1175074840
+	ICONFILE=www.gamasutra.com.gif
+
+#URL
+	ID=135
+	NAME=Gamasutra - Ubisoft Makes Shadowbane MMO Free to Play
+	URL=http://www.gamasutra.com/php-bin/news_index.php?story=8548
+	CREATED=1142671226
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=136
+	NAME=Shadowbane
+	URL=http://chronicle.ubi.com/
+	CREATED=1142671246
+	VISITED=1148461847
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#URL
+	ID=137
+	NAME=Starport Information
+	URL=http://www.starportgame.com/information.php
+	CREATED=1144671969
+	VISITED=1180373859
+	ICONFILE=www.starportgame.com.ico
+
+-
+
+#FOLDER
+	ID=138
+	NAME=gps
+	CREATED=1142254112
+
+#URL
+	ID=139
+	NAME=GPSS Download
+	URL=http://www.gpss.tripoduk.com/download.htm
+	CREATED=1142253215
+	VISITED=1181663275
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=140
+	NAME=Pan-ex
+	CREATED=1142323586
+
+#URL
+	ID=141
+	NAME=Dileri
+	URL=http://www.pan-ex.net/admin/login.php?PHPSESSID=4e101a6d1703a127014dfb5d38d8af63
+	CREATED=1142323580
+	VISITED=1144063899
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=142
+	NAME=mail
+	URL=https://webmail.teol.net/subadmin/admin.pl?func=login
+	CREATED=1142337050
+	VISITED=1142590567
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=143
+	NAME=tocheck
+	CREATED=1143535278
+
+#URL
+	ID=144
+	NAME=Freeware DVD TO DVD COPY XPRESS at DirFile - Multimedia & Design > Audio
+	URL=http://www.dirfile.com/dvd_to_dvd_copy_xpress.htm
+	CREATED=1143535303
+	DESCRIPTION=Freeware download .. Make perfect-quality backup copies of all your DVD movies to DVD-R/RW or DVD+R/RW USING YOUR OWN DVD BURNER. Program supports copy-protected DVDs, DVD-R, DVD-RW, DVD-R(W), DVD+R(W), DVD+R, DVD+RW, DVD-RAM, NTSC, and PAL. Real DVD clone 1:1
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=145
+	NAME=Welcome by Dirk Paehl
+	URL=http://www.paehl-info.de/cdr/
+	CREATED=1143536532
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=146
+	NAME=plus.es - rejilla
+	URL=http://www.plus.es/codigo/television/guiatv/progimp.asp
+	CREATED=1143895639
+	VISITED=1149164155
+	ICONFILE=www.plus.es.png
+
+#URL
+	ID=147
+	NAME=Manual Installation Instructionsvs
+	URL=http://msdn.microsoft.com/vstudio/express/support/install/
+	CREATED=1144138186
+	VISITED=1144313313
+	ICONFILE=msdn.microsoft.com.ico
+
+#URL
+	ID=148
+	NAME=MuggleNet | Harry Potter Spells / Curses / Charms List
+	URL=http://www.mugglenet.com/info/other/spells.shtml
+	CREATED=1144843632
+	ICONFILE=www.mugglenet.com.ico
+
+#URL
+	ID=149
+	NAME=2Search :: Anonymous Surf :: Page 01
+	URL=http://anonymous.r45.org/
+	CREATED=1144918232
+	VISITED=1144918375
+	DESCRIPTION=Surf the web in an anonymous way!
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=150
+	NAME=B3U.NET - Surf the Web Safely, Anonymously, and Securely!
+	URL=http://www.b3u.net/index.pl
+	CREATED=1144918446
+	VISITED=1144918437
+	DESCRIPTION=Description here
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=151
+	NAME=Torrentspy.com - The Largest BitTorrent Search Engine
+	URL=http://www.torrentspy.com/default.asp
+	CREATED=1144999191
+	VISITED=1145361105
+	ICONFILE=www.torrentspy.com.ico
+
+#URL
+	ID=152
+	NAME=The Pirate Bay - The worlds largest BitTorrent tracker
+	URL=http://thepiratebay.org/
+	CREATED=1144999204
+	VISITED=1183874964
+	ICONFILE=thepiratebay.org.bmp
+
+#URL
+	ID=153
+	NAME=Langtolang English,French,Italian,German,Turkish,Spanish ... language dictionary
+	URL=http://www.langtolang.com/
+	CREATED=1145101561
+	VISITED=1145102254
+	DESCRIPTION=Langtolang English,French,German,Italian,Turkish,Spanish,Portuguese,Rumanian,Swedish,Danish,Polish,Czech,Hungarian,Finnish,Esperanto,Swahili,Serbo_Croat translation dictionary,language etc.
+	ICONFILE=www.langtolang.com.ico
+
+#URL
+	ID=154
+	NAME=SimpleDivX - Contact
+	URL=http://www.simpledivx.org/main/index.php?option=com_contact&Itemid=3
+	CREATED=1145699039
+	DESCRIPTION=SimpleDivX is a conversion program utilizing mencoder which supports many video formats like MPEG4 and XVID and audio formats like MP3 and AC3 to convert your DVDs. It is great for beginners, but customizable enough to suit encoding veterans.
+	ICONFILE=www.simpledivx.org.ico
+
+#URL
+	ID=155
+	NAME=BHT 1 - JAVNI RADIO-TELEVIZIJSKI SERVIS BOSNE I HERCEGOVINE
+	URL=http://www.pbsbih.ba/bht1/01ponedjeljak.html
+	CREATED=1146563666
+	VISITED=1147769662
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=156
+	NAME=GRISOFT Free Advisor: Updating your AVG Free Edition
+	URL=http://free.grisoft.com/doc/24/lng/us/tpl/v5
+	CREATED=1146740656
+	ICONFILE=free.grisoft.com.ico
+
+#URL
+	ID=157
+	NAME=Key Finder - Never Lose Keys Again!
+	URL=http://www.atrendyhome.com/keyfinder.html
+	CREATED=1149086712
+	DESCRIPTION=Key Finder - Never Lose Keys Again! table align=center width=483trtdH1 STYLE=&quot;font-weight: normal; font-size: 12px; margin: 1px; color: #000000; text-align: center;&quot;font face=&quot;verdana&quot;Rechargeable Key Finderfonth1tdtrtablebrbrAtamia Rechargeable Finderz Keyper...
+	ICONFILE=www.atrendyhome.com.ico
+
+-
+
+#FOLDER
+	ID=158
+	NAME=torr
+	CREATED=1145360746
+
+#URL
+	ID=159
+	NAME=Torrentspy.com - The Largest BitTorrent Search Engine
+	URL=http://www.torrentspy.com/default.asp
+	CREATED=1145360763
+	VISITED=1145361105
+	ICONFILE=www.torrentspy.com.ico
+
+#URL
+	ID=160
+	NAME=The Pirate Bay - The worlds largest BitTorrent tracker
+	URL=http://thepiratebay.org/
+	CREATED=1145360772
+	VISITED=1183874964
+	ICONFILE=thepiratebay.org.bmp
+
+#URL
+	ID=161
+	NAME=mininova : the ultimate bittorrent source!
+	URL=http://www.mininova.org/
+	CREATED=1145360779
+	ICONFILE=www.mininova.org.ico
+
+#URL
+	ID=162
+	NAME=BHT 1 - JAVNI RADIO-TELEVIZIJSKI SERVIS BOSNE I HERCEGOVINE
+	URL=http://www.pbsbih.ba/bht1/01ponedjeljak.html
+	CREATED=1146563661
+	VISITED=1147769662
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=163
+	NAME=drivers
+	CREATED=1146814324
+
+#URL
+	ID=164
+	NAME=Fujitsu Computer Systems - Support
+	URL=http://support.fujitsupc.com/CS/Portal/supportsearch.do
+	CREATED=1146814339
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=165
+	NAME=Toshiba - Download drivers:
+	URL=http://eu.computers.toshiba-europe.com/cgi-bin/ToshibaCSG/download_drivers_bios.jsp
+	CREATED=1148899330
+	VISITED=1148899317
+	ICONFILE=eu.computers.toshiba-europe.com.ico
+
+-
+
+#FOLDER
+	ID=166
+	NAME=mcs
+	CREATED=1147680055
+
+#URL
+	ID=167
+	NAME=Microsoft Testing with Pearson VUE
+	URL=http://www.vue.com/ms/
+	CREATED=1147680050
+	VISITED=1148567214
+	DESCRIPTION=Pearson VUE delivers certification exams for Microsoft. Microsoft exams for MCP, MCSE, MCSA, MCAD, MCSD and MCDBA certifications are available.
+	ICONFILE=www.vue.com.ico
+
+#URL
+	ID=168
+	NAME=Get a FREE Second Chance to Pass Your Microsoft Certification Exam
+	URL=http://www.microsoft.com/learning/mcp/offers/2ndchance/
+	CREATED=1147680064
+	VISITED=1147680377
+	DESCRIPTION=Learn about the new generation of Microsoft certifications, inlcuding the Technology, Professional, and Architect series of credentials.
+	ICONFILE=www.microsoft.com.ico
+
+#URL
+	ID=169
+	NAME=Sadikhov forums -> STUDY GUIDES REQUESTS, SHARES AND EXCHANGE
+	URL=http://www.sadikhov.com/forum/index.php?showforum=43
+	CREATED=1148909286
+	VISITED=1148909304
+	DESCRIPTION= Sadikhov forums -> STUDY GUIDES REQUESTS, SHARES AND EXCHANGE
+	ICONFILE=www.sadikhov.com.ico
+
+#URL
+	ID=170
+	NAME=Sadikhov forums -> Microsoft Shares
+	URL=http://www.sadikhov.com/forum/index.php?showforum=44
+	CREATED=1148909358
+	VISITED=1151505685
+	DESCRIPTION= Sadikhov forums -> Microsoft Shares
+	ICONFILE=www.sadikhov.com.ico
+
+-
+
+#FOLDER
+	ID=171
+	NAME=to check software
+	CREATED=1147699308
+
+#URL
+	ID=172
+	NAME=cdburnerxp.se :: View topic - Before posting a bug (known bugs and more)
+	URL=http://www.cdburnerxp.se/forum/viewtopic.php?p=10291
+	CREATED=1147699302
+	ICONFILE=www.cdburnerxp.se.ico
+
+#URL
+	ID=173
+	NAME=Welcome to openSUSE.org - openSUSE
+	URL=http://en.opensuse.org/Welcome_to_openSUSE.org
+	CREATED=1147699319
+	VISITED=1161846464
+	ICONFILE=en.opensuse.org.ico
+
+#URL
+	ID=174
+	NAME=DivX Community · Labs
+	URL=http://community.divx.com/labs/?cid=2
+	CREATED=1147699449
+	VISITED=1152607444
+	ICONFILE=community.divx.com.ico
+
+#URL
+	ID=175
+	NAME=BeleniX Home
+	URL=http://www.genunix.org/distributions/belenix_site/belenix_home.html
+	CREATED=1141378537
+	VISITED=1146899574
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#URL
+	ID=176
+	NAME=Latitude and Longitude of World Cities
+	URL=http://www.infoplease.com/ipa/A0001769.html
+	CREATED=1142335330
+	ICONFILE=www.infoplease.com.ico
+
+#URL
+	ID=177
+	NAME=Home of the Underdogs - Unofficial Boardgame Conversions Collection
+	URL=http://www.the-underdogs.org/collect.php?offset=30&id=22&sort=name
+	CREATED=1140872608
+	DESCRIPTION=a place for games and such
+	ICONFILE=www.the-underdogs.org.ico
+
+#URL
+	ID=178
+	NAME=BL- Bioskop
+	URL=http://www.bl-bioskop.com/repertoar.php
+	CREATED=1148888071
+	VISITED=1181468019
+	ICONFILE=Bookmark Unvisited
+
+#FOLDER
+	ID=179
+	NAME=funny
+	CREATED=1149083079
+
+#URL
+	ID=180
+	NAME=Small Ads from the UK
+	URL=http://horsman.co.nz/story.do?id=67
+	CREATED=1149083197
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=181
+	NAME=QDB: Top 100 Quotes
+	URL=http://bash.org/?top
+	CREATED=1149083205
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=182
+	NAME=icons
+	CREATED=1149334721
+
+#URL
+	ID=183
+	NAME=Bug On Line
+	URL=http://www.bug.hr/
+	CREATED=1149334716
+	VISITED=1185903929
+	DESCRIPTION=Bug On Line (www.bug.hr) - Online izdanje najtiražnijeg hrvatskog informatičkog časopisa; Stranice časopisa Bug, Mreža i Enter
+	ICONFILE=www.bug.hr.ico
+
+-
+
+#FOLDER
+	ID=184
+	NAME=sky
+	CREATED=1149339168
+
+#URL
+	ID=185
+	NAME=GYIK.WS - The upload center indexer - Satellite upload
+	URL=http://gyik.ws/
+	CREATED=1149339164
+	VISITED=1149509687
+	DESCRIPTION=GYIK.WS Satellite upload center - Satellite Data Encryption, Decryption, Hacking Card Eeproms Softcams ! The freshest and the best files every day
+	ICONFILE=gyik.ws.ico
+
+#URL
+	ID=186
+	NAME=Google Groups: hr.rec.tv.satelitska.pcdvb
+	URL=http://groups.google.com/group/hr.rec.tv.satelitska.pcdvb?lnk=gschg
+	CREATED=1149605809
+	ICONFILE=groups.google.com.ico
+
+-
+
+#URL
+	ID=187
+	NAME=movies direct download
+	URL=http://forum.burek.co.yu/index.php/topic,96306.10.html
+	CREATED=1150538670
+	VISITED=1150542195
+	DESCRIPTION=Sex ~ Erotika ~ Lepotice :: Fresh: XXX clips / movies direct download
+	ICONFILE=forum.burek.co.yu.ico
+
+#URL
+	ID=188
+	NAME=GreyLib | Библиотека
+	URL=http://greylib.align.ru/listgenre.php?genre=2&lang=1
+	CREATED=1151758573
+	VISITED=1174044980
+	ICONFILE=Bookmark Unvisited
+
+#FOLDER
+	ID=189
+	NAME=antispam
+	CREATED=1151934079
+
+#URL
+	ID=190
+	NAME=Downloads - Support - Lavasoft
+	URL=http://www.lavasoft.de/support/download/
+	CREATED=1151934074
+	VISITED=1152702760
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=191
+	NAME=text
+	CREATED=1152000268
+
+#URL
+	ID=192
+	NAME=Free Classic AudioBooks. Digital narration for the 21st Century
+	URL=http://www.freeclassicaudiobooks.com/
+	CREATED=1152000257
+	VISITED=1152000346
+	DESCRIPTION=Free classic audiobook downloads in mp3 audio and ipod audio book format.
+	ICONFILE=www.freeclassicaudiobooks.com.ico
+
+#URL
+	ID=193
+	NAME=Index of /~appro/linux/DVD+RW/tools/win32
+	URL=http://fy.chalmers.se/~appro/linux/DVD+RW/tools/win32/
+	CREATED=1152002009
+	VISITED=1152020988
+	ICONFILE=fy.chalmers.se.ico
+
+-
+
+#URL
+	ID=194
+	NAME=LG Electronics Service Online :: Home
+	URL=http://hu.lgservice.com/
+	CREATED=1153386517
+	VISITED=1153386190
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=195
+	NAME=Blocking Unwanted Parasites with a Hosts File
+	URL=http://www.mvps.org/winhelp2002/hosts.htm
+	CREATED=1154350060
+	DESCRIPTION=This article provides details on blocking Ads, Banners, Parasites, and Hijackers, web bugs, etc. with a custom HOSTS file
+	ICONFILE=www.mvps.org.ico
+
+#URL
+	ID=196
+	NAME=.::Balkan-Media.Tk::.
+	URL=http://www.balkan-media.tk/
+	CREATED=1154598104
+	VISITED=1162211554
+	DESCRIPTION=Balkan Media
+	ICONFILE=www.balkan-media.tk.ico
+
+#URL
+	ID=197
+	NAME=DVD Decrypter download DVDDecrypter
+	URL=http://www.mrbass.org/dvdrip/
+	CREATED=1154617028
+	VISITED=1154959431
+	ICONFILE=www.mrbass.org.ico
+
+#URL
+	ID=198
+	NAME=..:: ABACUS COMPUTER ::..
+	URL=http://www.abacus.cz/
+	CREATED=1156343274
+	VISITED=1177336975
+	ICONFILE=www.abacus.cz.ico
+
+#URL
+	ID=199
+	NAME=4EVER PC © -
+	URL=http://www.4everpc.cz/cenik_detail.aspx?id=37677
+	CREATED=1156345294
+	VISITED=1156403192
+	ICONFILE=www.4everpc.cz.bmp
+
+#FOLDER
+	ID=200
+	NAME=belgium
+	CREATED=1156499154
+
+#URL
+	ID=201
+	NAME=Google Groups: be.comp
+	URL=http://groups.google.com/group/be.comp
+	CREATED=1156499150
+	VISITED=1156762354
+	ICONFILE=groups.google.com.ico
+
+#URL
+	ID=202
+	NAME=De nieuwe pcwarehouse
+	URL=http://www.pcwarehouse.be/
+	CREATED=1156498889
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=203
+	NAME=Welkom bij Tech Data Benelux
+	URL=http://www2.techdata.be/public20/be/index.asp
+	CREATED=1156761403
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=204
+	NAME=Ingram Micro BE
+	URL=http://be.ingrammicro.com/corporate/corporate.jsp
+	CREATED=1156761408
+	ICONFILE=be.ingrammicro.com.ico
+
+#URL
+	ID=205
+	NAME=RedCorp e-Store
+	URL=http://www.redcorp.com/common/contactus.asp
+	CREATED=1156761415
+	ICONFILE=www.redcorp.com.ico
+
+-
+
+#FOLDER
+	ID=206
+	NAME=czech
+	CREATED=1156510406
+
+#URL
+	ID=207
+	NAME=Booking
+	URL=http://80.83.66.190/ENG/6
+	CREATED=1156510401
+	ICONFILE=80.83.66.190.ico
+
+-
+
+#URL
+	ID=208
+	NAME=OvisLink->Products
+	URL=http://www.ovislink.com.tw/IP-1000R.htm
+	CREATED=1156858321
+	ICONFILE=Bookmark Unvisited
+
+#FOLDER
+	ID=209
+	NAME=test
+	CREATED=1156935559
+
+#URL
+	ID=210
+	NAME=NewTorrents.info - your 0day source
+	URL=http://newtorrents.info/?q=dream+master
+	CREATED=1156935556
+	ICONFILE=newtorrents.info.ico
+
+#URL
+	ID=211
+	NAME=Free MMORPG Lair - Huge List of Free MMORPGs
+	URL=http://www.gameogre.com/freemmorpgs.htm
+	CREATED=1157190598
+	VISITED=1175173680
+	DESCRIPTION=Free MMORPG list where you can review and rate all the Free MMORPGs and Free Online RPGs.
+	ICONFILE=www.gameogre.com.ico
+
+#URL
+	ID=212
+	NAME=Freeware Home - Ultimate Collection of Free Software
+	URL=http://www.freewarehome.com/index.html?%2FHome_and_Hobby%2FGenealogy_t.html
+	CREATED=1157454914
+	VISITED=1157457522
+	DESCRIPTION=Freeware Home - The most diverse Collection of truly free software on the Web.
+	ICONFILE=www.freewarehome.com.ico
+
+#URL
+	ID=213
+	NAME=Google Groups: hr.mag.bug
+	URL=http://groups.google.com/group/hr.mag.bug
+	CREATED=1157791760
+	VISITED=1158135645
+	ICONFILE=groups.google.com.ico
+
+#URL
+	ID=214
+	NAME=Programming C++ GUIs with the wxWidgets Library > Introducing wxWidgets
+	URL=http://www.informit.com/articles/article.asp?p=606222&seqNum=1&rl=1
+	CREATED=1158571373
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=215
+	NAME=Ten Most Used BitTorrent Sites Compared
+	URL=http://comparebt.blogspot.com/#btjunkie
+	CREATED=1159192555
+	ICONFILE=comparebt.blogspot.com.ico
+
+#URL
+	ID=216
+	NAME=PC-BSD Forum :: View topic - audio card on gigabyte ga-8I915P duo
+	URL=http://forums.pcbsd.org/viewtopic.php?t=3600&highlight=gigabyte
+	CREATED=1159277665
+	VISITED=1159541927
+	DESCRIPTION=PC-BSD is a free, open-source operating system based on rock-solid FreeBSD
+	ICONFILE=forums.pcbsd.org.ico
+
+#URL
+	ID=217
+	NAME=PC-BSD - Personal Computing, served up BSD Style!
+	URL=http://www.pcbsd.org/?p=download#CD1
+	CREATED=1159355482
+	VISITED=1161595839
+	DESCRIPTION=PC-BSD is a free, open-source operating system based on rock-solid FreeBSD
+	ICONFILE=www.pcbsd.org.ico
+
+#URL
+	ID=218
+	NAME=Urban Jungle
+	URL=http://uj.dir.hr/index.php
+	CREATED=1159368657
+	ICONFILE=uj.dir.hr.ico
+
+#URL
+	ID=219
+	NAME=Astral Dynamics | Auras
+	URL=http://www.astraldynamics.com/tutorials/?BoardID=9
+	CREATED=1160827777
+	DESCRIPTION=FREE step-by-step astral projection tutorials on out of body experience (OOBE), Astral Plane Travel, spiritual chakra energy development, healing, self-healing, psychic self-defense, auras, clairvoyance, astral sex, raising Kundalini, spirit possession, exocism, Akashic Records, astral sight/noise, paralysis, initiation, by mystic author Robert Bruce.
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=220
+	NAME=Tom's Hardware Guide Processors: VGA Charts
+	URL=http://www23.tomshardware.com/graphics.html
+	CREATED=1161164603
+	VISITED=1174467158
+	DESCRIPTION=TG Publishing is the premiere media company for grassroots technologists
+	ICONFILE=www23.tomshardware.com.ico
+
+#URL
+	ID=221
+	NAME=Rockwaldo's burning service
+	URL=http://www.tombstoned.co.uk/burning.html
+	CREATED=1161601901
+	VISITED=1163580530
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=222
+	NAME=GMT: Greenwich Mean Time - World Time / Time in every Time Zone
+	URL=http://wwp.greenwichmeantime.com/
+	CREATED=1161695532
+	DESCRIPTION=Greenwich Mean Time (GMT).  Complete guide to time and time zones; summer time and daylight-saving time world-wide
+	ICONFILE=wwp.greenwichmeantime.com.ico
+
+#URL
+	ID=223
+	NAME=ebookshare.net
+	URL=http://www.ebookshare.net/
+	CREATED=1161785827
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=224
+	NAME=My Settop Box
+	URL=http://www.mysettopbox.tv/knoppmyth.html
+	CREATED=1162292029
+	ICONFILE=www.mysettopbox.tv.ico
+
+#URL
+	ID=225
+	NAME=MythTV Distributions | MythPVR.com
+	URL=http://www.mythpvr.com/mythtv/distributions.html
+	CREATED=1162292037
+	ICONFILE=www.mythpvr.com.ico
+
+#URL
+	ID=226
+	NAME=Програми — Наше писмо
+	URL=http://cp02.signetics.net:9080/nasepismo/Members/prevod/43f44043e43344043043c438
+	CREATED=1163080985
+	VISITED=1163082047
+	ICONFILE=cp02.signetics.net.ico
+
+#URL
+	ID=227
+	NAME=Dictionaries - OpenOffice.org Wiki
+	URL=http://wiki.services.openoffice.org/wiki/Dictionaries#Serbian_.28Serbia.2C_Republic_Srpska.29
+	CREATED=1163081778
+	ICONFILE=wiki.services.openoffice.org.ico
+
+#URL
+	ID=228
+	NAME=GRYNX » Build your own Chat-Cord
+	URL=http://www.grynx.com/projects/build-your-own-chat-cord/1/
+	CREATED=1163242452
+	ICONFILE=www.grynx.com.ico
+
+#URL
+	ID=229
+	NAME=FilePlanet: Starsiege: Tribes Full Game
+	URL=http://www.fileplanet.com/140246/140000/fileinfo/Starsiege:-Tribes-Full-Game
+	CREATED=1163518634
+	VISITED=1163758399
+	DESCRIPTION=Download the Starsiege: Tribes Full Game now from the world's largest gaming download site, FilePlanet!
+	ICONFILE=www.fileplanet.com.ico
+
+#URL
+	ID=230
+	NAME=RAPPELZ
+	URL=http://rappelz.gpotato.com/gameguide/character.php
+	CREATED=1163759934
+	VISITED=1175075666
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=231
+	NAME=FilePlanet: Free Games, Downloads, Mods, Patches, Maps, Trailers, Demos&Betas
+	URL=http://www.fileplanet.com/free_games.shtml
+	CREATED=1163760149
+	VISITED=1175264602
+	ICONFILE=www.fileplanet.com.ico
+
+#URL
+	ID=232
+	NAME=Netfarm Open Source Software
+	URL=http://oss.netfarm.it/
+	CREATED=1163778472
+	DESCRIPTION=Sherpya
+	ICONFILE=oss.netfarm.it.ico
+
+#URL
+	ID=233
+	NAME=Index of /mirror/mplayer/
+	URL=http://ffdshow.faireal.net/mirror/mplayer/
+	CREATED=1163778481
+	ICONFILE=ffdshow.faireal.net.ico
+
+#URL
+	ID=234
+	NAME=Netfarm Open Source Software
+	URL=http://oss.netfarm.it/
+	CREATED=1163778488
+	DESCRIPTION=Sherpya
+	ICONFILE=oss.netfarm.it.ico
+
+#URL
+	ID=235
+	NAME=NWN2 Official1.02 Update Patch -- Neverwinter Nights Vault
+	URL=http://nwvault.ign.com/View.php?view=NWN2Other.Detail&id=35
+	CREATED=1163778566
+	DESCRIPTION=The Neverwinter Vault is the Internet's most complete source for Neverwinter Nights and Neverwinter Nights 2 information and news.
+	ICONFILE=nwvault.ign.com.ico
+
+#URL
+	ID=236
+	NAME=Ministry of Finance - Customs Administration of the Republic of Slovenia
+	URL=http://www.carina.gov.si/en/
+	CREATED=1164381697
+	ICONFILE=www.carina.gov.si.ico
+
+-
+
+#FOLDER
+	ID=237
+	NAME=gene
+	CREATED=1158045198
+
+#URL
+	ID=238
+	NAME=Genealogy software - Wikipedia, the free encyclopedia
+	URL=http://en.wikipedia.org/wiki/Genealogy_software
+	CREATED=1158045194
+	ICONFILE=en.wikipedia.org.ico
+
+#URL
+	ID=239
+	NAME=Community Express - download page
+	URL=http://www.communityexpress.info/download.html
+	CREATED=1158045221
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=240
+	NAME=GRAMPS - Wikipedia, the free encyclopedia
+	URL=http://en.wikipedia.org/wiki/GRAMPS
+	CREATED=1158045228
+	ICONFILE=en.wikipedia.org.ico
+
+#URL
+	ID=241
+	NAME=Legacy Family Tree Genealogy Software: Step 1: Download Legacy
+	URL=http://www.legacyfamilytree.com/DownloadStep2.asp
+	CREATED=1158045238
+	VISITED=1157977908
+	DESCRIPTION=Learn about Legacy; The most comprehensive and easy-to-use genealogy/family history software you can buy. Take the Guided Tour. Try the free demo.
+	ICONFILE=www.legacyfamilytree.com.ico
+
+-
+
+#FOLDER
+	ID=242
+	NAME=cars
+	CREATED=1159167323
+
+#URL
+	ID=243
+	NAME=mobile.de - the car market for second-hand and new vehicles
+	URL=http://www.mobile.de/cgi-bin/searchPublic.pl?new=1&bereich=pkw&category=1100&sr_qual=GN&sprache=2
+	CREATED=1159167321
+	VISITED=1163579056
+	DESCRIPTION=Your car market on the Internet. Offer and search for vehicles for sale. 1.006.021 Vehicles to date (Stand: 25th September 2006)
+	ICONFILE=www.mobile.de.ico
+
+#URL
+	ID=244
+	NAME=AutoScout24
+	URL=http://www.autoscout24.hr/home/index/search.asp?make=0&country=D&model=0&eurofrom=0&euroto=0&mileagefrom=0&mileageto=0&yearfrom=0&yearto=0&radius=0&zip=&extendedsearch=Prosireno
+	CREATED=1159167331
+	VISITED=1163579156
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=245
+	NAME=www.Avto.net - 1.slovenski avtomobilski sejem na internetu
+	URL=http://www.avto.net/2004/osebna/iskanje.asp
+	CREATED=1159179132
+	VISITED=1163579100
+	DESCRIPTION=avto foto oglasi
+	ICONFILE=www.avto.net.ico
+
+#URL
+	ID=246
+	NAME=AutoScout24: Auto verkaufen und Auto suchen (Autoverkauf, Autokauf, Occasionen, Gebrauchtwagen, Neuwagen, Auto Scout 24, Occasion, Autos)
+	URL=http://www.autoscout24.ch/AS24Web/Search.aspx?lng=ger&wl=1&make=0&modellike=&yearfrom=&yearto=&pricefrom=&priceto=&radius=&zip=&searchextend=Details&from=Home&extview=&allmakes=&cur=CHF&zipcountry=CH
+	CREATED=1159449125
+	VISITED=1160380286
+	DESCRIPTION=AutoScout24 bietet das erfolgreiche Auto verkaufen und Auto suchen, Auto inserieren (Autoverkauf, Autokauf, Autos, Auto, Gebrauchtwagen, Occasionen, Occasion, Neuwagen, Altwagen aller Marken wie Audi, BMW, Mercedes, Ford, Opel, Toyota, Volkswagen, VW, Peugeot, Porsche, Auto Scout 24, AutoScaut24, Auto Scaut)
+	ICONFILE=www.autoscout24.ch.ico
+
+-
+
+#URL
+	ID=247
+	NAME=Map24 – Route planner and maps for UK, Europe and USA
+	URL=http://www.uk.map24.com/
+	CREATED=1159515587
+	VISITED=1163166573
+	DESCRIPTION=Online maps of the UK, Europe and North America. Free, interactive, dynamic, and detailed. Search for addresses and plan your itinerary with Map24. Calculate your route; look for hotels, restaurants, tourist attractions, or other points of interest. International routing across borders with street maps, city maps, and precise street level  address searches.
+	ICONFILE=www.uk.map24.com.ico
+
+#FOLDER
+	ID=248
+	NAME=paypal
+	CREATED=1161682377
+
+#URL
+	ID=249
+	NAME=Help Center - PayPal
+	URL=http://www.paypal.com/cgi-bin/webscr?cmd=_help-ext&eloc=0&loc=323&source_page=_home&flow=
+	CREATED=1161682372
+	ICONFILE=www.paypal.com.ico
+
+#URL
+	ID=250
+	NAME=moneybookers.com - and money moves
+	URL=https://www.moneybookers.com/app/faq.pl?gid=11&qid=743
+	CREATED=1161682383
+	ICONFILE=www.moneybookers.com.png
+
+#URL
+	ID=251
+	NAME=BidPay - Auction Payment Service - BidPay.com
+	URL=http://www.bidpay.com/
+	CREATED=1161682388
+	DESCRIPTION=BidPay provides auction payment services to eBay Sellers and Buyers.  Pay for your online auctions using BidPay.com
+	ICONFILE=www.bidpay.com.ico
+
+-
+
+#FOLDER
+	ID=252
+	NAME=hp
+	CREATED=1164100508
+
+#URL
+	ID=253
+	NAME=Software and Drivers - HP Compaq dx2200 Microtower PC All Models, Microsoft Windows XP Professional
+	URL=http://h18007.www1.hp.com/support/files/hpcpqdt/us/locate/64_6260.html
+	CREATED=1164100505
+	VISITED=1164105123
+	DESCRIPTION=This page lists the current Software and Driver downloads available for a specific combination of hardware family, model, and operating system
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=254
+	NAME=wow
+	CREATED=1164461754
+
+#URL
+	ID=255
+	NAME=2.0.1 Patch - Arathor / Wildhammer
+	URL=http://arathor.net/showthread.php?t=10472
+	CREATED=1164461750
+	DESCRIPTION=2.0.1 Patch Game Discussion
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=256
+	NAME=Patch 2.0.1 Part 2 Download Link - Arathor / Wildhammer
+	URL=http://arathor.net/showthread.php?t=10521
+	CREATED=1164461759
+	DESCRIPTION=Patch 2.0.1 Part 2 Download Link Game Discussion
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=257
+	NAME=entropia
+	CREATED=1173972832
+
+#URL
+	ID=258
+	NAME=forum
+	URL=http://www.entropiaforum.com/
+	CREATED=1173972827
+	VISITED=1184175554
+	DESCRIPTION=EntropiaForum - EntropiaUniverse Discussion and Information
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=259
+	NAME=My Items
+	URL=https://account.entropiauniverse.com/pe/en/rich/5144.html
+	CREATED=1174893549
+	VISITED=1192128486
+	ICONFILE=account.entropiauniverse.com.ico
+
+#URL
+	ID=260
+	NAME=Entropia Universe
+	URL=http://www.entropiauniverse.com/index.var
+	CREATED=1180374191
+	VISITED=1181981423
+	ICONFILE=www.entropiauniverse.com.ico
+
+#URL
+	ID=261
+	NAME=PEAuction.com - Home
+	URL=http://www.peauction.com/
+	CREATED=1186909822
+	VISITED=1187038937
+	ICONFILE=www.peauction.com.ico
+
+#URL
+	ID=262
+	NAME=Entropedia: Creature Snarksnot
+	URL=http://www.entropedia.info/Info.aspx?chart=Mob&id=66
+	CREATED=1186909827
+	DESCRIPTION=Charts, maps and guides that anyone can update about MindArk's Entropia Universe.
+	ICONFILE=www.entropedia.info.ico
+
+#URL
+	ID=263
+	NAME=Entropedia: Main Page
+	URL=http://www.entropedia.info/Page.aspx?page=Main%20Page
+	CREATED=1187033233
+	VISITED=1187118682
+	DESCRIPTION=Charts, maps and guides that anyone can update about MindArk's Entropia Universe.
+	ICONFILE=www.entropedia.info.ico
+
+#URL
+	ID=264
+	NAME=PEAuction.com - Search - hair gel
+	URL=http://www.peauction.com/search.php?txt=hair+gel
+	CREATED=1187033366
+	VISITED=1187037001
+	ICONFILE=www.peauction.com.ico
+
+-
+
+#URL
+	ID=265
+	NAME=Index of /avidemux/win32
+	URL=http://fixounet.free.fr/avidemux/win32/
+	CREATED=1174047109
+	VISITED=1174121041
+	ICONFILE=Bookmark Unvisited
+
+#FOLDER
+	ID=266
+	NAME=slax
+	CREATED=1174478170
+
+#URL
+	ID=267
+	NAME=slaxmod1 KDE-Apps.org
+	URL=http://www.kde-apps.org/content/show.php?content=26859
+	CREATED=1174478165
+	VISITED=1183658298
+	DESCRIPTION=KDE Applications Software Office Multimedia Graphic Network Printing Education Games Development Administration Scientific Security Utilities Screensaver News Forum GUI Polls Links Downloads QT Look X11 Linux
+	ICONFILE=www.kde-apps.org.png
+
+#URL
+	ID=268
+	NAME=lSlaxmod1
+	URL=http://members.lycos.co.uk/dbojan/
+	CREATED=1174478191
+	VISITED=1182576437
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=269
+	NAME=ftp://slackware.mirrors.tds.net/pub/slackware/slackware-11.0-iso/
+	URL=ftp://slackware.mirrors.tds.net/pub/slackware/slackware-11.0-iso/
+	CREATED=1174482799
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=270
+	NAME=FedoraMain - Fedora Project Wiki
+	URL=http://fedoraproject.org/wiki/
+	CREATED=1174482810
+	VISITED=1175180212
+	ICONFILE=fedoraproject.org.ico
+
+#URL
+	ID=271
+	NAME=Festival Download
+	URL=http://www.cstr.ed.ac.uk/projects/festival/download.html
+	CREATED=1174578587
+	VISITED=1174638020
+	ICONFILE=www.cstr.ed.ac.uk.ico
+
+#URL
+	ID=272
+	NAME=ftp://ftp.slackware.pl/pub/slackware/slackware-11.0-iso/
+	URL=ftp://ftp.slackware.pl/pub/slackware/slackware-11.0-iso/
+	CREATED=1175174935
+	VISITED=1175175012
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=273
+	NAME=NONAGS FTP Clients - Freeware
+	URL=http://www.nonags.com/nonags/ftpc.html
+	CREATED=1175175170
+	VISITED=1175176808
+	DESCRIPTION=Download FTP Client software from Nonags, the largest online freeware download site. Over 5,000 titles that are tested, rated, reviewed and ready to download. All free.
+	ICONFILE=www.nonags.com.ico
+
+#URL
+	ID=274
+	NAME=NONAGS Monitoring Utilities - Freeware
+	URL=http://www.nonags.com/nonags/monit.html
+	CREATED=1175175176
+	VISITED=1175176682
+	DESCRIPTION=Download Monitoring Utilities software from Nonags, the largest online freeware download site. Over 5,000 titles that are tested, rated, reviewed and ready to download. All free.
+	ICONFILE=www.nonags.com.ico
+
+-
+
+#FOLDER
+	ID=275
+	NAME=quake3
+	CREATED=1175846966
+
+#URL
+	ID=276
+	NAME=Urban Terror: News
+	URL=http://www.urbanterror.net/news.php
+	CREATED=1175846961
+	ICONFILE=www.urbanterror.net.ico
+
+#URL
+	ID=277
+	NAME=World of Padman
+	URL=http://www.worldofpadman.com/
+	CREATED=1175846988
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=278
+	NAME=WQ3 :: Home
+	URL=http://www.westernquake3.net/main/
+	CREATED=1175847003
+	VISITED=1175846994
+	ICONFILE=www.westernquake3.net.ico
+
+#URL
+	ID=279
+	NAME=T R E M U L O U S :: NEWS
+	URL=http://tremulous.net/
+	CREATED=1175930202
+	ICONFILE=tremulous.net.ico
+
+#URL
+	ID=280
+	NAME=Nexuiz
+	URL=http://www.alientrap.org/nexuiz/
+	CREATED=1175930702
+	ICONFILE=www.alientrap.org.ico
+
+#URL
+	ID=281
+	NAME=SourceForge.net: Files
+	URL=http://sourceforge.net/project/showfiles.php?group_id=157793&package_id=194208&release_id=498085
+	CREATED=1177411086
+	DESCRIPTION=The world's largest development and download repository of Open Source code and applications
+	ICONFILE=sourceforge.net.ico
+
+-
+
+#FOLDER
+	ID=282
+	NAME=tv
+	CREATED=1179645203
+
+#URL
+	ID=283
+	NAME=TV Links
+	URL=http://www.tv-links.co.uk/
+	CREATED=1179645200
+	VISITED=1179645196
+	ICONFILE=www.tv-links.co.uk.ico
+
+#URL
+	ID=284
+	NAME=X Tube - What Channel Are You On?!
+	URL=http://www.xtube.com/warning.php?ref=
+	CREATED=1179645213
+	VISITED=1179645125
+	ICONFILE=www.xtube.com.ico
+
+#URL
+	ID=285
+	NAME=PornoTube.com - Age Verification - SEXPERIMENT
+	URL=http://www.pornotube.com/
+	CREATED=1179645220
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#FOLDER
+	ID=286
+	NAME=mmorpg2
+	CREATED=1180635176
+
+#URL
+	ID=287
+	NAME=Regnum Online official site
+	URL=http://www.regnumonline.com.ar/index.php?l=1&sec=6
+	CREATED=1180635169
+	DESCRIPTION=Regnum Online Official website
+	ICONFILE=www.regnumonline.com.ar.ico
+
+#URL
+	ID=288
+	NAME=EVENTIDE.NET :: home of Rubies of Eventide mmorpg an International FREE massively-multiplayer game
+	URL=http://www.eventide.net/download.html
+	CREATED=1180635192
+	VISITED=1180635057
+	ICONFILE=www.eventide.net.ico
+
+#URL
+	ID=289
+	NAME=Acclaim Home Page
+	URL=http://www.acclaim.com/
+	CREATED=1180635318
+	VISITED=1180635511
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=290
+	NAME=BOTS Home Page
+	URL=http://bots.acclaim.com/index.htm
+	CREATED=1180635326
+	VISITED=1180635368
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=291
+	NAME=BOTS Summary
+	URL=http://bots.acclaim.com/downloads/game.htm
+	CREATED=1180635561
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#URL
+	ID=292
+	NAME=Xubuntu 7.04 (Feisty Fawn)
+	URL=http://cdimages.ubuntu.com/xubuntu/releases/feisty/release/
+	CREATED=1183755344
+	ICONFILE=cdimages.ubuntu.com.ico
+
+#URL
+	ID=293
+	NAME=Xubuntu Home Page | Xubuntu.org
+	URL=http://www.xubuntu.org/
+	CREATED=1183755352
+	VISITED=1183788237
+	ICONFILE=www.xubuntu.org.ico
+
+#FOLDER
+	ID=294
+	NAME=business
+	CREATED=1183874621
+
+#URL
+	ID=295
+	NAME=osDate - Free, open-source dating system.
+	URL=http://www.tufat.com/s_free_dating_system.htm
+	CREATED=1183874631
+	VISITED=1183874762
+	DESCRIPTION=Flash chat room, online family tree builder, Flash DataGrid, phpMyAdmin, Content Management, Flash 2004, Image Gallery, phpBB, imagevuex, html2ps, html2pdf, PDF generation, Inspirational messages, AMFPHP
+	ICONFILE=www.tufat.com.ico
+
+-
+
+#FOLDER
+	ID=296
+	NAME=programming
+	CREATED=1184355843
+
+#URL
+	ID=297
+	NAME=Cprogramming.com Article: Common Programming Mistakes
+	URL=http://www.cprogramming.com/tutorial/common.html
+	CREATED=1184355839
+	VISITED=1184359686
+	DESCRIPTION=Cprogramming.com is a combination of C++ tutorials, compiler information, programming links, a VERY ACTIVE programming message board, and C and C++ source code .
+	ICONFILE=www.cprogramming.com.ico
+
+#URL
+	ID=298
+	NAME=Tutorials
+	URL=http://www.cyberdiem.com/vin/tutorials.html
+	CREATED=1184355994
+	VISITED=1184359681
+	ICONFILE=www.cyberdiem.com.ico
+
+#URL
+	ID=299
+	NAME=Teach Yourself C++ in 21 Days
+	URL=http://newdata.box.sk/bx/c/
+	CREATED=1184356021
+	VISITED=1184359681
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=300
+	NAME=C++ Language Tutorial
+	URL=http://www.cplusplus.com/doc/tutorial/
+	CREATED=1184356033
+	VISITED=1187023134
+	ICONFILE=www.cplusplus.com.ico
+
+-
+
+#FOLDER
+	ID=301
+	NAME=web hosting
+	CREATED=1184480868
+
+#URL
+	ID=302
+	NAME=TEOL
+	URL=http://www.teol.net/cms/view.php/1225.html
+	CREATED=1184480863
+	DESCRIPTION=Teol
+	ICONFILE=www.teol.net.ico
+
+#URL
+	ID=303
+	NAME=Web hosting i domeni
+	URL=http://www.blic.net/index.php?id=58
+	CREATED=1184480874
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=304
+	NAME=Teleklik.net
+	URL=http://www.teleklik.net/a2/index.php/pg/2271.html
+	CREATED=1184480882
+	ICONFILE=www.teleklik.net.ico
+
+#URL
+	ID=305
+	NAME=BH Telecom: Web hosting
+	URL=http://www.bhtelecom.ba/privatni_bihnet_serv.html
+	CREATED=1184504705
+	VISITED=1184505203
+	ICONFILE=www.bhtelecom.ba.ico
+
+#URL
+	ID=306
+	NAME=MySQL AB :: MySQL 5.0 Reference Manual :: 2.4.15.1 Windows Post-Installation Procedures
+	URL=http://dev.mysql.com/doc/refman/5.0/en/windows-post-installation.html
+	CREATED=1184507377
+	VISITED=1184507403
+	ICONFILE=dev.mysql.com.ico
+
+#URL
+	ID=307
+	NAME=http://www.tufat.com/docs/osdate/index.html
+	URL=http://www.tufat.com/docs/osdate/index.html
+	CREATED=1184515452
+	VISITED=1184517995
+	ICONFILE=www.tufat.com.ico
+
+-
+
+#URL
+	ID=308
+	NAME=Vlada Republike Srpske - Kontakt strana
+	URL=http://www.vladars.net/lt/adresar.html
+	CREATED=1184495897
+	VISITED=1184495374
+	DESCRIPTION=Zvanicna prezentacija Vlade Republike Srpske
+	ICONFILE=www.vladars.net.gif
+
+#FOLDER
+	ID=309
+	NAME=primjeri
+	CREATED=1184504879
+
+#URL
+	ID=310
+	NAME=Upoznavanje Ljubavno Gnezdo - Pozanstva - E-Muvanje - Licni Oglasi - Poljubac - Love Dating Site
+	URL=http://www.ljubavnognezdo.com/upoznavanje.php
+	CREATED=1184504873
+	DESCRIPTION=Upoznavanje ljudi preko interneta. Sretnite vasu srodnu dusu - puno ljudi koji su spremni na druzenje, chat, zabavu - prondajite bracnog partnera ili partnera za sex i zabavu.
+	ICONFILE=www.ljubavnognezdo.com.ico
+
+#URL
+	ID=311
+	NAME=poljubac.urbae.com - veze,prijateljstvo,brak
+	URL=http://poljubac.urbae.com/index.php
+	CREATED=1184504934
+	DESCRIPTION=Poljubac Urbae - Pronađite vašu bolju polovinu i prijatelje sa Poljupcem. Najbolji ex-yu sajt za upoznavanje i druženje. 
+	ICONFILE=poljubac.urbae.com.gif
+
+#URL
+	ID=312
+	NAME=Posao.ba
+	URL=http://posao.ba/
+	CREATED=1184505008
+	DESCRIPTION=Jednostavno i brzo do novog posla. Uvijek svijeza lista poslova. Pomoci cemo Vam da jednostavno i brzo dodjete do novog uposlenika. Upravljanje ljudskim resursima. Posjetite nas jos danas
+	ICONFILE=posao.ba.ico
+
+#URL
+	ID=313
+	NAME=Nadjite Partnera-Nestidi te se
+	URL=http://www.nadji-partnera.de.vu/
+	CREATED=1184505316
+	DESCRIPTION=nadji-partnera - erfahren Sie mehr über nadji-partnera. Hier finden Sie alle Info ...
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=314
+	NAME=Pronadji Vezu - upoznavanje, e-muvanje, dopisivanje, druzenje, kontakti, ljubav, romansa, flert
+	URL=http://www.pronadjivezu.com/
+	CREATED=1184505336
+	DESCRIPTION=PronadjiVezu.com je sajt preko koga mozete da upoznate nove prijatelje, da se dopisujete, druzite, pa i da se zaljubite!!! upoznavanje,dopisivanje,e-muvanje,chat,prijateljstvo,ljubav,ljubavni kontakti,licni oglasi,licni kontakti,pricaonica,poljubac,randevu
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=315
+	NAME=BOSNA I HERCEGOVINA - BIH - NAJBOLJE NA BIH WEBU - NAJINTERESNANTNIJE NA BIH WEBU - TRAZIM - NAJBOLJE NA WEBU - NAJINTERESANTNIJE NA WEBU - JER MI TRAZIMO ZA VAS - WWW.TRAZIM.COM, OGLASI - KUPUJEM - PRODAJEM - TRAZIM - NUDIM - RADIO - REAL PLAYER - NAJBOL
+	URL=http://www.trazim.com/Bosna.htm
+	CREATED=1184506465
+	DESCRIPTION=BOSNA I HERCEGOVINA - BIH - NAJBOLJE NA BIH WEBU - NAJINTERESNANTNIJE NA BIH WEBU -TRAZIM - NAJBOLJE NA WEBU - NAJINTERESANTNIJE NA WEBU - JER MI TRAZIMO ZA VAS - WWW.TRAZIM.COMTRAZIM - NAJBOLJE NA WEBU - NAJINTERESANTNIJE NA WEBU - JER MI TRAZIMO ZA VAS - WWW.TRAZIM.COM, HASAN DZONLAGIC, YUGOSLAVIA - NAJBOLJE NA YUGOSLOVENSKOM WEBU - NAJINTERESANTNIJE NA YU WEBU - JER MI TRAZIMO ZA VAS - WWW.TRAZIM.COM: Trazim, Vidi, MP3
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=316
+	NAME=AUTO PIJACA - AUTOPIJACA - AUTOMOBILI.BA - AUTO-PIJACA - AUTOPIJAC - AUTOKUCE - AUTODIJELOVI - LIZING - AUTOMARKET AUTOZAVAS - SUPER OGLASI - MALI OGLASI - OGLASI OD A-Z - WWW.AUTOMARKET.BA - WWW.MALIOGLASI.COM - WWW.SUPEROGLASI.BA
+	URL=http://www.autopijaca.info/index.php?vozilo=6
+	CREATED=1184506476
+	DESCRIPTION=AUTO PIJACA - AUTOPIJACA - AUTO-PIJACA - AUTOMOBILI.BA - AUTOPIJAC - AUTOMARKET - AUTOKUCE - AUTODIJELOVI - LIZING - MOBILE - AUTOZAVAS - SUPER OGLASI - MALI OGLASI - OGLASI OD A-Z - WWW.AUTOMARKET.BA - WWW.MALIOGLASI.COM - WWW.SUPEROGLASI.BA
+	ICONFILE=Bookmark Unvisited
+
+#URL
+	ID=317
+	NAME=Plamen ljubavi - upoznavanje i druzenje
+	URL=http://www.extrasd.com/tirke_upoznavanje/
+	CREATED=1184509620
+	VISITED=1184521006
+	ICONFILE=Bookmark Unvisited
+
+-
+
+#URL
+	ID=318
+	NAME=Posao.ba
+	URL=http://www.posao.ba/index.php?user=797cbf2e15529e06f6e69c93000314b0
+	CREATED=1184504742
+	VISITED=1184504720
+	DESCRIPTION=Jednostavno i brzo do novog posla. Uvijek svijeza lista poslova. Pomoci cemo Vam da jednostavno i brzo dodjete do novog uposlenika. Upravljanje ljudskim resursima. Posjetite nas jos danas
+	ICONFILE=www.posao.ba.ico
+
+#FOLDER
+	ID=319
+	NAME=c++
+	CREATED=1186341410
+
+#URL
+	ID=320
+	NAME=C++ Language Tutorial
+	URL=http://www.cplusplus.com/doc/tutorial/
+	CREATED=1186341405
+	VISITED=1187023134
+	ICONFILE=www.cplusplus.com.ico
+
+-
+
+#URL
+	ID=321
+	NAME=SLAX library modules Qt - IDE development framework
+	URL=http://www.slax.org/modules.php?category=libraries&id=2373&name=Qt+-+IDE+development+framework
+	CREATED=1187157215
+	VISITED=1187199225
+	DESCRIPTION=SLAX library modules Qt - IDE development framework: Slax is beautiful and small bootable CD with Linux. It contains all the software you like. SLAX runs directly from the CD (or USB) without installing.
+	ICONFILE=www.slax.org.ico
+
+#FOLDER
+	ID=322
+	NAME=hosting
+	CREATED=1187157909
+
+#URL
+	ID=323
+	NAME=Web hosting by Lotos HOSTING
+	URL=http://www.lotoshosting.com/?gclid=CK7VqpPr9o0CFQ53MAodlQMFNA
+	CREATED=1187157904
+	VISITED=1187157853
+	ICONFILE=www.lotoshosting.com.ico
+
+#URL
+	ID=324
+	NAME=ORBIS.ba - web hosting, webhosting server, reseller web hosting, registracija domene, bulk registracija domena, web hosting, registracija domena, web design, SSL, web shop, Internet usluge, registracija .hr .com .net .info .biz .com.hr .org domena, internet server, izrada internet stranica, web stranice - Orbis
+	URL=http://www.orbis.ba/
+	CREATED=1187157925
+	VISITED=1187157862
+	DESCRIPTION=ORBIS-PORTAL, web hosting provider, registracija domene, bulk registracija .ba .com .net i ostalih domena, web hosting, webhosting, Internet usluge, internet stranice, web design, reseller web hosting, linux hosting, windows hosting, upis u pretra&amp;lt;9E&amp;gt;ivače, email, web, internet, ssl certifikati, web shop
+	ICONFILE=www.orbis.ba.ico
+
+#URL
+	ID=325
+	NAME=Microsofts's Skydrive storage launches - Download Squad
+	URL=http://www.downloadsquad.com/2007/08/13/microsoftss-skydrive-storage-launches/
+	CREATED=1187159295
+	ICONFILE=www.downloadsquad.com.ico
+
+#URL
+	ID=326
+	NAME=Windows Live SkyDrive Launched - Enters a Crowded Online Storage Market
+	URL=http://www.readwriteweb.com/archives/windows_live_skydrive_launched_online_storage.php
+	CREATED=1187159509
+	VISITED=1187159630
+	DESCRIPTION=Today Microsoft announced Windows Live SkyDrive, the final product name for its online storage solution - previously known as Windows Live Folders. Windows Live SkyDrive has a few ...
+	ICONFILE=www.readwriteweb.com.ico
+
+-
+
+#FOLDER
+	ID=327
+	NAME=filmovi
+	CREATED=1187196406
+
+#URL
+	ID=328
+	NAME=The Party (1968)
+	URL=http://www.imdb.com/title/tt0063415/
+	CREATED=1187196403
+	DESCRIPTION=The Party on IMDb: Movies, TV, Celebs, and more...
+	ICONFILE=www.imdb.com.ico
+
+#URL
+	ID=329
+	NAME=Placard, Le (2001)
+	URL=http://www.imdb.com/title/tt0243493/
+	CREATED=1187196455
+	DESCRIPTION=Placard, Le on IMDb: Movies, TV, Celebs, and more...
+	ICONFILE=www.imdb.com.ico
+
+-
+
+#FOLDER
+	ID=330
+	NAME=ao
+	CREATED=1192133250
+	ACTIVE=YES
+
+#URL
+	ID=331
+	NAME=Making LOTS of money as a new player - Anarchy Online Bulletin Board
+	URL=http://forums.anarchy-online.com/showthread.php?t=320326
+	CREATED=1192133292
+	VISITED=1192211958
+	DESCRIPTION=Making LOTS of money as a new player New Arrivals
+	ICONFILE=forums.anarchy-online.com.ico
+
+#URL
+	ID=332
+	NAME=Community forums - Anarchy Online Bulletin Board
+	URL=http://forums.anarchy-online.com/forumdisplay.php?f=244
+	CREATED=1192133298
+	VISITED=1192211959
+	ICONFILE=forums.anarchy-online.com.ico
+
+#URL
+	ID=333
+	NAME=Science Lab (Nano Technician) - Anarchy Online Bulletin Board
+	URL=http://forums.anarchy-online.com/forumdisplay.php?s=&forumid=167
+	CREATED=1192133326
+	VISITED=1192287069
+	DESCRIPTION=Technology of mass destruction.
+	ICONFILE=forums.anarchy-online.com.ico
+
+#URL
+	ID=334
+	NAME=Saetos's Guide to the Temple of Three Winds! - Anarchy Online Bulletin Board
+	URL=http://forums.anarchy-online.com/showthread.php?t=433225
+	CREATED=1192133354
+	VISITED=1192211950
+	DESCRIPTION=Saetos's Guide to the Temple of Three Winds! New Arrivals
+	ICONFILE=forums.anarchy-online.com.ico
+
+#URL
+	ID=335
+	NAME=A Guide for New Players - Anarchy Online Bulletin Board
+	URL=http://forums.anarchy-online.com/showthread.php?t=274593
+	CREATED=1192133372
+	VISITED=1192561597
+	DESCRIPTION=A Guide for New Players New Arrivals
+	ICONFILE=forums.anarchy-online.com.ico
+
+-
+
+#URL
+	ID=336
+	NAME=Making LOTS of money as a new player - Anarchy Online Bulletin Board
+	URL=http://forums.anarchy-online.com/showthread.php?t=320326
+	CREATED=1192126174
+	VISITED=1192211958
+	DESCRIPTION=Making LOTS of money as a new player New Arrivals
+	ICONFILE=forums.anarchy-online.com.ico
+
+#URL
+	ID=337
+	NAME=Making LOTS of money as a new player - Anarchy Online Bulletin Board
+	URL=http://forums.anarchy-online.com/showthread.php?t=320326
+	CREATED=1192126174
+	VISITED=1192211958
+	DESCRIPTION=Making LOTS of money as a new player New Arrivals
+	ICONFILE=forums.anarchy-online.com.ico
+
+#FOLDER
+	ID=338
+	NAME=trailers
+	CREATED=1192600609
+
+#URL
+	ID=339
+	NAME=Apple - Movie Trailers
+	URL=http://www.apple.com/trailers/
+	CREATED=1192600605
+	VISITED=1192600627
+	DESCRIPTION=View the latest movie trailers for many current and upcoming releases.  Many trailers are available in high-quality HD, iPod, and iPhone versions.
+	ICONFILE=www.apple.com.ico
+
+-
+

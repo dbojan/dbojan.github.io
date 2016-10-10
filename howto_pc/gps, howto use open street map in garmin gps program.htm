@@ -1,0 +1,52 @@
+<pre>
+how to use openstreetmap in garmin gps
+
+(You can also download maps from osm site. somewhere.)
+-go to openstreetmap.org. 
+-zoom to area you want to use. 
+-click on export
+-format to export=OpenStreetMap XML Data 
+-click on export
+-save map.osm.xml in c:\download
+
+-download latest version from <a href="http://www.mkgmap.org.uk/snapshots/">http://www.mkgmap.org.uk/snapshots/</a>
+ currently it is: <a href="http://www.mkgmap.org.uk/snapshots/mkgmap-r1673.zip">http://www.mkgmap.org.uk/snapshots/mkgmap-r1673.zip</a>
+
+-unzip to c:\mkgmap
+-copy map.osm.xml from c:\download to c:\mkgmap
+-start/run/cmd
+-cd c:\mkgmap
+-right click/paste in command window:
+
+mkgmap.jar  --route --road-name-pois  map.osm.xml
+
+or alternative: mkgmap.jar --net --route --country-name=Bosnia --road-name-pois --utf8 map.osm.xml
+(if you want to use maps for more than one state, enable option ignore bounds or something.)
+
+rename 63240001.img to GMAPPROM.IMG or to gmapsupp.img.
+if gmapsupp.img exists on your sdcard in \garmin\ dir move it to new folder.
+Copy img file from c:\mkgmap to garmin dir on sdcard.
+
+makemap.bat:
+
+cd C:\mkgmap
+del GMAPPROM.IMG 63240001.img
+mkgmap.jar  --route --road-name-pois map.osm.xml
+move 63240001.img GMAPPROM.IMG
+pause
+
+
+
+note: you can enter name of your country instead of Bosnia.
+Currently I cant use "find address" which --country-name is suppose to fix.
+you can use Where to/ points of interest to find address.
+
+usefull links:
+<a href="http://wiki.openstreetmap.org/wiki/OSM_Map_On_Garmin">http://wiki.openstreetmap.org/wiki/OSM_Map_On_Garmin</a>
+<a href="http://wiki.openstreetmap.org/wiki/Mkgmap/routing">http://wiki.openstreetmap.org/wiki/Mkgmap/routing</a>
+<a href="http://wiki.openstreetmap.org/wiki/Mkgmap">http://wiki.openstreetmap.org/wiki/Mkgmap</a>
+<a href="http://forum.openstreetmap.org/viewtopic.php?id=4780">http://forum.openstreetmap.org/viewtopic.php?id=4780</a>
+
+
+
+

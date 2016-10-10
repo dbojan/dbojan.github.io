@@ -1,0 +1,22 @@
+put always recomended (in your opinion and USE) on the first position
+
+just put the most used options in the program.
+
+you can add advanced options if you want with other options people might need.
+
+make the gui simplest possibe.
+
+
+line it up: 1 2 3 4. lead the user.
+use similar elements across the window/program.
+
+max 3-4 options
+max 4 or 5 clicks.
+include advanced for those who want it.
+ini file?
+
+equal distance from the edges.
+
+dont put setting in just cause yo can.
+if you have never used it, you most likely never will.
+dont scare the user with milion buttons, setting on the main window. or anywhere.

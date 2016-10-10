@@ -1,0 +1,26 @@
+Subject:
+Re: Ubacivanje titlova
+From:
+Den <den@vodatel.hr>
+Date:
+Sun, 15 Jan 2006 00:46:39 +0100
+Newsgroups:
+hr.rec.tv.satelitska.pcdvb
+
+>>Jel zna neko jel se mo?e ubaciti titl u npr. neki film snimljen sa SS2 na 
+>>hard ali bez kodiranja u divx i sl.? 
+>>
+
+Trebaju ti c(etiri programa:
+
+1. DVDPatcher - napravi korekciju DVB stream-a
+2. PVAStrumento - razdvoji sliku i zvuk (meni radi samo v 2.1.0.85)
+3. Subtitle Creator - od DivX titlova (srt, sub) napravi titlove za
+DVD (sup)
+4. IfoEdit  sve to spoji i kreira VOB-ove koje snimiš na DVD (titlovi
+se mogu ukljuc(iti/iskljuc(iti kao na pravom DVD-u)
+
+Iako izgleda da ima puno posla, sve to traje (sa snimanjem na DVD)
+manje od pola sata. Programe na?eš i skineš na netu. Upute tako?er.
+Nemoj tražiti da ti šaljem upute, jer je svaki program jako
+jednostavan i imaš tutoriale gdje je sve lijepo opisano. Navali.

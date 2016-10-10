@@ -1,0 +1,147 @@
+<pre>
+phone, What is sip and how to use it, applications review
+
+q What is Sip?
+a Sip is protocol for telephony over internet. 
+Similar to e-mail protocol, or sms. You can use any program for e-mail, or any phone for sending sms.
+Also you choose your e-mail provider, the same way you can decide to use gmail/yahoo/microsoft, whichever you want to use.
+
+
+q Can I make phonecalls using sip
+a Yes.
+a Longer answer: Yes, you can call other users using apps with same protocol (sip). Call is made using wifi/mobile interenet.
+
+q Can I call people who do not have (any) sip app installed?
+a Some providers offer rates for calls to landline/mobile phones, which are usually much cheaper then telecom providers.
+Call to landlines are cheaper than call to mobile. This rates change from time to time.
+More info in another file, soon (voip providers review.)
+
+
+q Can I send messages using sip
+a Yes. There is a protocol caled 'simple' that supports sending messages.
+
+q Which programs can I use
+a 
+
+app name	platform	portable	voice (sip)	msg (simple)	size	app licence	multi accounts	internet web address of prog
+microsip	windows os	supported	supported	supported	4mb	open source	yes, 1 at time	microsip.org/
+phonerlite	windows os	supported	supported	supported	5mb	freeware	yes, 1 at time	phonerlite.de/index_en.htm
+csipsimple	android os	apk available	supported	supported	9mb	open source	yes, parallel	code.google.com/p/csipsimple/
+linphone	android os,win	play store	supported	supported	14mb	open source	yes, parallel	linphone.org, supports video too.
+
+yes, 1 at time: you can setup more accounts, but people can just send you message/call you on the one currently selected
+yes, parallel: you can setup more accounts, people can send you message/call you on any of the already set-up accounts.
+2, parallel: you can add 2 accounts in total. people can send you message/call you on any of the already set-up accounts.
+There are others apps for android and iPhone too. (I haven't tested iPhone apps.) Some have problems with connection (sipdroid.)
+Most other apps are are bigger. (More info in other file, soon.)
+
+
+q How is that different from Skype or Viber, or Whats App?
+a You choose your sip provider. Example: linphone, iptel, ippi...
+You get to choose which app you want to use, preferrably open source or freeware. 
+They don't have ads. (At least for now, hopefully never will.)
+If you don't like the program, if it's to big, or does not work properly you can change it. 
+Try that using skype or viber.
+If you don't like your provider, change it. You can still use the same app, and call other users. (Your username/address will change, though)
+
+q Can I call between different providers (linphone, ippi, iptel)?
+a Yes. Most of these do allow free calls between them. 
+
+q Can I call using different programs (csipsimple, phonerlite, sipdroid)?
+a Yes. They use the same protocols. Sip for voice, simple for messaging.
+(Note: There are other protocols that aim at the same area, such as xmpp for messaging, and jingle for voice protocols.
+Some programs support both xmpp/jingle and sip/simple protocols, such as Jitsi program.
+If a program supports just sip protocol you cannot make call to program that supports jingle protocol.)
+
+
+q Which protocol for voice should I choose?
+a Sip is well known. Android 5 supports it directly from phone dialer. Xiaomi phones too.
+
+q Which protocols are there:
+sip - audio and video
+simple - messaging, extension of sip
+xmpp - messaging
+jingle - audio, extension of xmpp
+webrtc - communication using web browser. audio, video, text. (sip is sometimes used inside.)
+iax - mostly audio, and sometimes video, somewhat similar to sip. Uses just one port. Sip uses 2. System resources usage?
+proprietary (skype, whatsapp, viber)
+
+q What about secure calls and messages (encription)?
+a see here: http://en.wikipedia.org/wiki/The_Guardian_Project_%28software%29, 
+voice: 
+	CSipSimple http://en.wikipedia.org/wiki/CSipSimple (sip encrypted protocol, 
+	Ostel https://ostel.co/
+	redphone (username is phone number) https://whispersystems.org/ (open source protocol, not sip)
+messages: 
+	chatsecure (xmpp protocol) https://chatsecure.org/
+	textsecure (data messages are encrypted, sms/mms are not) https://whispersystems.org/ (open source protocol, not sip)
+But, I would not put too much fate in encryption online :)
+
+
+q is there open source free app that uses phone number as id, like Viber or Whatsapp
+a Yes. Redphone https://whispersystems.org/.
+The thing is, to see who else are using the program, developers usually have to have database with user's phone numbers.
+Redphone does not use sip protocol, btw.
+
+Alternative is to register another username in the form of your phone number. like +38761123456@ippi.fr.
+And give that number to your friends.
+But people remember other people usernames easier than phone number.
+
+
+Bonus questions:
+q Can I use landline phone, over sip protocol, to dial another number
+a Some providers support hardware devices. If your adsl router has phone port, not lan port, usually marked voip, you could try.
+Set up voip account in the router, and plugin phone in the router. 
+Try dialing your mobile phone, and see caller id. It should be something like
+john@ippi.fr, or something similar.
+Also your phone line should is free at that moment.
+Meaning you are using voice over internet, and not landline to make calls.
+If you connect 2 phones to 2 different routers in 2 different houses, you can dial inum from one house to another.
+FOR FREE!
+
+q Can I use landline phone, over sip protocol, to dial another sip user
+a some sip providers give you (free) inum number. They start with +(883).
+Example: ippi, localphone (you have to ask for inum number, it's free).
+So you could dial from landline phone inum number, using just numbers dialpad.
+Inum numbers are 15 digits long. Speed dial could be useful :)
+
+q Can I dial from inum to fixed landline for free.
+No.
+
+q Can I dial from sip to Viber.
+N No but you can dial from Viber to INUM. (You get free inum phone number, when you oppen account at ippi.com. 
+Some other providers offer free inum too.)
+
+q What is open source
+Anyone can see how to program works, change it and compile it oneself. Also make another version oneself.
+Like recipes for meals.
+Also if programer abandons program, and the source is available, someone else can continue the project.
+
+q Why describe this programs
+a Open source/free, small and portable programs have preference in testing.
+
+q Any other usable programs
+a Jitsi is good on Windows. You can probably delete java that comes with it, if you already have java installed.
+It supports multiple protocols, sip and xmpp.
+There are many other programs on android. Eve sip on android is ok, but it keeps asking you to buy video part. 
+I did not test bigger downloads.
+
+More info:
+http://en.wikipedia.org/wiki/Session_Initiation_Protocol
+http://en.wikipedia.org/wiki/SIMPLE_%28instant_messaging_protocol%29
+http://en.wikipedia.org/wiki/XMPP
+http://en.wikipedia.org/wiki/Jingle_%28protocol%29
+http://en.wikipedia.org/wiki/WebRTC
+http://en.wikipedia.org/wiki/Inter-Asterisk_eXchange
+
+redphone and textsecure protocols:
+http://support.whispersystems.org/customer/portal/questions/6251434-are-redphone-and-textsecure-compatible-with-any-voip-providers-
+
+
+http://en.wikipedia.org/wiki/The_Guardian_Project_%28software%29
+https://dev.guardianproject.info/projects/ostn/wiki?title=OSTN
+
+http://en.wikipedia.org/wiki/List_of_SIP_software
+http://en.wikipedia.org/wiki/Jitsi
+
+

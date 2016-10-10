@@ -1,0 +1,39 @@
+<pre>
+How to use 'Ultimate Boot CD' with usb stick
+
+
+Download 'Ultimate Boot CD' from <a href="https://www.ultimatebootcd.com/">https://www.ultimatebootcd.com/</a>.
+
+(note 'Ultimate Boot CD' is not the same as ubcd4win. We need 'Ultimate Boot CD'.)
+
+Unzip 'Ultimate Boot CD' iso uzing 7z file archiver: <a href="http://www.7-zip.org/">http://www.7-zip.org/</a>.
+
+Say you unzipped to dir D:\temp\ubcd528\
+In this dir you will find: D:\temp\ubcd528\licence.txt, D:\temp\ubcd528\autorun.inf, and some folders.
+
+
+Plugin in your usb stick in PC. Format it. YOU WILL LOSE ALL DATA ON YOUR USB STICK!
+Right click on Removable disk G:, select format. 'File system' should be FAT32, check 'quick format'.
+You might have different letter assigned.
+
+If you use some antivirus that blocks access to autorun.inf files, like Avira, disable it. (Temporary.)
+
+Start/run, right click on 'cmd' select 'Run as administrator'
+
+Change to drive with 'Ultimate Boot CD' files:
+cd d:
+d:
+
+Go to dir D:\temp\ubcd528\ubcd\tools\win32\ubcd2usb:
+cd d:\temp\ubcd528\ubcd\tools\win32\ubcd2usb
+
+Issue a command to write files to usb, making it bootable:
+
+ubcd2usb D:\temp\ubcd528 g:
+
+
+First is script that writes files, then source of the files, then destination.
+If your usb stick is marked as f:, you would use f: instead of g:
+ubcd2usb D:\temp\ubcd528 f:
+
+After it is done, enable Avira.

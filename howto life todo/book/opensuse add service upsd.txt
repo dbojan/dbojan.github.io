@@ -1,0 +1,43 @@
+Hmmm... Well, first things first.
+Could you edit the boot.local to its original state? Live cds, etc... everything ok?
+
+There are different approaches to what you might want to do to fix this. That's the nice thing about linux. I'll tell you what I did to insert my scripts in the boot process, but there can be other - even more efficient - ways to do the same thing.
+
+1. Create a shell script to run the command you need:
+
+- Open your text editor of choice and write
+
+#! /bin/sh
+
+# Command to up the wireless, by crazibri jun-2004 (or some header like this)
+
+command
+
+# Additionally, you may want to put a line that creates an empty file here, just to ease the
+# verification of success. This file will be created with 0 bytes and owner root/root. Then you
+# can remove it, no problem. If you wish not to put it, remove both this comment and the
+# command.
+
+touch /home/crazibri/wireless-ok
+
+# Also optional
+
+echo "Wireless done!"
+
+EOF
+
+- Save it as root/root in /etc/init.d
+
+- Give it execute permission, by clicking in the "execute" bit in the properties dialog in a graphical env.
+
+2. Now, open yast2 > system > Runlevel editor. Choose expert mode.
+
+You'll see all the scripts listed there, and also the one you just created. Now, all you have to do is set it to run at, say, level 5 (which is multiuser/graphical env). In this point it comes up the doubt about the correct point to up the wireless. I guess runlevel 5 is a safe mode to operate.
+You can also test if suse can run the script well, by trying to run now, with the Enable button.
+
+After all this, just save and reboot.
+
+Post again if you get stuck.
+
+
+bruno buys

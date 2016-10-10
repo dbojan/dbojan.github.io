@@ -1,0 +1,43 @@
+<pre>
+How to make CuneiForm portable:
+
+Info from: http://portableapps.com/node/27987
+
+CuneiForm OpenOCR
+- Author: Cognitive Technologies
+- Web site: http://cognitiveforms.ru/products/cuneiform/
+- international download page point to OpenOCR.org http://en.openocr.org/
+- release: 12.0.0.58851
+- license: BSD
+- Softpedia: http://www.softpedia.com/get/Office-tools/Other-Office-Tools/CuneiForm.s...
+- Wikipedia: http://en.wikipedia.org/wiki/CuneiForm_%28software%29
+- tips: download the english version because it's multilanguage
+- direct download link: http://cognitiveforms.ru/downloads/setup_openocr_cuneiform_en.exe
+
+
+
+Howto:
+
+-Download it.
+-Make text file in the notepad and rename it to register.bat.
+With just one line:
+regsvr32 "%~dp0APuma.dll"
+
+
+Put it in the main dir, the one where is APuma.dll.
+When you want to copy it another computer, copy whole dir.
+Right click on register.bat, select "Run as administrator". There you go.
+To unregister, create file unregister.bat:
+
+regsvr32 "%~dp0APuma.dll"
+
+which will unregister dll.
+
+There is also puma.net dll, which has sample application (Puma.Net.Sample.exe) in it.
+http://pumanet.codeplex.com/
+
+
+There is a version with all this done here:
+<a href="https://onedrive.live.com/?cid=D3221CFE195F835B&id=d3221cfe195f835b!434">https://onedrive.live.com/?cid=D3221CFE195F835B&id=d3221cfe195f835b!434</a>
+--
+http://dbojan.tk

@@ -1,0 +1,38 @@
+osdate mysql user
+osdatea
+CDYp.bfE9m4WzqDJ
+
+database:
+osdated
+
+
+
+osdats site admin
+admin
+123456bos
+
+
+mysql root data
+root
+123456bm
+
+
+hmail
+admin
+123456bh
+
+
+1.edit
+D:\Library\netserver\www\osdate\myconfigs\config.php
+change language to serbian 3x
+-$language_files 
+-$language_conversion
+-define( 'DEFAULT_LANG', 'serbian' );
+
+
+add lang_serbian in lnaguages dir
+
+
+load serbian in admin page
+clear browser cache
+select serbian

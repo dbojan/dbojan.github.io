@@ -1,0 +1,27 @@
+Mio_Moov_Unlock.zip 356 kb needed.
+
+
+i could get to control panel.
+however 
+
+on another device created dir: "\My Flash Disk\Program Files\"
+create shortcut to it. in winexplorer select dir. click on "file/ send to desktop/create shortcut.
+create dir on sdcard "MioMap". in it put file manager and operations.dll file. Rename FileManCE.exe to AppStartupSec.exe
+
+
+
+so i started control panel.
+go to desktop settings. (file/open).
+
+click on browse. go to "my flash disk". create new folder. drag and drop "mioman" folder to "new folder"
+go back to storage card. move mioman dir to SHORTCUT, which is pointing to  "\My Flash Disk\Program Files\".
+reset device.
+
+
+file manager should be started.
+since I have renamed miomap to miomap-old in the begining, I cut all the files from the bad Miomap folder
+moved them to some other new_folder.
+then I cut all files from miomap-old and paste them in the miomap folder. reset.
+
+other option you could try is try to turn it off and on repeatedly, in hope it will randomly change to
+system default settings. (40-50 times). this might damage device?

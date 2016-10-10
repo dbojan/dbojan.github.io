@@ -1,0 +1,2058 @@
+they want (your) love, true love, not your pitty.
+
+Not to love them because they want you to, or need it, or need you to love them.
+Only if you really love them. Only then your love is real.
+Anything else is fake.
+
+It has to come from you, not from their wishing you to love them.
+
+
+
+some of this is bullshit, much of it is not. seen through the lens, distorted by beliefs, personal and of the surrounding.
+God's messages, translated by myself to the (somewhat) best (really? best?) of my abillity, mostly free of my stubborness.
+
+-ofps 24000/1001
+
+pretsoblje za bolje/vise plains.
+
+power corrupts. be careful. road to hell is ... good intentions. if you could relinquesh the power , that weould be great.
+other wisee, be very carefuyl. ask someone from the outside for watch over you. and listen to your instincts, not your reason.
+reason can fool you so easily. not the heart, though.
+think what you have odne when you were in power.
+
+
+man aren't entitled to accomplishment, just as women arent entitled to relationships. they dont have "the rights" to it.
+
+
+budget
+
+we do not talk about sex. it is taboo. it is hidden depp in our counsiouss. it is deep underwater. it is difficlut to see
+true colors, when there is no light. and because it is deep, it is forbidens
+pleople are not allowed to talk about it. to think about it. it is hidden from the suen. It is hiddenfrom the light. if it were to be brought in the sun, in the light, poepl weod see true colors of bad parts of sex , such as forced sexual relation.
+they would alos be able to see the wonderfull part of it,
+(such as sex is a peak, the concentrated part of love, the physical aspect. when our bodies sing together, making owonderfull music/song.
+interwined in melody (of creation.))
+
+facebook book suggest club
+love is the energy at the top. the highest energy? the top level . God chooses to be. God is love.
+ljubav, ljubuti, ljubi. davati poljupce. davati  (check vukajlija, too, add?)
+(to give your self away.)
+
+girls like selfesness cause it is so close to love. giving insted of taking.(power)
+
+
+thsh-<Auto Number>-<Page Number>
+remember to copy files to sd using free commander or some other utility that copies files from 1, othervise they are going to be in random order.
+you can put them in folder by 50, so you can search easier.
+
+copy_files_to_dirs.bat:
+------
+rem make sure filenames end in xxxx-1.jpg, xxxx-2.jpg ... xxxx-57.jpg etc. best is name-001-1.jpg, name-002-2.jpg ... so they are sorted nicely
+rem copy this bat file to dir with jpg files, and double-click it it.
+
+
+set folders=10
+set each=50
+FOR /L %%b IN (1,1,%folders%) DO (
+ 		call :cpf %%b
+		)
+
+goto :EOF
+
+:cpf
+
+rem end number =   directory number * numbers of file in each dir (or simply each)
+rem (directory number is %%b, we get it as is  the first argument from "call",  %1)
+
+set /a end=%~1*%each%
+set /a start=%end%-%each%+1
+
+mkdir %start%-%end%
+
+FOR /L %%n IN (%start%,1,%end%) DO (
+	copy *-%%n.jpg	%start%-%end%\
+	)
+
+goto :EOF
+
+
+------
+
+
+
+
+
+
+
+
+
+
+
+use free time to learn something, or to read a book, there is not much difference. if you dont think of a reading as something you HAVE TO understand and remember on first reading.
+
+mz recnik
+control emotinos not  vversa and wishes
+
+
+imgine something, the version you like, combine the pieces, bit by bit over time,
+ and than create it in the real world.
+
+date night
+airbender
+casino jack
+Snow Cake (2006) 
+Truly Madly Deeply (1990) 
+
+
+maybe when you are about to descend, yo die, as one if the reasons of death
+
+
+
+
+
+no matter what you do, someon won't like it.
+how many hours a day do you spend watching tv? wouldn't you like that time back? then stop watching tv!. at least no longer than half an hour in a row.
+
+
+change sheets
+wash regulary
+deodorant
+
+dont think of yourself as old. thin of yourself as atakk and hansome and young. cause that's what you are.
+
+people want thingsh they dont/cant have. once they have them, it's not that interesting. so keep on being sort of uncatchable.
+
+
+In this life we cannot do great things. We can only do small things with great love. 
+Mother Teresa 
+
+There are no great things, only small things with great love. Happy are those. 
+Mother Teresa 
+
+I know God will not give me anything I can't handle. I just wish that He didn't trust me so much. 
+Mother Teresa 
+
+Be faithful in small things because it is in them that your strength lies. 
+Mother Teresa 
+
+If you judge people, you have no time to love them. 
+Mother Teresa 
+
+Peace begins with a smile. 
+Mother Teresa 
+
+
+
+
+
+
+to be able to tell the truth without accusing anyone.
+
+
+
+morningmayan
+
+bother people. a little. share. and be a little more present.
+and a little sassy. people around you won't mind. Much.
+
+and have an opinion of your own. dont pretend, say what you mean.
+
+dont think too much. if your mind overpowers your heart, you will be wrong.
+dont overanalyze everything.
+
+bojan76 
+All.I.Really.Need.To.Know.I.Learned.In.Kindergarten
+less than 5 seconds ago via web
+
+dbojan76 
+nation, sex, race.. all ilusion of difference.
+11:13 AM Apr 20th via web
+
+dbojan76 
+  
+either rule or don't.
+2:38 PM Aug 18th, 2009 via web
+
+
+Dream Chronicles®: The Chosen Child™
+find games you like. make re-creation of them
+
+breasts are for breastfeeding.
+http://www.007b.com/breast_obsession.php
+http://www.007b.com/breastfeeding_sexual.php
+
+http://www.007b.com/why_wear_bras.php
+
+http://www.nhs.uk/Livewell/childhealth0-1/Pages/Breastfeeding.aspx
+
+
+respect your parrents
+learn a foreign language
+learn how to work on a computer.
+
+how to act on a party
+do not ask every girl to be your girlfriend, or something like that. Act non-chalant, and mingle. try to have ome fun.
+talk to people without some ulterior goal. just be relaxed and try to be self confident. if something bad happends, it is not the end of the world. take it with a smile.
+
+
+how to approach to a girl.
+NEVER send someone else to do it.
+to girl it means you are insecure , or dont care too much for her.
+maybe she would like to go out with her, but she wants you too suffer some ( stage fright.)
+try talking to her. if she smiles at you and laughs at your jokes, you can try asking her out.
+if you feel it is not going to work, dont push it.
+If girl likes you she will (find a way to) let you know.
+just be relaxed and try to be self confident. if she does not want to go out with you, it is not the end of the world.
+take it with a smile. there will be others. try to take it with a smile.
+you might want to use some breath freshener. Think of what youll say befor you come to her.
+Also it would not hurt to practice some sport or marshal art.
+
+Funny thing is, a lot of girls are unsecure about their looks, incuding some of the most beautiful.
+
+brush your teeth, you ll need them for the rest of your life. and floss.
+go see a dentist once in a while. dont be afraid, it s like taking your (future) car to a mechanic.
+also dont be afraid to see a doc when needed.
+
+go to a college if you can afford it. it is like a free ticket. unless you are reallly talented in something.
+When you are kid your parents pay for your everything. that won't last for ever.
+Anybody can get a work in construction site and work for minimum wages.
+check what is like to live away from home in a dorm. but don't do drugs.
+
+
+Try not to skip classes. Soon you ll be out of the subject, and wont be able to catch up.
+
+
+Go to college. it is  like a free ticket.
+your secret weapon, the way to beat the odds. You ll get better jobs, and higher pay.
+But try to pick some job you like, otherwise going every morning 
+to work you dont like, will be like serving a life sentece in a prison. Dont get into
+some line of work you dont like, just because of money.
+
+
+learn a basic self defense. there is probably some club you can join. try it and see if you like it.
+
+advices for school kids:
+
+drugs, alcohol or cigarette.
+q: what to do when offered drugs, alcohol or cigarette.
+a: Say no thanks. Any of those will not make you cool.
+If you are in a company where people open a bottle of alcohol, excuse yourself and leave.
+If someone offers you drugs, say you don't want it, and report it to the teacher, if possible.
+IF you start using drugs, you will develop a drug dependence, where you body will not be able to work withouth its daily dosage. Your friends will leave you. You will have a money proble. If you already use drugs, please talk to someone, like parents or teacher, before it is too late.
+
+Marihuana is considered light drug, most young people try using it out of curiosity. The worst part of marihuana is that people might move to heavier drugs such as heroin or cocain after mariuana. Long time Mariuana using can cause damage to body.
+
+Heroine and cocaine are heavier drugs, that cause damage to body and addiction.
+Don't use drugs, it will ruin your life, and life of your family and friends along with you. You cannot beat it, no one can. JUST DON'T DO IT.
+
+
+
+
+prostituion
+If someone, possibly your boyfriend or your parents or guardians, ask you to sleep with someone else, "just this once", or "If you love me", Leave that person NOW.R eport it to your teacher or parent, or school  doctor or scohool psychiatrist. That person is bad for you, you dont own him or her anything. Just leave him or her.
+Do not let anyone force you into something you know is bad for you. No one can make you do something you don't want to. Listen to your instincts.
+It could also happen that one of you girlfrends ask you if you want to make some "easy money, fast".
+But is not specific. Look up that person or company on the internet. 
+Ask her to bring that person to meeting with you parent(s), in a public place such as a coffee shop. Talk to parents about this. They are your guardians, and know more about life than you do. They have more life experience.
+If the person it's shady he or she will probaably not agree.
+Again, listen to you instincts. If something seems to good to be true, it probably is.
+
+Oh, and do not go to unknown peoples parties. At least ask you male friend(s) to accompany you.
+
+
+If your parents forbid you to do something, it is probably because they are afraid something bad might happen to you. If you had a pet, remember how much you loved it? Well, your parents probably love you 10 times more.
+Remember, they woke up in the middle of the night to feed you, or to change your diapers. They took you to the hospital when you were sick. If you have a problem tried to talk with them calmly. 
+
+If your pet walked away and didn't return for few hours, would you not be worried? 
+
+
+Sex protection.
+
+Sex protection is important.
+Girls:
+Do not allow your boyfrend to force you to have sex with him. He might say "if you love him", why don't you do it? Answer him: It is my decision. If you love me, you will respect my decissions.
+Same goes if you want to have sex with him, but he wants to do it without protection.
+
+q: Can you get pregnant from one time sex?
+a: Yes you can. Remember to use condom.
+
+q: Can you get STD from one time sex?
+a: Yes you can. Remember to use condom.
+Girls, please don't lie, unless you are scared for your life. 
+any other time, no. No one likes to be lied to. Especially in a relationships.
+
+
+Boys:
+Condoms can be purchased in any drugstore.
+Look up on the internet how it is put on.
+Do not force girls to have sex with you, they will tell you when they are ready.
+Also, respect girls. They are real persons, nit just sexual objects. They have dreams, ambitions, fears, ideas, just like you. Think about that. You are not allowed to hit girls. They should be caressed, not hit.
+
+Girls use lies like boys use their fists: mostly wrong.
+
+
+What to do if failing in study: 
+ask for help from parents/friends/teacher/
+If that does not help, try to find paid tutoring.
+It is nothing to be ashamed of. We are all tallented for different things. Nobody knows all.
+
+
+Healthy/not healthy food.
+Children do not eat fast food, like piZza or big mac. They are rich in fat. If you can bring sandwich from home or eat at the school restaurant or bring some fruit for lunch.
+
+
+School. how to deal with conflict situatiouns.
+
+
+Bulling over internet or sms
+dont respond. save a message and show it to the trusted adult.
+Most bullies attack others because that is the only way they know how to communicate.
+Most of them come from the troubled families.
+
+
+Most of the following text is from the site:
+http://www.girlshealth.gov/bullying/
+
+What can you do if you are being bullied?
+Tell an adult.
+Stand up for yourself
+Tell the bully to stop. Calmly walk away
+Do not fight back!
+Lighten the air! Make a joke to lighten up the mood.
+
+Make new friends and get involved.
+Don’t blame yourself. 
+Be strong. If someone tries to bully you and see that you respond, he or she mov on.
+It is like they hit a thorn. They will remember not to attack you the next time.
+
+
+Keep from being bullied:
+
+Avoid bullies when you can
+Walk to school and eat lunch with a friend
+Be confident
+Stay near adults
+Believe in yourself
+
+Stop bullying at your school
+Form a group.
+
+
+If you see someone being bullied…
+
+Stand up for the victim.
+Don’t join in on bullying.
+Stop the rumors.
+Tell an adult.Offer help.
+This may seem like tattling, but it’s not
+
+how to argue
+remember to keep calm. Don't raise your voice. Hear what the other person has to say.
+State what you have to say, calmly. Think what the other person is saying. Be prepared to change your opinion
+if the other person is correct.
+
+how to learn on class
+listen to the teacher asking questions. Most likely some of these questions will be repeated when it is your turn.
+
+
+
+what to do when approached by strangers.
+From http://www.surfnetkids.com/safety/effective_ways_to_teach_your_child_about_stranger_danger-16923.htm
+1.Do not talk to the stranger. This is the first and most important. If they know it is a stranger, have your child walk away and back to you or their caretaker immediately. Do not talk to the stranger at all.
+2.If the stranger tries to hold your hand, say "NO?. Say it loud so that other people can hear them. 
+3.If the stranger pretends that they are your mom or dad, then scream, "You are not my Mom. You are not my Dad. Help me, help me!
+4.If the stranger tries to grab them, then they need to be ready to run, kick and scream. This should include where a child should try to kick. Also biting and poking the eyes. I know this sounds harsh, however a child needs to practice what to do. This is the time for you to protect them. 
+5.Do not drill fear into them, drill knowledge and action. Teach them logical thinking and reasoning.
+
+Do not enter car of the stranger. No matter if they say they know your parents, or your parents ask them to pick you up.
+
+
+
+what to do if parrents argue
+from http://kidshealth.org/kid/feeling/home_family/parents_fight.html
+
+Kids often worry about what it means when parents fight. They might jump to conclusions and think arguments mean their parents don't love each other anymore. They might think it means their parents will get a divorce.
+
+But parents' arguments usually don't mean that they don't love each other or that they're getting a divorce. Most of the time the arguments are just a way to let off steam when parents have a bad day or feel stressed out over other things. Most people lose their cool now and then.
+It does mean parents do not love each other.
+
+It's not the kids fault that parents argue. Also it doesn't mean that parents do not love their children.
+It is not your fault they argue. You are not the reason they argue. You did not cause this.
+
+It's important to remember that the parents are arguing or fighting, not the kids. So the best thing to do is to stay out of the argument and go somewhere else in the house to get away from the fighting or arguing. So go to your room, close the door, find something else to do until it is over. It's not the kid's job to be a referee.
+
+
+
+What to Do When Parents drink
+http://www.alcoholrehabtreatmentcenters.com/alcoholism/what-to-do-when-your-parents-drink-too-much/
+
+Find A Trusted Adult To Talk To
+Never Confront Your Parents When They Are Drinking
+Keep A List Of Phone Numbers To Call
+How To Deal With Anger And Rejection
+Tell Your Parents You Love Them
+Intervention May Help
+Remember: You Are Not Your Parents
+
+You can also call your cousins, help line, or police, or teacher. Do not be ashamed. It is not your fault. You did not do anything bad. This should not be happening to you. You deserve a better life.
+
+
+
+
+What should you do if your parents abuse you?
+
+When you get to school tell a teacher you trust they will call the cops. If you cant tell a teacher for some reason the call the police AT SCHOOL not at home, and they will lead you through what to do. They will probably ask for your address and parents name and your name.....if you can, take pictures of any marks they make on you. Get it taken care of ASAP.
+help line, or police, or teacher or help line or social services. Do not be ashamed. It is not your fault. You did not do anything bad.
+This should not be happening to you. You deserve a better life.
+
+
+On learning:
+If you do not know something dont be afraid to ask the teacher. There is nothing wrong in asking for information on something you do not understand, or do not know. It will happen to you later in life, too.
+
+the point of learning is to build up your knowledge one step at the time.
+
+math: applying knwoledge to solve new questions. If you do not knwo the answer look up in the lesson you just learned, or look up on the problem solution. the point is to learn THE PROCESS of solving the task, not to copy the resulting numbers.
+Ater that try to solve the task with that knowledge (of the process). Then try another similar.
+
+Theory. Read the article. Try to say it outloud, without looking at the article. Repeat (Read/speak). Move to the next article.
+Listen to the questions asked on oral exam. Most likely, teacher will repeat some of those question when he or she asks you.
+Dont be afraid of oral/written exam. Imagine if you were teacher, there would have to be a way for you to check how much student have learned. Even if you get bad mark, it is not the end of the world. Guess what teachers DO NOT WANT to see you fail. In their dreams, all of their students are A students.
+
+
+On the Internet:
+do not trust anyone to be who they say they are. Do not give your address or e-mail address to unknown persons.
+Do not agree to meet someone you just met on the Internet. Especially not alone and or in their apartments.
+Even if you spoke with someone several times it does not mean you know that person. If you want to meet someone, arrange for a meeting in a public place, and bring some of your (male) friends with you.
+Do not click on the unknown programs from unknown persons in the e-mail.
+If you use social networks such as Facebook, do not leave status messages such as: leaving the house for a month. Do not leave such messages on your voice mail or phone secretary. If you have to, put a message after you are back from holiday.
+
+
+
+
+If you don't know what to do in any strange/conflict situations, remember to ask your friends, parents, teachers or guardians. If you have problems you can also call social services or help line. 
+
+You can look up ideas on the Internet. Remember to trust your instincts.
+And try not to lie to your parents, no one likes to be lied to. Rather have a sinciere talk with them. Tell them your fears, problems and dilemass. They have more expirience in life than you do, and uptill now, they have mostly taken good care of you. And you'll probably feel better afer a talk. If you cannot talk to your parrents, try to talk to your friends, cousins, teachers, social workers, school psychiatris or even a policemen. No problem is unsolvable. Use your own head, too. Good luck.
+
+
+
+
+
+
+
+
+not eneough moeny? create a fund . for clothes?
+book exchange.
+
+What to do when someone asks you to copy from him/her.
+ install help line.
+
+stress is bad for you,. it is the main reason people get olde. and sick
+you should feel love instead of stress/fear. train yourslef.
+
+keep shift.
+
+noone has just been nice to her. 
+there was always something in the back of the mind, a request, a question, a ripoff. Fair trade...
+
+
+She asked me if I love her.
+Since I did not know what love is, I said I didn't know.
+She asked me 2nd and the 3rd time, but I still didn't know.
+Then she left me for her ex.
+Now I know what love is.
+But now is too late.
+(Pain. That's what it is.)
+
+
+
+http://www.youtube.com/watch?v=iFIM7ZwnSFY
+
+using excel for vertical select
+
+nemoj ici djonom. talk to the people you disagree with.
+always asume people are innocent.
+
+
+book that learns the basics only at first, not every single insng. detail,
+simple - one example, one idea
+fun
+grpahical
+
+http://docs.python.org/tutorial/index.html
+
+568
+488
+
+
+stress test , prepar
+magic should only be used for defence
+
+
+
+it's sad really, the best this girl on election have to offer to the world is their looks.
+
+faks?
+
+
+for every push there is a push back. for every action there is a reaction.
+if you push a wall , a wall pushes back at you.
+if you command something to do something, there is a change.
+if you command 
+
+
+http://psychicwomenwarriors.blogspot.com/2009/04/merging-with-higher-self-meditation.html
+
+http://www.reiki.nu/treatment/healing/aurashield/aurashield.html
+Your aura consists of pure energy, the trick is to make your aura into a "force field" that does not let in any negative energies or leak out any of your energy. As in all Reiki practice it is your intention that counts. If you want you aura to stop negative energies it will!
+
+Shields up! - Make your own Aurashield!
+
+Here is how you do it: 
+When you feel you need to protect yourself just visualize that the outer edge of you aura goes hard like a force field covering you from head to foot. Nothing can get in and nothing can get out. I suggest that you mentally decide on a word or command that instantly will trigger your intention of putting up your shield. "Shields up" is one suggestion. 
+
+http://psychicwomenwarriors.blogspot.com/2009/04/empathy-know-it-and-control-it-part1.html
+
+ Some people like to see it as white or gold. Decide what color would work well for you, and see it that way. Imagine the shield body as flowing and moving..not static we are developing a shield here..not armor.
+It is good for it to be flexible, so you can let in what serves you, and keep out what doesn't. Snap your fingers to hold it in place. Do this exercise regularly.
+
+
+fill yourself with posititive energy if you are going to meet someone with n. energy.
+
+
+chakras:
+http://www.neatstuff.net/avalon/texts/know-how.html
+wicca
+http://wicca.timerift.net/fluffy.shtml
+
+
+
+Magic. Why would you want it? Be careful! Power wielding can be consuming! Beware of ofhter people's suffering!  danger!
+Do not cause it.
+do not get involved in something you cannot control.
+do not get greedy,
+what goes around comes back around. if prayer is a request, and magic is a command.
+you won't be flaming firebalss from your fingers. this is not wow.
+
+
+manual for reincarnates
+
+job well done.
+come you a re needed on another world.
+ok let's go
+but.. u are goingto have another body there.
+-how do we do that.
+you ll have to leave this body here.
+*-u mean   die?
+not really.
+you ll start a new. 
+
+log out of this avatar if you will. /4 ever.
+and start an new.
+
+are you scared
+-a litle
+dont be . you ve done this before. you just dont remember.
+--traversing space and time--
+
+
+
+logout
+
+Why the Light Side has to Win
+http://www.youtube.com/watch?v=zxTNuz3qGBo
+
+morningmayan: I believe love is the essence of god and wherever you find true love you find? divinity 11 months ago
+
+
+
+infinte number of futures, pasts and presents or nows
+
+
+
+ddo add to
+what women want is to be center of someone's attention, center of someone's world, somebody's princess, at least for a while. for someone to devote them some time.
+
+nation, sex, race, language?.. all ilusion of difference.
+
+either rule or don't.
+2:38 PM Aug 18th, 2009 via web
+
+dbojan76 
+
+
+
+
+
+
+smiles pics 
+
+transmute food, water while their comming through your mouth (a little before that) with your mind
+
+
+mirror self
+
+(big clock, small clock)
+girls are emotional, they all love to dance
+
+god is love. god is light.
+
+
+oslobodite nacin da se lako voze do bl (redovan bus, 8, 830, 5 svaki dan), i ljudi ce stanovati na selu.
+imace posao, prevoz.
+treba i osnovna skola. internet.
+
+
+what is it like to be other being/ animal/ mulktifornm transfor,m
+
+send message to others, by mind. overtrown greed. bring forth love. truth
+
+
+
+
+no licence  to have kids? no education about kids.
+people have no one to teach them the way to treat their own family. bring fruits, not candies to table
+not watchign too much tv, talk we children if they have problems, and let them know that.
+
+explain to the kid why something is bad, as oposed to punishment. alone
+if I ask you to be home early that is because I am worried something bad might happen to you.
+imagine you had a puppy. would you not be worried if it went away for quite some time.
+explain them when they were kids, their parrents change their daippers,????
+wake up in the middle of the night to feed them, take them to the doctor.
+
+
+wh college is important, children, when living in a family they are protected.
+They have food, place to stay, clothing. After some time they will have to move away, and then unless they have
+some skill they are good at, (not imaginary like great actor, or singer, if they are not good), they will be forced 
+to do low income jobs, like janitor, construction yard, etc. bks: secretary, paper pusher. not that these are bad, but if they have potential, they should use it. and educate themselves, if not necessary on college. especially true on comp science.
+
+
+
+http://united300.blogspot.com
+
+
+just like this video game. it is real because you believe it is real. bcs you chose to blv.
+you can stop it if you want abruptly. but why?
+
+we are all Gods creators of our world, but we have to play by our world rules. 
+use all six senses
+
+http://www.linkbucks.com/link/f931ebea/8814
+
+
+kuhajmo s prirodom
+
+you should legalize real cash trading in anarchy online. that would attract a lot of players.
+people trade now anyway, only secretly
+
+mencoder.exe -ovc lavc -lavcopts vcodec=mpeg4:vqscale=3.33  -oac twolame -twolameopts br=128   -vf scale -zoom -xy 512  -noskip -ffourcc DIVX  -sws 0 -o "D:\temp\New Folder\genc-Arthur.and.the.Revenge.of.Maltazard.2010.DVDRip-BRONZ.avi"   "D:\temp\New Folder\Arthur.and.the.Revenge.of.Maltazard.2010.DVDRip-BRONZ.mkv" 
+
+stardust writer Neil Gaiman
+
+be humble!
+http://www.manastir-lepavina.org/vijest.php?id=535
+
+03.04.2010. u 17:42h c@n@jisr@M je napisao/la:
+karlo5 ......mozak je proizvod uma ( a ne obrnuto)...........Cak nam i danasnja nauka tvrdi da je stvarnost 99,999% PRAZAN PROSTOR ( ustvari 100% ali to nitko ne zeli priznati) dakle nikakva materija USTVARI ne postoji. Privid solidnosti stvara se silom kreacije naseg uma ( eh te nedovoljne rijeci)......A nas um ,nase bice i cijeli Svemir je samo cista,ZIVA,intelegentna, bezgranicna elektromagnetska ENERGIJA u bezbroj frekvencjija..........Svemir je duhovne prirode a ne materijalne!!!
+
+not enough movies when people unite to show love like in: it could happen to you.
+short tv series, 8 episode by book, sf, put it on the net, sell each episode for 1 dollar.
+
+alien time anomaly site
+
+ high regard for anything, anyone, incl life. we are going to die someday.
+"on thios eartyh we weren't meant to stay" (long)
+
+energy would be much more efficient, thna body. no need 4 food.
+
+work wth the waste. use to create aphalt, isolation material.. (burning) fuel
+powered by toxic waste.
+nuclear ractor  powered by toxic waste.
+
+
+movable walls in a house
+converting matter to energy and energy to matter howto.
+for transport
+gold, c4+pressure , high temp = diamonds.
+gold convert from? use dogs? to sniff it out from mines.
+
+
+build country houses + good tranportation-bus, train=4 young couples w/o house
+sell furntiture, customers hve to paint /lakirati. sklopiti.
+
+
+"kristal secer"
+ "future is multi-variable"
+ask the god and he will send you answer. in your head answer will appear, few minutes later
+
+if you decid to do smethnig do it bcs you think is right, not what some1 else expects of you.
+people wear nylon, not cotton anymore.
+5 workout. facebook.
+ dying. its like changing a bus, leaving at the bus station. you still exist.
+orbs.
+stanislav grof
+hollos.
+
+
+
+how to make frequency amplifier. brain thoughts.
+
+you have to give them something better.
+lin has to be better than win.
+
+skijanje
+
+I believe in God, not in church. Church ... I dont care about.
+Kako promijeniti svijet?
+how unify the world.
+the problem: greed. What if all renounced wealth? - socialism? no private ownership
+Kako misliš, tako jesi
+
+also, if Boeing built a car, it would have a flight data recorder which investigators could examine
+toyota open source program
+
+
+337100-registracije.
+
+ask him /her what is ones sign. then say I am xx.Those two signs go great together. then walk away. (if you want.
+or you can sta and chat. keep looking him in the eyes. stand close to him. fix his clothes, remove hair from the shirt.
+he'll figoure out.)
+
+your parrents only want the best for you. they want you to be safe and happy. in that order.
+they are only humans, so they do sometimes make mistakes. most of the time, most of the parrents are right.
+they also have 20+ year advantage, and have experienced more life than you have.
+
+if you are troubled by some (life or any other) problem tell. them. most likely they have encountered it and probably solved it.
+they were once teenagers too, you know. OR at least you ll hear thir perspective on the problem.
+
+dont lie to your parents. you dont like it when someone  lies to you.
+
+boys, be nice to girls.
+girls be nice to boys.
+dont' be mean just because you can.
+
+
+If you do not believe me, imagine you had a puppy. wouldn't you want it to be happy? and safe?
+and be worried if you didn't know where it is?
+
+also, remember they had to get up in 5 in the morning to feed you, they took you to the hospital when you were ill...
+
+
+
+
+young people toil their life in front of tv. there are so many things they could do instead. read a book.
+go out. learn something new. new language, new skill. instead they watch sopa operas for housewives, or some comdey
+soap opera, where nothing ever happends, and has 120 episodes of emptyiness, and idiotism, marriage infidelity, lies alcohol use and abuse.
+some of them have never read a book in their lives, that wasn't mandatory. they haveo nly seen books on tv.
+after school.
+
+
+kids should behave correctly not because their parents are watching, but because they know right from wrong.
+work is time. usually. your mind might wander, or listen to the music.
+http://www.startreksupremacy.com/download.html
+http://www.drewweing.com/comics/
+
+Otherland is a science fiction (cyberpunk) tetralogy written by Tad Williams
+mental intensifier
+
+
+inflatable furniture. chairs, sofa.
+nylon armoar. nylon over aluminium skeleton.
+
+do we travel time or does time travel us? how do we know whickh time flow (speed) to stick to. faster / slower, who decides that.
+are we wired to one speed. if it ahappens all the time , ll events at once, there is no time.
+we see it as a movie, instead of slide of images. that are all at once. to stop our head to blow up, we see it as a flow.
+
+
+
+new howto use tel cable for network
+
+crf - quality (like bitrate.), preset - time on each frame
+
+
+best way of think do some mundane task, like in the bthroom
+to do something you need time and will
+to finish college it is more important to be persistent /uporan and vrijedan, ambitious than inteligent.
+quantum resonance, in multple realities/possibiilities/times lines
+learning is about adopting new knowledge. if you dont know something go back , learn it, then take a test again
+no hurry, agrivating, anxiety. now eorries about  falling behind. master lesson before moving to the next one.
+
+if you could launch yourself on learning something, like you start playing a video game (non stop action till it is done,
+12 or 8 hours a day)...
+
+http://www.facebook.com/l.php?u=http%3A%2F%2Fbiblioteka-online.com%2F&h=c492d22703c48b11b9f27dbf2e652abb
+http://www.eknjige.org/download.php?knjiga=Tajanstveni-stranac
+
+-nocorrect-pts' gets around the "Too many buffered pts" 
+cestice snijega - privodna stvarnost
+lets getu nconsious, making cards, accesss unconscoiuss
+
+being young is like having a good weather, you start appreciating it only when it 's already gone.
+
+people are studpid instead of working together for the better of all human kind, they divide in team and play sprot games one vs another.
+instead of realizing theya re all one team, humanity.
+and thye big fuss about who is going to win, which fuels their thinking of differency, instead of them being the same.
+together, together...
+
+
+
+what do kids have to watch on tv? gangs killing eachotehr, disrepecting women. violence, killing.
+they should listen old indian stories, of good vs evil.
+
+what makes people be what they are?
+catch raindrops with hand(s)
+
+paly by sound only.
+luke skywalker -blindfolded game ?
+
+what is the memaning of life? whatever makes you happy. beware thoug, round....
+
+aura cpolor, using kiro;an to detect anomalies before ill.
+most likely 1 , 2 3, 4 5, 6 ,7 nubmer
+
+
+game wehn you neural advance, opositte of decay. so it would be transfered to real life, person
+open source books -wiki, links, audio, video files
+update fast,
+pdf format...
+check internet for example already ahppening.
+
+A Game of Thrones (A Song of Ice and Fire, Book 1)
+
+
+ilsa
+beans of egypt
+sex monster
+
+there is no time so there is no futur or the past. it is all hapening at the same time.
+ all the futures.
+we are constantly jumping in differnt timelines
+imagine milion ff dots on a plane all the possibilities.
+
+
+big device flashing in the freq. to change ppl freq stand next to it.
+time freq?
+earth freq?
+happynes f
+luck freq? :)
+make people more sensitive to earth frequency, God?
+what is God freq?
+
+things will go when you dont want them, when you are relaxed, when you are not trying too hard.
+
+
+
+sharing is an open circle
+
+go with your instincts. first
+better strong  then weak maybe. for girl
+nog ego in discussing
+
+https://fedorahosted.org/liveusb-creator/
+http://sidux.com/PNphpBB2-viewtopic-t-10929.html
+
+To do: download Mass Effect
+
+future wiki
+becoming jane
+bad things will always happen to you, but so will the god ones.
+no one ever says: God why do these good thigns happen to me?
+they are 2 sides of the same coin. nothing bad can happen to you. you are just expiriencing life.
+you soul is immortal. but touchable. it experiences life.
+
+movies are full of violence and rage. and also cartoons.
+
+selflessness girls like it.
+selflessness for the whole world
+using the assets of everyone.
+
+you can advance as high as you want to
+new year's resolution? does it mean we can act as we please for the rest of the year?
+telephatic communication. no lies, no deceit.
+
+learn alphabet, it will be easier for you to learn to spell correctly.
+to consonats, 2 vowels.
+
+
+
+
+resist on cancer by making cells imune, in layer of.
+increase connections / speed between dendrites. by stimulating the brain. like electro machines for muscles
+
+automaitcall repair of cells. virsu?
+
+ideas /thories thinker
+
+errors intorduced to base pairing during replaication
+
+since there is no time, all that is going to happen has allready happen.
+knowledge could be difficult to understand. infinite number of possibilities, all exist in different
+spaces? cosmoses? microcosmoses?
+
+sphere = coming from God?
+
+time freq. su=ync with it and you can? see the future ? travel through time.
+nikola tesla experiment. set freq to ... and flow through time , like river.
+or ship became non existant in time like cloud .
+
+when you are relaxed you can draw/access knowledge from space/sphere
+
+Double Switch (1987) 
+Body Wars (1989)
+Soapdish (1991)
+Twenty Bucks (1993)
+Heart and Souls (1993)
+Radio Inside (1994)
+Underneath (1995)
+The Trigger Effect (1996)
+Deconstructing Harry (1997)
+Cousin Bette (1998)
+Molly (1999)
+Amy & Isabelle (2001)
+Tuck Everlasting (2002)
+Mysterious Skin (2004)
+Palmetto (1998)
+
+
+dobro.ba
+all together now.
+
+-ovc x264 
+-x264encopts
+ bitrate=956
+
+150 Things Every Man Should Know: Telling You the Things Your Best Friend Can't"
+whne you can see people for what they really are, you ll see most of them are stuoid insecure and ignorant.
+
+real love is one that does not ask for anything in return, that wants nothing.
+when you want nothing you fear nothing, but you hve nothing to live for.
+middle line.
+
+if you have done nothing bad in life you have no reason to fear death.
+
+kde no line,
+menu sucks, compared to linux mint.
+no automount.
+kde startup line crashes.
+right click, add widgets, does nothing?
+still cant have
+start buttton-shortcuts to files line
+		-currently open windows
+setup done.
+
+what is the second arrow line is panel setup for?
+panel on boot does not got all the way to the end on the right?
+you have to click 4 times in start menu to get to kopete? compared to mint 2?
+
+
+if you dont REALLY need to do this now, go to bed if it is too late.
+or go to work, and dont be late.
+
+fortune favors the prepaired, do not hiope for luck too much.
+first try to do something, do not expect a masterpiece in first try.
+
+make a plan in your head. then execute it!
+
+if you want to do something do it now. right now!. do not leave it for tomorrow.
+
+if you choose between tv/ps/xbox/pc/movie and a girl/outside world, always choose live people.
+you ll always have time to watch a movie.
+
+no fear
+enter
+
+
+let the thought run through your head. watch them, like from outside. that's how you ll get to sleep soon.
+fast times and alike
+
+mkgmap.jar --net --route --country-name=Bosnia --road-name-pois --utf8 map.osm.xml
+
+
+http://wiki.openstreetmap.org/wiki/Mkgmap/routing
+http://wiki.openstreetmap.org/wiki/Mkgmap
+
+178
+man-electromagnetic pillar/column. liek el magnet
+
+canals connected water - man connected = preserved
+
+To clarify this. 3D Buildings and Laneassistant work only on nuvi7x5/8x5 devices
+ASR files are only for Nuvi8x5 series.
+3D Bildings and Timezone into the Garmin folder, no license key required
+The installation file is in the IMG folder and is called CNEUNT2010Update_ENU.ms
+
+Fast Times at Ridgemont High
+c crowe
+pink
+
+GMAPPROM.IMG for the primary mapset
+or rename to:
+GMAPSUPP.IMG for the second, and
+GMAPSUP2.IMG for the third mapset
+
+
+Hi. Is it possible to convert openstreetmap.org map to igo map file and use it with igo software? Some command line program like there is for Garmin, http://wiki.openstreetmap.org/wiki/Mkgmap? Is there a specification of the .fbl file somewhere on the internet?
+
+
+
+civil wall book
+some things can be inuitevly understood only. Like women.
+
+maybe duying is part of strict rules and our errors. all part of learning, not that bad.
+
+women are eather idolized or
+A child, your new center of the world.
+if people were aware of something better than this world existed, they wouldn't have to be
+so greedy. selfish. afraid.
+
+blinking light
+up in the air, then use lightning energy
+scalar vector
+
+lakica desno, kraj, s mokreanjca, lijevo mokreanjca.
+
+
+radoslava lakica
+
+tdo ? unlock gps drive?
+
+Flashforward is a science fiction novel by Canadian author Robert J. Sawyer
+women want to improve men by giving them advices about everything. man hate it cause they thing women are saying" you cant do it, so i must help you to deal with your problem. they think women think they are weak.
+solution: women dont give advices to man. as painful as it is to be quiet.
+
+woman like to talk about their problems. men are NOT required to solve their problems. men think if women are telling them their problems, they are required to solve them.
+solution: men, you are NOT required to solve their problems. just listen, even if the story seems without a point. dont watch tv ot read newspapers. just look at her and listen. For woman it is sort of valve, like men walk aroundwhen they have a problem to solve. Women tal instead.
+From a book.
+
+zmedju dk i solunske, i ona slijepa ulica
+juzno od brace potkonjaka 2?
+
+doel prll sa gospodskom lijevo pored banke, a i dole
+petlja - sa autoputa prema pevecu.
+
+
+
+when with girl, most important thing is to trust our instincts. if you think you should kiss her, by all means do.
+dont be a pussy. don't do anything nasty to her like pulling her hair, or hitting her.
+
+Mark Twain - most of it is funny. Unlike the other answer, I did not find "Connecticut Yankee" very funny. However, "Adam and Eve" is hilarious. Perhaps the first "how men and women are different" comedy, he describe
+
+http://www.life-after-harry-potter.com/
+
+there is a story behind every person
+
+!AAC Peter Mayle - A Dog s Life [txt].rar
+
+
+The Sorceress Of Belmair 
+
+
+gmapsup2.img doesn't work with a Nuvi. lQ!y^ b R  
+the best way to combine, as stated above, is to send multiple maps with Mapsource to card. If only have gmapsupp.img of maps, you can use Patch Img to combine into one large gmapsupp.img. I don't think it works with NT versions of maps, though. { =F8  
+http://www.malsingmaps.com/wiki/index.php/Using_PatchIMG 2P
+
+However, the internal drive of the Nuvi will recognize a few other images. In the same Garmin folder as your gmapprom.img, you can rename your gmapsupp's and copy maps as: J oTgs	 8M  
+gmapsupp.img (in addition to the one on your sd card) ;a(D1j "a	  
+gmapprom1.img bN#Gh UYi  
+gmapbmap.img (basemap, which is already probably there) .^uY) \k_  
+gmapoem.img (usually used for OEM POI data) I am not certain if the map will function correctly if saved as this, but it will be visible to Nuvi.
+
+
+
+
+secretary
+malicia
+kids
+kid neck
+life as a house
+crash
+boat
+guy director girls
+crown me
+
+bounty
+chromosomes can be copied in a complete way during cell divisions and how they are protected against degradation. T
+
+
+it's ok.
+reshield, refresh, rejuvinate. first every 15 minutes, than all the time. energy connected. energied.
+underworld is free. for good nation.
+always land on your feet
+
+planet 51
+the ugly truth
+anarchy online
+runes of magic
+
+if you could change our body frequency. leap forward in time.
+
+teamviewer
+
+
+astro boy
+Windows Vista
+
+Turn it off (the easy way):
+Download vistaunzip.reg, and save it to your desktop.
+Double-click the vistaunzip.reg file, and then click Continue, Yes, and then OK when prompted.
+Restart Windows (the change won't take effect until you do).
+Turn it off (by hand):
+
+Open the Registry Editor (regedit.exe).
+Navigate to HKEY_CLASSES_ROOT\CLSID
+Delete this key: HKEY_CLASSES_ROOT\CLSID\{E88DCCE0-B7B3-11d1-A9F0-00AA0060FA31}
+Delete this key: HKEY_CLASSES_ROOT\CLSID\{0CD7A5C0-9F37-11CE-AE65-08002B2E1262}
+Restart Windows (the change won't take effect until you do).
+If, at any time, you wish to re-enable Windows Vista's built-in ZIP support, just follow these steps:
+
+Download vistazip.reg, and save it to your desktop.
+Double-click the vistazip.reg file, and then click Continue, Yes, and then OK when prompted.
+Restart Windows (the change won't take effect until you do).
+Windows XP
+
+Turn it off:
+Select Run from the Start Menu.
+Type regsvr32 /u %windir%\system32\zipfldr.dll at the prompt, and click Ok.
+The change will take effect immediately, but you may have to restart Windows for all traces of the built-in ZIP support to disappear.
+If, at any time, you wish to re-enable Windows XP's built-in ZIP support, just follow these steps:
+
+Select Run from the Start Menu.
+Type regsvr32 %windir%\system32\zipfldr.dll at the prompt, and click Ok.
+The change will take effect immediately, but you may have to restart Windows for all features of the built-in ZIP support to be available.
+
+
+
+
+Mental Therapeutic
+
+Trainspotting
+dragonlance
+idiocracy
+
+
+webvam fprint
+webcam login
+x-login
+kpersonalizer
+
+kids have no place to go out to.
+dulanie method
+
+real rap talk
+you can be poor but hoonest.
+
+avatar
+brothers
+gold souls
+district 9
+time travelers wife
+spread
+stare at goats
+nine
+inception
+the box
+2012
+gamer
+my one and only
+post grad
+planet 51
+
+saying goodbuye to life is the hardest thing. the highest of you dont neeed ... thing
+when you are done, you can leave if you want, or God call s you back.
+Women have invented marriage. why would any man want to stay with one woman till the rest of his life? women are scared of men figouring this out, so they have invented marriage. They grab you when you are young. later you figoure out, I could've done better, which some men do.
+Why is theor lif goal getting married. It is a way of securing man will legally be bound to her.
+For the rest of his life. I 've never heard a man say to me: get married, that is the best thing.
+But I have heard: "Don't _ever_ get married", more than once.
+
+
+girls: they make you believe you want what they want.
+
+
+
+http://www.amazing-planet.com/en/home
+
+
+elf
+skakanje
+rodland
+pang
+ruffntumble
+
+internet desktop
+
+besides god has a plan for each one of us, so dont worry.
+
+
+http://www.wallpaperbase.com/landscape-forest-8.shtml
+
+http://www.wallpaperbase.com/wallpapers/landscape/lake/lake_19.jpg
+http://www.wvw.downarchive.com/graphics/wallpapers/42959-magic-water-wallpapers.html
+http://www.batkhela.com/wallpapers/9071/forest-wallpapers.php?page=3&sort=3
+
+
+thw way of the future isin us
+regenerate
+healing energy from God
+shield.
+clear water and food.
+
+every 15 min.
+slowley begin to bliewve
+you cha n change reality.
+
+aslow time.
+
+no projectile weapons.
+wiith thechonlogy better people hem slefvesl
+
+
+virtual win junctions
+
+clear the water with your mind before drinking it.
+ffmpeg suse
+light 15 minites
+re our cells.
+
+virtual sandbox for internet
+
+what if world was not based on moeny interest?	
+
+java
+flash
+pegasus
+morhuhn
+poker
+pool
+pinball.
+raiden.
+
+into program files?
+
+
+hoto dvb
+shutdonw add
+todo multiply
+sh 11sec
+
+religion is impirtant its views not its name. kindness to ohters
+
+
+ljudi mogu da prave izbor u zivotu. nazalost najcesce izaberu pogresan, zaslijpljeni novecem, pohlepom ili necim trecim.
+if you could stop industry for 10 years, Earth would regain itself.
+
+100 years ago Eart was in good condition. Now ...
+
+10/100
+youngpeople today have no place to go to "hang out". they can go to clubes filled with smoke and too loud music.
+
+
+
+try to unlock single maps
+forum gps srbija question.
+
+PalmGB
+PocketNES
+pocketuae
+
+taskbar
+
+if you want to be good to kids, tell them the truth
+life is awful big adventure
+death is awful big adventure
+if you cant be happy with me, then you should be happy with someone else.
+ and we can go back be friends, and in good relations.
+
+
+by giving you are getting
+the sonner we realize what we do to other people we do to ourselves, the better.
+
+pysid
+blizzard
+
+The Time Traveler's Wife (2009)
+
+Operativni sistem: Windows CE 5.0
+Ekran: TFT 4.3" (480 x 272 piksela), format 16:9
+Procesor: Centrality Atlas III 372MHz
+Memorija: 64MB ROM, 64MB RAM
+Media Player, Photo & E-book viewer
+SD memorijski slot, maksimalno proširenje do 2GB
+Stereo audio izlaz
+Baterija 1600 mAh
+
+
+
+ddr-333 256m 
+
+064 33 00 810 zoka
+
+http://creators.xna.com/en-US/downloads
+http://www.pyside.org/downloads/
+
+vs 08 sp1
+lazarus
+xna
+book print, python?
+
+
+
+
+slashdot/like modded brainstorm. for kde
+
+alexander the great book.
+either rule or dont.
+twitter
+76 
+
+freefps
+
+you think love is supposed to last forever. and you get angry if it doesn't
+
+I want to rip the weak part of me, and replace it with the solid.
+
+The Prince, by Niccolo Machiavelli. ---see wikipedia, additional works.
+Behind the Ballots, by James Farley.
+Mein Kampf (unexpurgated), by Adolf Schicklgruber.
+How to Make Friends and Influence People, by Dale Carnegie.
+
+The other titles he wanted were not available in the bookstore; he went from there to the university library where he drew out Real Estate Broker's Manual, History of Musical Instruments and a quarto titled Evolution of Dress Styles. The latter was a handsome volume with beautiful colored plates and was classified as reference. He had to argue a little to get a twenty-four hour permission for it. He was fairly well-loaded down by then; he left the campus, went to a pawnshop and purchased two used, but sturdy, suitcases into one of which he packed the books. From there he went to the largest music store in the town and spent forty- five minutes in selecting and rejecting phonograph records, with emphasis on swing and torch-highly emotional stuff, all of it. He did not neglect classical and semi- classical, but he applied the same rule to those categories-a piece of music had to be sensuous and compelling, rather than cerebral. In consequence his collection included such strangely assorted items as the "Marseillaise," Ravel's "Bolero," four Cole Porters and "L'Après-midi d'un Faune."
+
+womans mind is complicated
+internet is not a site it is cloud we dont go to singleplace to find information we use google. in a way like using tags.tags based web site
+
+
+tags based site.
+
+tkinter
+
+walk by and pick up ..thoughts like you  pick up music from earphones.
+shadows of future movement.
+
+do we ever choose what we become?
+
+Stephen King - Different Seasons
+
+http://www.awaretek.com/toolkits.html
+
+"Ender’s Game"
+
+massae of energy (painfull) spots
+dirrect energy feeling. food is dissolved to? and then?
+
+
+dvd43
+Ripbot264
+
+http://www.angelfire.com/nh/secret/30.html
+http://www.angelfire.com/nh/secret/30HowToShop.htm
+
+
+http://www.pcworld.com/article/169112/40_fantastic_timewasting_web_sites.html
+
+http://funnytypos.com/
+
+http://www.naturalmotion.com/
+
+
+http://www.pcmag.com/
+PC World
+Maximum PC 
+Smart Computing.
+
+
+girls have a way making you beieve their way= the right way.
+
+bible
+
+Ask God to send you answer for how to levitate, or past life in dreams.
+Grab the life ball the balls. Remove the things you do not like. Bring in the things you do like.
+
+Knot of energy in body= illness? Like there is a knot in muscle that requires massage.
+Knot in energy requires energy to start to flow in body. Massage for energy?
+
+cvor energije-bolest. kao misica
+we live in a time of agression and technology. and technology is used to further feeds us agression.
+
+our future is not set in stone. it is not solid. it can be changed.it is like a smokes, waiting to see which
+will solidify. that is why God cannot tell you the future with 100% accuracy. you can always change your mind
+?
+or smoke without clear form? :)
+
+am I one of the awaker?
+
+comm on astral plane with others also there.
+we need a hero. jedies.
+faders. to hide
+
+make a list of settings available in xin xp.
+make same settings as tile/sheet with properties. in linux.
+
+write your ideas in notepad/book every day.
+
+our reality is one based. each of us live our own reality. we interact with others who have their own realities?
+jack one.
+
+smile is the cure
+rmdb-sheepdog
+
+\girls like sselflesness
+when we do things for others.
+
+they have a way of making you think what they think is right.
+
+plugins for settings for linux de.
+
+Earth Days
+The Invention of Lying
+World’s Greatest Dad
+Despicable Me
+District 9
+Planet 51
+
+
+semsons.com
+
+www.nbc.com/classic-tv/
+www.nbc.com/Video/
+www.nbc.com/summer-roundup/
+
+amc, sublight
+
+
+. Programming is basically daydreaming with rules
+
+http://en.wikipedia.org/wiki/By_His_Bootstraps
+http://en.wikipedia.org/wiki/The_Minority_Report
+http://en.wikipedia.org/wiki/Ontological_paradox
+n Terry Pratchett's novel Pyramids
+
+The Man Who Folded Himself
+Barry Dainton's Time and Space
+
+iphone speakers any
+
+rpojectors
+so when we read smarte books/movies we get smarter?
+when we engage our brain in discussion/thinking about aspects of life
+
+com for all football players + coach
+we have been leeping. not using our body brain  and mind compleely. burst mode.
+monitor device for monitoring our body functions constantly, and optional gps.
+
+
+
+how to create 1st foundatiuon:
+venus project?
+
+
+
+energy clear roadsigns., like tv screen, only repel--> shield
+I wish I am the man you think I can become
+I wish i could be like you see me.
+
+great expectations
+
+desktop widget settings
+
+collective prair 
+how to improve life on the planet earth
+
+necu.com
+vnc text mode/ncurses/x11 on win
+
+amc_full
+
+Mother Daughter Exchange Club
+MILF Madness
+Teenage Hooker Confessions
+Not So Innocent Teens
+Babysitters DVD
+19th Birthday
+Wanna Fuck My Daughter Gotta Fuck Me First
+My First Sex Teacher
+
+sexyshare.net
+cduniverse
+
+reconstructor
+super os
+
+crown me aunty
+unfaithful
+sailor
+blue
+mommy
+
+hegel kant nietszche plato
+
+book
+xcel with tags
+dbase with tags?
+
+pardus
+every ruler should have someone to keep him humble.
+
+dont be mean to other sex just because you can
+people only realize the values of something when they lose it
+resetke kapa
+
+I'm not being paid enough to worry about job.
+
+
+auto parna pegla
+
+hard discussions
+improve memory
+jonathan strange
+
+mars venus..
+on relationships.
+
+helmet with air holes
+
+love does not necessarily last forever
+
+reconstructor
+
+nuns
+beer 
+crown me anty
+
+
+We are all one - spread this video
+
+no task unsolvable
+dont worry. dont worry. dont be afraid.
+
+self hypno-how to levitate
+
+mm thing
+sailor beer water impotent
+RepRap. Teach em to do 3D modeling, back off and let em make their own toys. That's what I'm doing... my kid has already developed a bunch of toys and the circuit boards for our RepRap are in the mail.
+
+As for teaching kids programming, I'd suggest starting with Scratch from MIT
+http://openbookproject.net//thinkCSpy/
+
+
+library xp
+
+termination salvation
+torry's telling
+
+Ghosts of Girlfriends Past (2009)
+Ne te retourne pas (2009)
+Top Secret! (1984)
+
+zemeckis movies
+Used Cars (1980) 
+I Wanna Hold Your Hand (1978)
+A Field of Honor (1973)
+Trespass (1992)
+
+
+Possession (2002)
+About Last Night... (1986
+
+
+
+9.7.
+http://www.kinkykira.com/movies.php
+http://www.freeones.com/html/k_links/Kira_Kener/
+
+http://www.mediawiki.org/
+boobwikia
+
+do not worry we ll again open that door of personal freedom/citizen soon. smirk.
+it is jutst temporary.
+
+what is bugging him so that he is like that. poor one.
+
+indusutry <<<<<
+
+hp 6
+management 
+rr movies
+hangover
+
+askmen.com
+
+to watch: cheech
+
+tell her you liked the evening.
+
+
+quick fix. am heroes
+feer not having enough - gread- 
+licence for having kids
+
+wise people should direct the people on earth. not the powerful/rich ones.
+scales.
+when they all start speaking the same language
+like a puzzle peaces coming together.
+divide a brain time between some problems.
+
+
+
+no spasm. relax body and mind.
+then you will remember.
+
+create new neuron connection? remembemer/repeat.ing
+
+
+C  ex plosion
+
+
+we are all different
+we all have diffferent powers
+alphabeticall with dates
+99
+
+God is so powerful, so there are no coincedences.
+this is exactly what you are supposed to be doing at this moment.
+beware though, your actions have consequences.
+
+changing love, like tuning to different radio frequencies.
+when you get tired of one, you change frequency?
+
+flac id tag?
+relax prg?
+books?
+hent?
+you are not alone. this has happend many time before with others.
+
+spread your angel wings. you know you have them :)
+
+
+Virgin Mary sightings.? a girl?
+
+change has to come from the inside. otherwise it is like a klatno*
+
+clear the water with your mind before you drink it. Imagine drinking from the crystal clear  spring in the forest.
+i started doing this by instinct.
+
+first time you act upon your instinct, and that is why you succeed. next time you 
+try live up to the first try, you think you have to best it and that is why you fail.
+dont try, just listen to you instinct. in fact, you will rather succeed by trying to fail :). 
+no try to fail, that is fun :)
+
+You and your love will reach same freq, there will be Synchronized Energy eXchange, you are on the same level as your girlfrined.
+explosion will occur.
+
+Stop trying so hard, then you will succed.
+
+God always talks to us, but sometimes we do not listen.
+
+If it is supposed to be with you it will be back, to you.
+
+
+what do you want to do? do it NOW. Do not postpone it. Read that book NOW. Make that trip NOW
+ask that girl out NOW.
+
+
+as long as there is indsutry of this or that, chances of change are slim.
+
+howt otsleap? 4hr
+no meat no dig prb?
+
+
+money is the wort way of displaying the value of something.
+
+. Make a plan. Then proceed with it. No excuses, no buts.
+plan
+1/2 hour work
+
+user defined
+.flac
+%A\%C\%N - %T
+
+-T "artist=%a" -T "title=%t" -T "album=%g" -T "date=%y" -T "tracknumber=%n" -T "genre=%m" -8 %s
+x delete wav
+x check for external
+x high qual
+
+
+hanren vboudty\
+what to do with the money?
+give it to the needing
+
+brain full capacity training
+start a science /phil/ discussion
+
+we ll have this device in every home, every room, i fromnt of every family. we ll tell people how to think, what to like, what not to like. we ll wage war through it. and the best part it is one  way communcation, limetd to one voice
+future end try predict you future, your getting older, your mistakes, and try to avoid them
+how to increase your brain use? how would ou do it with your body.
+keep creating new neuron connections? keep thinking more and more. think, think,  think.
+watch everything around you. analyze think, try to predict future. analyze past. live in the present.
+
+lets call it brainwashin device!
+ no lets call it television!
+
+stop watching television.
+if you plan your day to a bit overything, you ll get to do al ot of thing s in a day.
+try to rpredict your day how will it go.
+
+
+body has energy lines?
+speed them up?=heal
+sea?
+earth ?
+energy of the cosmos
+
+you have to be 120%
+
+post kde opinion.
+kde - lite?
+how to gnome.
+with inquery, what the users think.
+lxde
+
+
+
+just tell them the fucking truth!
+
+dont have to feel social, or economical pressure or political pressure.
+do what you like. just be what you are. 
+just remember if you hurt someone because you want to, you are hurting yourself.
+
+3 laws flaw
+Aristotle responding to the theory of Plato 
+
+Kevin Mitnick's Book, The Art of Intrusion
+
+The Big Easy (1987) 
+Heart Condition (1990)
+
+trine demo
+www.amaderforum.com
+
+connect more to the God
+3 lavs of robots=bad end for the humans?
+use 1.fussion and 2. heat
+Earth can exist without humans. Humans cannot exist without Earth. 
+How do you talk to the Corporations? With Public. What they are afraid most is, losing money.
+
+predict the future. what will he or she do ,adn then you and then the other.
+
+Rogue Warrior
+turkey
+if you could spend money where it would do most good where would it be? Somewhere to strike at the
+cause, not just to heal the consequences.
+
+“From those to whom much is given, much is expected.” 
+bgates.
+
+Should our best minds be dedicated to solving our biggest problems?
+connect with others. strength is in numbers.
+book and chapters.
+
+that voice inside of you
+
+kpax2- make the movie?
+demo dick mtm?
+
+
+
+
+
+
+
+
+God gives what we need, not what we want. and in such giving us what we want. :)
+God has plans for all of us, except sometimes we do not like that plan.
+adresses of all business
+
+no fear of losing control
+increase self-esteem
+not perfectionist
+
+I am capable of dealing with that.
+change inner world, not nccsrly outside.
+
+
+power plant using co2
+
+xcopy k:\*.* q:\reorg\sx\ /e
+
+2nd
+
+
+
+concentrate on the nice things around you
+feel the music
+feel the beauty
+
+I am here with you 
+I am not running away
+I am here to stay
+
+relax.
+let go of your doubts
+of your worries
+of your pain.
+everything is going to be ok.
+everything is going to be fine.
+you know how to solve the problems, if there are any.
+
+
+
+
+
+If girls are the smart ones, then the guys are the strong ones?
+
+how tro guide  geek->cool // charm people?
+
+write her a letter.
+read her body language,
+feom isnide
+
+
+bog se brine za tebe
+nasteluje sam sebe covjek vibracijom
+
+how to please w
+we create our own reality. as long as we believe it is real/exist it will be.
+
+
+girls like to be selected.
+go a little forward, then a little back.
+read her body language.
+
+she'll respond if she likes you.
+she'll tell if she is interested.
+
+girls expect guys to make a first step.
+If you are to scared, complement her few times. she'll get it.
+dont be pushy.
+act aloof, intersted but not that much.
+
+the spouse is free to leave the marriage if he or she does not
+love the other party anymore, or has some other reason.
+that would take of the pressure of marriage.
+
+maybe one is more receptive of the ideas coming to the Earth.
+
+if you dont want to, then don't do it.
+
+solar energy through a lense.
+dont take her for granted, seduce her over and over again. flirt . a lot.
+dont take love for granted.
+look her into eyes.
+
+sex is not a moment, it is a process.
+
+
+game of hunt, you give some, than retreat, then attack, then retreat.
+
+fear is of the unknown.
+
+plan your future
+be a little bold/brave.
+the story of the part/ and getting the phone.
+
+when you have no fear of anything bad happening to, when you knwo soul is practically indestructible, you have no greed, you are not afraid of life and can experience it as what it is , cahnce to expirience life. up and downs, both alike.
+
+filled with light
+repair yourself
+
+I look at all the lonely people.
+
+kids and babies and animals give love asking for nothing in return.
+thats way noone says no to them.
+
+talk bout her jewelry. complement it.
+to a place without fear.
+it does not matter. all the things you worried about before, where are they now?
+it does not matter.
+
+--
+go outside. even alone is better than at home.
+go to places you haven;t been before.
+chat with waiter if you want. they 've heard a lot of bullshit, they probably wont mind.
+talk to someone. just talk. 
+talk to girl. just talk.
+talkto girl, complement her. ask her if she has a boyfrend. ask her to dance maybe.
+lean close to her. talk to her. wisper something, anything. look her in the eyes. important!
+be relaxed.
+--
+
+she says: why would they want to go out with me. I am just pretty.
+
+everything happens for a reason. everythiong that happen had to happen NO.?
+
+life is beautiful. in all its forms. laughter and cry. pain and pleasure. happyness and sadeness.
+
+
+
+if I am not good to pppl he will leave me. D ?
+there is no time/life is to short/ to be shy.
+you ll always be sorry you haven't tried, never that you have tried.
+
+God pitches you the ball, and you get to hit it. 
+he will keep pitcing till you get it right.
+
+God is mercifull, strict but righteous.
+He is like a parent to a child.
+He chooses not to be angry.
+
+When you finish your task here you leave?
+
+relations sometimes work, sometimes not.
+dont feel bad about it.
+its not like you're gonna get married, right? or... :)
+
+just cause they are pretty, or rich, does not mean they are happy.
+
+you do not have to succesfull to have self-esteam.
+if you are succesful and women approach you.
+if you know yours worth, you can still be you, without beiing famous.
+
+people will love you for what you are.?
+
+there is more than one level of acceptance.
+you can be forced into something
+you can be coerced into something. doesn't last long, usually there is a coming back to thte previous option.
+you can like something
+you can speak someone else into something.
+
+boys have never been allowed to express their emotions through crying.
+so they do it buy screaming , fighitng.
+
+most girls are insecure about their looks.
+
+every girl has a fantasy of strong man, who will sweep her of her feet.
+
+so men need to be strong.
+girls like someone to hold her, to  hug her, and tell her everything will be ok.
+
+ go with your instincts. first though is the right one.
+
+be all you can be.
+
+feel the rhytm of life. 
+dont let yourself we limited by anything
+
+
+what is your wish?
+repeat it every night before you go to sleep.
+I want to .... now.
+
+man are basically cowards. they are afraid to ask the girl out, afradi to dance, afraid to take responsibility
+
+ go with your instincts. first though is the right one.
+you know what you need to do. what is right.
+it is never going to be easy. it might be a difficult choice. but you know what is right.
+
+proof of time travel
+how to send messages into past/future.
+
+every day is a new battle. some you win some you lose.
+
+ccrypt howto
+
+its just a body she has given
+some people feast on negative energy some on positive.
+babies and animals love everyone unquestionable.
+--
+
+Imagine if all the car companies would merge into one, and work together to produce best possible, car.
+The company not motivated by greed, with secured funds. That would produce safe, fast, reliable, long lasting cars.
+
+Imageine if all the people worked together, the way ants work together. There would be no limits for the human
+society. Any goal it would direct itself to would be achieved in shortest period of time.
+
+Instead people are divided into nations, religions, rases, led into beliving they are different from each other.
+They fight each other, kill each other, everyone having their own, often conflicting goals.
+
+Who would benefit from people not being united?
+
+They forget that we all have the same soul. We are all connected.
+
+Imagine all the people...
+
+--
+sex & relationships are not the most important things in your life
+you do not have to succeed always
+life is about experiencing thing, not about always winning. you have to expirience loss sometimes, too.
+
+live life to the fullest.
+what would be your perfect life? if everything 
+what are you wishes, things that you always think of doing, but never do them?
+well do them, already? why aren't you? Afraid of loss? Loss doesn't matter.
+It doesn't matter if you succeed or not. What is important is that you try.
+Make your wishes come true. You are the only pearson who can do it, cause you are the only
+one that knows them. That dreams them.
+
+Dont be jealous of other. They tried and succeed. You can atleast try :) .
+It is ok. Other people wont think of you less because you failed. They will be envy of you
+tryuing at all. A lot of them don't have guts to try. But you can. Trust me, you can.
+Just relax. It is not that important. Even if you fail.
+
+you think all other people are perfect. They are just as scared and insecure as you are.
+--
+you think she is gorgeous. you are too scared to approach her.
+you ask her out she says no.
+you ask her again she says yes.
+you gou out with her few times.
+you kiss her. on the cheek
+you kiss her on the lips on the next date.
+you try to touch her breasts. you fail.
+you try to touch her breasts again after few more dates. and dinner. and movie. you succeed.
+you ask her to sleep with you. she says yes?
+....
+she wants to get married.
+you say no.
+you marry her.
+1 little thing about her annoys you. than another. than another.
+she starts to annoy you.
+you wonder what ever attracted you to her.
+her sweet anoying things become big stuff.
+you leave the relationship.
+you get divorced.
+--
+
+
+
+how to build house made of clay
+how to choose a corect place for a house
+
+
+download panel -ff adon
+
+
+girls need someone to contradict them, to oppose them, not someone who will agree with everything they ll say.
+dont let them know everything about you.
+it s beter to be .. elusive, difficult to catch
+
+if she says no, ask her again. 
+
+relaxator=positive freq emitter.
+your mind works best when it s relaxed
+opens s governement. open government
+increase sinapse clicking
+when personal - mistake
+noone oexpects anything from you. so relax.
+if all people would weite doen their ideas...
+peace , love.
+God is love. love is the answer.
+
+he'd rather having us beoing nice ot eachother, than to have some flashu celebration on his birthday
+girl like it when you asked them out. it means they are noticed by the boys.
+there is more pleasure in giving than in taking.
+
+the evil has besieged the hearts of men.
+ruled by greed, they ...
+
+what if we all raised our voices against evil. say trfficking, prostitution, drugs
+what if women were physically stornger/dominant species?
+
+when we workout we change reality.
+find common enemy, to reunite
+
+
+
+
+crown
+mona
+mona
+try again
+

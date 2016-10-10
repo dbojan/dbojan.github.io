@@ -1,0 +1,13 @@
+this program has some seriuos design problems.
+that is what, six panels open by default. you are scaring people away.
+just copy wsftp old interface. or ftp explorer.
+
+also that quick connect /open the site manager toolbars. 
+they feel strangely uncomfortable.
+
+also what is with sucessfull transfers count? do you expect people to keep count
+of how many files they have transfered. just show message on failed transfer.
+
+on the positive side panel rearengement is saved on exit, unlike previous versions.
+I wish sites username and password is saved (encoded password) in current
+dir ini file.

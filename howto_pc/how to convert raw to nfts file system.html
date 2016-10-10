@@ -1,0 +1,25 @@
+<pre>
+how to convert file system from raw to ntfs
+
+download testdisk from http://www.cgsecurity.org/wiki/TestDisk
+
+
+-Run TestDisk, select the PhysicalDrive, not F:.
+Select Advanced, Boot, RebuildBS, 
+Press p to see a list of your files. 
+If you can see your files, choose option to copy files to another location (YOU SHOULD USE ANOTHER DISK)
+
+
+-you can try writing partition information:
+choose Write, confirm, Quit
+
+-you can try using backup of bootsector to restore it:
+To copy the backup of the boot sector over the boot sector, select Backup BS, validate with Enter, use y to confirm and next OK.
+
+source:
+http://www.cgsecurity.org/wiki/TestDisk_Step_By_Step#NTFS_Boot_sector_recovery
+https://forum.cgsecurity.org/phpBB3/viewtopic.php?t=5958
+
+
+photorec can be used to copy files from damaged disk, but you will loose folder and filenames of the original disk.
+photorec download: http://www.cgsecurity.org/wiki/PhotoRec

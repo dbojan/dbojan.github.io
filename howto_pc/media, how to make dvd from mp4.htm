@@ -1,0 +1,47 @@
+<pre>
+How to make dvd from mkv/mp4/divx
+
+to increase audio volume (currently not possible in dvd styler), (optional):
+use ffmpeg to increase volume to 2x,
+choose audio mp2, 320k
+video vcopy 
+
+to create dvd iso, (or audio video ts folders if you wish)
+use dvdstyler 
+video bitrate - auto
+audio bitrate 192, or 160 (not much difference)
+set format pal, aspect 16:9 (check in original file, audio mp2 48khz)
+-select template
+and enter Caption at the top. (caption will be displayed in the dvd menu)
+
+Drag each video and subtitle to to bottom of the screen. (dont change to ntsc)
+right click on it, and select properties.
+set subtitle language, click on ... and select charset (for serbian it is cp1250)
+
+back in the main window
+-right click on "play all" and select properties, in subtile combo select 'track 1',
+to have subtitle displayed automatically, when dvd is played.
+-click on burn, and select just generate to test it with vlc, or mpc-hc
+
+-Select create iso image, if you plan to burni it to dvd later, or folder if you wish to preview in vlc first. 
+ (or in mpc-hc)
+-dvd size is around 4.5 gB
+
+-sometimes in vlc, background picture in menu, is not displayed properly, or in mpc-hc subs are not displayed.
+you can ignore background issue in vlc, and if subs work in vlc, 
+they should work in dvd standalone unit, too
+
+make sure you change disc caption if you make dvd 1, then dvd 2 ... (so they don't all have same caption when you
+put them in dvd.)
+
+you can burn iso using img burn.
+
+(note
+if your input file is audio in mp2, or maybe mp3 too, it will not have to 
+be recoded, which mean it will go faster. 
+recoding audio in mp2 gives lover quality, but is much faster.
+Dont go below 1000 kbits for video. even 1700k is borderline.
+
+(I ve tested dvd flick, it's too slow in encoding.)
+
+This info should probably be improved, sorry.

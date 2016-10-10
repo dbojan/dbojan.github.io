@@ -1,0 +1,49 @@
+<pre>
+How to use mobile gprs-edge modem on pc, and share internet connection
+
+<b>Install usb modem</b>
+
+Plug in huawei e170 usbmodem card to your pc.
+It should be added as a new modem, and optical storage drive.
+
+Install drivers from newfound cd drive.
+
+To check if it installed correctly: 
+right click on "my computer", manage/device manager.
+Click on + in front of modems.
+
+
+<b>Create profile</b>
+
+Link to mobile partner program should appear on desktop.
+Click on it.
+when you click on tools/device, you should be able to select your modem device.
+
+To create new profile go to:
+tools/options/profile/new.
+profile name: mtel (or whatever you want)
+apn/static=mtelfun (mtelfun is for my provider, check with yours.)
+access number=*99#
+Save.
+
+Click connect on main window to test your connection.
+(make sure you disable your "local area network" network connection, if you have
+broadband Internet connection)
+Disconnect mobile connection.
+
+<b>Set up "Internet connection sharing"</b>.
+
+Right click on "my network places"on the desktop, then click on "properties" .
+
+Right click on mtel, then click on "properties" .
+
+In "general"/"connect using" select: "huawei modem"
+Go to "advanced"/"internet connection sharing"/"allow other network users"=yes.
+Select  name of local area connection. usually: "Local area connection".
+
+Connect "Internet pc"<->switch<->"other pc" using regular net cable (aka "patch")
+
+Or "Internet pc"<->other pc, using crossover lan cable.
+It is a sort of shortcut type of cable, for connecting 2 PC directly together. 
+Most cables are "patch" type, though.
+

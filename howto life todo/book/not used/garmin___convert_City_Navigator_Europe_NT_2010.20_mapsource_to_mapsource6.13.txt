@@ -1,0 +1,32 @@
+how to convert garmin City Navigator Europe NT 2010.20 to ver 6.13 mapsource, so you can use unlocker.
+
+-uninstall 2010.10
+(remove from registry 449 family if it exists. it is in hklm\garmin. )
+
+-install 2010.20 to D:\201020E dir.
+-map will be in "C:\Documents and Settings\All Users\Application Data\GARMIN\Maps\City Navigator Europe NT 2010.20.gmap"
+
+-copy conv613.bat and gmt.exe to "C:\Documents and Settings\All Users\Application Data\GARMIN\Maps\City Navigator Europe NT 2010.20.gmap"
+edit conv613.bat:
+
+==
+set MAPFID=2004
+set MAPFIDHEX=D407
+==
+
+create dir D:\2010_v20
+
+start/run/cmd.exe
+type:
+cd "C:\Documents and Settings\All Users\Application Data\GARMIN\Maps\City Navigator Europe NT 2010.20.gmap"
+c:\
+conv613.bat D:\2010_v20
+
+
+after that start "unlockall.bat" from garmin unlocker
+(there is suspicous message "mdr is not a detail map" at the end?)
+
+remove or rename "C:\Documents and Settings\All Users\Application Data\GARMIN\Maps\City Navigator Europe NT 2010.20.gmap"
+start mapsource
+
+to install later start: CNEuroNT_2010_20-2004-D407.reg

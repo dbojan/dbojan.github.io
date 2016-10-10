@@ -1,0 +1,35 @@
+<pre>
+
+1. way
+create file:
+
+---
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableBalloonTips"=dword:00000000
+
+
+---
+
+without lines. Save it as disable.reg
+(All files, then name it disable.reg )
+
+Start it.
+
+-restart or log off from PC.
+
+OR
+
+2. way
+
+-start/run/regedit
+-navigate to HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+-right click in the right panel.
+-New/DWORD Value
+-name it "EnableBalloonTips", without quotes
+-double clik it, set value to 0
+-restart or log off from PC.
+
+
+source: <a href="http://support.microsoft.com/kb/307729">http://support.microsoft.com/kb/307729</a>

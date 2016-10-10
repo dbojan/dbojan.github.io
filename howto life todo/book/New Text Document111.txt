@@ -1,0 +1,307 @@
+leader: task 2 enable
+
+Klonoa: Door to Phantomile
+Oddworld
+Ape Escape
+tomb raider
+
+065 714 105 pepo
+
+
+good emotions
+cbs.com
+kongregate  alchemist
+
+share the pain. 6.5 billion. of one
+
+
+
+home education dvd.
+age 3-5, age 6-7, 1st grade, 2nd ...
+languages, math, science.
+put this on for your kid/baby.
+but also teach them how to came to the conclusions themselves.
+enable them to think logically. to use facts to come to the conclusions.
+ask qquestions. and to ask them questions. and what do you think.
+us internet. how to find the answers themselves. people will easier learn if it is something they WANT to find out/learn.
+
+mozart./or something non violent/no swearing. Texas?
+real life wisdom/stories, fairy tales.
+no more fairy tales? no naravoucenije.
+
+people shopuld not be motivated by money. yhou cnt take it with you (in grave.)
+
+games where you can outsmart game, almost cheat. jumping in elder scrolls, practice fire.
+alt commandst vds --> lua.
+
+
+huawei: carton id?
+check for same mac & sn
+
+your future/ life if shaped in your mind. in your head, your thoughs and _decisions_ of the future.
+you have to be strong enough to see them through. If you decide to do something, do it right now, do not dwell on it.
+
+dont let yourself be prisoner of anything. woman, feelings, drugs, tv, movies, sex, pleasure, sugar/cookies/chocolate, acohol, money, easy life.
+
+most of these can be consumed in moderate amounts. not drugs alchohol, though.
+
+
+
+rmt in an ol
+
+
+I like women physiology, but not their psychology.
+God forbid you disagree with her, don't want to get married, or do not want to do what she tells you to do. 
+Or do not share her views on issues.
+
+You can see when small girls want to kiss small boys. They think boys HAVE TO do do what girls want, otherwise it is : Mom he does not want me to kiss him/kiss . Buwaaaaa.
+
+Or OMG, you do not want to vacuum the house? You lunatic. How can you NOT agree with me on this? ....
+
+How about NOT trying to improve me all the time?
+
+lemuria vs atlantis, mount shasta, 
+shangri la
+
+
+treat them as children asking for help, cause that is what they are.
+
+not knowing is not a fail, it just means you need to read a lesson again.
+
+
+no fall. no 1
+
+
+1:13 PM 2/23/2010
+
+lua
+a = {}
+a["somestring"] = 10
+print (a["somestring"])
+
+
+variable = "somestring"
+a[variable] = 10 --the program reads a["somestring"] = 10
+
+print (a.somestring) --ok program reads a["somestring"] = 10
+print (a.variable) -- not ok  , program reads a["variable"] = 10
+
+somestring is key.
+key must be (addressed) as a value, not a variable. 
+
+Clash of the Titans
+Green Zone
+MacGruber
+How To Train Your Dragon
+
+-oac faac -faacopts br=128
+-lavcopts vcodec=mpeg4:acodec=mp2:abitrate=128
+
+cs?
+elink
+
+Edit : (extensions => Web Interfaces => Interfaces) :
+Address, Port, Authorization
+127.0.0.1, 80, no
+0.0.0.0, 8080, yes
+
+http://www.scribd.com/doc/2189948/Streaming-How-to-for-a-Dream-Box
+copy 1g
+
+netsurf on dreambox
+how to record?
+in vlc: open stream <ipaddressofthedreambox>:31344 ie: 10.0.0.25:31344, 
+in vlc: convert, save
+
+voodooverse.files.wordpress.com/2008/01/cormac-mccarthy-the-road.pdf
+winer
+00 43 50 350 43. 510
+erste banka swift gibaatww
+iban at812011140310007600
+
+
+not strong enough to withstand our dreams. daydreaming like dreams.
+25
+66084
+
+wikilearn
+1click install, ntfs script
+donaldson rome
+
+metro 2033
+
+dont let your fears control you life. life is but a dream.
+if you always now who you are even if you are not that person.
+old people feel riples better.
+
+http://manybooks.net/
+
+not all love stories have happy ending.
+
+http://www.robvanderwoude.com/ntfor.php
+
+
+beep sound geovision:
+http://www.remote-security.com/geovisionfaq.htm#A1.4
+1.4.    When GV-Series system is running, the system will automatically detect video source functionality and availability. If there are no video source plugged to the card, then the system will send out a beeping warning sound. 
+
+To avoid these beeping sound you may go to camera Start/Close from "Camera / Audio Install", and disable image channel for the unused channels. Please refer to the manual for more detail.
+
+
+dl:
+http://support.apexcctv.com/Downloads.aspx#geovision
+
+
+650v4 v4.20  
+gv650-4
+
+http://www.divxturka.net/mkv-mp4-rmvb-movies/531841-goods-live-hard-sell-hard-2009-dvdrip-mkv-hf-rs.html
+http://www.divxturka.net/mkv-mp4-rmvb-movies/527546-men-who-stare-goats-2009-r5hq-mkv-350mb-4-parts.html
+http://www.divxturka.net/divx-download/74145-full-body-massage-1995-a.html
+
+
+bioware western.
+
+turned into stone, but returned to human.
+there is time be looking good, and time to be a god parrent. not mutually exclusive, just different focus.
+
+
+driver's name: Cizmic Miroslav
+passport number: 003818297
+van reg. plates number: 040-E-207
+
+
+so when God asks you would like to expirience this life? You say yes, cause you are immortal soul.
+you want to see what is it like.
+But to make things more real/funny, while you are down, you will not remember your immortality.
+
+
+Run "vlc-0.7.0-win32.exe" /S
+AdbeRdr90_en_US_Std.exe /sAll /rs /l /msi"/qb-! /norestart ALLUSERS=1 EULA_ACCEPT=YES SUPPRESS_APP_LAUNCH=YES"
+winamp512_full_emusic-7plus.exe /S 
+
+
+always asume people are innocent, or made a unwanted mistake, or there was misunderstanding.
+
+just small part of the world we see, like 1024x768. imagine increase res. then ? you see...
+
+http://satforum.biz/neotionbox/super-golden-lazer-18000/
+
+300+42
+150
+
+
+intel 536ep
+
+
+blizanci
+230 111
+213 003
+daRRIO(DULE)
+
+
+BIROKIP 065513083
+
+
+driversall
+zika@
+12345d
+
+
+one click install with defaults.
+or in advanced screen.
+or from ini.
+
+
+heating timer
+changing a bus. just cause you re not there, doesn't mean you don't exist
+
+http://www.tnaflix.com/search.php?page=2&what=woodman&sort=relevance
+
+if you could desingn your char before entering this world what would you do. what would it be like?
+what hints would you lecve for him to find?
+what kind of men wqould you want him to be?
+
+good moments in life are few, and therefore precious. we should treasure them.
+Be grateful for what you had, not sad, cause you lost it.
+
+
+two hands weight lifting.
+music can tune/change our freq.
+
+macine that would check our body cells for degradation,  and fix them
+compare them with original info made on   birth?
+
+or by using energy from God
+or by prair.
+or by faith.
+
+
+menta for clearing from bacterias. tea.
+
+
+
+
+file is missing or corrupt 
+windows\system32\config\system
+
+go to 
+c:\system volume information\rp104 
+copy file:
+"registry_machine_system"
+to directory
+"c:\windows\system32\config\system\"
+
+man who stare at goats
+up in the air
+
+Your Download-Link #1:	http://rapidshare.de/files/48871519/exe_files_2009-12-18.zip.html
+Your Delete-Link #1:	http://rapidshare.de/files/48871519/exe_files_2009-12-18.zip?killcode=3143768477
+
+
+statically discharged case, against dust
+
+
+A Game of Thrones (A Song of Ice and Fire, Book 1)
+
+http://www.zerosec.ws/category/games/windows-games/
+http://www.torrentdownloads.net/search/?search=Drakensang_The_Dark_Eye-Razor1911
+
+centrum
+371349
+
+
+two worlds
+ruski winter koliba rpg
+
+internet radio page:
+ads
+wiki page of author
+tours
+link to amazon itunes
+onfo on track played
+info on artist/from wikipedia. scrolling. on off
+info on add
+info on promotions on station
+add remopve page content.
+add feed/marque
+
+select another stream
+choose another track
+choose another track from the same author
+chat
+im
+
+running video as well?
+
+
+
+dont be "polite" by not saying if something is bothering you. but be polite when saying, it, don t say it angrily or in a way to hurt someone or humiliate him or her.
+just dont keep it inside of you, or you ll probably explode one day. 
+"all beings are created equal." you have the same rights as everyone else.
+
+
+inherit freq from earth?
+in future we heal by re setting freq to its previous state/fixed one.
+machine for setting freq. for sealing wounds.
+set freq by dancing? or moving in freq.

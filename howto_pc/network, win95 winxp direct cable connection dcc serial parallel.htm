@@ -1,0 +1,68 @@
+<pre>
+How to connect windows xp and windows 95 using serial or parallel (lpt) cable, with direct cable connection program
+
+WinXp:
+
+-Set up new user:
+control panel/users, create user with username: share, and password: share.
+
+-Set workgroup to "workgroup"
+Right click on my computer/properties/computer name.
+if workgroup is not "workgroup", click on change, to change its name.
+
+-Share some folder: 
+Right click on folder/sharing/share this folder/
+
+permissions/everyone/read 
+(You will see this only if "simple file sharing" is disabled. 
+Don't allow network users to change your files)
+
+
+-Create new serial connection:
+network connections/file / new connection /set up advanced/connect directly/host/direct parallel LPT1/select users: share, guest
+finish
+
+-Allow connection without password:
+right click on my network places/properties
+right click on incoming connections/properties/users
+make sure "always allow directly connected devices" is checked
+
+
+<hr>
+
+Win 95:
+
+-Change user to "share":
+start/shut down/"close all programs and logon as a different user"
+enter username: share
+leave password blank, if you do not want to have to type in password every time computer starts
+
+
+-Setup network:
+control panel/network/
+primary network logon: windows logon.
+(you can enable file and printer sharing if you want.)
+
+-Install tcp ip:
+control panel/network/add/protocol/add/microsoft/tcp ip
+
+-Setup workgroup name:
+control panel/network/identification, set workgroup to "workgroup"
+
+
+-Create connection:
+start/programs/accessories/direct cable connection
+guest / parallel cable on lpt1/ finish.
+
+-Connect cables, click on direct cable connection.
+if you get : cannot find host computer, dont worry.
+
+-Click on network neighborhood to see files.
+it might take a while.
+when prompted for password, enter "share", without quotes.
+
+
+-Optional:
+copy link on desktop:
+right click on "start", explore, copy programs/accessories/direct cable connection to desktop.
+

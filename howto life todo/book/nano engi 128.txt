@@ -1,0 +1,43 @@
+Eye Implant: Tutoring, Shiny
+ts int tut*
+Head Implant: Matter Crea, Shiny
+tut, ne pool, mc*
+Ear Implant: Tutoring, Bright
+int tut x*
+Right-Arm Implant: Break & Entry, Shiny
+rad, chem, BE
+Chest Implant: Nano Pool, Shiny
+si, mm, ne pool--
+Left-Arm Implant: Break & Entry, Bright
+mm be x--
+Right-Wrist Implant: Pistol, Shiny
+flsh, nre, pist
+Waist Implant: Max Nano, Bright
+bm, max nn, x
+Left-Wrist Implant: Run Speed, Bright
+nre, rs, x--
+
+Right-Hand Implant: Time & Space, Bright
+treat, ts, x*
+
+Leg Implant: Agility, Shiny
+life, ev cl co, agil--
+Left-Hand Implant: Fire AC, Bright
+first aid, fire arm, x-
+
+Feet Implant: Evade-ClsC, Shiny
+duck exp, agil, ev clco
+
+Eye Implant: Tutoring, Shiny
+Head Implant: Matter Crea, Shiny
+Ear Implant: Tutoring, Bright
+Right-Arm Implant: Break & Entry, Shiny
+Chest Implant: Nano Pool, Shiny
+Left-Arm Implant: Break & Entry, Bright
+Right-Wrist Implant: Pistol, Shiny
+Waist Implant: Max Nano, Bright
+Left-Wrist Implant: Run Speed, Bright
+Right-Hand Implant: Time & Space, Bright
+Leg Implant: Agility, Shiny
+Left-Hand Implant: Fire AC, Bright
+Feet Implant: Evade-ClsC, Shiny

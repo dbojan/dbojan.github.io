@@ -1,0 +1,16 @@
+ey
+he
+ea
+chest
+LA
+WA
+RH
+
+eye-pm-2mp
+head-pm-3trader
+ear-pm-1-ma,enf,sol,crat,agent
+
+
+eye-si2--fixer,enf
+head-si-3-agent
+chest-si-1-mp,nt,ma,fixer,adv,crat,agent,keeper

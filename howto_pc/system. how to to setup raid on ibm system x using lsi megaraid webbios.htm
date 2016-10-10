@@ -1,0 +1,45 @@
+<pre>
+how to to setup raid on ibm system x using megaraid webbios
+
+I would like to say that lsi webbios megaraid setup is total crap. 
+It is slow and unintuitive. Look on asus or gigabyte mb, how to create
+fast, usable raid setup bios.
+
+
+ibm system x raid setup
+
+f1
+system settings
+addapters
+pci / card lsi
+
+
+drives
+click on drive underlined on the right
+make unconf good
+
+
+You can try using wizard to clear configuration.
+Or using reset option on drives.
+
+As a result drive status should be unconf good. :), which means they are ready to be configured.
+
+After they are unconf good, you can set drive(s) with lsi webbios, or leave them be, and use 
+ibm server guide to setup raid, install drivers, etc. 
+If you do use ibm server guide, and have one hdd, use option "controler default" in ibm server guide. In the part of setting
+raid.
+
+
+Or if you use lsi webbios for setup:
+conf. wizard.
+manual
+(do not use auto config. Also, redundancy option matters only when using
+ auto config)
+add drives to group
+add to span
+create raid 0
+(keep cache off)
+
+
+fast init
+set boot drive

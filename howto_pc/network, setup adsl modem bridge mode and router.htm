@@ -1,0 +1,100 @@
+<pre>
+network, how to setup adsl modem and router
+ADSL
+
+1. set up adsl modem in bridge mode:
+connect pc an adsl modem.
+login to adsl modem: type 192.168.1.1 in Internet explorer
+go to basic/wan,  set mode=bridge . click submit.
+disconnect adsl modem from pc.
+
+
+
+2. set up router for ppoe connection:
+connect pc and router with lan cable. use lan ports (one of the four) on router.
+NOT WAN PORT.
+
+type 192.168.1.1 in Internet explorer
+type "admin" username and "admin" password. no quotes.
+
+-goto quick setup.
+-select "ap router", NOT "AP CLIENT ROUTER"
+-select ppoe. enter YOUR adsl router and password.
+-wireless options="enable", encryption="Wep", Automatic, ASCII, 64bit
+select key 1.
+enter the pass you want for people to have internet. NOT YOUR ADSL PASSWORD.
+password will be 5 letters or numbers long, or mixed.
+
+click on submit
+
+go to network/lan.
+change ip address from 192.168.1.1 to 192.168.2.1. The one before last is 2.
+Ip address of the router will change to 192.168.2.1.
+reboot router if necessary.
+
+
+connect "adsl modem" cable on "Wan port" on router.
+test internet
+
+
+you can change device password by going to system/security.
+default username is admin and password is admin.
+
+
+WADSL
+
+connect pc with router with lan cable. use lan ports (one of the four) on router.
+NOT WAN PORT.
+
+make sure you have your internet wadsl username and password.
+
+connect pc and router with lan cable.
+type 192.168.1.1 in Internet explorer
+type "admin" username and "admin" password. no quotes.
+
+-goto quick setup.
+-select "ap router", NOT "AP CLIENT ROUTER"
+-select ppoe. enter YOUR wadsl router and password.
+-wireless options="enable", encryption="Wep", Automatic, ASCII, 64bit
+select key 1.
+enter the pass you want for people to have internet. NOT YOUR WADSL PASSWORD.
+password will be 5 letters or numbers long, or mixed.
+
+click on submit
+
+connect "wadsl internet" cable on "Wan port" on router.
+test internet
+
+you can change device password by going to system/security.
+default username is admin and password is admin.
+
+
+
+
+CABLE INTERNET
+
+connect pc with router with lan cable. use lan ports (one of the four) on router.
+NOT WAN PORT.
+
+make sure you have your "internet cable provider" username and password.
+
+connect pc and router with lan cable.
+type 192.168.1.1 in Internet explorer
+type "admin" username and "admin" password. no quotes.
+
+-goto quick setup.
+-select "ap router", NOT "AP CLIENT ROUTER"
+-select ppoe. enter YOUR "internet cable provider" router and password.
+-wireless options="enable", encryption="Wep", Automatic, ASCII, 64bit
+select key 1.
+enter the pass you want for people to have internet. NOT YOUR "internet cable provider" PASSWORD.
+password will be 5 letters or numbers long, or mixed.
+
+click on submit
+
+connect "lan cable" from you "internet cable provider" to "Wan port" on router.
+test internet
+
+you can change device password by going to system/security.
+default username is admin and password is admin.
+

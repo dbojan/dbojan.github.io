@@ -1,0 +1,33 @@
+
+
+
+Ne koristite Internet Explorer (Plavo "E" na desktopu)
+Internet explorer se lako zarazi virusima.
+Umjesto njega koristite "Mozilu firefox" Crvena ikona ili
+Operu (Crveno "O")
+
+Ne koristite "Outlook Express" za e-mail.
+Umjesto njega koristite Mozilu firefox (ikona plave ptice)
+
+Redovno radite osvjezavanje antivirusnog programa.
+(Kliknite na "V" pored sata i odaberite "update now")
+
+
+Koristite firewall. Automatski se pokrece.
+Kada zelite da dopustite programu da ide na internet odaberite
+"Permit (ili Allow)". 
+Kada ne zelite da dopustite nekom programu da 
+ide na internet odaberite "Deny". 
+Ako zelite da firewall zapamti vasu odluku za ubuduce odaberite "remember".
+
+
+Ne skidajte programe sa interneta koji vam ne trebaju.
+Ne pokrecite programe koje dobijete preko e-maila ako niste
+trazili da vam ih vas poznanik posalje.
+
+Ne klikcite na "Install now" dok surfate. Umjesto toga kliknite na "x"
+u gornjem desnom uglu da zatvorite prozor.
+
+Obratite paznju na broj telefona koji zovete. Neki programi
+koje instalirate dok surfate mogu da promjene broj telefona.
+Ove se desava prilicno rijetko.

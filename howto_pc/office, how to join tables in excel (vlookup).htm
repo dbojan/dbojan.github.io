@@ -1,0 +1,43 @@
+<pre>
+How to join tables in excel (vlookup)
+
+Say you have some data, like id, and student names in file a.xls.
+And you have id, and date of birth for some students in file b.xls.
+How do you add date of birth to file a.xls? (You could use sql, left join ... etc, but, what if you have data already in excel?)
+
+
+A.xls has the following content, with id in the first column, and name in the second:
+
+1	john
+2	bo
+3	mike
+4	tatjana
+5	marko
+
+
+B.xls has the following content, with id in the first column, and date in the second:
+
+1	31.12.1999
+2	14.4.2000
+3	18.5.2001
+5	3.16.1980
+
+
+-open both files in excel
+
+-in file A.xls, position cursor in c1 ( top row, third column. the cell and and column should be empty.)
+-click on 'fx' in toolbar
+-select vlookup
+
+set the following values:
+-in the first box, named 'lookup value', enter 'a1', without quotes. It is the first row, first column cell. It signifies data that exists in both files.
+-for the second box, 'table array', click on the button on the right of the box, and  select all cells in file B.xls that have data. 
+ All of 1st and 2nd column in B.xls, that has some text or numbers in them.
+-in the third box, 'col index num', enter 2. It means that you need data from the 2nd column, of the file B.xls. (Matching data will be copied to file A.xls)
+-in the forth box, 'range lookup', enter 'false' without quotes.
+Click ok
+
+Now you should have date of birth for john in the cell 'c1' of A.xls file.
+To repopulate other cells in 3rd column, drag and drop 'c1' cell down.
+
+Save if you wish.

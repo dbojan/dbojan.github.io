@@ -1,0 +1,71 @@
+
+<pre>
+gps, get and convert coordinates from google maps/wikimapia (or google earth) to gps
+
+Find the place in google maps (or wikimapia):
+-go to maps.google.com, enter: arena, zagreb, croatia
+or in the google earth, enter: arena, zagreb, croatia (see below, skip to "right click, select properties") 
+
+-click on link in the left part. Item will be marked on the map with red "A" balloon.
+-right click on it, select "center map here"
+-click on blue "link" hyperlink in the top right part of the screen.
+-copy first link (select all text, right click on text, select copy.)
+-paste in notepad
+you will get something like: 
+http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=arena,+zagreb,+croatia<b>&sll=45.772163,15.943222</b>&sspn=0.020625,0.055103&doflg=ptk&ie=UTF8&hq=Arena+Zagreb&hnear=Arena+Zagreb,+Croatia&ll=45.772193,15.943351&spn=0.020625,0.055103&z=15
+search for <b>&sll=45.772163,15.943222</b>&sspn=0.
+the coordinates you have are: 
+45.772163
+15.943222
+
+multiply everything after the . with 60:
+772163*60 = <b>46329</b> 780
+943222*60 = <b>56593</b> 320
+
+you need just the first 5 digits.
+
+-so coordiantes you need for your gps are (replace everything after the . with the 5 digits you got): 
+latitude:  45.772163(original data) -> 45°<b>46'329</b> N (gps data)
+longitude: 15.943222(original data) -> 15°<b>56'593</b> E (gps data)
+
+
+<b>Second method using Google Earth:</b>
+-copy and paste 45.772163,15.943222 to "Google Earth" in "fly to" box. Click on icon for search (magn. glass).
+-(you might need to adjust square/box position a little. Actual position is a bit "lower".)
+
+-right click on found square, select properties. You will see this: 
+latitude:  45°46'19.79"N
+longitude:  15°56'35.60"E.
+
+-to convert to gps mode, divide last four digits with 60: 
+(19.79 without the dot) 1979/60 =  <b>329</b>
+(35.60 without the dot) 3560/60 = <b>593</b>
+
+-so coordiantes you need for your gps are (replace last four digits with the three you got): 
+latitude:  45°46'<b>329</b> N
+longitude:  15°56'<b>593</b> E.
+
+You can check in your gps program if the area is ok. Click on "See Map".
+
+<u>Recap:</u>
+
+google maps/wikimapia
+45.(772163*60)=46329
+15.(943222*60)=56593
+
+google earth
+45°46'(19.79/60)=0.329
+15°56'(35.60/60)=0.593
+
+gps
+45°46'329 N
+15°56'593 E
+
+
+
+
+
+
+
+
+

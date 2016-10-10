@@ -1,0 +1,222 @@
+a koristim isto samo u drugom redoslijedu odvijanja operacija.
+Prvo cijeli snimljeni stream provucem kroz pva strumento.
+Nakon toga sa mpeg2schnitt odrezem reklame i ostalo.
+Poslije demuxane dijelove spojim mpeg-vcr-om.
+Savrseno sve radi.
+Sa subtitle workshopom narihtam titlove i
+takav mpeg2 format lijepo zaprzim u UDF nacin  na dvd.
+I svi sretni. 
+
+
+
+
+
+> dobardabar wrote:
+> > Ja koristim isto samo u drugom redoslijedu odvijanja operacija.
+> > Prvo cijeli snimljeni stream provucem kroz pva strumento.
+
+> Napravis PS mpeg2 ili demuxas?
+
+demuxam s tim da checkiram write idd files for mpeg2schnitt
+
+> Ili ovdje demuxas nakon rezanja?
+
+Nakon sto ga pva-s obradi ucitam ga u mpeg2schnitt.
+U pravilu po defaultu pva-s razdvaja i posebno demuxa dijelove streama koji
+ima razlicitu rezoluciju.
+Recimo idu reklame pa film pa reklame on ih razdvoji kao posebne dijelove
+streama pa nema potrebe u biti za mpeg2schittom.
+To je slucaj kad se snima recimo sa c+nordic programa.
+Medjutim to je potrebno kod recimo programa showtime na thoru gdje je sve
+ista reza pa ga on ne razdvaja nego bude sve jedan stream,  onda ga ucitam i
+sjecnem.
+Automatski cim se ucita mpeg file ucita se i pva file (moraju biti istog
+imena)
+Mpeg2schnitt sam pocinje film sa prvim dostupnim I-frameom a zavrasava sa
+P-frameom tako da ne mozes zeznuti stvar.
+
+> > Poslije demuxane dijelove spojim mpeg-vcr-om.
+> > Savrseno sve radi.
+
+> Buduci ja trebam demuxane za authoring (dvd-lab), da li ti muxas zbog jos
+> jednog peglanja ili samo zato jer przis mpeg, a ne dvd?
+
+Ja to przim direktno u mpeg2 u UDF nacin u Neru.
+
+No ukoliko radim dvd format onda prije nego li ga prebacim u vob-ove i
+bup-ove upotrijebim program DVDpatcher koji patchira samo prvi frame filma
+tako da samostojeci playeri prepoznaju film kao 720x576 i 4:3 a ne tamo
+nesto divlje kao sa kioska na thoru pa ga player ne prepozna.
+
+Za pravljenje vob-ova koristim isklucivo IFOedit. 
+
+
+
+
+
+
+
+
+
+
+
+Bilo je i nekoliko postova nize, no nema veze.
+Ja koristim slijedecu kombinaciju.
+
+Za snimanje/gledanje  -  DVB Dream v0.8.7b  (*.mpg)
+Za rezanje reklame itd - VideoReDo 1.6.0.243
+Za pretvaranje iz MPEG u DivX ili VCD  -  DVDx (Free program sa BUG CD-a
+12/2004)
+
+Nemam nikakvih problem sa stekanjem, zaostajanjem zvuka za slikom ili slike
+za zvukom, jednostavno stvar radi OK. datoteke koje dobijem snimanjem znadu
+biti i po 3 GB i nikakvih problema nema sa izrezivanjem viska i slicnog. 
+
+
+
+
+
+
+
+
+
+
+a snimam sa ProgDVB-om ili sa DBox-a preko mreze, nesto u mpg, nesto u m2p.
+To otvorim s MPEG2VCR-om, izrezem sto mi ne treba, TMPGEnc-om demuxam audio
+van, onda FairStars Audio Converterom prebacujem u MP3 (s njime zato sto je
+bio pri ruci kad sam instaliravao, nista posebno dobar program) i video s
+VirtualDubMod-om rekodiram u DivX. U prvom prolazu iskljucim da dira audio,
+u drugom prolazu mu kazem da upotrebi vec gotovi MP3. I nikad mi se nije
+razisao zvuk sa slikom. 
+
+
+
+
+
+
+
+
+
+
+Evo, samo sam se htio svima zahvaliti. Nisam ocekivao toliko odgovora.
+HVALA...
+
+Proradila je kombinacija:
+PVAstrumento + MPEG2Cut + GordianKnot + Subtitle Workshop... 
+
+
+
+
+
+
+
+
+Ljudi, glete ovak. NEMA potrebe za RE-encodingom. Ovo vam pisem sa 100%
+sigurnoscu jer sam i sam probao i sve radi za 5. Evo ovak ide stvar. Snimis
+u Progdvbu film. Otvoris mpeg-vcr ili mpeg video wizard i isjeckas
+nepotrebno. Sejvas (ali NE radis nikakav GOP fix, time fix ili bilo kakvo
+prckanje po GOP-u!!! Ako kosistite pvastrumento tada odabrana opcija mora
+bit UNCONSTRAINED a nikako DVD compatibile. Zasto? Zato sto ce svaki GOP fix
+napraviti sranje i izbaciti frameove van!!! Uvjerite se sami i pogledajte
+log file na kraju posla. Rezultat ce vam biti video koji cuka jer ste vi
+svojim postavkama za DVD compatibile napravili da pojedini frameovi izlete
+van).
+
+E sad, nakon sto se film sejvao na disk. Pokrenite DVD authoring alat,
+ucitajte file. E sad, tu dolaze problemi. Ako authoring alat ne zeli ucitat
+file jer kaze da stream nije kompatibilan jer je prevelik bitrate ili reza
+ne valja ili nekaj trece vi lijepo izidite iz authoring alata i pokrenite
+program DVDpatcher (upisi u google i skini ga s neta a imas ga i na
+www.doom9.org ). U DVD patcheru ucitajte taj vas "nekompatibilni" file i
+namjestite mu postavke kao da se radi od DVD materijalu, npr. 8 Mbit stream
+i 720x576 rezolucija (ali zapamtite i originalne postavke streama). Kliknite
+na patch header. Ne izlazite iz DVDpatchera. Pokrenite authoring alat. Sad
+ucitajte patchirani file. Authoring alat bi ga sad trebao ucitat bez
+problema. Ako ga je ucitao bez problema onda sad odmah se vratite u
+DVDpatcher i ponovo patchirajte file natrag na originalne postavke.
+Nastavite rad s authoring alatom i to je to. Authoring alat ce vam vas
+stream samo kopirati a ne raditi re-encode. Sve je lijepo i brzo gotovo i
+radi savrseno u linijskom DVD playeru. I pokazuje vrijeme tocno i sve sto
+treba... zato ne treba popravljati nista u kojekakvim gop fixerima.
+
+Ja sam koristio TMPGencov authoring alat jer on pouzdano radi s dvdpatcherom
+dok neki drugi, napredniji alati ne dozvoljavaju da se ucitanom fileu vise
+pristupa od strane DVDpatchera pa su stoga beskorisni.
+
+Isprobano i radi na TPSu, HRT-u, RTL9, nizozemcima i spanjolcima (bak dok su
+bili dostupni) i svi rade bez greske.
+
+
+
+
+
+
+
+
+
+
+Ne trebaju ti nikakvi super programi.
+Evo moje kombinacije.
+Skinuti film provucem kroz PVA strumento i on odmah odijeli fil od pocetka
+do kraja i isjece ostalo sto ne valja.
+Ukluci opciju (bit ce po defaultu) da ti radi demux i fix.
+Znaci otvoris mpeg2 zapis ides na demux imenujes file checkiras fix i write
+.idd files for mpeg2schnitt i kliknes demux.
+PVAs ce ti razdvojiti sliku i zvuk.
+
+Nakon toga skines program MPEG2Schnitt i u programu otvoris tvoj razdvojeni
+film i to .mpv datoteku. Nemoj mijenjati ime .mpa  fajlu pa ce ti i ona biti
+ucitana zajedno sa .mpv (razdvojeni dio filma bez zvuka).
+Nakon toga slider povuci na pocetnu tocku filma od kuda hoces da ti film
+krene i klikni na gumb in sa strelicom na lijevo. Nakon toga klikni na gumb
+in sa desne strane programa i u malom kvadraticu ce sti se pojaviti od kud
+pocinje tvoj film.
+Nakon toga mici slider do kraja filma i klikno gumb out sa desnom strelicom
+pa nakon toga gumb out na desnoj strani programa i pojavice se podaci di je
+kraj filma.
+Nakon toga klikni na gumb new sa desne strane programa i otvorice ti se
+sekcija u gornjem dijelu programa koja treba biti odrezana.
+Klikni na cut.
+
+Nakon toga skini program MPEG-vcr i klikni na tools/sistem multiplexer.
+Odaberi video i audio i klikni na save.
+
+Kad si ti napravio skini program dvd patcher i stavi da ti konvertira
+rezoluciju na 704x576.
+Takodjer checkiraj da ti bude 4:3 pan scan.
+To se samo prividno patcira prvi frame kako bi ga pojedini playeri
+prepoznali jer mnogi imaju problema sa rezolucijom programa koji su
+snimljeni digitalnom telkom.
+Klikni na patch i u sekundi je posao gotov.
+Nakon toga skini ifoedit besplatni program za izradu dvd fajlova.
+E to ti vec ne znam kako se radi jer ja to sve snimam direkt u takav mpeg2
+udf nacin snimanja jer mi ne treba dvd, ali ti sebi skini tutorial sa
+www.doom9.org za ifoedit a mislim i da je bio napisan i na nasem jeziku pa
+ga potrazi.
+
+Izmedju ostalog sa subtitle workshop porihtaj titlove da ti idu
+sinhronizirano sa filmom i skini program SRT2sup i konvertiraj te titlove u
+.sup format koji podrzavaju dvd playeri.
+E sad dalje o chapterima pojma nemam.Pitaj nekog drugog.
+
+Napominjem da je ovo moja verzija, kod mene pali a kod drugih - probajte. 
+
+
+
+
+
+
+
+
+
+
+Ja koristim PVAStrumento, Mpeg2Schnitt i (sve rjedje) Mpeg-vcr.
+Najzadovoljniji sam ako radim dvd (a to iskljucivo i radim) kombinacijom
+PVAS i Mpeg2Schnitt, jer on reze (PVASom) demuxane fajlove, snima takodjer
+demuxane, koje onda uvodim u DVDLab i autoriram dvd. To mi je najkraci, a
+dovoljno kvalitetni put. 
+
+
+
+
+

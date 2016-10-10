@@ -1,0 +1,10 @@
+k-launch kde win bug
+html viewer bug.
+
+Bug 110320: change color of windows buttons in taskbar
+?fixed in 3.5
+
+http://www.wallpapersmania.com/
+kget
+
+www.debianpure.com

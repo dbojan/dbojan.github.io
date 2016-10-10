@@ -1,0 +1,61 @@
+<pre>
+howto install qt 4.8 in windows:
+
+DOWNLOAD:
+
+from <a href="http://qt.nokia.com/downloads/">http://qt.nokia.com/downloads/</a>
+download:
+-click on "Qt libraries 4.8.0 for Windows (minGW 4.4, 354 MB)", and download BOTH files:
+"qt-everywhere-opensource-src-4.8.0.zip" (350 MB)  and "MinGW-gcc440_1.zip" (30 MB)
+
+-click on "Qt Creator 2.4.0 for Windows (53 MB)" and download
+"qt-creator-win-opensource-2.4.0.exe"
+
+
+
+INSTALL MINGW, QT, QT CREATOR:
+
+-install minigw (MinGW-gcc440_1.zip):
+ 	-unzip to c:\minigw
+-add path c:\mingiw\bin to path:
+	-start/my computer/propeties/advanced/environment variables/SYSTEM variables
+	-scroll to PATH.
+	-double click on Path, at the end add ";c:\minigw\bin", without quotes. OK, OK.
+-restart PC. 
+ (Or just use task manager to restart explorer. Then: "File/ new task run/explorer". "Start/run/ cmd", type "set",
+ check if at the end of path line there is ";c:\minigw\bin")
+
+
+
+-install qt-win-opensource-4.8.0-mingw.exe
+
+
+-install qt-creator-win-opensource-2.4.0.exe (without minigw, uncheck it during setup.)
+
+
+
+POST INSTALLATION SETUP:
+
+-Open "qt creator", go to menu: "tools/options/build & run/qt version/manual/add" "c:\qt\4.8.0\bin\qmake.exe", 
+ or correct path for your installation
+(as an alternative you run configure.exe from qt dir. takes long time, not sure if it is recommended.)
+
+
+
+You can add c:\qt\4.8.0\bin to "path" if you wish to run compiled programs from explorer too.
+
+
+
+
+ADDITIONAL NOTES:
+
+note 1:
+no tooclhain error: add c:\mingiw\bin to path
+
+note 2:
+(do make your program work with smaller qt.dll files, select release build in main qt win.
+ This is not done during creating project)
+
+
+
+

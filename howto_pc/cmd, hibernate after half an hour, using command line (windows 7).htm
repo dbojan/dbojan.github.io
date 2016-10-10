@@ -1,0 +1,19 @@
+<pre>
+How to hibernate after half an hour, using command line
+
+tested, works:
+
+
+-hibernate at 17:00
+start command line (cmd) as administrator,
+
+At 17:00 shutdown /h /f
+
+
+untested:
+sleep 1800 && shutdown /h /f
+or
+timeout /t 1800 /nobreak & shutdown /h
+
+source http://superuser.com/questions/83437/hibernate-computer-from-command-line-on-windows-7
+

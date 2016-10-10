@@ -1,0 +1,76 @@
+<pre>
+How to convert aax to mp3, without itunes, on pc
+
+
+-download 'audible manager' from <a href="https://www.audible.com/">https://www.audible.com/</a>, install to d:\apps\audible, 
+-set download to d:\apps\audible\download 
+(or use c:\program files\audible ..., just remember where download is.)
+
+-go to the web site, <a href="https://www.audible.com/lib/">https://www.audible.com/lib/</a> and login using your username and password.
+-(you might want to change display to 'all time' in audible web site, to display your book/s).
+-To download your book(s), click 'download' to the right of the book title. 
+-Firefox will ask you what to do, select 'open dmhelper file'.
+
+
+Afer the file is downloaded,
+-in download helper, you can click on 'play' if you wish, it will open book in 'Windows media player'. 
+Using 'Windows media player' you can add audio file to list of audio files to record on cd,
+burn it there, and then rip cd. There is a better solution:
+
+If you try to play file in 'audible manager' PC program it will ask for your login and pass. 
+Enter them.
+
+Convert it to another format directly from aax file:
+-download aaxtomp3 from <a href="http://sourceforge.net/projects/aaxtomp3/">http://sourceforge.net/projects/aaxtomp3/</a>
+(make sure your login and pass are entered in 'audible manager'. If you can play audio book in it, you are ok.)
+-start aaxtomp3 program. 
+-click on 'durchsuchen' (search) to find aax file. It should be in  d:\apps\audible\download
+-click on umwandeln (convert) to to convert file to mp3. Mp3 file will be in the same dir as aax file.
+
+'it takes about 2 sec for 1 min of decrypting file'. 
+
+--
+More complicated way, using command line:
+AaxToMp3.exe -i "E:\file.aax" > test.wav
+You can later compress wav file to flac, mp3, opus, ogg... :)
+
+--
+Chapters:
+
+If there are chapters in the book, you can use FFprobe, from FFmpeg program package, to see them.
+Download from here: <a href="https://www.ffmpeg.org/download.html#build-windows">https://www.ffmpeg.org/download.html#build-windows</a> . 
+Click on 'Windows builds'
+Choose "FFmpeg git-xxxxxx 32-bit Static", first button on the left.
+
+Unzip ffmpeg zip to d:\ffmpeg.
+Copy aax file to d: . Rename it to file.aax .
+
+To start command prompt:
+Click on start, or circle in the bottom left of windows desktop.
+Type in cmd. Press enter.
+
+Now, copy the following line, and press right click in the cmd window to paste it:
+"D:\ffmpeg\ffprobe.exe" -i "D:\file.aax" -print_format compact -sexagesimal -show_chapters > "D:\file-info-compact.txt" 
+You will have file-info-compact.txt with start, end, and chapter names in it.
+
+Another option is:
+"D:\ffmpeg\ffprobe.exe" -i "D:\file.aax" -print_format csv -sexagesimal -show_chapters > "D:\file-info-csv.txt" 
+Which would do the same, except no labels for columns. Try it.
+
+You need 5,7,and 8th column.
+
+How to convert mp3 file to separate chapters?
+Use this command line, with mp3 or wav file created using aaxtomp3.
+Copy mp3 to d: , rename it to file.mp3 .
+
+Use this line:
+
+"D:\ffmpeg\ffmpeg.exe" -i "d:\file.mp3" -c:a copy -vn   -ss 0:00:00.000000 -to 0:04:48.206077 "d:\1.mp3"
+
+"-ss" is for start, "-to" is extract till position.
+
+If you wish to convert it to another format use this:
+
+"D:\ffmpeg\ffmpeg.exe" -i "d:\file.mp3" -b:a 24k -vn   -ss 0:00:00.000000 -to 0:04:48.206077 "d:\1.opus"
+
+It might take longer, though.

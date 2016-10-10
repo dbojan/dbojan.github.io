@@ -1,0 +1,51 @@
+<pre>
+How to remove non printable ascii letters from file names
+
+Explanation:
+
+This program will replace non ascii printable characters, with underscore "_", using powershell script on Windows 7.
+Only ASCII printable characters are allowed.
+That means letters ranging from space, !, to ~, are allowed
+NOTE: Delete command (ascii 127, unicode u007E), is part of printable ascii, but is removed here. To undo, rename 7E to 7F . 
+Everything else will be replaced with "_" .
+
+HERE is Howto create the powershell script:
+-save this file as 'renamefiles.ps1', without quotes,
+ in directory c:\temp, without start and end part.
+
+--start file--
+$Files = gci | where {$_.Name -match "[^\u0020-\u007E]"}
+
+$Files | ForEach-Object {
+$OldName = $_.Name
+$NewName = $OldName -replace "[^\u0020-\u007E]", "_"
+ren $_ $NewName
+}
+--end file--
+
+Howto enable windows 7 power shell:
+
+this requires windows 7 power shell
+to be able to run scripts in ps, you have to enable it:
+-find powershell in start menu, right click on it, and select 'run as administrator'.
+-type in window: Set-ExecutionPolicy RemoteSigned
+-type in window: y
+-close powershell, and start it again as user
+-change to directory where you file is: cd c:\temp
+-run progam (you can type re, and then press tab to finish filename automatically): 
+-& '.\renamefiles.ps1'
+
+
+
+
+
+More info:
+source: 
+ascii printable codes (character code 32-127) : http://www.ascii-code.com/
+unicode (unicode 0020 to 007f): http://unicode-table.com/en/#basic-latin
+
+
+running powershell script: http://www.adminarsenal.com/admin-arsenal-blog/powershell-how-to-write-your-first-powershell-script/
+original script: http://superuser.com/questions/636247/how-do-i-remove-non-ascii-characters-from-filenames
+more info on running powershell script: http://stackoverflow.com/questions/10635/why-are-my-powershell-scripts-not-running
+

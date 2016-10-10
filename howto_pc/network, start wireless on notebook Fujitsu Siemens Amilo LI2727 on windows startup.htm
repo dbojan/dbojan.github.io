@@ -1,0 +1,27 @@
+<pre>
+
+
+
+file "startw.vbs":
+
+----
+
+Set WshShell = WScript.CreateObject("WScript.Shell")
+WScript.Sleep 10000
+Set oExec = WshShell.Exec("C:\Program Files\Launch Manager\WisWBSet.exe")
+do while WshShell.AppActivate("Wireless Status Option")=False
+WScript.Sleep 1000
+loop
+WScript.Sleep 1000
+WshShell.sendkeys("{TAB}{TAB}{LEFT}~")
+
+----
+
+
+Create file "startw.vbs" (without quotes) and put it in startup directory.
+(click on "start menu", "all programs". Right click with mouse on "startup", select "open"
+Copy file startw.vbs there. Restart windows)
+
+(found on some internet page.)
+
+

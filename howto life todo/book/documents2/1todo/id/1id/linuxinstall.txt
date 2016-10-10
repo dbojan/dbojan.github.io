@@ -1,0 +1,23 @@
+special install script for any distro
+
+
+"installprogram.sh"
+
+1. make list of files
+2. create link of files against /
+
+
+
+"deinstallprogram.sh"
+1. search for dead links in /
+ or search for dead links just for list of files in curr dir.
+
+
+3.global uninstall script.
+"deinstallremainingfiles.sh"
+
+pro:
+could be used with any distro.
+
+question is:
+global install or local install program.

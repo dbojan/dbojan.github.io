@@ -1,0 +1,14 @@
+ffmpeg.exe -i "D:\20080229_2228 PREMIERE 1.TS" -f avi  -vcodec mpeg4  -qmin 1 -qmax 3 -s 512x288 -ab 128 -vtag DIVX "D:\\20080229_2228 PREMIERE 1.avi"
+
+
+ffmpeg.exe -i "D:\20080229_2228 PREMIERE 1.TS" -f avi -acodec mp3 -vcodec msmpeg4 -ab 192 -benchmark "D:\\20080229_2228 PREMIERE 1.avi"
+
+ffmpeg.exe -i "D:\20080229_2228 PREMIERE 1.TS" -r 29.97 -vcodec xvid -s 640x480 -aspect 4:3 -maxrate 1800k -b 1500k -qmin 3 -qmax 5 -bufsize 4096 -mbd 2 -bf 2 -flags +4mv+trell -aic 2 -cmp 2 -subcmp 2 -g 300 -acodec mp3 -ar 48000 -ab 128k -ac 2 -benchmark "D:\\20080229_2228 PREMIERE 1.avi"
+
+ffmpeg.exe -i "D:\20080229_2228 PREMIERE 1.TS" -f avi  -vcodec mpeg4  -qmin 1 -qmax 3 -s 512x288 -vtag DIVX "D:\\20080229_2228 PREMIERE 1.avi
+
+ffmpeg.exe -i "D:\20080229_2228 PREMIERE 1.TS" -f avi  -vcodec mpeg4  -qmin 1 -qmax 3 -s 512x288 -vtag DIVX -benchmark -acodec mp3 -ab 128  "D:\\20080229_2228 PREMIERE 1.avi
+
+
+
+

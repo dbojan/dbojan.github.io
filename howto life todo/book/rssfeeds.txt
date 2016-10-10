@@ -1,0 +1,5 @@
+http://osnews.com/files/recent.rdf
+http://www.pcbsd.org/rss.xml
+http://www.slashdot.org/index.rss
+http://www.kde.org/kde-look-content.rdf
+http://www.kde.org/kde-look-news.rdf

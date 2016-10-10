@@ -1,0 +1,8 @@
+advanced efs
+
+tomtom
+rlt 1 2
+acer
+
+unfinished:
+SELECT "LastName" || ', ' ||  "FirstName" FROM "Employees" AS "Employees"

@@ -1,0 +1,131 @@
+<meta name="keywords" content="read books on digital photo frame, convert digital photo frame to book reader, transform photo frame as book reader, photo frame, picture frame, digital, e-books, ebooks, reader">
+<pre>
+How to read books on a digital photo-frame
+
+(There are also programs that can do this, more or less successful.)
+ 
+My photo frame has 7" 234x480 resolution.
+It does not read txt or pdf. Here is how to create images from books.
+
+1. convert pdf to text (if necessary)
+2. insert text into open office writer/ms word
+3. format the page
+4. export text to pdf
+5. export pages from pdf to images
+6. resize and convert images
+
+
+<b>1. convert pdf to text (if necessary)</b>
+If your text is in pdf format, here is how to convert pdf to text:
+-export pdt2txt using "<a href="http://www.somepdf.com/">somepdf 2 text</a>" converter.
+-reflow txt using <a href="http://vuks.vdsworld.com/">reflow</a> 
+ 
+ 
+
+<b>2. insert text into open office writer/ms word</b>
+ You can download the template for the book: <a href=template_7_inch_screen.zip>Download template_7_inch_screen.zip</a> 
+ 
+ Here is how to create the template yourself (skip this if you downloaded the template):
+  -open txt in <a href="http://www.openoffice.org/">openoffice.org</a> 
+  -format/page: 117x240 mm (this is half of device resolution)
+  -set margins to 5mm
+  -file/properties, set title
+  -select all, set font to verdana 15, align justified
+ 
+  -insert/ header/ 
+  -insert/field/title
+  -select all in header; set font verdana 11px, italic, gray 30%, title, align center
+ 
+  -insert/ footer 
+  -insert/field/  page number"/"page count  (without quotes)
+  -select all in footer; verdana 11px, gray, page/page count, align center
+ 
+  -file/ save as .odt or .doc file type.
+
+
+
+<b>3. format the page</b>
+ If you downloaded template, open it in Open Office, paste text into it
+ (use paste special/unformated text), and change file/properties.
+  
+ You can add tab space to the first line in of the paragraph in Open office writer.
+ Select all text, (ctrl+a), move "top, inverted triangle" to the right. It is located below font size (12).
+ and bold letter "B".
+
+<b>4. export text to pdf</b>
+in Open Office:
+-file/ export as pdf
+-export as pdf
+
+
+<b>5. export pages from pdf to images</b>
+Download <a href="http://www.docu-track.com/home/prod_user/PDF-XChange_Tools/pdfx_viewer">pdfxviever</a> 
+Click on "Portable ZIP" and "download now" button, on the right. It will download free version.
+
+Open file in pdfxviever
+-File/export/export to image
+ 
+-"Page range": all 
+
+-"image type": Jpeg
+ Options:
+  -"image type": True Color 8bpp
+  -"jpeg quality": 90
+  -"Horizontal/vertical DPI": 300
+
+ 
+-file name: 
+bk-&lt;Auto Number&gt;-&lt;Page Number&gt;
+
+(Enter "bk" without quotes, and select "Auto-Number" and "Page Number" from macro button)
+
+-export mode: "place each page to different image file"
+
+ 
+Click on "Export" button.
+ 
+ 
+<b>6. resize and convert images</b>
+Open file in <a href="http://www.irfanview.com/">irfanview</a> 
+(This is for version 3.97)
+-"File"/"batch conversion/rename"
+-"add all" files
+
+-"Use this directory as output"
+-"Output directory": (add "newbook" without quotes to the end of path)
+
+-"Batch conversion"
+
+-"Batch conversion settings:"
+-"Output format": jpg
+-"Options": 80 quality
+
+-"use advanced options"
+-"set advanced options"
+ -"resize"
+ -"set new size"
+ -"set both sides to"
+ -"width": 568
+ -"height": (leave empty)
+ 
+ -"other options": (on the other side)
+ -"rotate left"
+
+-press "start" button to start
+
+
+You can use batch file to copy files in group of 50 to directories. 
+<b>"Copytofolders.bat"</b> is in this zip file: <a href=template_7_inch_screen.zip>Download template_7_inch_screen.zip</a>
+Copy it to the dir with jpg files, and start it.
+
+Remember to copy files to SD card/USB stick using free commander or some other utility that copies
+files starting from file number 1, otherwise device will display files out of order.
+
+Press eject when done working with SDcard, or safe remove USB stick.
+Use frame photo frame remote or keys on the device to move to the next page (image).
+
+
+Included are two templates for printing 2 pages on a4 paper.
+You can use <a href="http://www.foxitsoftware.com/pdf/reader/">Foxit Reader</a> to bookmark pages in PDF.
+
+Word versions have incorrect page numbers :( . Help needed.

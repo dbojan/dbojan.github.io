@@ -1,0 +1,44 @@
+<pre>
+I get memory error when start garmin using mscr file
+
+
+you have to start explorer first.
+
+(in this example path to garmin is absolute.)
+----
+Errorlevel("warn")
+
+If(WndExists("Garmin Mobile XT"))
+	Show("Garmin Mobile XT")
+	Exit
+EndIf
+
+# If launching from MioPocket Menu
+If(NOT ProcExists("explorer.exe"))
+	#Start Explorer, as Garmin won't start without it
+	Run("\Windows\explorer.exe")
+	Sleep(3000)
+
+
+	SetVolume 200
+
+	#Hide Taskbar
+#	Run(SystemPath("ScriptPath")\"TaskbarHide.exe")
+EndIf	
+
+
+#Copy previous stored settings to \Garmin
+XCopy(SystemPath("ScriptPath")\"Settings\*.*", "\Garmin", TRUE)
+
+#Run Garmin Mobile XT.
+#This script will not go to the next command before que.exe completely shut down 
+RunWait("\SDMMC\Garmin\Apps\WM\que.exe")
+
+#Save new settings back to SD Card
+XCopy("\Garmin\*.*", SystemPath("ScriptPath")\"Settings", TRUE)
+
+# Don't Show Taskbar (seems we can't kill explorer.exe)
+# Run(SystemPath("ScriptPath")\"TaskbarShow.exe")
+
+---
+

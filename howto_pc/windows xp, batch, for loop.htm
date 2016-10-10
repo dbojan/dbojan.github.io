@@ -1,0 +1,22 @@
+<pre>
+rem number will go from 1-63, in steps of 1
+rem paste this in command line (you also need wget):
+for /L %i in (1,1,63) do wget http://somesite.com/%i.jpg
+
+
+
+rem display all files
+FOR %i in (*.*)  do echo "%~nxi"
+
+
+
+rem output to file
+FOR %i in (*.*)  do echo "%~nxi" >> c:\list.txt
+
+
+
+rem change to current dir (where bat file is started from)
+cd /d "%~dp0"
+rem use %%, because it is in a .bat file now, not started from the comamnd line:
+FOR %%i in (*.*)  do echo "%%~nxi" >> c:\list.txt
+

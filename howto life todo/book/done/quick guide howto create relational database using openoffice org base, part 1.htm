@@ -1,0 +1,90 @@
+<pre>
+quick guide howto create relational database using openoffice org base, part 1
+
+<b>Create tables using wizard:</b> 
+from sample table "Customers", add fields: 
+"CustomerID" 
+"CompanyName" 
+
+-"set primary key": "use an existing field as primary key"/"Fieldname"="CustomerID" 
+"auto value"=on 
+
+
+-from sample table "Tasks", add fields: 
+TaskID 
+Description 
+and from sample table "Customers", add field: 
+CustomerID 
+
+-"set primary key": "use an existing field as primary key"/"Fieldname"="TaskID" 
+"auto value"=on 
+
+
+
+<b>Set relationship:</b> 
+tools/relationship: Customers.CustomerID -> Tasks.CustomerID 
+
+
+<b>Creating forms: </b>
+Forms/use wizard to create form 
+From Tasks table add all items 
+Finish. 
+Exit form. 
+
+<b>Edit forms to show custom fields: </b>
+
+Right click on "Tasks" form, click edit 
+Right click on CustomerID 
+Replace with=listbox 
+Right click on CustomerID/column 
+"Type of list contents"=Sql 
+"List content", click on "...", add Customers table 
+(here we set display to show company name first instead of just company id.) 
+
+field cell=CompanyName 
+table cell=customers 
+visible=on 
+
+column next to it 
+field cell=CustomerID 
+table cell=customers 
+visible=on 
+
+Make sure CompanyName is first, then CustomerID. 
+
+Save. Close 
+Save form. close. 
+
+
+(optional: if you want to display one record per page, 
+on "5. Arrange controls" part of form wizard, select one of the "columnar" form layout. 
+also, later when editing: 
+right click on group (text + text field), group/ungroup 
+right click on text field, control/properties, general/dropdown=yes.) 
+
+<b>And finally, using form: </b>
+Add at least two rows in "customers" table using "tables" tool. 
+(just click on tables in left panel, then on customers in right panel) 
+
+You can add more data using "Tasks" form. 
+
+You can create another form for adding more customers. 
+
+
+
+Optional: Reports and query: 
+-Query, use wizard: 
+add from tasks table: Description 
+add from Customers table: CompanyName 
+(you can choose whichever you want.) 
+Finish. 
+
+Edit query: Customers.CustomerID -> Tasks.CustomerID 
+so you do not have double display 
+
+
+Reports: 
+use query as source. 
+
+what is relational database? 
+<a href="http://computer.howstuffworks.com/question599.htm">http://computer.howstuffworks.com/question599.htm</a> 

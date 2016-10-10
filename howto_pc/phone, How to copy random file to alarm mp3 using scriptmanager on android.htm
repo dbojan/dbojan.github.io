@@ -1,0 +1,50 @@
+<pre>
+How to copy random file to alarm mp3 using scriptmanager on android.
+
+Also here: http://smanager.wikidot.com/forum/t-684599/randomfile
+script manager: https://play.google.com/store/apps/details?id=os.tools.scriptmanager
+
+
+Here is what works for me, on MIUI v6 Dev Rom, on Redmi 2.
+
+Lines starting with # are comments, and are ignored in the script.
+To activate them, delete # at the beginning of the text line.
+Don't touch "#!/system/bin/sh" line!
+
+Move mp3 files to /sdcard/Media/Music folder.
+
+1createlist.sh.  
+-creates list of mp3 files on device, 
+-run seldom, after you add more music to your device.
+
+#!/system/bin/sh
+resultdir="/sdcard/Media/"
+musicdir=$resultdir'Music/'
+#search inside one artist subfolder , if you wish, "Artist/" must be complete folder name.
+#pathstring="Magazin/"
+listfile=$resultdir'list.txt'
+#match filename if you wish, will NOT match path. Case sensitive, no -iname option.
+#filestring="*ljuba"
+busybox find $musicdir"$pathstring" -name $filestring'*.mp3' > $listfile
+busybox wc -l $listfile
+
+2copyrandomfile.sh, 
+-copies random file to /sdcard/Media/random.mp3
+-set to run in the morning (at boot), using phone settings. Or every 6 hours. Or every 12 hours.
+
+
+#!/system/bin/sh
+resultdir="/sdcard/Media/"
+musicdir=$resultdir'Music/'
+listfile=$resultdir'list.txt'
+destmfile=$resultdir'random.mp3'
+# count number of files
+numrows=$(grep -c ".*" $listfile)
+# generate random number in range 1-NUM
+# max number is around 32000
+let "numrnd=(${RANDOM} % ${numrows})+ 1"
+#echo Random number is $numrnd
+sourcemfile=$(busybox sed -n "${numrnd}p" < $listfile)
+echo $sourcemfile
+# copy 
+cp "$sourcemfile" $destmfile

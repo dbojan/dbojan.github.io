@@ -1,0 +1,444 @@
+
+
+
+
+
+If you want to edit someone else's module
+first start "mc" by typing "mc" in the console
+Using F5 copy "kden.mo" file to "/tmp" dir
+press F10 to exit program mc.
+
+Create temporary dir for module. type:
+"mkdir kkden"
+
+Unpack .mo file to its temporary dir:
+"mo2dir kden.mo kkden"
+
+change dir to kkden
+"cd kkden"
+
+edit file you want. Here is just one.
+You can start mc and then use f4 to edit file.
+Press F2 to save file. Press f10 to exit.
+
+
+
+After that go to "/tmp" dir:
+"cd /tmp"
+
+create your version of .mo file:
+dir2mo kkden mykden.mo
+
+
+
+
+
+
+
+
+
+kbfx - pretty much standard kbfx (launch button)
+launch menu?
+--
+nuvola. icons - nuvola icons.
+--
+knetstat - knetstat app (icon in systray showing net traffic)
+
+-----
+06-kde_base.mo\opt\kde\bin\startkde vs kden.mo\opt\kde\bin\startkde
+
+
+// set background to black
+
+if test -z "$XDM_MANAGED" || echo "$XDM_MANAGED" | grep ",auto" > /dev/null; then
+  xsetroot -solid "#C0C0C0"
+
+->
+
+if test -z "$XDM_MANAGED" || echo "$XDM_MANAGED" | grep ",auto" > /dev/null; then
+  xsetroot -solid "#000000"
+
+
+
+//set cursor to left
+
+xsetroot -cursor_name watch
+
+->
+
+xsetroot -cursor_name left_ptr
+
+
+//set background
+
+qiv -z /opt/kde/share/wallpapers/slax-wallpaper.jpg
+
+->
+
+qiv -z $HOME/Library/tempw.png
+
+
+//disable kde splashscreen
+
+# the splashscreen and progress indicator
+splash=`kreadconfig --file ksplashrc --group KSplash --key Theme`
+if test "$splash" = "None"; then
+    echo >/dev/null #nothing
+elif test "$splash" = "Simple"; then
+    ksplashsimple
+else
+    ksplash --nodcop
+fi
+
+->
+
+# the splashscreen and progress indicator
+#splash=`kreadconfig --file ksplashrc --group KSplash --key Theme`
+#if test "$splash" = "None"; then
+#    echo >/dev/null #nothing
+#elif test "$splash" = "Simple"; then
+#    ksplashsimple
+#else
+#    ksplash --nodcop
+#fi
+
+
+-----
+
+
+02_core.mo:\root\.kde\share\config\kdeglobals vs kden.mo\opt\kde\share\config\kdeglobals
+
+Defaults timestamp=Mar 16 200523:20:07
+->
+Defaults timestamp=Apr 18 200518:39:35
+
+
+Theme=crystalsvg
+->
+Theme=nuvola
+
+
+--
+
+06-kde_base.mo\opt\kde\share\services\katepart.desktop vs kden.mo\opt\kde\share\services\katepart.desktop
+
+
+Name=Embedded Advanced Text Editor
+->
+Name=Text Viewer
+
+
+->
+Name[xx]=xxEmbedded Advanced Text Editorxx
+
+
+--
+
+06-kde_base.mo\opt\kde\share\services\kcertpart.desktop vs kden.mo\opt\kde\share\services\kcertpart.desktop
+
+Comment=Embeddable Personal Certificate Manager
+->
+Comment=Certificate Manager
+
+--
+
+08_kde_office.mo\opt\kde\share\services\kchartpart.desktop vs kden.mo\opt\kde\share\services\kchartpart.desktop
+
+
+Name=KOffice Chart Component
+->
+Name=KChart
+
+--
+
+06-kde_base.mo\opt\kde\share\services\khtml.desktop vs kden.mo\opt\kde\share\services\khtml.desktop
+
+
+Comment=Embeddable HTML viewing component
+->
+Comment=KHTML
+
+--
+06-kde_base.mo\opt\kde\share\services\khtmlimage.desktop vs kden.mo\opt\kde\share\services\khtmlimage.desktop
+
+Comment=Embeddable Image Viewing Component
+->
+Comment=Image Viewer
+
+Name=Embeddable Image Viewer
+->
+Name=Image Viewer
+
+--
+
+06-kde_base.mo\opt\kde\share\services\kjavaappletviewer.desktop vs kden.mo\opt\kde\share\services\kjavaappletviewer.desktop
+
+
+Name=Embedded Java Applet Viewer
+->
+Name=Java Applet Viewer
+
+--
+
+06-kde_base.mo\opt\kde\share\services\kmanpart.desktop vs kden.mo\opt\kde\share\services\kmanpart.desktop
+
+
+Comment=Embeddable Troff Viewer
+->
+Comment=KTroff
+
+
+--
+06-kde_base.mo\opt\kde\share\services\kmultipart.desktop vs kden.mo\opt\kde\share\services\kmultipart.desktop
+
+Name=Embeddable Component for multipart/mixed
+->
+Name=Kmultipart/mixed
+
+--
+
+08_kde_office.mo\opt\kde\share\services\kspreadpart.desktop vs kden.mo\opt\kde\share\services\kspreadpart.desktop
+
+Name=KOffice Spreadsheet Component
+->
+Name=KSpread
+
+
+--
+
+08_kde_office.mo\opt\kde\share\services\kwordpart.desktop vs kden.mo\opt\kde\share\services\kwordpart.desktop
+
+Name=KOffice Word Processing Component
+->
+Name=KWord
+
+--
+
+02_core.mo\root\.config\menus\applications-kmenuedit.menu vs rootn.mo\root\.config\menus\applications-kmenuedit.menu
+//Using win2000 like menu. I do not know how to create winxp one.
+
+added after first  "<Menu>":
+
+<Menu>
+  <Name>Programs</Name>
+  <LegacyDir>/root/Library/K-menu/Programs</LegacyDir>
+ </Menu>
+ <Menu>
+  <Name>Setting</Name>
+  <LegacyDir>/root/Library/K-menu/Settings</LegacyDir>
+ </Menu>
+ <Menu>
+  <Name>Old menu</Name>
+  <Directory>Old menu.directory</Directory>
+  <Menu>
+
+
+//not sure what "Old menu.directory" is for :)
+
+---
+rootn.mo\root\.kde\Autostartreorder.sh
+explanation: Autostartreorder.sh.txt
+
+--
+02_core.mo\root\.kde\share\apps\kdesktop vs rootn\root\.kde\share\apps\kdesktop\IconPositions
+//position of icons on desktop
+// quite different, as also icons are different.
+
+--
+
+02_core.mo\root\.kde\share\apps\kicker\konqbrowser.desktop vs rootn.mo\root\.kde\share\apps\kicker\konqbrowser.desktop
+
+//quicklinks in taskbar.
+
+GenericName=Web Browser
+GenericName[en_US]=Web Browser
+->
+GenericName=WWW Browser
+GenericName[en_US]=WWW Browser
+
+
+
+--
+02_core.mo\root\.kde\share\apps\kicker\konsole.desktop vs rootn.mo\root\.kde\share\apps\kicker\konsole.desktop
+
+no differences. probably safe to remove from slaxmode1.
+
+same goes for other files in this dir. except "konqbrowser.desktop".
+
+--
+
+02_core.mo\root\.kde\share\apps\konqsidebartng\filemanagement\entries vs rootn.mo\root\.kde\share\apps\konqsidebartng\filemanagement\entries
+
+
+"dirtree.desktop" file created in the same dir:
+-
+
+[Desktop Entry]
+Icon=desktop
+Name=Folder
+Name[en_US]=Desktop
+Open=false
+Type=Link
+URL=file://$HOME/Desktop
+X-KDE-KonqSidebarModule=konqsidebar_tree
+X-KDE-TreeModule=Directory
+X-KDE-TreeModule-ShowHidden=false
+
+-
+
+All other files except ".version" moved to "New Folder"
+
+--
+
+06-kde_base.mo\opt\kde\share\apps\konqueror\konqueror.rc vs rootn.mo\root\.kde\share\apps\konqueror\konqueror.rc
+
+simplified menus in konqueror (file browsing mode). Check konqueror.rc.txt for details.
+
+
+--
+
+rootn.mo\root\.kde\share\apps\konqueror\konquerorweb.rc
+file creatred for menu settings when surfing wiht konqueror
+See konquerorweb.rc.txt.
+
+nb: I wish I could escape auto adding of menus and toolbars, such as "increase font
+size" toolbar.
+
+
+konquerorweb2.rc is more or less same menu as one used for surfing before. I think.
+--
+
+06-kde_base.mo\opt\kde\share\apps\konqueror\profiles\filemanagement vs rootn.mo\root\.kde\share\apps\konqueror\profiles
+
+see for more info: filemanagement.txt
+
+also: webbrowsing.txt
+
+--
+06-kde_base.mo\opt\kde\share\apps\konqueror\servicemenus vs rootn\root\.kde\share\apps\konqueror\servicemenus
+
+added servicememus:
+
+find_in_folder.desktop - find in folder
+open as SU.desktop - open as superuser
+open_with_kwrite.desktop - open with kwrite
+run as SU.desktop - run as superuser
+run_in_terminal.desktop - run in terminal
+Set as Wallpaper.desktop - set as desktop wallpaper
+
+--
+
+02_core.mo\root\.kde\share\config\clock_panelapplet_aoip6ljaiqzjp9ehk2kv_rc  vs rootn\root\.kde\share\config\clock_panelapplet_aoip6ljaiqzjp9ehk2kv_rc 
+
+see file for content
+--
+
+rootn.mo\root\.kde\share\config\kcminputrc
+
+//numlock on
+
+--
+
+02_core.mo\root\.kde\share\config\kdeglobals vs rootn.mo\root\.kde\share\config\kdeglobals
+
+*** is this file neccesary? (verdana font are they used?)
+--
+
+02_core.mo\root\.kde\share\config\kdeprintrc vs rootn.mo\root\.kde\share\config\kdeprintrc
+
+//set default printingf system to cups.
+// cupsd not started?
+
+->
+PrintSystem=cups
+[Jobs]
+Size=550,250
+
+
+// exists in original only ?
+
+ViewToolBar[$d]
+->
+
+--
+
+
+02_core.mo\root\.kde\share\config\kdeprintrc vs rootn.mo\root\.kde\share\config\kdeprintrc
+
+Preview=imagethumbnail
+->
+Preview=
+
+
+//
+
+->
+ShowHidden=false
+
+
+
+Wallpaper=/opt/kde/share/wallpapers/slax-wallpaper.jpg
+->
+Wallpaper=/opt/kde/share/wallpapers/No-Ones-Laughing-3.jpg
+
+
+WallpaperMode=Scaled
+->
+WallpaperMode=NoWallpaper
+
+
+->
+ShowFileTips=true
+
+
+StandardFont=Luxi Sans,11,-1,5,50,0,0,0,0,0
+->
+StandardFont=Bitstream Vera Sans,11,-1,5,50,0,0,0,0,0
+
+
+AutoLineUpIcons=true
+->
+AutoLineUpIcons=false
+
+
+->
+[General]
+Enabled=true
+SetVRoot=false
+SortDirectoriesFirst=false
+[Media]
+enabled=false
+exclude=media/audiocd,media/blankcd,media/blankdvd,media/dvdvideo,media/hdd_mounted,media/nfs_mounted,media/smb_mounted,media/zip_mounted,media/svcd,media/floppy5_unmounted,media/cdwriter_unmounted,media/cdrom_unmounted,media/dvd_unmounted,media/floppy_unmounted,media/hdd_unmounted,media/nfs_unmounted,media/removable_unmounted,media/smb_unmounted,media/zip_unmounted,media/vcd
+
+
+
+->
+[MiniCli]
+CompletionItems=knetstats:1
+History=knetstats
+TerminalApps=ls
+[Mouse Buttons]
+Left=
+Middle=WindowListMenu
+Right=DesktopMenu
+[Open-with settings]
+CompletionMode=5
+History=kwrite %u
+
+--
+
+
+
+
+
+
+
+
+
+__
+
+
+
+
+If you are copying your desktop files, make sure you edit file and change 
+Category to ;ategory or something.

@@ -1,0 +1,82 @@
+Field	Value
+Computer	
+Computer Type	ACPI Uniprocessor PC
+Operating System	Microsoft Windows 2000 Professional
+OS Service Pack	[ TRIAL VERSION ]
+Internet Explorer	5.00.3700.1000 (IE 5.01 SP4 - Windows 2000)
+DirectX	4.09.00.0904 (DirectX 9.0c)
+Computer Name	BOJANR
+User Name	Administrator
+Logon Domain	[ TRIAL VERSION ]
+Date / Time	2006-04-05 / 21:56
+	
+Motherboard	
+CPU Type	Intel Celeron D 335, 2800 MHz (21 x 133)
+Motherboard Name	Gigabyte GA-8I915P Duo  (3 PCI, 2 PCI-E x1, 1 PCI-E x16, 2 DDR DIMM, 2 DDR2 DIMM, Audio, Gigabit LAN)
+Motherboard Chipset	Intel Grantsdale i915P
+System Memory	[ TRIAL VERSION ]
+BIOS Type	Award Modular (01/21/05)
+Communication Port	Communications Port (COM1)
+Communication Port	Printer Port (LPT1)
+	
+Display	
+Video Adapter	NVIDIA GeForce 6600  (128 MB)
+3D Accelerator	nVIDIA GeForce 6600 PCI-E
+Monitor	Daewoo 511B  [15" CRT]
+	
+Multimedia	
+Audio Adapter	C-Media CMI9880 @ Intel 82801FB ICH6 - High Definition Audio Controller [B-1]
+	
+Storage	
+IDE Controller	Intel(R) 82801FB/FBM Ultra ATA Storage Controllers - 266F
+SCSI/RAID Controller	ST3SHARK SCSI Controller
+SCSI/RAID Controller	VIA VT6410 RAID Controller
+Floppy Drive	Floppy disk drive
+Disk Drive	QUANTUM FIREBALLlct20 20  (19 GB, 4500 RPM, Ultra-ATA/100)
+Disk Drive	ST316002 1A SCSI Disk Device  (160 GB, 7200 RPM, Ultra-ATA/100)
+Optical Drive	Generic DVD-ROM SCSI CdRom Device
+Optical Drive	PIONEER DVD-RW  DVR-109  (DVD+R9:6x, DVD-R9:6x, DVD+RW:16x/8x, DVD-RW:16x/6x, DVD-ROM:16x, CD:40x/24x/40x DVD+RW/DVD-RW)
+SMART Hard Disks Status	OK
+	
+Partitions	
+C: (NTFS)	[ TRIAL VERSION ]
+D: (NTFS)	147628 MB (81840 MB free)
+G: (NTFS)	5098 MB (3679 MB free)
+H: (FAT32)	3992 MB (3608 MB free)
+I: (NTFS)	5098 MB (2997 MB free)
+Total Size	[ TRIAL VERSION ]
+	
+Input	
+Keyboard	Standard 101/102-Key or Microsoft Natural PS/2 Keyboard
+Mouse	PS/2 Compatible Mouse
+	
+Network	
+Primary IP Address	[ TRIAL VERSION ]
+Primary MAC Address	00-00-00-00-00-00
+Modem	Generic SoftK56 Data Fax
+	
+Peripherals	
+Printer	CutePDF Writer
+USB1 Controller	Intel 82801FB ICH6 - USB Universal Host Controller [B-1]
+USB1 Controller	Intel 82801FB ICH6 - USB Universal Host Controller [B-1]
+USB1 Controller	Intel 82801FB ICH6 - USB Universal Host Controller [B-1]
+USB1 Controller	Intel 82801FB ICH6 - USB Universal Host Controller [B-1]
+USB2 Controller	Intel 82801FB ICH6 - Enhanced USB2 Controller [B-1]
+	
+DMI	
+DMI BIOS Vendor	Award Software International, Inc.
+DMI BIOS Version	F6
+DMI System Manufacturer	
+DMI System Product	
+DMI System Version	
+DMI System Serial Number	[ TRIAL VERSION ]
+DMI Motherboard Manufacturer	Gigabyte Technology Co., Ltd.
+DMI Motherboard Product	8I915P Duo
+DMI Motherboard Version	x.x
+DMI Motherboard Serial Number	[ TRIAL VERSION ]
+DMI Chassis Manufacturer	
+DMI Chassis Version	
+DMI Chassis Serial Number	[ TRIAL VERSION ]
+DMI Chassis Asset Tag	[ TRIAL VERSION ]
+DMI Chassis Type	Desktop Case
+DMI Total / Free Memory Sockets	4 / 3

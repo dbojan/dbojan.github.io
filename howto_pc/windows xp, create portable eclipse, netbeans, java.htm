@@ -1,0 +1,82 @@
+<pre>
+
+
+If you want to learn a new language, I suggest Python v3, instead. Use PythonPortable with PyScripter.
+You can learn from "Byte of Python" book. More info <a href="http://dbojan.50webs.com/freeware/">here, bottom of the page.</a>
+
+
+Java:
+You can use lightweight <a href="http://www.jcreator.com/">JCreator LE</a> which is free.
+Install it on your machine. After that you can copy it to usb stick. It will ask for java install,
+if it can't find it.
+
+
+Portable eclipse:
+-download from <a href="http://www.eclipse.org/downloads/">http://www.eclipse.org/downloads/</a>, "Eclipse IDE for Java Developers" Windows 32 Bit
+-install to "D:\java\eclipse_portable"
+
+-download jdk 7u2 from <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk-7u2-download-1377129.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk-7u2-download-1377129.html</a>, 
+"jdk-7u2-windows-i586.exe" for Windows x86
+-install to "D:\java\jdk1.7.0_01"
+
+-create dir "workspace" in "D:\java\eclipse_portable"
+-Start Eclipse. When prompted enter ".\workspace" for the workspace dir, or ".\somethingelse" . ".\" means in current directory.
+-you can see workspace path, by going to menu  "windows/preferences" in eclipse. Type "workspace" in search box.
+
+-copy "jre" dir from "D:\java\jdk1.7.0_01" to "D:\java\eclipse_portable"
+-open "D:\java\eclipse_portable\eclipse.ini" with WORDPAD or NOTEPAD2
+-add "-vm .\jre\bin\javaw" to the end of the eclipse.ini file.
+
+-(explanation: 
+let's say your thumb drive is named f:\
+if you want to keep whole jdk on f:\java\jdk1.7.0_01, and your eclipse on "f:\java\eclipse_portable"
+then use line "-vm ..\jdk1.7.0_01\jre\bin\javaw" in eclipse.ini instead.
+It will look in f:\java\jdk1.7.0_01, instead of f:\java\eclipse_portable\jre\bin\javaw
+This is optional.)
+
+
+Copy eclipse_portable dir to your usb flash memory. 
+(Optional: If you want to carry portable app ready to install, zip dir first, and then copy it to usb flash memory. 
+You will have to copy it to target PC, and unzip before use.)
+
+
+NOTE:
+-click on help/welcome to start tutorial. 
+-Click on "Window/open perspective/Java" or, "Window/reset perspective" if you don't see package manager.
+-Eclipse does not add ";" to the end line, unlike netbeans
+-sometimes you have to close eclipse.exe manually after exit from eclipse windows.)
+-First run/project will be slower.
+-You will get better performance if you copy files to hard disk, and run it from there.
+
+
+source <a href="http://portableapps.com/node/929">http://portableapps.com/node/929</a>
+
+
+
+
+
+Portable netbeans:
+-download from <a href="http://netbeans.org/downloads/">http://netbeans.org/downloads/</a> "NetBeans IDE 7.0.1", type JAVA SE
+-install to "D:\java\NetBeans7.0.1_portable"
+-don't change jdk path
+
+You don't have to install junit
+
+copy jdk1.7.0_01 dir to "D:\java\NetBeans7.0.1_portable"
+
+create "startnetbeans.bat" in "D:\java\NetBeans7.0.1_portable" dir. 
+--
+cd /d "%~dp0"
+bin\netbeans.exe --userdir "..\netbeanswp" --jdkhome ".\jdk1.7.0_01"
+--
+
+Use it to start netbeans.
+
+NOTE:
+-you can delete DIRECTORIES "locale", but not files named locale.something.
+-You will have to select project save dir manually. Enter something like f:\project, if your usb is f:
+-First run/project will be slower.
+-You will get better performance if you copy files to hard disk, and run it from there.
+
+
+source: <a href="http://portableapps.com/node/4997">http://portableapps.com/node/4997</a>

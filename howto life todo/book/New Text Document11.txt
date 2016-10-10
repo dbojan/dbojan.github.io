@@ -1,0 +1,108 @@
+being crazy changes your frequency into overdrive. dangerous.
+
+http://answers.yahoo.com/question/index?qid=20100423173025AAuj3rX
+v=(a==b?c:d) 
+
+it is same:
+if (a==b){
+v=c;
+}
+else{
+v=d;
+}
+
+
+
+most people have greed and fear.
+we have seoarated ourselves from the nature in big behives of concrete, and covered oads with cncrete, so we cannot touch earth when we walk.
+Being in nature is more of an exception than a rule.
+
+http://www.world-english.org/english500.htm
+
+How to convert (e-text) book to images and read it on a digital photo-frame
+
+http://www.instructables.com/answers/Is-there-any-way-I-could-put-custom-firmware-on-my/
+upload howto
+
+
+http://www.ptaah.com/Welcome09Aug.html
+
+http://extraordinaryintelligence.com/1609/the-unexplained/michael-horn-interview/
+http://extraordinaryintelligence.com/
+
+Labyrinth (1986)
+The Dark Crystal (1982) 
+
+The Dark Crystal (1982)
+Labyrinth (1986)
+The Last Unicorn (1982)
+Legend (1985)
+The Black Cauldron (1985)
+Wizards (1977)
+
+
+
+
+
+
+97	122
+a	z
+
+65	90
+A	Z
+
+if possible boot from linux cd or usb.
+if not clear browsing history in firefox
+tools/clear recent history, "Everything"
+click on details. select all. "clear now"
+restart firefox.
+
+tools/start private browsing.
+
+ibm
+zika@l
+123456ibm11
+
+there are so many rapes cause sex is taboo. people dont talk about it, women's brest are secret.
+
+if we ask our children to always tell the truth, shouldn't we do the same.
+
+
+"when the wolrd seems to much to take.."
+some people need escape from their lives. some play video games.
+some have mistresses. some drink. some use drugs. 
+a very small number of people take problems head on and deal with them.
+a possibly solve them.
+most are afraid they ll lose. everything. but if you think what that everything is
+giving them, wouldn't they be better off without it.
+
+
+http://free-ri.htnet.hr/Branko/index.html
+
+how to setup elta kabel.
+create new connection, enter title ELTA1
+
+(in linux use pppoe-x discovery)
+
+and enter your username and password.
+make sure button on the modem is set to "internet".(all leds are lit"
+
+
+
+books: plato: dialogues
+http://forum.banjaluka.com/viewtopic.php?f=8&t=3030
+
+
+http://www.wdc.com/advformat/
+
+heroes: they make the impossible possible.
+would you like to be one? y/n _
+
+people you worry about would rather see you happy.
+
+asus camer flip
+edit one of the installl .inf files.find "flip" line in it. change 1 to 0
+
+lirc build yourself
+
+there is not enough love in the world.

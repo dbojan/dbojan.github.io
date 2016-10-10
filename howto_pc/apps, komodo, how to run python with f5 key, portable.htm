@@ -1,0 +1,46 @@
+<pre>
+
+apps, Komodo Edit, how to run python with f5 key
+
+-tools/macros/create new macro
+-name it "save and run", choose javascript:
+
+// Macro recorded on: Thu Mar 31 2016 18:01:02 GMT+0200 (Central European Standard Time)
+komodo.assertMacroVersion(3);
+if (komodo.view) { komodo.view.setFocus(); }
+ko.commands.doCommand('cmd_save')
+ko.run.runEncodedCommand(window, 'd:\\apps\\python\\python.exe \"%F\" {\'runIn\': \'new-console\'}');
+
+
+-edit path to python, if needed (here it is: d:\\apps\\python\\python.exe )
+
+-click on key binding on the same window
+-new key sequence: (press F5)
+-click on add.
+-it should say 'current key sequence' F5
+-ok
+
+test it:
+-file/new/new file
+-add text: print("hello")
+-save it as test.py
+-press F5
+
+
+--
+portable komodo:
+create bat file, start_komodo_edit:
+
+
+@echo off
+set APPDATA=%CD%\AppData
+set KOMODO_HOSTNAME=usb
+set KOMODO_USERDATADIR=%APPDATA%\komodo_profile
+START ko.exe
+
+
+source: http://www.activestate.com/blog/2010/08/komodo-ide-usb-stick
+
+
+
+

@@ -1,0 +1,69 @@
+<pre>
+
+windows xp, split movie and subtitles to two cd or dvd
+
+(make sure you have windows codecs of the movie. this will not work with wmv. 
+otherwise,  use mencoder or something to convert the movie to divx/mp3 avi file.
+Try opening the file in virtualdubmod.
+If video is divx or xvid then ok. 
+If audio is aac, or ac3 ,you can convert just audio and keep the video unchanged.)
+
+Open in virtualdubMod
+file/info, note down length in frames. say 322397. divide by 2 = 161198.5
+close window
+click on |< icon at the bottom to go to the beginning of the movie.
+click on icon that looks like the half top of that icon <_ .It is the second one from the right. It will mark the begining of the first clip.
+Hold shift, move slide bar at the bottom, till about 161198. you can see frame number, time, and size of the clip.
+When satisifie with the position, click on icon of the ">" with the "key" few times, till you get to the right position. 
+This will move to the keyframe.
+
+
+click on _> .Last on the right. This will mark end of first clip.
+First clip length line should turn blue.
+
+Streams/stream list. Right click on AVI SOURCE. Make sure "Direct stream copy" is selected. Click ok.
+Video/"Direct stream copy"
+
+
+File/save as. SELECT "DONT RUN THIS JOB NOW."
+enter file name part1.avi Click on save.
+
+DONT CLOSE THE WINDOW.
+
+Click on <_ to mark the begining of the second clip.
+Click on >| to move to the end.
+click on _> to mark end of the second clip.
+
+Streams/stream list. Right click on AVI SOURCE. Make sure "Direct stream copy" is selected. Click ok.
+Video/"Direct stream copy"
+
+File/save as. SELECT "DONT RUN THIS JOB NOW."
+enter file name part2.avi Click on save.
+
+
+File/Job control
+
+Click on start
+
+Virtual dub mod/show status window to see projected file size.
+
+When it is done, open part1.avi in virtualdubmod.
+
+file/info see the length of the first part.
+example 158546 frames (1:50:12.68)
+
+
+
+
+Create copy of the original subtitle. Rename it to part2.srt or part2.sub, depending on the original extension (srt or sub).
+
+download subtitle workshop v 2.51
+open subtitle part2.srt
+edit/timings/set delay. Set firt character to "-", and after that length of the FIRST PART  of the movie. Example:
+"- 01.50.12.680"
+
+Play in subtitle workshop (click on |> and see if it is ok.)
+You can use undo, and increase or decrease delay.
+
+in windows explorer make copy of the original part2.srt, 
+In click subtitle workshop file/save.

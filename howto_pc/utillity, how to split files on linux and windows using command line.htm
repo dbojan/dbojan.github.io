@@ -1,0 +1,51 @@
+<pre>
+How to split files on linux
+
+
+This is windows example:
+
+cd to folder where 7z.exe is.:
+cd /d d:\apps\7-Zip
+
+Create archive:
+D:\apps\7-Zip>7z a -mx=0 -t7z -v1g d:\temp\file "D:\downloads\iso images\New folder"
+a - add to archive
+-mx=0 - set compresssion to "no compression"
+-t7z - set type of archive to 7z (7zip recommended, you can use -tzip for ... zip :) )
+-v1g - create each file of 1GB size.
+d:\temp\file - destination file
+"D:\downloads\iso images\New folder" - folder with the files you wish to compress/create archive of.
+
+
+make sure your destination file is in different folder from source files.
+
+this will create file.001, file.002... etc. Use 7zip or some other app (ark, file-roller to combine them again)
+
+if you create multipart zip file, and not 7zip archive, use 7zip application to unzip it.
+Winzip might have problem with it. Maybe this has changed, and I do not use winzip anyway.
+
+
+
+For linux 
+
+First, change to folder where files are:
+cd /mnt/disk/downloads/iso_images/New_folder
+
+then, create archive of the files of your current location. Resulting file has to be in another location.:
+7z a -mx=0 -t7z -v1g /mnt/something/file *
+
+see above for description of switches. they are same as ones on Windows.
+
+
+
+if you want to do it, from some other folder (untested)
+7z a -mx=0 -t7z -v1g /mnt/something/file /mnt/disk/downloads/iso_images/New_folder/*
+
+(in the last example * iz to tell 7z to compress all files and folders in directory, and not omitt any file. 
+It would probably work without * too.)
+
+
+source info:
+http://www.7-zip.org/faq.html
+https://sevenzip.osdn.jp/chm/cmdline/switches/
+http://askubuntu.com/questions/54579/how-to-split-larger-files-into-smaller-parts

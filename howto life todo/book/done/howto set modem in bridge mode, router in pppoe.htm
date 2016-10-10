@@ -1,0 +1,64 @@
+<pre>
+howto set modem in bridge mode, router in pppoe
+
+IE= internet explorer.
+
+
+connect with lan cable:
+pc->teol modem
+enable and disable network (lan) card
+open IE
+type 192.168.1.1
+if you get small window asking for username and password
+enter:
+admin
+admin
+ok
+
+(if you get asked for username in IE itself with title "Huawei quick start",
+enter yourusername@adsl, and password press submit. 
+Don't touch new password and confirmed password)
+
+basic/wan setting
+mode=bridge
+submit
+
+disconnect lan cable from modem.
+
+connect with lan cable:
+pc->tplink LAN port.
+
+open IE
+type 192.168.1.1
+admin
+admin
+quick setup
+next
+PPPoe
+yourusername@adsl
+your password
+next
+wireless radio="enable"
+ssid=anything you want
+next
+finish
+
+network/lan/
+ip address=192.168.2.1
+save
+
+
+
+
+connect:
+teol modem->WAN port router
+LAN port router->pc ethernet (lan) port
+
+enable and disable network (lan) card
+make sure ip addres is obtain automatically (in ip4 propertis of the lan card)
+open ip address in IE 192.168.2.1
+if you click on "status" in wan part you should see button "disconnect", which means it is connected now.
+
+
+how to reset to factory default (you probably dont need this):
+tools/reboot/factory settings/restart

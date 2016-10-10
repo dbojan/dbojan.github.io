@@ -1,0 +1,20 @@
+channel: channel list options (ctrl l)
+modules: module list, ddosd=off
+
+
+
+dvbdream: wont show satellite tab without chanells
+put it on scanning, then search for position
+tools / signal display. put on some channel before
+12607-transporter insteresting.
+
+http://www.sat-plus.com/showthread.php?t=32556
+keys. 
+remember to copy vkeys and vsids to pip0 dir. nevermind  rom 110bin
+
+http://goita.net/softcam.key
+2436612B634E26FEBC7889A1B92A1F62
+
+
+cs
+http://www.sat-plus.com/showthread.php?t=833

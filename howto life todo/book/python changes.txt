@@ -1,0 +1,33 @@
+print ("test")
+
+http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/pyqt4ref.html
+
+------
+import sip
+sip.setapi('QString', 2)
+
+from PyQt4 import QtCore
+
+# This will raise an attribute exception because QString is only wrapped
+# in version 1 of the API.
+s = QtCore.QString()
+
+
+-----
+
+import sip
+sip.setapi('QString', 1)
+
+from PyQt4 import QtCore
+
+# This will work
+s = QtCore.QString()
+
+note:
+http://stackoverflow.com/questions/509211/good-primer-for-python-slice-notation
+ +---+---+---+---+---+
+ | H | e | l | p | A |
+ +---+---+---+---+---+
+ 0   1   2   3   4   5
+-5  -4  -3  -2  -1
+"One way to remember how slices work is to think of the indices as pointing between characters, with the left edge of the first character numbered 0."

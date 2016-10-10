@@ -1,0 +1,81 @@
+<pre>
+how to install windows from external bootable disk (not usb flash disk)
+
+
+NOTE: I believe this only works with 'uefi' bios mode boot.
+
+HOW TO SPLIT DISK IN TWO PARTITION (SHRINK EXTERNAL DISK)
+if you have external bootable disk, say 500gb, use disk management to shring disk
+(skip this if you have already two partitions on your external disk, 
+or if you want to delete files on the disk and use the whole partition to create bootable disk.)
+Be careful not to select the wrong disk. Check drive letters in windows explorer (don't mess with your system,
+which is usually disk 'c:')
+
+-start/this pc/manage/disk management
+-locate the row that says disk 1 (or disk 2, depening on the number of disks in your systme)
+-right click on the disk marked with blue part, select shrink disk
+-enter amount by which to shrink the disk (enter 10000 which is little less than 10gb, click on shrink)
+-right click on the newly created partition (unallocated)
+-select new simple volume, set file system to 'fat 32', quick format, next
+
+
+FORMAT SECOND PARITION OF THE DISK (10 GB IN SIZE)
+
+WARNING: FORMATTING THE PARTITION WILL DELETE ALL FILES FROM IT!
+CHECK PARTITION SIZE BEFORE CLICKING ON START format.
+
+if you haven't already, right click on the part of the disk you want to format, 
+-select 'format'
+-choose 'fat32' as file system
+-check 'quick format'
+-click on start
+-external partition will get a letter, say G:
+
+
+
+MOUNT ISO AS DISK IMAGE IN WINDOWS:
+Mount The Windows 8 ISO Image Into A Virtual Drive
+If you are on windows 8.1 or windows 10:
+-right click on windows 10 iso , 'open with', 'windows explorer'
+-you will get windows iso mounted as new disk disk drive, seen on the left in windows explorer
+-ISO will be assinged a letter, say H:
+If you do not have windows 8.1 or windows 10, use 'power iso', 'daemon tools lite', 'virtual cd', or some other virtual cd manager.
+
+
+MAKING EXTERNAL DISK BOOTABLE:
+run cmd as administrator:
+start/ type cmd, righ click on 'cmd', select run as administrator, 'yes'
+
+now, remember, on my PC it is:
+<b>hdd external partition: 'G:'</b>
+<b>ISO: 'H:'</b>
+
+CHECK YOUR SETTINGS. external partition will get a letter, previous to iso image.
+
+still in cmd screen, go to your iso disc, then to its boot directory:
+type 'H:', hit enter (without quotes)
+type 'cd boot', hit enter (without quotes)
+now we need to copy something to external disk (G:): 
+MAKE SURE WHICH LETTER IS EXTERNAL DISK!
+bootsect.exe /nt60 G:
+you should get message  'Successfully updated FAT32 filesystem bootcode.'
+
+
+
+COPYING FILES TO EXTERNAL DISK:
+
+Now, copy all files from iso (H:) to external partition (G:)
+you can use windows explorer (click on the H: in the left part of windows explorer),
+
+or use command line:
+xcopy H:\*.* G: /e /f /h
+
+
+UNMOUNTING ISO
+right click on 'H:' drive in explorer, select 'eject'.
+
+to umount external disk, use icon in the systray, like with any other usb device.
+
+
+source: http://bootableusb.net/make-bootable-external-hdd-install-windows-78/
+

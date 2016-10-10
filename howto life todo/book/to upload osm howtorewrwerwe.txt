@@ -1,0 +1,254 @@
+
+
+
+
+
+
+
+here is the procedure:
+-record your movement using gps.(record gps tracks)
+-write down the names of the streets you pass
+-upload data to the pc
+-convert tracks to openstreetmap file type
+-draw strets based on your gps traces and info on street names you wrote down.
+
+
+
+
+
+
+
+
+
+
+
+
+RECORD GPS TRACKS:
+
+Using gpsviewer.exe:
+  If you have pna device with windows ce 5 you can use gpsviewer.exe
+  It is in windows dir, and there is usually link in /my device to it.
+  -start gpsviewer.exe.
+  -wait for "gga" flag to turn green. (wait for sattelites.)
+  -select log to sd.
+  -click on "off" to start
+  note:
+  -each time you start gpsviewer it contionues to write to the current nmea.log file.
+  You should rename original file to nmea1.log or nmea2.log if you want to have separate files.
+
+  It takes around 250kb file for 5 minutes of recording.
+
+
+
+Using Igo8 software:
+  start igo8
+  in IGO: 
+   -settings/track log/update interval=1sec,enable auto save=off, max track database size=no limit
+   -settings/navigation/keep position on road=off (important! don't forget this, or your log will be of already included maps.)
+   (back to main menu "title: navigation menu")
+   -manage/track logs/record
+   -you can go to map now. back/back/map
+   (you can choose to display tracks on map or not, it is not important, you can see where you have been.)
+
+
+
+
+
+
+WRITE DOWN NAMES OF THE STREETS:
+
+You should use a paper, voice recorder or camera to record street names. You can record points of interest (POI) if you want.
+1st way: to draw a map on paper with name of the streets.
+
+2nd way:If you use "gps locator" program you can see time (UTC), and write time and place like this:
+12:15.17 Hill street
+12:20:54 Valley street ... and so on.
+
+You can view time of each point in merkaartor: http://www.merkaartor.org/
+You can also convert track to kml and open it in google earth. 
+
+You can also record POIs this way.
+If you dont have time displayed in program, you can use digital watch and write down time, in seconds. 
+Make sure watch is synchronized with GPS time.
+
+http://wiki.openstreetmap.org/wiki/Mapping_techniques
+
+
+Drive a car, or ride a bike or walk with gps device turned on. And write down street names.
+
+
+
+UPLOAD DATA TO PC:
+
+
+GpsViewer:
+
+Transfer track to PC:
+copy nmea.log to pc with USB cable (You'll need ActiveSync on xp), or by using SDcard reader.
+
+
+Igo:
+
+copy tracks  files from SDMMC\igo\save\tracks dir  to pc, with USB cable (You'll need ActiveSync on xp), or by using SDcard reader.
+(If you want to use Igo for navigation later, you should set "keep position on road"=on)
+
+
+
+
+CONVERT TRACKS
+
+
+
+GpsViewer:
+
+-download gpsbabel from http://www.gpsbabel.org/
+-unzip it. start GPSBabelGUI.exe
+
+-set input format=NMEA 0183 sentences
+-click on icon, (paper) , in second row to select input file
+-set output format=GPX XML (.gpx)
+-click on icon, (paper and red arrow), in forth row to select destination file.
+-click on "let's go" button.
+
+
+
+
+Igo8:
+
+-download gpsbabel from http://www.gpsbabel.org/
+-unzip it. start GPSBabelGUI.exe
+
+-set input format=IGO8 .trk,
+-click on icon, (paper) , in second row to select input file
+-set output format=GPX XML (.gpx)
+-click on icon, (paper and red arrow), in forth row to select destination file.
+-click on "let's go" button.
+
+
+
+You can create bat file, put it in gpsbabel dir, and drag and drop single file on it
+to convert igo track to kml and gpx.
+
+igo--kml_gpx.bat:
+
+cd %~dp0
+gpsbabel.exe -p "" -w -i igo8 -f %1 -o kml -F %1.kml
+gpsbabel.exe -p "" -w -i igo8 -f %1 -o gpx -F %1.gpx
+pause
+
+
+nmea--kml_gpx.bat:
+
+cd %~dp0
+gpsbabel.exe -p "" -w -i nmea -f %1 -o kml -F %1.kml
+gpsbabel.exe -p "" -w -i nmea -f %1 -o gpx -F %1.gpx
+pause
+
+
+DRAW STREETS
+
+
+-create account on www.openstreetmap.org
+
+-login to openstreetmap.org
+-gps traces/upload. (set visibility=public), wait.
+-see only your traces. 
+-edit. (with save option)
+-save when done.
+
+http://wiki.openstreetmap.org/wiki/Potlatch = you can also see video tutorial here. important part starts around minute 9.
+http://wiki.openstreetmap.org/wiki/Map_Features = you can see here what map features are available here.
+
+
+-click one to add a node (point). click next to it to connect to another. double click or shift + click to end and start another line.
+-shift + click to add another node to existing line.
+-When you select node it is marked yellow. you can delete it by clicking "del" key.
+-You can separate roads by clicking on scissors icon, lower left part of the screen.
+
+note on copyright.:
+you can use yahoo aerial imagery.
+you cannot use google earth to trace map.
+You can view your tracks in google earth:
+-Use GPSBabelGUI.exe to convert track to "Google Earth (Keyhole) Markup Language (.kml)"
+In google earth: file/open kml file. 
+
+
+You can use OpenStreetMapLayer.kmz from http://www.markus-bader.de/?p=14 to view osm data in google earth.
+Double click on kmz file.
+
+You can use slider between "places" and "layers" to change opacity.
+
+
+
+
+
+
+CREATING PATHS IN GOOGLE EARTH AND USING IT IN GPS DEVICE
+
+
+-click on add path in GE
+-draw a path (left click to add node, righ click to delete. or del key. move with arrows.)
+-when finished enter name, description, color.
+-right click on it in "places", "save place as", enter name, "save as type"=kml
+-use gpsbabelgui-2 to convert "Google Earth (Keyhole) Markup Language (.kml)" to igo8.trk.
+-copy it to \SDMMC\iGO8\save\TRACKS
+-start igo
+-in igo: manage/track logs
+-click on your track. select color. 
+-go back to map
+-click on 2d view to view it (2d grid in upper right corner)
+
+
+
+You can use OpenStreetMapLayer.kmz from http://www.markus-bader.de/?p=14 to view osm data in google earth.
+Double click on kmz file.
+
+
+You can create bat file for converting files. Save content between two --- lines as "nmea_kml-gpx.bat"
+Put it in gps babel dir. Drag and drop file on it.
+
+This one will convert 1 file in kml format to igo:
+
+---
+cd %~dp0
+gpsbabel.exe -p "" -w -i kml -f %1 -o igo8 -F %1.trk
+pause
+---
+
+
+
+
+
+
+NOTE:
+
+
+
+using garmin for mapping:
+I havent made this work yet:
+tools/settings/map/show location=at gps location
+
+To record track.
+-tools/manage my data/tracks/options/wrap when full.
+-save active track when done
+-edit/rename it to something recognizable
+
+Transfer track to PC:
+
+on PC:
+install active sync on PC (needed for xp, vista and windows 7 already has it)
+install mapsource, (unzip, start main.msi, then setup exe)
+install some map from http://openmaps.eu/dlmap/%252Fimg?sort=asc&order=Country if you do not have any maps.
+
+Start mapsource
+-transfer/recive from device (or click on icon of device with arrow)
+-Select garmin mobilext
+-click on tracks.
+-file/save as TYPE: gps exchange format *.gpx. (select type *.gpx and enter some name, like first.gpx)
+NOTE: does not work.
+
+You can use itnconv to convert gpx file to kml, and display it in google earth, but openstreetmap wont accept gpx 
+file from  garmin->itconv->gpx.
+
+(Dont forget to set show location to road later, when using garmin for navigation.)
+

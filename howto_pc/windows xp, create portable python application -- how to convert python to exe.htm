@@ -1,0 +1,68 @@
+<pre>
+
+How to create portable python application, or how to convert python to exe (sort of :)
+(or py)
+
+It's not py2exe, but it works :)
+
+
+-Short version: Download Python(3). Install minimum installation. Copy script to Python dir, and start it using *.bat file.
+-Long version:
+
+-Download Python version 3 or above from <a href="http://www.python.org/download/">http://www.python.org/download/</a>
+
+You need something like 'Windows x86 MSI Installer (3.2.3) (sig)'
+Here is the current link: <a href="http://www.python.org/ftp/python/3.2.3/python-3.2.3.msi">http://www.python.org/ftp/python/3.2.3/python-3.2.3.msi</a>
+
+From this page: <a href="http://www.python.org/download/releases/3.2.3/">http://www.python.org/download/releases/3.2.3/</a>
+
+
+-double click installer after download is finished.
+
+-choose 'install just for me'. Although it would probably work for 'install for all users' too.
+-leave 'C:\python32' as destination
+-set 'python' to 'will be installed on local hard drive'
+
+-set 'entire feature will be unavailable' for:
+	-register extensions
+	-tcl/tk
+	-documentation
+	-utillity scripts
+	-test suite
+	
+
+-copy 'c:\Python32' folder to 'c:\temp' folder. You will have c:\temp\Python32\python.exe ... now.
+-you can unistall python using 'control panel\add remove programs' if you wish.
+
+
+-create hello.py in 'c:\temp\Python32' dir.
+-Add this text in hello.py: print ("hello")
+
+-create startmyprogram.bat in  'c:\temp\Python32' dir
+-Add this text in startmyprogram.bat: (don't add --- lines)
+
+--text starts here---
+
+python.exe hello.py
+pause
+
+--text ends here---
+
+
+-To start the program, double click on startmyprogram.bat.
+
+-when you need to move your program, zip the whole 'python32' dir.
+-if you use 7zip it will be about 4MB. In zip/winzip format it will be about 6MB.
+
+-you can add 
+cd /D "%~dp0"
+at the beginning of the bat file, if you have to change to the program dir, too.
+
+-you can rename python32 dir to something else, if you wish.
+
+(-if you need tkinter, you can set 'will be installed on local hard drive' for it during installation. It's about 10MB more.)
+
+
+
+
+

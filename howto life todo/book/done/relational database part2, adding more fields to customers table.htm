@@ -1,0 +1,66 @@
+<pre>
+relational database part2, adding more fields to customers table
+
+Click on "Tables" in left panel 
+right click on "Customers" form, "edit" 
+click below "CompanyName", enter "Phone". Save, close 
+
+<b>Now to display phone in "Tasks" form:</b> 
+
+Click on "Forms" in left panel 
+right click on "Task" form, "edit" 
+right click next to "CustomerID" 
+Insert Column/List Box 
+Right click on "Col1", "Column" 
+"Name"="Phone", "Label"="Phone". (Could be anything, though.) 
+"Enabled"="No". (It will be updated semi automatically . You dont want to change this manually. If you use dropdown=yes, (for one record per page), you can enable it, and set it to read only.) 
+Click on "Data" tab. 
+"Data field"="CustomerID" (because we are showing index key from customers table, just selected to display column named "phone" first.) 
+"Type of list contents": "Sql" 
+"List content": click on button with "..." markings. 
+
+add Customers table 
+(here we set display to show phone first instead of just company id.) 
+
+field cell=Phone 
+table cell=Customers 
+visible=on 
+
+column next to it 
+field cell=CustomerID 
+table cell=customers 
+visible=on 
+
+Make sure Phone is first, then CustomerID. 
+
+Save. Close 
+Save form. close. 
+
+<b>Using forms: </b>
+
+Add some phone numbers in "customers" table using "tables" tool. 
+(just click on tables in left panel, then on customers in right panel). 
+
+When you open "Task" form again, you will have phones displayed too. 
+when you change company, phone number will change when you go to next record (hence semi auto  
+
+
+
+<b>optional:</b>
+to add address, repat the process, just use "Address" keyword instead of "Phone" 
+
+if you want both forms (customers and tasks) in the same page, select "subform" when creating new form using wizard. 
+If you want to have all data displayed from second table at once, do not select linked subform. 
+
+To search, create new query, add all 
+Don't forget to set relations. (Right click on query, "edit", connect "CustomerID" in two tables.) 
+You can use search in query. 
+
+
+note: 
+in table tasks, we added CustomerID, but it could be named something else, different from name of ID key in customers table. 
+phone type of data by default is varchar, but you can select number if you want. 
+
+
+more info on relational database: 
+<a href="Relational database part2, adding more fields to customers table">http://www.geekgirls.com/databases_from_scratch_1.htm</a>

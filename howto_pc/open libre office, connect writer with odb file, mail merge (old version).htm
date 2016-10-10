@@ -1,0 +1,187 @@
+<pre>
+how to access / connect to odb from writer using openoffice // mail merge
+
+create simple database in openoffice base
+"create table in design view"
+add fields: 
+primary key: 
+field name=id. Type=integer. Right click on first row, select primary key. Set Autovalue=yes (at the bottom)
+add "name", "last_name", both type text[varchar]
+Save table as "Table1"
+
+Save file as testdb.odb
+
+If you want to edit data in a form, create one in "Forms" part of Base.
+
+
+
+NOTE: 
+If you use Report part of Base as a document holder, your report will be connected to 
+file:///c:/databasedir/mydatabase.odb
+It will <b>always have to be in that place</b>. If you move mydatabase.odb to some 
+other location, report will not work.
+
+If you use writer documents report will be connected to registered "mydatabase".
+Location will not be important.
+
+(You can change location for base-report later, but you have to unzip odb,
+go to reports dir, search c:/databasedir/ and replace with c:/newlocation/
+using wordpad. And zip file again.)
+
+Also in base-report documents holder, <b>tables are not printed/showed</b> :(. Bug?
+If you do not need tables, and don't plan to move odb file, you can use Report.
+Otherwise use Writer as a document holder. (Recommended)
+
+
+
+
+<b>Using Writer as a document holder</b>
+
+Create new document in writer.
+(Something simple like: "Hello  ")
+
+Press f4. (or click on hdd like icon near binoculars)
+Select base testdb.odb. Table1.
+
+(if it is not there right click on the list of databases,
+and then "registered databases"
+Edit or add new database, and registered name.
+Click ok)
+
+Now drag and drop "name" column to word document.
+Press space, and then drag and drop "last_name" column to word document.
+To change font select [name] and [last_name], and change font.
+
+Save odt file in writer.
+
+
+To save/print file with actual data click on the "printer" icon.
+Writer will ask you:
+"Do you want to print a form letter?"
+Say yes.
+
+You can choose a printer, or a file on the right.
+if you choose a file, writer will save result to a ... file :)
+Choose which records on the left.
+File will be saved with actual data records, when you choose print.
+
+
+
+
+
+<b>Using Report part of Base as a document holder</b>
+
+You can create writer document inside database.
+
+In Base, click on "Reports"
+"Use wizard to create ..."
+Add any one field, and click "finish".
+Close "Report design window"
+Right click on "Report", "Table1". Select "edit"
+Right click empty place on page, select "page"
+Header, uncheck "header on"
+Footer, uncheck "footer on"
+Delete everything from page.
+
+Now you have basically empty (Writer) page.
+Set page format to a4. Right click empty place on page, select "page", "Page", format=a4
+Orientation=portrait.
+Set all margins=0 if you want to use image as background.
+Otherwise, you can set them to 10mm
+Click on save to save empty report.
+(You can use copy and paste, to create copies, in the main base window.)
+
+
+Type "Hello "
+
+Press f4. (or click on hdd like icon near binoculars)
+Select base testdb.odb. Table1.
+
+(if it is not there right click on the list of databases,
+and then "registered databases"
+Edit or add new database, and registered name.
+Click ok)
+
+Now drag and drop "name" column to word document.
+Press space, and then drag and drop "last_name" column to word document.
+To change font select [name] and [last_name], and change font.
+
+Click on save to save report.
+You can choose a printer, or a file on the right.
+if you choose a file, writer will save result to a ... file :)
+
+
+
+
+
+
+
+
+<b>Printing single records :) </b>
+
+If you want to print just third record, click on mouse with that record.
+you will see:
+
+"Record 3 of 10"
+
+at the base pane.
+Now, it's "id" will be 2. That is because "id" will start from 0.
+Record numbers start from 1.
+So "record" number 3, will have "id" 2.
+
+<u>Note</u>
+To print just "record 3", select "print from 3 to <b>4</b>".
+If you select "print from 3 to <b>3</b>", you will get nothing.
+Even if it is just the last record, you have to select "print from record to record+1"
+Bug? (v 3.2)
+
+
+
+<b>Using excel/spread/csv as "database"</b>
+
+You can select excel/spread/csv as "database"
+Click on "Connect to an existing database" instead of "create a new database"
+Then select spreadsheet. Or text if you want to use csv.
+
+From writer, when you press f4, you can right click on the left panel, and select
+"edit database" to open odb in base program. You can use wizard to create form
+to fill in database data, or you can fill odb data from writer. Click on save
+current record to save record, from odb toolbar.
+
+
+
+
+
+<b>Background image</b>
+You can use image as a background.
+Scan an image, resize it to 1024xsomething using <a href="http://www.irfanview.com/">IrfanView</a>, and set it as a background:
+In openoffice: format/page/background/as a graphic. (area)
+page/margins/, set all to 0
+page/format/a4
+
+If you do not want to print a background image, when printing, go to
+file/print/options, uncheck "background". (This setting will not be saved.)
+Or set format/page/background/ back to "color". (This setting will be saved, but there will not be an image)
+
+
+<b>Frames with background image</b>
+If you use background image you will want to use frames to hold text.
+
+1. press enter till you get to the end of the page
+go back to the line you need to enter text with key "up"
+
+Go to menu: insert/frame
+autosize=off
+borders=none
+(if you use text as a background, set "wrap"=through)
+For font settings try palatino linotype, 10pt
+
+You should use styles (format/style, right click, add new, enter name, setup your way)
+For text and maybe for frames.
+You can record macro (Tools/macro), and assign it to key shortcut. (Tools/customize/keyboard)
+
+
+
+
+
+

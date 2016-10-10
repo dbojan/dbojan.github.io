@@ -1,0 +1,3 @@
+-vo gl2 -panscan 1
+-vf crop=384:560:80:10
+-vf cropdetect
